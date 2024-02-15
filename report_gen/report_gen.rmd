@@ -8,7 +8,6 @@ output:
     toc: true
     toc_depth: 3
     df_print: kable
-    fontsize: 10pt
 knit: pagedown::chrome_print
 ---
 
@@ -98,7 +97,7 @@ The resulting trajectory lacks behind the Net Zero targets: by 2050, only 85% of
 
 For evaluating price dynamics beyond 2050 (2050-2060 horizon),we assume an extension of 2050 results taking into account the uncertainty of available information for an explicit evaluation of the very long-term. 2040 -2060 scenarios will be carefully evaluated in future updates in order to discuss the economic sustainability of policy scenarios implementing the net zero target.  
 
-#### Key market trends in Italy {-} 
+#### Key market trends in Italy 
 
 ![](figs/01_table.png)
 
