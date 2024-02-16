@@ -9,104 +9,461 @@ output:
     toc_depth: 3
     df_print: kable
 knit: pagedown::chrome_print
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
-               echo=TRUE,
+               echo=FALSE,
 	           cache=FALSE,
                prompt=FALSE,
-               tidy=TRUE,
+               # tidy=TRUE,
+               tidy=FALSE,
                comment=NA,
                message=FALSE,
                warning=FALSE)
 options(knitr.kable.NA = '')
 
 library(mbsenergyUtils)
+library(openxlsx)
 library(ggplot2)
-library(kableExtra)
-library(katex)
+library(flextable)
+library(magrittr)
+
+
+# library(katex)
 theme_set(theme_mbs())
+
+set_flextable_defaults(
+    font.color = "#747E7E",
+    font.size = 7,
+    font.family = 'calibri',
+    padding = 2,
+    border.color = "#dfe2e5",
+    background.color = "whitesmoke",
+    split = FALSE,
+    theme_fun = "theme_box",
+    decimal.mark = ",",
+    big.mark = " ",
+    na_str = "<NA>")
 
 ```
 
 # Frame of Reference
 
-REF-E scenarios over the time horizon 2024-2050 (with projections up to 2060) are elaborated by MBS Consulting experts on the base of proprietary suites and market knowledge. Econometric and structural models, as well as our expert sensitiveness, detailed knowledge of regulation, and accurate monitoring of market outcomes underlie our elaborations.
+REF-E scenarios over the time horizon 2024-2050 (with projections up to
+2060) are elaborated by MBS Consulting experts on the base of
+proprietary suites and market knowledge. Econometric and structural
+models, as well as our expert sensitiveness, detailed knowledge of
+regulation, and accurate monitoring of market outcomes underlie our
+elaborations.
 
-Gas and electricity forecasts consider the diverse geopolitical and economic hypothesis deriving from the regulatory, financial and fundamentals adjustments to the disruption generated both from the pandemic and the Ukrainian war, which are seen as key determinants of the future equilibrium of the energy markets.
+Gas and electricity forecasts consider the diverse geopolitical and
+economic hypothesis deriving from the regulatory, financial and
+fundamentals adjustments to the disruption generated both from the
+pandemic and the Ukrainian war, which are seen as key determinants of
+the future equilibrium of the energy markets.
 
-Current scenario update incorporates an evolution of climate variables in line with the historical average trend. In this perspective, we defined three scenarios:
+Current scenario update incorporates an evolution of climate variables
+in line with the historical average trend. In this perspective, we
+defined three scenarios:
 
--   The **High Case scenario** is characterized by permanently high prices amid import-export tensions, supply scarcity and possible logistic locks. Negative or zero economic growth and the energy transition process failure would follow because of investments disruption.
+-   The **High Case scenario** is characterized by permanently high
+    prices amid import-export tensions, supply scarcity and possible
+    logistic locks. Negative or zero economic growth and the energy
+    transition process failure would follow because of investments
+    disruption.
 
--   In the **Reference scenario**, prices remain high in the short-term since still low supplies combines with demand growth. However, the energy transition process continues leading to a progressive diversification of energy sources. This, combined with efficiency and high prices induced savings leads the energy market towards a normalization path. The economic growth suffers a contraction over the next two years, followed by recovery.
+-   In the **Reference scenario**, prices remain high in the short-term
+    since still low supplies combines with demand growth. However, the
+    energy transition process continues leading to a progressive
+    diversification of energy sources. This, combined with efficiency
+    and high prices induced savings leads the energy market towards a
+    normalization path. The economic growth suffers a contraction over
+    the next two years, followed by recovery.
 
--   The **Low Case scenario** would materialize in the event of favourable weather conditions and a fast energy transition, supported by low inflation and a faster economic recovery, reducing demand over the next few years.
+-   The **Low Case scenario** would materialize in the event of
+    favourable weather conditions and a fast energy transition,
+    supported by low inflation and a faster economic recovery, reducing
+    demand over the next few years.
 
-This would limit prices upside potential and then fuel a downward acceleration.
+This would limit prices upside potential and then fuel a downward
+acceleration.
 
 ![](figs/01_scenari.png)
 
 ## Scenario highlights
 
-**Short-term perspectives for Italy have relaxed compared to the recent past, although tensions on energy markets are still possible given the fragile equilibrium on gas market: intensified competitive dynamics between Europe and Asia could drive prices up on the electricity market as well.**  
+**Short-term perspectives for Italy have relaxed compared to the recent
+past, although tensions on energy markets are still possible given the
+fragile equilibrium on gas market: intensified competitive dynamics
+between Europe and Asia could drive prices up on the electricity market
+as well.**
 
-Relaxation in market fundamentals, a significant slowdown in economic growth and still subdued power demand are the key determinant for the electricity prices easing expected for the 2024-2025 period. Ongoing consumption trends appear to confirm a positive impact of the energy crisis on the acceleration of energy-saving investments and more flexible behaviours on the energy demand side. Whether the overall decrease in power demand dealt with short-term electricity savings or structural efficiency measures is still under observation, but effects are accounted for in near-term demand projections.  
+Relaxation in market fundamentals, a significant slowdown in economic
+growth and still subdued power demand are the key determinant for the
+electricity prices easing expected for the 2024-2025 period. Ongoing
+consumption trends appear to confirm a positive impact of the energy
+crisis on the acceleration of energy-saving investments and more
+flexible behaviours on the energy demand side. Whether the overall
+decrease in power demand dealt with short-term electricity savings or
+structural efficiency measures is still under observation, but effects
+are accounted for in near-term demand projections.
 
-Contraction in electricity demand (-10 TWh y/y), recovery in hydro generation after the severe drought during the first months of 2023, an higher than historical level installation rate in renewable guarantied an increase in RES quota (30% of demand, +22% y/y) in the energy mix affecting the competitiveness for gas generation units. Furthermore, electricity demand contraction also in the other European countries, rebound in hydro generation together with an improved availability of French nuclear fleet increase the potential export flows from interconnected countries, resulting in an increased net import from the northern border (+10 TWh y/y). In the coming years the expectation of a slow recovery in electricity demand, below 2019 level until 2026, and a sustained pace of renewable installations (+3.5 GW per year in Reference scenario and +6 GW in the Low scenario) may intensify market competition for gas-fired power plants.  
+Contraction in electricity demand (-10 TWh y/y), recovery in hydro
+generation after the severe drought during the first months of 2023, an
+higher than historical level installation rate in renewable guarantied
+an increase in RES quota (30% of demand, +22% y/y) in the energy mix
+affecting the competitiveness for gas generation units. Furthermore,
+electricity demand contraction also in the other European countries,
+rebound in hydro generation together with an improved availability of
+French nuclear fleet increase the potential export flows from
+interconnected countries, resulting in an increased net import from the
+northern border (+10 TWh y/y). In the coming years the expectation of a
+slow recovery in electricity demand, below 2019 level until 2026, and a
+sustained pace of renewable installations (+3.5 GW per year in Reference
+scenario and +6 GW in the Low scenario) may intensify market competition
+for gas-fired power plants.
 
-**In 2023, a notable increase in renewable installation rate (+5.7 GW compared to 1.5 GW/y during the last 5 years), driven by solar technologies, marks a further step towards the net zero path in the long run, despite a still uncertain economy recovery; permitting process simplifications, attractive market signals and investment costs reduction, driven by supply chain recovery may further accentuate the trend.**  
+**In 2023, a notable increase in renewable installation rate (+5.7 GW
+compared to 1.5 GW/y during the last 5 years), driven by solar
+technologies, marks a further step towards the net zero path in the long
+run, despite a still uncertain economy recovery; permitting process
+simplifications, attractive market signals and investment costs
+reduction, driven by supply chain recovery may further accentuate the
+trend.**
 
-The Italian 2024 GDP growth is expected to remain almost close to zero in the Reference scenario, since inflation and restrictive monetary policies weigh on economic growth, while a recovery of demand and investments should sustain GDP growth in 2025 and for all the scenario years. In the High case the pessimistic macroeconomic view ( -0.5% y/y) for the GDP in 2024 and the overall deceleration in growth in the ensuing years, undermines the system’s potential.
+The Italian 2024 GDP growth is expected to remain almost close to zero
+in the Reference scenario, since inflation and restrictive monetary
+policies weigh on economic growth, while a recovery of demand and
+investments should sustain GDP growth in 2025 and for all the scenario
+years. In the High case the pessimistic macroeconomic view ( -0.5% y/y)
+for the GDP in 2024 and the overall deceleration in growth in the
+ensuing years, undermines the system’s potential.
 
-The inflation trajectory will play a crucial role in defining the economic outlook performance. Private consumptions and industry investments persist in subdued, curbing growth projections in the short term. However, a possible faster normalization in inflation may speeds-up monetary policy normalization, supporting investments leading to our LOW Case scenario, with the GDP growth moving back to just below 1% (y/y) already in 2024.  
+The inflation trajectory will play a crucial role in defining the
+economic outlook performance. Private consumptions and industry
+investments persist in subdued, curbing growth projections in the short
+term. However, a possible faster normalization in inflation may
+speeds-up monetary policy normalization, supporting investments leading
+to our LOW Case scenario, with the GDP growth moving back to just below
+1% (y/y) already in 2024.
 
-Continuous relaxation in gas market dynamics over 2023 have favoured the easing in global prices. Favourable weather conditions, with subdued demand, abundant storage facilities, and stable supplies have guaranteed market stability in the short-term. The European market equilibrium remains delicate though, depending on LNG imports, strongly affected by competition with Northeast Asia. A faster recovery in Chinese industrial and transport sector pushed LNG demand in 2023, +10% y/y. Additionally, intensified competition driven by pricesensitive buyers in Asia could amplify market volatility, influencing price trends until 2025. By then, the availability of new liquefaction capacity should expand the global LNG demand-supply margin, mitigating potential tightness risks.  
+Continuous relaxation in gas market dynamics over 2023 have favoured the
+easing in global prices. Favourable weather conditions, with subdued
+demand, abundant storage facilities, and stable supplies have guaranteed
+market stability in the short-term. The European market equilibrium
+remains delicate though, depending on LNG imports, strongly affected by
+competition with Northeast Asia. A faster recovery in Chinese industrial
+and transport sector pushed LNG demand in 2023, +10% y/y. Additionally,
+intensified competition driven by pricesensitive buyers in Asia could
+amplify market volatility, influencing price trends until 2025. By then,
+the availability of new liquefaction capacity should expand the global
+LNG demand-supply margin, mitigating potential tightness risks.
 
-The gas price forecasts were revised in the short-term following the relaxation in market fundamentals and the significant slowdown in economic growth in Europe. TTF and PSV yearly price projections in the REFERENCE scenario average around 50 €/MWh for 2024 and decline towards 35 €/MWh in 2025 when liquefaction and regasification capacity should rebalance the supply-demand dynamics. If the global economic recovery stall and no competition arise on gas supplies, the gas prices decline may continue, with the PSV averaging below 30 €/MWh in 2024 as in the Low case, while in the High scenario an escalation of geopolitical tensions and increased competition on LNG supplies may emphasize the market upward potential with the yearly PSV averaging 80
-€/MWh.  
+The gas price forecasts were revised in the short-term following the
+relaxation in market fundamentals and the significant slowdown in
+economic growth in Europe. TTF and PSV yearly price projections in the
+REFERENCE scenario average around 50 €/MWh for 2024 and decline towards
+35 €/MWh in 2025 when liquefaction and regasification capacity should
+rebalance the supply-demand dynamics. If the global economic recovery
+stall and no competition arise on gas supplies, the gas prices decline
+may continue, with the PSV averaging below 30 €/MWh in 2024 as in the
+Low case, while in the High scenario an escalation of geopolitical
+tensions and increased competition on LNG supplies may emphasize the
+market upward potential with the yearly PSV averaging 80 €/MWh.
 
-In 2024, the average CO2 price is should to approach €90/ton, driven by the gradual implementation of reforms within the ETS system, supporting the CO2 prices. The gradual integration of the maritime transport sector into the ETS scheme, as outlined in EU Directive 2023/959, is expected to unfold incrementally, potentially lacking a substantial impact on allowances demand in the short run. However, a notable divergence between supply and demand is projected to emerge around 2027 as the maritime sector fully integrates into the ETS system, leading to a tight market, with CO2 prices forecasted to surge towards an average of €110/ton by 2030.
-In 2023 electricity consumption curbs to 306 TWh but it is expected to eventually resume in 2024 reaching 311 TWh driven by recover in consumption and electrification. A moderate economic growth, driven by supportive measures, and quicker, but yet limited electrification allows the demand to reach 340 TWh in 2030. Acceleration of end-use electrification and full unfolding of efficiency potential driven by a more positive economic outlook in the LOW Case scenario should overcome the 2023 drop, and reach 313 TWh in 2024 (still below 2022 result) and head to the 360 TWh in 2030. On the contrary, in the HIGH case scenario, halted efficiency investments and slow economy recovery should keep power demand below 2022 level during 2024-2025 period, potentially growing up to 328 TWh in 2030.  
+In 2024, the average CO2 price is should to approach €90/ton, driven by
+the gradual implementation of reforms within the ETS system, supporting
+the CO2 prices. The gradual integration of the maritime transport sector
+into the ETS scheme, as outlined in EU Directive 2023/959, is expected
+to unfold incrementally, potentially lacking a substantial impact on
+allowances demand in the short run. However, a notable divergence
+between supply and demand is projected to emerge around 2027 as the
+maritime sector fully integrates into the ETS system, leading to a tight
+market, with CO2 prices forecasted to surge towards an average of
+€110/ton by 2030. In 2023 electricity consumption curbs to 306 TWh but
+it is expected to eventually resume in 2024 reaching 311 TWh driven by
+recover in consumption and electrification. A moderate economic growth,
+driven by supportive measures, and quicker, but yet limited
+electrification allows the demand to reach 340 TWh in 2030. Acceleration
+of end-use electrification and full unfolding of efficiency potential
+driven by a more positive economic outlook in the LOW Case scenario
+should overcome the 2023 drop, and reach 313 TWh in 2024 (still below
+2022 result) and head to the 360 TWh in 2030. On the contrary, in the
+HIGH case scenario, halted efficiency investments and slow economy
+recovery should keep power demand below 2022 level during 2024-2025
+period, potentially growing up to 328 TWh in 2030.
 
-The enhanced availability of France's nuclear fleet, coupled with a full recovery in hydroelectric generation across Europe, should ensure a stable energy net import flow of around 40 TWh towards Italy. In perspective, the gradual phase-out of coal-fired and nuclear capacity in the continental Europe could drive the sharp reduction of imported energy in the post-2030 horizon1. French nuclear fleet availability remains a central variable for the power exchange dynamics in Italy and phase-out decisions should drive the potential decline of net import form Northern borders after 2030 if not replaced by investments in new nuclear generation capacity.  
+The enhanced availability of France's nuclear fleet, coupled with a full
+recovery in hydroelectric generation across Europe, should ensure a
+stable energy net import flow of around 40 TWh towards Italy. In
+perspective, the gradual phase-out of coal-fired and nuclear capacity in
+the continental Europe could drive the sharp reduction of imported
+energy in the post-2030 horizon1. French nuclear fleet availability
+remains a central variable for the power exchange dynamics in Italy and
+phase-out decisions should drive the potential decline of net import
+form Northern borders after 2030 if not replaced by investments in new
+nuclear generation capacity.
 
-Renewables gain share rapidly as the 2023 momentum is expected to enhance over the coming years, with a yearly increase up to 6 GW (4.5 GW of solar and 1.5 GW of wind) in the Low scenario and 3 GW (2 GW of solar and 1 GW of wind) in the Reference case, still below the NIECP average annual target of 8 GW necessary to reach the 2030 targets. Improved regulation, decreasing investment costs and ETS price signals should support the market parity conditions in the long run. The share of demand covered by renewables in 2030 reach almost 50 % and 60% mark in the REFERENCE and the LOW case respectively, while remains close to 40% in the HIGH case. Zonal distribution of the new capacity additions follows the patterns revealed by Terna’s connection request database, and new utility scale projects are expected to concentrate mostly in the Southern macrozone and the two islands. Growth of small-scale distributed renewables for self-consumption is more concentrated in the Norther area following the historical path with 6% annual increase.
-Grid expansion reflect Terna’s 2023 Development Plan indications. In the REFERENCE case reinforcements are assumed operational already in the 2020s but the main improvements to resolve zonal congestions are expected to be completed in the 2030s – Tyrrhenian link and Adriatic link as well as first portions of the Hypergrid. Faster penetration of renewable energy in the LOW case would require the realization of the main projects even before 2030, while the slower system transition in the HIGH case postpone the key investments to the middle of the 2030s.  
+Renewables gain share rapidly as the 2023 momentum is expected to
+enhance over the coming years, with a yearly increase up to 6 GW (4.5 GW
+of solar and 1.5 GW of wind) in the Low scenario and 3 GW (2 GW of solar
+and 1 GW of wind) in the Reference case, still below the NIECP average
+annual target of 8 GW necessary to reach the 2030 targets. Improved
+regulation, decreasing investment costs and ETS price signals should
+support the market parity conditions in the long run. The share of
+demand covered by renewables in 2030 reach almost 50 % and 60% mark in
+the REFERENCE and the LOW case respectively, while remains close to 40%
+in the HIGH case. Zonal distribution of the new capacity additions
+follows the patterns revealed by Terna’s connection request database,
+and new utility scale projects are expected to concentrate mostly in the
+Southern macrozone and the two islands. Growth of small-scale
+distributed renewables for self-consumption is more concentrated in the
+Norther area following the historical path with 6% annual increase. Grid
+expansion reflect Terna’s 2023 Development Plan indications. In the
+REFERENCE case reinforcements are assumed operational already in the
+2020s but the main improvements to resolve zonal congestions are
+expected to be completed in the 2030s – Tyrrhenian link and Adriatic
+link as well as first portions of the Hypergrid. Faster penetration of
+renewable energy in the LOW case would require the realization of the
+main projects even before 2030, while the slower system transition in
+the HIGH case postpone the key investments to the middle of the 2030s.
 
-The need to boost energy independence in the decarbonization process at European level has already put hydrogen at the central stage of the future European energy strategy (REPowerEU) and could result in the allocation of significant financings – way more than the amount currently earmarked – to accelerate the development of a European hydrogen supply chain, improving current cost perspectives of green solutions. But accelerating renewables development materializes the risk of structural overgeneration if the development of BESS does not progress concurrently, especially in areas that are less interconnected with the rest of the system and have a high intensity of renewables relative to demand, such as Sardinia and La Sicilia in Sardinia and Sicily where economically viable opportunities for competitive green hydrogen consolidate starting from 2035.  
+The need to boost energy independence in the decarbonization process at
+European level has already put hydrogen at the central stage of the
+future European energy strategy (REPowerEU) and could result in the
+allocation of significant financings – way more than the amount
+currently earmarked – to accelerate the development of a European
+hydrogen supply chain, improving current cost perspectives of green
+solutions. But accelerating renewables development materializes the risk
+of structural overgeneration if the development of BESS does not
+progress concurrently, especially in areas that are less interconnected
+with the rest of the system and have a high intensity of renewables
+relative to demand, such as Sardinia and La Sicilia in Sardinia and
+Sicily where economically viable opportunities for competitive green
+hydrogen consolidate starting from 2035.
 
-By 2030, significant overgeneration and curtailment risks are expected to arise in the Southern zone and the Islands, which will prompt a surge in new electrochemical storage projects. Depending on the alternative scenarios of RES and grid development trajectories, these dynamics may be accelerated or delayed. Long-term development of batteries should follow the opportunities for time-shifting applications on the day-ahead market.  
+By 2030, significant overgeneration and curtailment risks are expected
+to arise in the Southern zone and the Islands, which will prompt a surge
+in new electrochemical storage projects. Depending on the alternative
+scenarios of RES and grid development trajectories, these dynamics may
+be accelerated or delayed. Long-term development of batteries should
+follow the opportunities for time-shifting applications on the day-ahead
+market.
 
-Investments in power intensive electrochemical batteries can be in-the-money in the medium-term, with revenue streams deriving mainly from the participation in the balancing phase of the Ancillary Services Market and a long-term capacity remuneration through specific projects. Investments in merchant energy intensive storage batteries are likely to be attractive only in the long-term when time-shifting applications on the DAM could become economically sustainable thanks to increasing price spread volatility and the presence of overgeneration. In 2040, up to 22 GW of energy intensive batteries are expected to be developed in our
-REFERENCE scenario.  
+Investments in power intensive electrochemical batteries can be
+in-the-money in the medium-term, with revenue streams deriving mainly
+from the participation in the balancing phase of the Ancillary Services
+Market and a long-term capacity remuneration through specific projects.
+Investments in merchant energy intensive storage batteries are likely to
+be attractive only in the long-term when time-shifting applications on
+the DAM could become economically sustainable thanks to increasing price
+spread volatility and the presence of overgeneration. In 2040, up to 22
+GW of energy intensive batteries are expected to be developed in our
+REFERENCE scenario.
 
-In the REFERENCE scenario gas-fired generation is expected to remain at the backbone of the national energy mix even after renewables become the first production source through the next decades, until 2031 when RES become the main resource in the mix. Its share in the generation mix should decrease progressively but stay close to 30% of the national electricity needs until 2040.  
-However, mutated market conditions, triggered by the geopolitical tensions and contingent factors witnessed during the last year and a half, combined with implications of market design and regulation evolution (XBID, Terna’s Incentive scheme, TIDE reform) unveil a changed market landscape context that is expected to permanently change the structure of revenue flows for gas-fired power plants.  
+In the REFERENCE scenario gas-fired generation is expected to remain at
+the backbone of the national energy mix even after renewables become the
+first production source through the next decades, until 2031 when RES
+become the main resource in the mix. Its share in the generation mix
+should decrease progressively but stay close to 30% of the national
+electricity needs until 2040.\
+However, mutated market conditions, triggered by the geopolitical
+tensions and contingent factors witnessed during the last year and a
+half, combined with implications of market design and regulation
+evolution (XBID, Terna’s Incentive scheme, TIDE reform) unveil a changed
+market landscape context that is expected to permanently change the
+structure of revenue flows for gas-fired power plants.
 
-Presence of coal units in the generation mix combined with the power demand slowdown are expected to partially limit the day-ahead market operativity of gas power plants and to reduce their margins in the 20242025 period, further worsened by the structural and permanent reduction in ASM volumes. In the longer run, after 2026, despite the entrance of less new generation CCGTs through the capacity market, competition for existing units should increase, further exacerbated by continuous acceleration in renewables development, but to be also partially compensated by coal phase-out of generation units in the Italian peninsula2 and by import reduction after 2030. The clean spark spread, which is strictly related to the evolution of existing CCGTs market share that remain the technology fixing the prices in most hours, remains negative on baseload basis, but the flexible operation of gas fired assets allows to optimise the actual captured value. Even though volatility and competitiveness increase, the day-ahead market remains the primary source of revenues for CCGTs. Missing money issues could arise for part of the existing CCGT fleet and the extension of a Capacity Remuneration Mechanism only for existing capacity could mitigate the risk of a non-adequate system.  
+Presence of coal units in the generation mix combined with the power
+demand slowdown are expected to partially limit the day-ahead market
+operativity of gas power plants and to reduce their margins in the
+20242025 period, further worsened by the structural and permanent
+reduction in ASM volumes. In the longer run, after 2026, despite the
+entrance of less new generation CCGTs through the capacity market,
+competition for existing units should increase, further exacerbated by
+continuous acceleration in renewables development, but to be also
+partially compensated by coal phase-out of generation units in the
+Italian peninsula2 and by import reduction after 2030. The clean spark
+spread, which is strictly related to the evolution of existing CCGTs
+market share that remain the technology fixing the prices in most hours,
+remains negative on baseload basis, but the flexible operation of gas
+fired assets allows to optimise the actual captured value. Even though
+volatility and competitiveness increase, the day-ahead market remains
+the primary source of revenues for CCGTs. Missing money issues could
+arise for part of the existing CCGT fleet and the extension of a
+Capacity Remuneration Mechanism only for existing capacity could
+mitigate the risk of a non-adequate system.
 
-Market prices in the short-term will mainly be guided by commodities prices dynamics. A gradual normalization of gas prices can be reflected in the power prices in the mid-term. In the long-term, power prices will be mainly driven by CO2 movements, while the impact of other commodities are expected to reach a stable equilibrium. Renewables penetration, mainly led by solar energy, is expected to strongly affect peak/off-peak dynamics after 2030, when the inversion of price spreads between time slots is expected to occur. Zonal spreads reflect the disruptive variations of the generation mix and grid in the three alternative views. In the short term, the REFERENCE case predicts that zonal prices will diverge due to the cost-effectiveness of coal production in specific areas. However, over the long term, the significant development of renewable energy sources in the southern macro-zone is expected to drive prices down through the cannibalization of solar technologies. Despite anticipated grid improvements, bottlenecks are still expected between the northern and southern zones, resulting in differing price levels in the 2030s. From 2035 onwards, further grid reinforcements are assumed to occur, resulting in a reduction of inter-zonal congestion issues on the mainland. However, criticalities are likely to remain evident in the islands.  
+Market prices in the short-term will mainly be guided by commodities
+prices dynamics. A gradual normalization of gas prices can be reflected
+in the power prices in the mid-term. In the long-term, power prices will
+be mainly driven by CO2 movements, while the impact of other commodities
+are expected to reach a stable equilibrium. Renewables penetration,
+mainly led by solar energy, is expected to strongly affect peak/off-peak
+dynamics after 2030, when the inversion of price spreads between time
+slots is expected to occur. Zonal spreads reflect the disruptive
+variations of the generation mix and grid in the three alternative
+views. In the short term, the REFERENCE case predicts that zonal prices
+will diverge due to the cost-effectiveness of coal production in
+specific areas. However, over the long term, the significant development
+of renewable energy sources in the southern macro-zone is expected to
+drive prices down through the cannibalization of solar technologies.
+Despite anticipated grid improvements, bottlenecks are still expected
+between the northern and southern zones, resulting in differing price
+levels in the 2030s. From 2035 onwards, further grid reinforcements are
+assumed to occur, resulting in a reduction of inter-zonal congestion
+issues on the mainland. However, criticalities are likely to remain
+evident in the islands.
 
-Systematic and significant contraction of volumes exchanged on the ancillary services market has been observed since mid-2021 for both upward and downward operations. At the basis of the new trend there are multiple drivers that are expected to change the role and the perspective of the ancillary services market. The origin of the new trends is actually a combination of factors with less or more contingent nature such as: available running reserve due to reversed switching conditions, evidence for changes in the network management criteria adopted by Terna potentially connected to the incentives for ASM cost reduction, feasibility intervals imposed to power plants in the new Intra-Day Market continuous structure. The traditional market phase for regulation services is expected to become riskier and tighter, and to offer only a marginal integration to the spot market profits. Limited room is expected to remain a permanent trend in the long run, further supported by the commissioning of additional flexible thermal and storage capacity. Delay of grid investments with respect to the renewable growth could impact on the security condition with a wide heterogeneity at nodal level: local criticalities and limited renewable hosting capacity could be mitigated by storage waiting for structural network reinforcements.  
+Systematic and significant contraction of volumes exchanged on the
+ancillary services market has been observed since mid-2021 for both
+upward and downward operations. At the basis of the new trend there are
+multiple drivers that are expected to change the role and the
+perspective of the ancillary services market. The origin of the new
+trends is actually a combination of factors with less or more contingent
+nature such as: available running reserve due to reversed switching
+conditions, evidence for changes in the network management criteria
+adopted by Terna potentially connected to the incentives for ASM cost
+reduction, feasibility intervals imposed to power plants in the new
+Intra-Day Market continuous structure. The traditional market phase for
+regulation services is expected to become riskier and tighter, and to
+offer only a marginal integration to the spot market profits. Limited
+room is expected to remain a permanent trend in the long run, further
+supported by the commissioning of additional flexible thermal and
+storage capacity. Delay of grid investments with respect to the
+renewable growth could impact on the security condition with a wide
+heterogeneity at nodal level: local criticalities and limited renewable
+hosting capacity could be mitigated by storage waiting for structural
+network reinforcements.
 
-The new long-term scenario analysis of MBS takes into consideration the latest trends of the Italian system evolution, it peers itself with the Fit-for-55 targets in 2030 and discusses the possible paths towards 2050. Market simulations are extended beyond 2040 by explicitly modelling the market fundamentals through deterministic techniques and by assuming an inertial evolution, in line with the average 2030 – 2040 trajectory, for renewables installation sustained by BESS technologies, reduction in gas generation quota in the energy mix, electrification of consumptions and a proportional gird development on top of Terna development plan. All the elaborations are done considering the market structure and rules as known of today.  
+The new long-term scenario analysis of MBS takes into consideration the
+latest trends of the Italian system evolution, it peers itself with the
+Fit-for-55 targets in 2030 and discusses the possible paths towards
+2050. Market simulations are extended beyond 2040 by explicitly
+modelling the market fundamentals through deterministic techniques and
+by assuming an inertial evolution, in line with the average 2030 – 2040
+trajectory, for renewables installation sustained by BESS technologies,
+reduction in gas generation quota in the energy mix, electrification of
+consumptions and a proportional gird development on top of Terna
+development plan. All the elaborations are done considering the market
+structure and rules as known of today.
 
-The resulting trajectory lacks behind the Net Zero targets: by 2050, only 85% of Italian electricity demand is expected to be met by renewable generation, while the residual demand would be covered by flexible and efficient gas generation, still needed by the system for adequacy reasons. Further contraction in operating hours (morning and evening peaks) impose the need of an explicit remuneration mechanism to support their economic viability. Renewables are expected to become the predominant marginal technology and market prices are expected to become less dependent on gas generation costs and more related to LCOE of renewable technologies as their marginal quota reach 40% of the yearly hours.  
+The resulting trajectory lacks behind the Net Zero targets: by 2050,
+only 85% of Italian electricity demand is expected to be met by
+renewable generation, while the residual demand would be covered by
+flexible and efficient gas generation, still needed by the system for
+adequacy reasons. Further contraction in operating hours (morning and
+evening peaks) impose the need of an explicit remuneration mechanism to
+support their economic viability. Renewables are expected to become the
+predominant marginal technology and market prices are expected to become
+less dependent on gas generation costs and more related to LCOE of
+renewable technologies as their marginal quota reach 40% of the yearly
+hours.
 
-For evaluating price dynamics beyond 2050 (2050-2060 horizon),we assume an extension of 2050 results taking into account the uncertainty of available information for an explicit evaluation of the very long-term. 2040 -2060 scenarios will be carefully evaluated in future updates in order to discuss the economic sustainability of policy scenarios implementing the net zero target.  
+For evaluating price dynamics beyond 2050 (2050-2060 horizon),we assume
+an extension of 2050 results taking into account the uncertainty of
+available information for an explicit evaluation of the very long-term.
+2040 -2060 scenarios will be carefully evaluated in future updates in
+order to discuss the economic sustainability of policy scenarios
+implementing the net zero target.
 
-#### Key market trends in Italy 
+#### Key market trends in Italy {.unnumbered}
 
 ![](figs/01_table.png)
 
-
 # Key Figures
+
+```{r}
+dt_tables = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = 'Sheet0') %>% 
+    setDT() 
+
+### Table 1
+
+dt_1 =
+  melt(dt_tables, id.vars = c(1,2), variable.name = 'Year', value.name = 'Values') %>% 
+    dcast(NET.POWER ~ Scenario + Year, value.var = 'Values')
+setcolorder(dt_1, neworder = c('NET.POWER', 'Reference_2025', 'Reference_2030', 'Reference_2040', 'Reference_2050',
+                                           'Low_2025', 'Low_2030', 'Low_2040', 'Low_2050',
+                                           'High_2025', 'High_2030', 'High_2040', 'High_2050'))
+
+dt_1 |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#B2BEBF", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c('NET.POWER', 'Reference_2050', 'Low_2050', 'High_2050'), border = officer::fp_border(color = "#dfe2e5", width = 2), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1) 
+```
+
 
 # Macroeconomic Context
 
 ## GDP
+
+::::{.callout-main}
+:::{.callout-center}
+**GDP GROWTH IN THE SHORT-TERM REMAINS SUBDUED, AMID MONETARY TIGHTENES
+AND GLOBAL DEMAND SLOWDOWN. THE PERSISTENCE OF INFLATION, FISCAL POLICY
+DECISIONS, THE EFFECTIVENESS IN IMPLEMENTING THE RECOVERY PLAN, AND THE
+EVOLUTION OF THE INTERNATIONAL CONTEXT ARE THE MAIN DRIVERS BEHIND MID
+AND LONG TERMS PRESPECTIVES**
+:::
+::::
+
+![](figs/2.1.1_gdp.png)
+
+::::{.callout-item}
+:::{.callout-left}
+#### 24-25 {-}
+:::
+:::{.callout-right}
+The PSV-TTF spread is still seen as remaining positive in short term,
+just below 2 €/MWh on average, with some variability across the year
+depending on the season, as the reliance on flows from Northern Europe
+via Passo Gries is still pivotal to the Italian gas demand coverage.
+:::
+::::
+
+::::{.callout-item}
+:::{.callout-left}
+#### 26-30 {-}
+:::
+:::{.callout-right}
+Flows from the TAP and Algeria, and LNG arrivals are seen as balancing
+imports in the medium-term, leading to a progressive spread closure to
+below 1 €/MWh by 2030.
+:::
+::::
+
+::::{.callout-item}
+:::{.callout-left}
+#### 31-50 {-}
+:::
+:::{.callout-right}
+The PSV-TTF spread is foreseen to reabsorb towards zero in the
+long-term, since a gradual flows rebalancing is expected to combine with
+the underlying decarbonization-induced demand reduction
+:::
+::::
+
+::::{.callout-wrap}
+:::{.callout-left}
+#### Main updates {-}
+:::
+:::{.callout-right}
+PSV-TTF spread is still expected to remain positive in short and medium
+term and to reduce progressively towards null in the long-run. A slight
+reduction of the short-term PSV-TTF spread average followed the
+aforementioned downward revisions of gas prices.
+:::
+::::
+
+\newpage
 
 ## Inflation rate
 
@@ -116,11 +473,21 @@ For evaluating price dynamics beyond 2050 (2050-2060 horizon),we assume an exten
 
 ### LNG
 
+\newpage
+
 ### TTF Price
+
+![](figs/6_ttf.png)
+
+\newpage
 
 ### Spread TTF-PSV
 
+\newpage
+
 ### PSV Price
+
+\newpage
 
 ### Logistics Costs for Italian Gas-Fired Units
 
