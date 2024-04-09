@@ -1,7 +1,7 @@
 ---
 title: "Italian Market Scenario Update"
 subtitle: "."
-author: "."
+author: "chiara"
 date: "."
 output: 
   mbsenergyUtils::paged_windmill:
@@ -405,7 +405,7 @@ dt_1 |> flextable() %>%
 
 ## GDP
 
-::::{.callout-main}
+::::{.callout-main} 
 :::{.callout-center}
 **GDP GROWTH IN THE SHORT-TERM REMAINS SUBDUED, AMID MONETARY TIGHTENES
 AND GLOBAL DEMAND SLOWDOWN. THE PERSISTENCE OF INFLATION, FISCAL POLICY
