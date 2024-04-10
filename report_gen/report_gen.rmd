@@ -1937,20 +1937,22 @@ Link in 2035 determine the phase-out of all coal power plants.
 ::: callout-right
 Evolution of new thermoelectric capacity reviewed consistently with
 latest information diffused by Terna with respect to the results of
-Capacity Market aucons. Phase-out of coal-fired units postoned unl 2035.
-Hypotheses related to exisng gas-fired capacity are in line with the
-previous market update.
+Capacity Market auctions. Phase-out of coal-fired units positioned until
+2035. Hypotheses related to existing gas-fired capacity are in line with
+the previous market update.
 :::
 :::
+
+\newpage
 
 ### Residual Demand for CCGTs
 
 ::: callout-main
 ::: callout-center
-\*\* EXISTING CCGTs COULD ACHIEVE ABOUT 3000 EOH IN THE SHORT-THERM AND
+**EXISTING CCGTs COULD ACHIEVE ABOUT 3000 EOH IN THE SHORT-THERM AND
 RANGE BETWEEN 2000 AND 2500 EOH IN THE MID- AND LONG-TERM DUE TO THE
 GREATER DEGREE OF COMPETITION BROUGHT BY THE NEWBUILD CAPACITY AFTER
-2024-2025 CAPACITY MARKET AUCTIONS \*\*
+2024-2025 CAPACITY MARKET AUCTIONS**
 :::
 :::
 
@@ -1962,13 +1964,14 @@ GREATER DEGREE OF COMPETITION BROUGHT BY THE NEWBUILD CAPACITY AFTER
 :::
 
 ::: callout-right
-Due to reversed coal-to-gas switching condions, the exisng CCGT fleet is
-supposed to average about 2200 EOH in the 2024-2025 period in the
-Reference case. In the alternave scenarios, the diverse results depend
-on the different switching condions: in the Low scenario, the 2024-2025
-average is 2200 EOH, while in the High scenario the figure drops to 2000
-EOH. In the same period, min-max performances of new, high-efficiency
-CCGTs range between 4000 EOH and 6300 EOH (considering the three cases).
+Due to reversed coal-to-gas switching conditions, the existing CCGT
+fleet is supposed to average about 2200 EOH in the 2024-2025 period in
+the Reference case. In the alternative scenarios, the diverse results
+depend on the different switching conditions: in the Low scenario, the
+2024-2025 average is 2200 EOH, while in the High scenario the figure
+drops to 2000 EOH. In the same period, min-max performances of new,
+high-efficiency CCGTs range between 4000 EOH and 6300 EOH (considering
+the three cases).
 :::
 :::
 
@@ -1979,12 +1982,12 @@ CCGTs range between 4000 EOH and 6300 EOH (considering the three cases).
 
 ::: callout-right
 A􀅌er the phase-out of coal-fired units, the residual demand rebounds but
-exisng CCGTs suffer the compeon brought by sustained import levels and
-new high-efficiency competors entering with the Capacity Market support.
-In the Low scenario, residual demand is furtherly reduced by the energy
-efficiency effect on consumpons and the greater renewable penetraon. In
-the High scenario, the progressive increase of residual demand is due to
-improving switching condions.
+existing CCGTs suffer the competition brought by sustained import levels
+and new high-efficiency competitors entering with the Capacity Market
+support. In the Low scenario, residual demand is furtherly reduced by
+the energy efficiency effect on consumption and the greater renewable
+penetration. In the High scenario, the progressive increase of residual
+demand is due to improving switching conditions.
 :::
 :::
 
@@ -1994,13 +1997,13 @@ improving switching condions.
 :::
 
 ::: callout-right
-Exisng CCGTs (53%-efficiency) stabilize around 2400 EOH. In the Low
-scenario, the great renewable penetraon influences compeve dynamics and
-exisng units remain close to 1600 EOH. In the High scenario, the
-improvement of switching condions is hampered by the high level of
-imports from abroad, with EOH of exisng units over 2000 favored by caol
-phase-out a􀅌er 2035. High-efficiency units stabilize below the 4800 EOH
-only in the Low scenario.
+Existing CCGTs (53%-efficiency) stabilize around 2400 EOH. In the Low
+scenario, the great renewable penetration influences competitive
+dynamics and existing units remain close to 1600 EOH. In the High
+scenario, the improvement of switching conditions is hampered by the
+high level of imports from abroad, with EOH of existing units over 2000
+favored by catiol phase-out after 2035. High-efficiency units stabilize
+below the 4800 EOH only in the Low scenario.
 :::
 :::
 
@@ -2010,20 +2013,22 @@ only in the Low scenario.
 :::
 
 ::: callout-right
-CCGTs producon varies in the scenarios according to the different
-hypotheses made for commodies, demand growth and the evoluon of the
+CCGTs production varies in the scenarios according to the different
+hypotheses made for commodities, demand growth and the evolution of the
 thermoelectric installed capacity.
 :::
 :::
+
+\newpage
 
 ### Coal-fired Production
 
 ::: callout-main
 ::: callout-center
-\*\* REVERSED SWITCHING DYNAMICS AND MAXIMIZATION PROGRAM FOSTER
-COAL-FIRED PRODUCTION IN THE SHORT- TERM. IN THE MID-TERM CONTINUATION
-OF CURRENT DYNAMICS ONLY EXPECTED IN THE HIGH CASE, IN THE LONG- TERM
-THE ETS MECHANISM GENERATE AN ECONOMIC PHASE-OUT FOR COAL PLANTS \*\*
+**REVERSED SWITCHING DYNAMICS AND MAXIMIZATION PROGRAM FOSTER COAL-FIRED
+PRODUCTION IN THE SHORT- TERM. IN THE MID-TERM CONTINUATION OF CURRENT
+DYNAMICS ONLY EXPECTED IN THE HIGH CASE, IN THE LONG- TERM THE ETS
+MECHANISM GENERATE AN ECONOMIC PHASE-OUT FOR COAL PLANTS**
 :::
 :::
 
@@ -2035,13 +2040,13 @@ THE ETS MECHANISM GENERATE AN ECONOMIC PHASE-OUT FOR COAL PLANTS \*\*
 :::
 
 ::: callout-right
-Starng from the end of 2021 coal-to-gas switching condions favoured a
-recovery of coal-fired producon. Measures implemented to reduce gas,
-such as coal power plants maximizaon program, are expected to guaranty
-high operavity of coal plants in the short term, with producon levels
-reaching 17 TWh in the Reference case and 18 TWh in the High scenario.
-In the Low scenario the quicker reasorbaon of commodies prices limits
-the recovery of coal-fired producon to a 12TWh.
+Starting from the end of 2021 coal-to-gas switching conditions favored a
+recovery of coal-fired production. Measures implemented to reduce gas,
+such as coal power plants maximization program, are expected to guaranty
+high operativity of coal plants in the short term, with production
+levels reaching 17 TWh in the Reference case and 18 TWh in the High
+scenario. In the Low scenario the quicker reasorbaon of commodities
+prices limits the recovery of coal-fired production to a 12TWh.
 :::
 :::
 
@@ -2051,12 +2056,12 @@ the recovery of coal-fired producon to a 12TWh.
 :::
 
 ::: callout-right
-Coal phase-out in the different scenarios depend on the funconality of
-the main grid infrastracture (Tyrrhenian link). In the Reference case
-only the units in Sardinia will connue to operate a􀅌er 2025 unl the
+Coal phase-out in the different scenarios depend on the functionality of
+the main grid infrastructure (Tyrrhenian link). In the Reference case
+only the units in Sardinia will connue to operate after 2025 until the
 Tyrrhenian Link is completed in 2030. In the Low scenario all units will
 be phased out by 2025. However, in the High scenario coal-powered units
-may connue to operate unl 2035.
+may continue to operate until 2035.
 :::
 :::
 
@@ -2066,10 +2071,10 @@ may connue to operate unl 2035.
 :::
 
 ::: callout-right
-Coal units remain operave only in the High scenario unll phase-out in
-2035, with the entrance of the Tyrrhenian Link, with favourable condions
-for coal switching price most of the units are going to be in an
-economical phase-out, only the most efficents remains operave.
+Coal units remain operative only in the High scenario unll phase-out in
+2035, with the entrance of the Tyrrhenian Link, with favorable
+conditions for coal switching price most of the units are going to be in
+an economical phase-out, only the most efficents remains operative.
 :::
 :::
 
@@ -2079,11 +2084,13 @@ economical phase-out, only the most efficents remains operave.
 :::
 
 ::: callout-right
-CCGTs producon varies in the scenarios according to the different
-hypotheses made for commodies, demand growth and the evoluon of the
+CCGTs production varies in the scenarios according to the different
+hypotheses made for commodies, demand growth and the evolution of the
 thermoelectric installed capacity.
 :::
 :::
+
+\newpage
 
 ## Reneweable Generation
 
@@ -2091,10 +2098,10 @@ thermoelectric installed capacity.
 
 ::: callout-main
 ::: callout-center
-\*\* RES MARKET PARITY CONSOLIDATES SUPPORTED BY THE SURGE IN
-COMMODITIES PRICES AND DECARBONIZATION TARGET. A POTENTIAL ACCELERATION
-IN RES INSTALLED CAPACITY COULD BE POSSIBLE FOLLOWING THE RECENT
-INSTALLATION TREND, IN PARTICULAR FOR SOLAR CAPACITY \*\*
+**RES MARKET PARITY CONSOLIDATES SUPPORTED BY THE SURGE IN COMMODITIES
+PRICES AND DECARBONIZATION TARGET. A POTENTIAL ACCELERATION IN RES
+INSTALLED CAPACITY COULD BE POSSIBLE FOLLOWING THE RECENT INSTALLATION
+TREND, IN PARTICULAR FOR SOLAR CAPACITY**
 :::
 :::
 
