@@ -1,7 +1,7 @@
 ---
 title: "Italian Market Scenario Update"
 subtitle: "."
-author: "chiara"
+author: "."
 date: "."
 output: 
   mbsenergyUtils::paged_windmill:
@@ -92,7 +92,7 @@ defined three scenarios:
 This would limit prices upside potential and then fuel a downward
 acceleration.
 
-![](figs/01_scenari.png)
+![](figs%20-%20Copia/01_scenari.png)
 
 ## Scenario highlights
 
@@ -373,7 +373,7 @@ implementing the net zero target.
 
 #### Key market trends in Italy {.unnumbered}
 
-![](figs/01_table.png)
+![](figs%20-%20Copia/01_table.png)
 
 # Key Figures
 
@@ -414,7 +414,7 @@ AND LONG TERMS PRESPECTIVES**
 :::
 :::
 
-![](figs/2.1.1_gdp.png)
+![](figs/10.%20Italian%20GDP%20Growth%20Rate.png)
 
 ::: callout-item
 ::: callout-left
@@ -479,7 +479,7 @@ INFLATION EXPECTATION UNDER CONTROL**
 :::
 :::
 
-![](figs/2.1.1_gdp.png)
+![](figs/11.%20Inflation%20rate.png)
 
 ::: callout-item
 ::: callout-left
@@ -544,21 +544,29 @@ OVERSUPPLY LNG MARKET IS EXPECTED, PROVIDING THE BASIS FOR A PRICE
 NORMALIZATION**
 :::
 
-![](figs/2.1.1_gdp.png) ::::{.callout-item} :::{.callout-left} \####
-24-25 {-} ::: :::{.callout-right} 2023 global LNG demand growth
-registered a +2% y/y increase, with Europe and Asia having represented
-the major desnaon markets. An overall +2% yearly recovery is foreseen
-also in 2024, resulng from incoming new regasificaon capacity worldwide.
-European LNG intake is expected to remain sustained in the short-term to
-ensure reliable and affordable energy supplies, reaching +6% y/y in
-2024. 2023 Chinese LNG demand growth rate remained close to +10% y/y,
-following a faster than expected recovery of the Chinese industrial and
-transport sectors. LNG deliveries to China should grow also in 2024, but
-at a slower pace (+5% y/y) with ramping up Russian deliveries via the
-Power of Siberia pipeline entering the market. Compeon should be intense
-also in 2025, when the world regasificaon plants will work at their
-maximum capacity, leading the global LNG demand growth to accelerate
-above +5% y/y. ::: ::::
+![](figs/12.%20World%20LNG%20Demand.png)
+
+::: callout-item
+::: callout-left
+#### 24-25 {.unnumbered}
+:::
+
+::: callout-right
+2023 global LNG demand growth registered a +2% y/y increase, with Europe
+and Asia having represented the major desnaon markets. An overall +2%
+yearly recovery is foreseen also in 2024, resulng from incoming new
+regasificaon capacity worldwide. European LNG intake is expected to
+remain sustained in the short-term to ensure reliable and affordable
+energy supplies, reaching +6% y/y in 2024. 2023 Chinese LNG demand
+growth rate remained close to +10% y/y, following a faster than expected
+recovery of the Chinese industrial and transport sectors. LNG deliveries
+to China should grow also in 2024, but at a slower pace (+5% y/y) with
+ramping up Russian deliveries via the Power of Siberia pipeline entering
+the market. Compeon should be intense also in 2025, when the world
+regasificaon plants will work at their maximum capacity, leading the
+global LNG demand growth to accelerate above +5% y/y.
+:::
+:::
 
 ::: callout-item
 ::: callout-left
@@ -613,7 +621,7 @@ PROCESS WOULD KEEP REDUCING DEMAND, PRESSURING DOWNWARD PRICE ACTION**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/13.%20TTF%20Price.png)
 
 ::: callout-item
 ::: callout-left
@@ -690,7 +698,7 @@ IN THE LONG RUN THOUGH**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/14.%20Spread%20TTF-PSV.png)
 
 ::: callout-item
 ::: callout-left
@@ -757,7 +765,7 @@ TRANSITION**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/15.%20PSV%20Price.png)
 
 ::: callout-item
 ::: callout-left
@@ -832,7 +840,7 @@ NORMALIZATION**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/16.%20Italian%20Gas-Fired%20units.png)
 
 ::: callout-item
 ::: callout-left
@@ -895,7 +903,7 @@ PRICES' INCREASE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/17.%20CO2%20Allowances%20Price.png)
 
 ::: callout-item
 ::: callout-left
@@ -955,75 +963,6 @@ dynamics still having an impact on the ETS system.
 
 \newpage
 
-## Coal Switching Price
-
-::: callout-main
-::: callout-center
-**STILL UNCERTAIN COMMODITIES MARKETS IN THE SHORT-TERM REVERSE
-SWITCHING CONDITIONS FOSTERING COAL- FIRED POWER PLANTS UNTIL 2025.
-GAS-FIRED GENERATION SHOULD RETURN THE MOST COMPETITIVE THERMOELECTRIC
-SOURCE AFTER YEAR 2025, AS A RESULT OF THE EXPECTED NORMALIZATION OF THE
-PSV GAS PRICE TOWARDS 30 €/MWh WITHIN 2030**
-:::
-:::
-
-![](figs/6_ttf.png)
-
-::: callout-item
-::: callout-left
-#### 24-25 {.unnumbered}
-:::
-
-::: callout-right
-In 2023, the switching conditions were guaranteed for average efficiency
-coal plants (35%) to average efficiency gas ones (53%). However,
-following the expected increase in gas prices in 2024, switching
-conditions may be effective only from low efficiency coal plants (30%)
-to high efficiency gas plants (60%).
-:::
-:::
-
-::: callout-item
-::: callout-left
-#### 26-30 {.unnumbered}
-:::
-
-::: callout-right
-From 2025 on wards, gas fired thermoelectric generation is expected to
-gradually become economically favorable, with the eventual normalization
-of commodities markets and the acceleration of the ETS mechanism
-guaranteeing switching conditions even from high efficiency coal plants
-(60%) to low efficiency gas plants (50%) mainly after 2027.
-:::
-:::
-
-::: callout-item
-::: callout-left
-#### 31-50 {.unnumbered}
-:::
-
-::: callout-right
-The eventual normalization of commodities markets and the ETS mechanism
-guarantee switching conditions between high-efficiency coal-fired units
-and low-efficiency gas-fired plants also in the long-term, with rising
-CO2 prices and PSV quotations stable near 25 €/MWh.
-:::
-:::
-
-::: callout-wrap
-::: callout-left
-#### Main updates {.unnumbered}
-:::
-
-::: callout-right
-Switching conditions cotinnue to reflect the change in the short and
-mid-term commodities outlook, but the new ETS reform should support the
-CO2 price and lead to favorable switching conditions.
-:::
-:::
-
-\newpage
-
 # Energy Mix
 
 ## Day-Ahead Market Energy Balance
@@ -1032,15 +971,15 @@ CO2 price and lead to favorable switching conditions.
 
 ::: callout-main
 ::: callout-center
-**THE REDUCTION IN THE ELECTRICITY DEMAND IS SUSTAINED BY A DECREASE IN
-COAL PRODUCTION. IN THE MID-TERM, GAS-FIRED GENERATION BECOMES THE
-PRIMARY SOURCE OF ELECTRICITY AS COAL PLANTS ARE PHASED OUT. IN THE
-LONG-TERM, RENEWABLES TAKE THE LEAD AS THE PRIMARY SOURCE OF ELECTRICITY
-PRODUCTION, SUPPORTED BY GAS-FIRED PRODUCTION**
+**IN THE SHORT-TERM, A REDUCTION IN COAL PRODUCTION IS SUSTAINED BY AN
+INCRESE IN ELECTRICITY IMPORT. IN THE MID-TERM, GAS-FIRED GENERATION
+BECOMES THE PRIMARY SOURCE OF ELECTRICITY AS COAL PLANTS ARE PHASED OUT.
+IN THE LONG-TERM, RENEWABLES TAKE THE LEAD AS THE PRIMARY SOURCE OF
+ELECTRICITY PRODUCTION, SUPPORTED BY GAS-FIRED PRODUCTION**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/19.%20DAM%20Energy%20Balance%20Refer.png)
 
 ::: callout-item
 ::: callout-left
@@ -1048,11 +987,13 @@ PRODUCTION, SUPPORTED BY GAS-FIRED PRODUCTION**
 :::
 
 ::: callout-right
-Reduction in electricity demand and recovery in hydro generation at
-national and European level stabilize the system needs, leading to the
-interruption of the coal maximization program. Gas generation remains
-the main generation source, continous installation of RES driven by
-solar technology increase renewable quota in the MIX.
+The reduction of the electricity demand at European level, the recovery
+of nuclear plants capacity from the O&M maintenance of the last two
+years, and a surge in hydro production in Switzerland lead to an
+increase in the electricity import from the Northern borders. The
+positive trend of new RES installed capacity evidenced in 2023 will
+recur also in the two following years. Gas power thermal plants remain
+the marginal source.
 :::
 :::
 
@@ -1062,13 +1003,12 @@ solar technology increase renewable quota in the MIX.
 :::
 
 ::: callout-right
-The Capacity Market (CM) brings 7.3 GW of new thermoelectrict capacity
-and more than 1.5 GW of new storage capacity online between 2024 and
-2025. In 2025, coal-fired units in the peninsula are phased-out, while
-Sardinian units remain operative for security reasons until the
-completion of the Tyrrhenian Link, in 2030. Renewables production growth
-hit almost 50% of demand in 2030. The progressive normalization of
-commodities prices drives the reduction of imported flows.
+Coal-fired units are going to phase-out within 2025, with the exception
+of the Sardinian ones, which remian operative until the completion of
+the Tyrrhenian Link in 2030. Electricity production from renewables will
+cover almost 50% by 2030. The normalization of commodities over time,
+and the Capacity Market (CM) mechanism will bring 7.3 GW of new
+thermoelectrict capacity, reducing the need for imported electricity.
 :::
 :::
 
@@ -1078,13 +1018,12 @@ commodities prices drives the reduction of imported flows.
 :::
 
 ::: callout-right
-Further reductions of net import flows from the northern borders could
-be determined by the partial decommissioning of the ageing French
-nuclear fleet, the phase-out of German coal-fired capacity, and the
-realization of the Elmed cable (Tunisia-Sicily). Renewables become the
-main source in the mix, backed up by gas-fired production. Convenient
-market conditions would favor the development of energy intensive
-storage.
+Renewables will become the main source in the electricity mix, with a
+share of 70% by 2040. An optimization of the electricity grid, with the
+Tyrrhenian Link doubling in 2043, and the realization of the Elmed cable
+(Tunisia-Sicily) will reduce the need of net import from the Norther
+borders. Convenient market conditions would favor the development of
+energy intensive storage.
 :::
 :::
 
@@ -1094,8 +1033,9 @@ storage.
 :::
 
 ::: callout-right
-Changes in the production mix reflect updated commodities in the
-short-term increased quota of RES after 2035.
+Net import will increase in the short-term, supported by French nuclear
+capacity recovery and a general reduction in the electricity demand and
+European level.
 :::
 :::
 
@@ -1105,15 +1045,14 @@ short-term increased quota of RES after 2035.
 
 ::: callout-main
 ::: callout-center
-**AS COMMODITIES MARKETS RAPIDLY NORMALIZE, THERE IS A GROWING
-COMMITMENT TO DECARBONIZE THE EUROPEAN ECONOMY. ROBUST SUPPORT FOR THE
-DEVELOPMENT OF RENEWABLES, WHICH COULD POTENTIALLY SURPASS THE CURRENT
-2030 TARGETS AND SET THE SYSTEM ON A TRAJECTORY TOWARDS ACHIEVING CARBON
-NEUTRALITY BY MID-CENTURY**
+**HIGHER COMMITMENT TO DECARBONIZE THE EUROPEAN ECONOMY LEADS TO A
+STRONGER DECARBONIZATION PROCESS, IN WHICH RENEWABLES COULD SORPASS THE
+CURRENT 2030 TARGET, REACHING 75% OF THE ELECTRICITY PRODUCTION MIX BY
+2050, SUPPORTED BY AN INCREASE IN THE BATTERY STORAGE CAPACITY**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/20.%20DAM%20Energy%20Balance%20Low.png)
 
 ::: callout-item
 ::: callout-left
@@ -1121,13 +1060,13 @@ NEUTRALITY BY MID-CENTURY**
 :::
 
 ::: callout-right
-With commodities prices rebounding faster and an improved economic
-outlook, there is a renewed commitment to decarbonizing the economy.
-Facilitating the prompt resolution of authorization deadlocks for new
-renewable projects and encouraging investments in energy efficiency.
-Although coal units continue to operate, their share decreased due to
-more favorable conditions for gas. Gas-fired production reach 34% of the
-national electricity demand.
+A swift rise in decarbonization solutions is supported by an increase in
+commodities' prices, higher prices in the EU ETS mechanisms, and easier
+authorization for new renewables projects to encourage investments in
+the energy efficiency. Although coal units continue to operate, their
+share decreased due to more favorable conditions for gas-fired thermal
+plants, whose production will reach up to 33% of the national
+electricity demand by 2025.
 :::
 :::
 
@@ -1137,14 +1076,14 @@ national electricity demand.
 :::
 
 ::: callout-right
-In 2029 coal-fired units in the are entirely phased-out. Falling
-renewables costs and a greater effort to reach decarbonizations goals
-support renewables development: in 2030 the ratio between renewable
-energy and total electricity consumption reach 59%. The combination of
-reduced fuel prices -- affecting competitive dynamics between different
-production sources all over Europe -- and the need to respect national
-grid security conditions drive the progressive reduction of imported
-flows.
+By the end of 2028 coal-fired units in the are entirely phased-out.
+Falling renewables costs and a greater effort to reach decarbonizations
+goals support renewables development. In fact, the share of renewables
+production will reach 43% of the total electricity consumption.
+Improvements in the electricity grid will facilitate the reduction of
+electricity imported from neighborhood countries. Gas-fired thermal
+plants will continue to be the marginal source, cover 30% of the
+national electricity needs.
 :::
 :::
 
@@ -1154,12 +1093,12 @@ flows.
 :::
 
 ::: callout-right
-In the very long-term, gas-fired generation and energy intensive storage
-systems back up non- programmable renewable production and guarantee
-system security and adequacy. Despite storage and network reinforcements
-the integration of renewables in the energy mix will only be partial
-reached as congestion and overgeneration problems are going to manifest,
-generating signals for electrolisis capacity.
+In the long-term, gas-fired thermal plants will be operative to
+guarantee system security and adequacy, even though the increase in
+storage system will down their share to 15% by 2050. Despite storage and
+network reinforcements the integration of renewables in the energy mix
+will only be partial reached as congestion and overgeneration problems
+are going to manifest, generating signals for electrolysis capacity.
 :::
 :::
 
@@ -1170,8 +1109,8 @@ generating signals for electrolisis capacity.
 
 ::: callout-right
 Changes in the production mix reflect updated commodities in the
-short-term. Thermoelectric capacity hypotheses consider the results of
-the latest Capacity Market auction, held in February 2022.
+short-term. In the long term, new renewables installed capacity will be
+supported by thermoelectric and storage to maintain system adequacy.
 :::
 :::
 
@@ -1181,14 +1120,15 @@ the latest Capacity Market auction, held in February 2022.
 
 ::: callout-main
 ::: callout-center
-**SLOWER AND LESS ROBUST ECONOMIC RECOVERY AFFECTS ENERGY MARKETS. IN
-THE LONG TERM THE ENTRANCE OF THE MAIN GRID INFRASTRUCTURE PROJECTS
-ALLOWS THE PHASE-OUT OF COAL UNITS. RENEWABLES AND BESS GRADUALLY
-INCREASE THEIR SHARES IN THE GENERATION MIX**
+**SLOWER ECONOMIC RECOVERY IS REFLECTED IN A LOWER ELECTRICITY DEMAND
+AND LOWER AMOUNT OF INVESTMENT IN DECARBONIZATION. THE ENTRANCE OF THE
+MAIN GRID INFRASTRUCTURE PROJECTS ALLOWS THE PHASE-OUT OF COAL UNITS BY
+2034. RENEWABLES AND BESS GRADUALLY INCREASE THEIR SHARES IN THE
+GENERATION MIX**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/21.%20DAM%20Energy%20Balance%20High.png)
 
 ::: callout-item
 ::: callout-left
@@ -1196,10 +1136,11 @@ INCREASE THEIR SHARES IN THE GENERATION MIX**
 :::
 
 ::: callout-right
-Coal-fired units become essential to grant security, adequacy conditions
-and to reduce gas consumptions in a context of higher than historical
-price level. Coal-fired output reaches 10 TWh and gas-fired production
-reach around 31% of total electricity needs.
+Coal-fired thermal plants are still an important source of power, even
+though the reduction in the gas prices will increase the share of the
+gas-fired thermal plant, covering 35% of the demand. The increase in net
+import up to 47 TWh in 2025 reduce the need of coal to 5 TWh in the same
+year.
 :::
 :::
 
@@ -1211,10 +1152,10 @@ reach around 31% of total electricity needs.
 ::: callout-right
 CM-led investments come online but the phase-out of coal-fired capacity
 is postponed, so as the realization of great network investments. Net
-imports remain stably above the 40 TWh threshold and gas-fired
-production maintains a 31% quota of total electricity needs, as hydro
-production normalize and renewable energy sources gradually increase
-their share in the mix
+imports will reduce to 36 TWh within 2030, and gas-fired production
+maintains a 40% quota of total electricity needs, as hydro production
+normalize aroung 46.5 TWh/y and renewable energy sources gradually
+increase their share in the mix.
 :::
 :::
 
@@ -1224,11 +1165,12 @@ their share in the mix
 :::
 
 ::: callout-right
-Increase in CO2 price reduce coal generation compeveness until 2035 when
-the entrance of the Tyrrhenian Link determine the phase-out of all coal
-units. Gas-fired production increases its share in the national energy
-mix to around 38%. Volatile DAM dynamics and RES development sustain the
-entrance of 10GW of energy intensive storage in the long-term.
+Increase in CO2 price reduce coal generation competitiveness until 2035,
+when the entrance of the Tyrrhenian Link determine the phase-out of all
+coal units. Gas-fired production increases its share in the national
+energy mix to around 38%. Volatile DAM dynamics and RES development
+sustain the entrance of 10GW of energy intensive storage in the
+long-term.
 :::
 :::
 
@@ -1239,8 +1181,7 @@ entrance of 10GW of energy intensive storage in the long-term.
 
 ::: callout-right
 Changes in the production mix reflect updated commodities in the
-short-term. Thermoelectric capacity hypotheses consider the results of
-the latest Capacity Market auction, held in February 2022.
+short-term.
 :::
 :::
 
@@ -1250,6 +1191,9 @@ the latest Capacity Market auction, held in February 2022.
 
 ::: callout-main
 ::: callout-center
+THE REDUCTION OF ELECTRICITY DEMAND AT EUROPEAN LEVEL IS REFLECTED IN
+THE ITALIAN SCENARIO. NEVERTHELESS, IN THE LONG-TERM
+
 **SAVING MEASURES IN THE SHORT-TERM ARE EXPECTED TO REDUCE DEMAND, TO BE
 EVALUATED IF IT IS GOING TO BE STRUCTURAL. IN THE LONG-TERM,
 ELECTRIFICATION AND EFFICIENCY IN FINAL CONSUMPTIONS BECOME THE MAIN
@@ -1257,7 +1201,7 @@ DRIVERS OF ELECTRICITY DEMAND**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/22.%20Electricity%20demand.png)
 
 ::: callout-item
 ::: callout-left
@@ -1329,7 +1273,7 @@ HABITS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/23.%20E-mobility.png)
 
 ::: callout-item
 ::: callout-left
@@ -1402,7 +1346,7 @@ POTENTIALLY SUSTAINED BY SUPPORT MEASURES FOR DECARBONIZATION**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/24.%20Heating%20&%20Cooling.png)
 
 ::: callout-item
 ::: callout-left
@@ -1462,7 +1406,7 @@ SYSTEMS WL BE AT LEAST PARTIALLY REMOVED**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/25.%20Self-Produc%20and%20Self-Consum.png)
 
 ::: callout-item
 ::: callout-left
@@ -1519,7 +1463,7 @@ MOST RECENT REGIONAL TRENDS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/26.%20Zonal%20Distribution%20Elec%20Dem.png)
 
 ::: callout-item
 ::: callout-left
@@ -1592,7 +1536,7 @@ THROUGHOUT EUROPE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/27.%20Net%20Import.png)
 
 ::: callout-item
 ::: callout-left
@@ -1670,7 +1614,7 @@ PERMITTED BY THE RULES OF THE MECHANISM**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/28.%20Newbuild%20capacity.png)
 
 ::: callout-item
 ::: callout-left
@@ -1743,7 +1687,7 @@ COMPLETION OF THE TYRRHENIAN LINK INFRASTRUCTURE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/29.%20Inst%20thermo%20capacity%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -1817,7 +1761,7 @@ THE TYRRHENIAN LINK INFRASTRUCTURE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/30.%20Inst%20thermo%20capacity%20low.png)
 
 ::: callout-item
 ::: callout-left
@@ -1888,7 +1832,7 @@ COAL-FIRED POSTPONED UNTILL 2035 WHEN TYRRHENIAN LINK BECOME OPERATIVE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/31.%20Inst%20thermo%20capacity%20high.png)
 
 ::: callout-item
 ::: callout-left
@@ -1956,7 +1900,7 @@ GREATER DEGREE OF COMPETITION BROUGHT BY THE NEWBUILD CAPACITY AFTER
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/32.%20Residual%20demand%20for%20CCGTs.png)
 
 ::: callout-item
 ::: callout-left
@@ -2032,7 +1976,7 @@ MECHANISM GENERATE AN ECONOMIC PHASE-OUT FOR COAL PLANTS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/33.%20Coal-fired%20production.png)
 
 ::: callout-item
 ::: callout-left
@@ -2105,7 +2049,7 @@ TREND, IN PARTICULAR FOR SOLAR CAPACITY**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/34.%20Net%20Renewable%20Installed%20Cap.png)
 
 ::: callout-item
 ::: callout-left
@@ -2169,18 +2113,20 @@ requests.
 :::
 :::
 
+\newpage
+
 ### Renewable Production
 
 ::: callout-main
 ::: callout-center
-\*\* THE ACHIEVEMENT OF THE NIECP TARGETS RELATED TO THE ELECTRICITY
-SECTOR REQUIRES A GREAT EFFORT: A 2030 RES/GDC RATIO OF 65% COULD BE
-ACHIEVED ONLY WITH A STRONG ACCELERATION OF PROJECTS RECEIVING THE GREEN
-LIGHT IN THE NEXT FEW YEARS \*\*
+**THE ACHIEVEMENT OF THE NIECP TARGETS RELATED TO THE ELECTRICITY SECTOR
+REQUIRES A GREAT EFFORT: A 2030 RES/GDC RATIO OF 65% COULD BE ACHIEVED
+ONLY WITH A STRONG ACCELERATION OF PROJECTS RECEIVING THE GREEN LIGHT IN
+THE NEXT FEW YEARS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/35.%20Net%20Renewable%20Production.png)
 
 ::: callout-item
 ::: callout-left
@@ -2236,18 +2182,20 @@ performance.
 :::
 :::
 
+\newpage
+
 ### Day-Ahead Market Overgeneration
 
 ::: callout-main
 ::: callout-center
-\*\* OVERGENERATION COULD BECOME SIGNIFICANT IN THE LONG-TERM, FOLLOWING
+**OVERGENERATION COULD BECOME SIGNIFICANT IN THE LONG-TERM, FOLLOWING
 THE HIGH RENEWABLE PENETRATION IN THE ENERGY MIX, IN PARTICULAR IN THE
 SOUTHERN ZONES. THE DEVELOPMENT OF ENERGY INTENSIVE STORAGES AND
-ELECTROLYSIS CAPACITY COULD MITIGATE THE MARKET COUNTEREFFECTS \*\*
+ELECTROLYSIS CAPACITY COULD MITIGATE THE MARKET COUNTEREFFECTS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/36.%20Day-Ahead%20Market%20Overgen.png)
 
 ::: callout-item
 ::: callout-left
@@ -2307,6 +2255,8 @@ hypothesis concerning RES installaon and grid reinforcement.
 :::
 :::
 
+\newpage
+
 ### Electrolyzer Installed Capacity
 
 ::: callout-main
@@ -2319,7 +2269,7 @@ SCENARIO, MAINLY IN SARDINIA AND SICILY \*\*
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/37.%20Electrolyzer%20installed%20cap.png)
 
 ::: callout-item
 ::: callout-left
@@ -2355,17 +2305,18 @@ Commodies prices make green hydrogen compeve compared to grey.
 :::
 :::
 
+\newpage
+
 ### Solar Market Parity
 
 ::: callout-main
 ::: callout-center
-\*\* THE RISE OF COMMODITIES DRIVES UP MARKET PRICES AND STRENGTHENS
-SOLAR MARKET PARITY IN THE NEAR FUTURE, DESPITE TECHNOLOGY COSTS ON THE
-RISE \*\*
+**THE RISE OF COMMODITIES DRIVES UP MARKET PRICES AND STRENGTHENS SOLAR
+MARKET PARITY IN THE NEAR FUTURE, DESPITE TECHNOLOGY COSTS ON THE RISE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/38.%20Fixed%20tilt%20Solar%20PV%20.png)
 
 ::: callout-item
 ::: callout-left
@@ -2424,17 +2375,18 @@ metrics: 30-year me horizon, full equity financing, discount factor 7%.
 :::
 :::
 
+\newpage
+
 ### Wind Market Parity
 
 ::: callout-main
 ::: callout-center
-\*\* THE RISE OF COMMODITIES DRIVES UP MARKET PRICES AND STRENGTHENS
-WIND MARKET PARITY IN THE NEAR FUTURE, DESPITE TECHNOLOGY COSTS ON THE
-RISE \*\*
+**THE RISE OF COMMODITIES DRIVES UP MARKET PRICES AND STRENGTHENS WIND
+MARKET PARITY IN THE NEAR FUTURE, DESPITE TECHNOLOGY COSTS ON THE RISE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/39.%20Wind%20LCOE%20Range%20and%20PUN.png)
 
 ::: callout-item
 ::: callout-left
@@ -2485,20 +2437,22 @@ metrics: 30-year me horizon, full equity financing, discount factor 7%.
 :::
 :::
 
+\newpage
+
 ## Storage
 
 ### Pumped Hydro Production
 
 ::: callout-main
 ::: callout-center
-\*\* DAY-AHEAD MARKET OPPORTUNITIES FOR PUMPED HYDRO POWER PLANTS CAN
-ARISE IN THE SHORT-TERM BECAUSE OF THE EFFECT OF VOLATILE PRICES, WILL
+**DAY-AHEAD MARKET OPPORTUNITIES FOR PUMPED HYDRO POWER PLANTS CAN ARISE
+IN THE SHORT-TERM BECAUSE OF THE EFFECT OF VOLATILE PRICES, WILL
 MANIFEST IN THE LONG-TERM BECAUSE OF THE CONTINUOUS INCREASE OF
-NON-PROGRAMMABLE RENEWABLE PRODUCTION \*\*
+NON-PROGRAMMABLE RENEWABLE PRODUCTION**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/40.%20Pumped%20hydro%20production.png)
 
 ::: callout-item
 ::: callout-left
@@ -2549,20 +2503,22 @@ assumed to increase further in the future.
 :::
 :::
 
+\newpage
+
 ### Power Intensive Electrochemical Storage
 
 ::: callout-main
 ::: callout-center
-\*\* POWER INTENSIVE ELECTROCHEMICAL STORAGES CAN BE IN THE MONEY IN THE
+**POWER INTENSIVE ELECTROCHEMICAL STORAGES CAN BE IN THE MONEY IN THE
 MID-TERM: REVENUES DERIVE MAINLY FROM ANCILLARY SERVICES MARKET
 PARTICIPATION AND SPECIFIC SERVICES SUPPLY, AND COULD BE FURTHERLY
 SUSTAINED BY THE CHANGES BROUGHT BY THE FUTURE MARKET DESIGN REFORM. IN
 THE LONG RUN INCREASE IN RES QUOTA AND MORE VOLATILE PRICES FAVOR
-CONVERSION TO ENERGY INTENSIVE STORAGE \*\*
+CONVERSION TO ENERGY INTENSIVE STORAGE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/41.%20Power%20Intens%20Electroch%20stor.png)
 
 ::: callout-item
 ::: callout-left
@@ -2620,19 +2576,21 @@ and economic convenience.
 :::
 :::
 
+\newpage
+
 ### Energy Intensive Electrochemical Storage
 
 ::: callout-main
 ::: callout-center
-\*\* 2024 CAPACITY MARKET AUCTION STARTED THE DEVELOPMENT OF ENERGY
+**2024 CAPACITY MARKET AUCTION STARTED THE DEVELOPMENT OF ENERGY
 INTENSIVE STORAGES IN THE ITALIAN MARKET. LONG-TERM DEVELOPMENT OF SUCH
 KIND OF ASSET WILL BE KEY IN FOSTERING THE INTEGRATION OF RENEWABLES IN
 THE SYSTEM, WHEN THE GREAT SOLAR PENETRATION CREATES OPPORTUNITIES FOR
-TIME-SHIFTING APPLICATIONS ON THE DAY-AHEAD MARKET \*\*
+TIME-SHIFTING APPLICATIONS ON THE DAY-AHEAD MARKET**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/42.%20Energy%20Intens%20Electroc%20stor.png)
 
 ::: callout-item
 ::: callout-left
@@ -2688,21 +2646,23 @@ and price volality on the DAM.
 :::
 :::
 
+\newpage
+
 # Transmission Grid
 
 ## Grid Reiforcements
 
 ::: callout-main
 ::: callout-center
-\*\* IMPORTANT GRID REINFORCEMENTS TO BE REALIZED ALREADY IN THE 2020s
-BUT MAJOR IMPROVEMENTS ARE EXPECTED TO BE COMPLETED IN THE 2030s --
+**IMPORTANT GRID REINFORCEMENTS TO BE REALIZED ALREADY IN THE 2020s BUT
+MAJOR IMPROVEMENTS ARE EXPECTED TO BE COMPLETED IN THE 2030s --
 TYRRHENIAN LINK AND ADRIATIC LINK. GREAT RES DEVELOPMENT GENERATE SIGNAL
 FOR FURTHER GRID REINFORCEMNTS AS INTER-ZONAL CONSTRAINT ARE NOT FULLY
-OVERCOM \*\*
+OVERCOM**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/60.%20Potenziamento%20Rete.png)
 
 ::: callout-item
 ::: callout-left
@@ -2762,21 +2722,23 @@ alternave scenarios are consistent with other boundary condions.
 :::
 :::
 
+\newpage
+
 # Power Market Prices
 
 ## Baseload PUN
 
 ::: callout-main
 ::: callout-center
-\*\* THE POWER MARKET IN THE SHORT-TERM WILL BE GUIDED BY RECOVERED BUT
+**THE POWER MARKET IN THE SHORT-TERM WILL BE GUIDED BY RECOVERED BUT
 STILL HIGH COMMODITIES PRICES. A GRADULA NORMALIZATION OF PRICES IS
 EXPECTED IN THE MID-TERM. IN THE LONG-TERM, PRICES WILL BE MAILNLY
 DRIVEN BY CO2 MOVEMENTS, WHILE OTHER COMMODITIES ARE EXPECTED TO REACH A
-STABLE EQUILIBRIUM \*\*
+STABLE EQUILIBRIUM**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/44.%20Baseload%20PUN.png)
 
 ::: callout-item
 ::: callout-left
@@ -2837,17 +2799,19 @@ price trends are in line with previous update.
 :::
 :::
 
+\newpage
+
 ### Peak-Load/ Off-Peak PUN
 
 ::: callout-main
 ::: callout-center
-\*\* RENEWABLES PENETRATION, LED BY SOLAR ENERGY, IS EXPECTED TO
-STRONGLY AFFECT PEAK / OFF-PEAK DYNAMICS AFTER 2030, WHEN THE INVERSION
-OF PRICE SPREADS BETWEEN TIME SLOTS IS EXPECTED TO OCCUR \*\*
+**RENEWABLES PENETRATION, LED BY SOLAR ENERGY, IS EXPECTED TO STRONGLY
+AFFECT PEAK / OFF-PEAK DYNAMICS AFTER 2030, WHEN THE INVERSION OF PRICE
+SPREADS BETWEEN TIME SLOTS IS EXPECTED TO OCCUR**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/45.%20Peak-off%20peak%20PUN.png)
 
 ::: callout-item
 ::: callout-left
@@ -2899,19 +2863,21 @@ line with the previous market update.
 :::
 :::
 
+\newpage
+
 ### Baseload PUN Components, Reference Scenario
 
 ::: callout-main
 ::: callout-center
-\*\* CONTRACTION IN ELECTRICITY DEMAND AND RECOVER IN HYDRO GENERATION
+**CONTRACTION IN ELECTRICITY DEMAND AND RECOVER IN HYDRO GENERATION
 REDUCE CSS FOR EXISTING CCGTs IN THE SHORT-TERM. AFTER THE PHASE-OUT OF
 COAL-FIRED UNITS, THE CCS IS EXPECTED TO REMAIN CLOSE TO NULL, AS THE
 GROWING PENETRATION OF RENEWABLES AND THE CM-SUPPORTED NEWBUILDS AFFECT
-COMPETITIVE DYNAMICS \*\*
+COMPETITIVE DYNAMICS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/46.%20Baseload%20PUN%20compon%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -2970,18 +2936,20 @@ Long-term price trends are in line with previous update
 :::
 :::
 
+\newpage
+
 ### PUN Hourly Storage
 
 ::: callout-main
 ::: callout-center
-\*\* INCREASING SOLAR PENETRATION SIGNIFICANTLY IMPACTS PRICES DURING
+**INCREASING SOLAR PENETRATION SIGNIFICANTLY IMPACTS PRICES DURING
 CENTRAL HOURS OF THE DAY AND EXACERBATES DAILY PRICE DIFFERENTIALS IN
 THE LONG-TERM. THE EFFECT IS PARTIALLY MITIGATED BY THE DEVELOPMENT OF
-STORAGE UNITS \*\*
+STORAGE UNITS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/47.%20Hourly%20PUN%20Shape%20referenc.png)
 
 ::: callout-item
 ::: callout-left
@@ -3033,19 +3001,21 @@ updated commodies assumptions.
 :::
 :::
 
+\newpage
+
 ## Baseload Zonal Prices
 
 ::: callout-main
 ::: callout-center
-\*\* IN THE SHORT-TERM, ZONAL PRICES ARE EXPECTED TO DIVERGE AS COAL
+**IN THE SHORT-TERM, ZONAL PRICES ARE EXPECTED TO DIVERGE AS COAL
 PRODUCTION BECOMES MORE COST- EFFECTIVE IN CERTAIN AREAS. HOWEVER, OVER
 TIME, THE STRONG DEVELOPMENT OF RENEWABLE ENERGY SOURCES IN THE SOUTHERN
 MACRO-ZONE IS EXPECTED TO REDUCE PRICES DUE TO THE CANNIBALIZATION OF
-SOLAR TECHNOLOGIES \*\*
+SOLAR TECHNOLOGIES**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/48.%20Baseload%20Zonal%20Prices%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3100,19 +3070,21 @@ The dynamics of zonal prices are in line with the previous update.
 :::
 :::
 
+\newpage
+
 ## Evolution of Baseload PUN-South Price Differential
 
 ::: callout-main
 ::: callout-center
-\*\* THE EVOLUTION TREND OF THE SPREAD BETWEEN THE PUN PRICE --
-BASICALLY DRIVEN BY THE RESULTS OF THE NORTH MARKET ZONE -- AND THE
-PRICE OF SOUTHERN MARKET ZONES STRONGLY DEPENDS ON THE ASSUMPTIONS
-RELATED TO RENEWABLES PENETRATION, STORAGE DEVELOPMENT, AND THE TIMING
-OF REALIZATION OF GRID INFRASTRUCTURES \*\*
+**THE EVOLUTION TREND OF THE SPREAD BETWEEN THE PUN PRICE -- BASICALLY
+DRIVEN BY THE RESULTS OF THE NORTH MARKET ZONE -- AND THE PRICE OF
+SOUTHERN MARKET ZONES STRONGLY DEPENDS ON THE ASSUMPTIONS RELATED TO
+RENEWABLES PENETRATION, STORAGE DEVELOPMENT, AND THE TIMING OF
+REALIZATION OF GRID INFRASTRUCTURES**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/49.%20Baseload%20PUN-South.png)
 
 ::: callout-item
 ::: callout-left
@@ -3172,21 +3144,23 @@ developments.
 :::
 :::
 
+\newpage
+
 ## Clean Spark Spread
 
 ### Baseload CSS for Existing CCGT Units
 
 ::: callout-main
 ::: callout-center
-\*\* BASELOAD CSS EXPECTED TO DECREASE IN THE SHORT-TERM FOLLOWING
-REVERSED SWITCHING DYNAMICS AND RECOVER IN HYDRO PRODUCTION. REFERENCE
-MID-TERM AND LONG-TERM VALUES EXPECTED TO STABILIZE IN THE -4/-2 €/MWh
-RANGE. MISSING MONEY ISSUES LIKELY TO ARISE IN THE SECOND HALF OF THE
-2020s AND TO BE AMPLIFIED IN ALTERNATIVE SCENARIOS \*\*
+**BASELOAD CSS EXPECTED TO DECREASE IN THE SHORT-TERM FOLLOWING REVERSED
+SWITCHING DYNAMICS AND RECOVER IN HYDRO PRODUCTION. REFERENCE MID-TERM
+AND LONG-TERM VALUES EXPECTED TO STABILIZE IN THE -4/-2 €/MWh RANGE.
+MISSING MONEY ISSUES LIKELY TO ARISE IN THE SECOND HALF OF THE 2020s AND
+TO BE AMPLIFIED IN ALTERNATIVE SCENARIOS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/50.%20Baseload%20CSS%20for%20CCGTs.png)
 
 ::: callout-item
 ::: callout-left
@@ -3246,19 +3220,21 @@ in the three scenarios.
 :::
 :::
 
+\newpage
+
 ### Day-Ahead Market Profitability for CCGT Units
 
 ::: callout-main
 ::: callout-center
-\*\* IN THE SHORT-TERM, EXISTING UNITS ARE EXPECTED TO SUFFER FROM
-WEAKER SWITCHING CONDITIONS, BUT THE GROWING PENETRATION OF SOLAR IS
-EXPECTED TO BOOST EVENING PRICE SPIKES IN THE MID- AND LONG-TERM.
-HIGH-EFFICIENCY UNITS TO MAXIMIZE DAM VOLUMES WHILE PRESERVING A DOUBLE
-DIGIT CAPTURED MARGINALITY \*\*
+**IN THE SHORT-TERM, EXISTING UNITS ARE EXPECTED TO SUFFER FROM WEAKER
+SWITCHING CONDITIONS, BUT THE GROWING PENETRATION OF SOLAR IS EXPECTED
+TO BOOST EVENING PRICE SPIKES IN THE MID- AND LONG-TERM. HIGH-EFFICIENCY
+UNITS TO MAXIMIZE DAM VOLUMES WHILE PRESERVING A DOUBLE DIGIT CAPTURED
+MARGINALITY**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/51.%20Captured%20CSS%20of%20CCGT%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3315,20 +3291,22 @@ thermoelectric installed capacity.
 :::
 :::
 
+\newpage
+
 ## Captured Prices of Renewable Sources
 
 ### Solar Captured Prices
 
 ::: callout-main
 ::: callout-center
-\*\* PROGRESSIVELY INCREASING CANNIBALIZATION EFFECT IS EVIDENT ON SOLAR
+**PROGRESSIVELY INCREASING CANNIBALIZATION EFFECT IS EVIDENT ON SOLAR
 PRICES FROM THE LATE 2020s, ESPECIALLY IN SOUTHERN MARKET ZONES, WHERE
 RENEWABLE PENETRATION IS GREATER AND INTERCONNECTION CAPACITY WITH
-NORTHERN ZONES IS LIMITED \*\*
+NORTHERN ZONES IS LIMITED**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/52.%20Solar%20Captured%20Prices%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3380,18 +3358,19 @@ high degree of cannibalizaon effect.
 :::
 :::
 
+\newpage
+
 ### Wind Captured Prices
 
 ::: callout-main
 ::: callout-center
-\*\* WIND GENERATION IS LESS CONCENTRATED THAN SOLAR PRODUCTION AND ITS
+**WIND GENERATION IS LESS CONCENTRATED THAN SOLAR PRODUCTION AND ITS
 GREATER DISTRIBUTION OVER THE SEASONS AND THE HOURS OF THE DAY LEADS
-CAPTURED PRICES TO ALIGN WITH -- OR EVEN OUTPERFORM -- BASELOAD PRICES.
-\*\*
+CAPTURED PRICES TO ALIGN WITH -- OR EVEN OUTPERFORM -- BASELOAD PRICES**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/53.%20Wind%20Captured%20Prices%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3431,17 +3410,19 @@ high degree of cannibalizaon effect.
 :::
 :::
 
+\newpage
+
 ### Hydro Run-of-River Captured Prices
 
 ::: callout-main
 ::: callout-center
-\*\* HYDROPOWER GENERATION IS MORE SENSITIVE TO SEASONAL WATER INFLOWS
+**HYDROPOWER GENERATION IS MORE SENSITIVE TO SEASONAL WATER INFLOWS
 TRENDS THAN TO HOURLY VARIABILITY, SO THAT CAPTURED PRICES REMAIN
-BASICALLY IN LINE WITH BASELOAD PRICES \*\*
+BASICALLY IN LINE WITH BASELOAD PRICES**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/54.%20Hydro%20Run-of-river%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3481,21 +3462,23 @@ high degree of cannibalization effect.
 :::
 :::
 
+\newpage
+
 # Ancilliary Services & Fuels Mix
 
 ## Ancilliary Services Volumes, Reference Scenario
 
 ::: callout-main
 ::: callout-center
-\*\* ANCILLARY SERVICES NEEDS ARE EXPECTED TO SHRINK IN THE FUTURE
+**ANCILLARY SERVICES NEEDS ARE EXPECTED TO SHRINK IN THE FUTURE
 FOLLOWING THE MOST RECENT PAST, AS A CONSEQUENCE OF PECULIAR MARKET
 CONDITIONS AND CHANGES IN THE SYSTEM MANAGEMENT APPROACH ADOPTED BY THE
 TSO. IN THE LONG-TERM BESS AND GRID DEVELOPMENT CAN MAKE THE ANCILLARY
-SERVICES MARKET MORE EFFICIENT \*\*
+SERVICES MARKET MORE EFFICIENT**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/55.%20ASM%20Ex-ante%20Zonal%20Vol%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3557,19 +3540,20 @@ in the stimate.
 :::
 :::
 
+\newpage
+
 ## Ancilliary Services Volumes, Alternative Scenario
 
 ::: callout-main
 ::: callout-center
-\*\* ANCILLARY SERVICES EX-ANTE VOLUMES EVOLVE ACCORDING TO THE
-COMPOSITION OF THE GENERATION MIX AND DAM DYNAMICS IN THE DIFFERENT
-SCENARIOS. IN THE POST-2030 SCENARIO, STORAGE SYSTEMS AND GRID
-REINFORCEMENTS ARE EXPECTED TO LIMIT THE EXPANSION TREND IN THE THREE
-SCENARIOS \*\*
+**ANCILLARY SERVICES EX-ANTE VOLUMES EVOLVE ACCORDING TO THE COMPOSITION
+OF THE GENERATION MIX AND DAM DYNAMICS IN THE DIFFERENT SCENARIOS. IN
+THE POST-2030 SCENARIO, STORAGE SYSTEMS AND GRID REINFORCEMENTS ARE
+EXPECTED TO LIMIT THE EXPANSION TREND IN THE THREE SCENARIOS**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/56.%20ASM%20Ex-ante%20Vol%20alternat.png)
 
 ::: callout-item
 ::: callout-left
@@ -3628,18 +3612,20 @@ in the smate.
 :::
 :::
 
+\newpage
+
 ## Ancilliary Services Market prices
 
 ::: callout-main
 ::: callout-center
-\*\* GRID BOTTLENECKS RESOLUTION AND BESS PENETRATION ARE AMONG THE MAIN
+**GRID BOTTLENECKS RESOLUTION AND BESS PENETRATION ARE AMONG THE MAIN
 DRIVERS OF THE FUTURE ASM COMPETITIVE DYNAMICS. THE CAPACITY MARKET
 STRIKE PRICE (IN DELIVERY YEARS) COULD BECOME THE REFERENCE UPWARD
-PRICE, WITH MAJOR IMPACTS IN THE CENTRE-SOUTH MARKET ZONE \*\*
+PRICE, WITH MAJOR IMPACTS IN THE CENTRE-SOUTH MARKET ZONE**
 :::
 :::
 
-![](figs/6_ttf.png)
+![](figs/57.%20ASM%20Start-up.png)
 
 ::: callout-item
 ::: callout-left
