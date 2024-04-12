@@ -741,7 +741,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
               plot.title = element_text(face = "bold"), 
               plot.subtitle = element_text(face = "italic"),
               legend.position = 'right',
-              legend.key.size = unit(0,5, 'cm'),
+              legend.key.size = unit(0.5, 'cm'),
               legend.text = element_text(color = "#595959"),
               plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
         labs(title = c_name_clean,

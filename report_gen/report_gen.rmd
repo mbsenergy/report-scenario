@@ -373,9 +373,12 @@ implementing the net zero target.
 
 #### Key market trends in Italy {.unnumbered}
 
-![](figs%20-%20Copia/01_table.png)
+![](figs_%20-%20_Copia/01_table.png)
+
+
 
 # Key Figures
+INSERT TABELLE DA FILE EXCEL tables_report_cb QUA
 
 ```{r}
 dt_tables = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = 'Sheet0') %>% 
@@ -563,7 +566,20 @@ FOR PRICE NORMALIZATION IN THE LONG-TERM**
 :::
 
 ::: callout-right
-In 2023, global LNG demand growth registered a +2% y/y increase, and is forecasted to rebound with an average growth rate close to 5% in both 2024 and 2025. European and Chinese gas demand will primarily drive this uprise, as LNG intake is expected to accelerate in the short-term, in response to expansion of regasification capacity, and to support the transition from coal. Despite 2024 LNG supply growth being limited globally, reduced competition between Europe and Asia, and the expected new capacity entering the market in 2024 and 2025, are likely to guarantee adequate demand coverage, limiting the potential risk for supply shortages until winter 2024-2025. Fluctuations in LNG demand from European and Asian importers, determined by economic activity and meteorological conditions, and the progress status of the new expected capacity, will be pivotal in determining the global equilibrium in 2025 and 2026, with growth rate ranging above 7% in the high scenario.
+In 2023, global LNG demand growth registered a +2% y/y increase, and is
+forecasted to rebound with an average growth rate close to 5% in both
+2024 and 2025. European and Chinese gas demand will primarily drive this
+uprise, as LNG intake is expected to accelerate in the short-term, in
+response to expansion of regasification capacity, and to support the
+transition from coal. Despite 2024 LNG supply growth being limited
+globally, reduced competition between Europe and Asia, and the expected
+new capacity entering the market in 2024 and 2025, are likely to
+guarantee adequate demand coverage, limiting the potential risk for
+supply shortages until winter 2024-2025. Fluctuations in LNG demand from
+European and Asian importers, determined by economic activity and
+meteorological conditions, and the progress status of the new expected
+capacity, will be pivotal in determining the global equilibrium in 2025
+and 2026, with growth rate ranging above 7% in the high scenario.
 :::
 :::
 
@@ -573,7 +589,12 @@ In 2023, global LNG demand growth registered a +2% y/y increase, and is forecast
 :::
 
 ::: callout-right
-Starting from 2026, LNG demand growth is expected to gradually slowdown, stabilizing just below 5% y/y, consistently with rising renewable energy production and improved energy efficiency measures. Conditional on the lack of further delays, a new wave of liquefaction capacity will enter the market by 2026, driven by US and Qatar, contributing to almost eliminating the risk of market tightness.
+Starting from 2026, LNG demand growth is expected to gradually slowdown,
+stabilizing just below 5% y/y, consistently with rising renewable energy
+production and improved energy efficiency measures. Conditional on the
+lack of further delays, a new wave of liquefaction capacity will enter
+the market by 2026, driven by US and Qatar, contributing to almost
+eliminating the risk of market tightness.
 :::
 :::
 
@@ -583,7 +604,8 @@ Starting from 2026, LNG demand growth is expected to gradually slowdown, stabili
 :::
 
 ::: callout-right
-In the long-term, pressure on the LNG market is expected to ease, with new capacity growing and green energy commitments becoming effective.
+In the long-term, pressure on the LNG market is expected to ease, with
+new capacity growing and green energy commitments becoming effective.
 :::
 :::
 
@@ -593,7 +615,12 @@ In the long-term, pressure on the LNG market is expected to ease, with new capac
 :::
 
 ::: callout-right
-Global LNG demand growth in the short term remained substantially in line with our previous market update. 2024 European LNG demand growth was revised slightly lower since record high gas storages should slowdown demand recovery over the next few months, while the Asian one was revised higher to account for a faster than expected recovery of price-sensitive importers.
+Global LNG demand growth in the short term remained substantially in
+line with our previous market update. 2024 European LNG demand growth
+was revised slightly lower since record high gas storages should
+slowdown demand recovery over the next few months, while the Asian one
+was revised higher to account for a faster than expected recovery of
+price-sensitive importers.
 :::
 :::
 
@@ -602,7 +629,15 @@ Global LNG demand growth in the short term remained substantially in line with o
 ### TTF Price
 
 ::: callout-main
-**MILDER WINTER TEMPERATURES AND SUBDUED THERMOELECTRIC DEMAND DROVE A RECORD DECLINE IN EUROPEAN GAS PRICES IN 2023. STRUCTURAL MARKET CHANGES INDICATE THAT DEMAND IS UNLIKELY TO RETURN TO PRE-CRISIS LEVELS OVER THE NEXT THREE YEARS. IN THE LONG TERM, WE ANTICIPATE FURTHER DEMAND REDUCTION DUE TO EUROPE'S DECARBONIZATION EFFORTS, LEADING TO A LOWER TTF PRICE TRAJECTORY NEARING €25/MWH. PRICE TENSION AND VOLATILITY SPIKES, PARTICULARLY DURING WINTERS, MAY OCCUR OVER THE NEXT FEW YEARS. NORMALIZATION OF PRICES IS EXPECTED FROM 2026 ONWARDS, CONTINGENT UPON INCREASED EUROPEAN LNG SUPPLY**
+**MILDER WINTER TEMPERATURES AND SUBDUED THERMOELECTRIC DEMAND DROVE A
+RECORD DECLINE IN EUROPEAN GAS PRICES IN 2023. STRUCTURAL MARKET CHANGES
+INDICATE THAT DEMAND IS UNLIKELY TO RETURN TO PRE-CRISIS LEVELS OVER THE
+NEXT THREE YEARS. IN THE LONG TERM, WE ANTICIPATE FURTHER DEMAND
+REDUCTION DUE TO EUROPE'S DECARBONIZATION EFFORTS, LEADING TO A LOWER
+TTF PRICE TRAJECTORY NEARING €25/MWH. PRICE TENSION AND VOLATILITY
+SPIKES, PARTICULARLY DURING WINTERS, MAY OCCUR OVER THE NEXT FEW YEARS.
+NORMALIZATION OF PRICES IS EXPECTED FROM 2026 ONWARDS, CONTINGENT UPON
+INCREASED EUROPEAN LNG SUPPLY**
 :::
 
 ![](figs/13.%20TTF%20Price.png)
@@ -613,7 +648,18 @@ Global LNG demand growth in the short term remained substantially in line with o
 :::
 
 ::: callout-right
-The TTF 2023 average price settled just above 40 €/MWh, and based on our reference scenario, expectations for the 2024 yearly average are projected to establish close to 30 €/MWh. The persistence of subdued demand, not anticipated to rebound in the short-term, driven by structural changes in the energy markets and the recovery of RES production, induce price expectations to remain low. Europe LNG import capacity is poised to expand by further 30 Bcm in 2024, following the delay of under construction regasification facilities to that year or later. The development of European regasification capacity will increasingly enable additional LNG arrivals, crucial to maintain market equilibrium in the short-term and to structurally adapt to the absence of Russian piped gas. 
+The TTF 2023 average price settled just above 40 €/MWh, and based on our
+reference scenario, expectations for the 2024 yearly average are
+projected to establish close to 30 €/MWh. The persistence of subdued
+demand, not anticipated to rebound in the short-term, driven by
+structural changes in the energy markets and the recovery of RES
+production, induce price expectations to remain low. Europe LNG import
+capacity is poised to expand by further 30 Bcm in 2024, following the
+delay of under construction regasification facilities to that year or
+later. The development of European regasification capacity will
+increasingly enable additional LNG arrivals, crucial to maintain market
+equilibrium in the short-term and to structurally adapt to the absence
+of Russian piped gas.
 :::
 :::
 
@@ -623,7 +669,11 @@ The TTF 2023 average price settled just above 40 €/MWh, and based on our refer
 :::
 
 ::: callout-right
-From 2025 onwards, a gradual normalization is anticipated as a result of the significant deployment of new liquefaction capacity. Assuming a progressive normalization of the global LNG market alongside an acceleration of the energy transition, European gas prices are projected to steadily decrease towards €30/MWh by 2028.
+From 2025 onwards, a gradual normalization is anticipated as a result of
+the significant deployment of new liquefaction capacity. Assuming a
+progressive normalization of the global LNG market alongside an
+acceleration of the energy transition, European gas prices are projected
+to steadily decrease towards €30/MWh by 2028.
 :::
 :::
 
@@ -633,7 +683,14 @@ From 2025 onwards, a gradual normalization is anticipated as a result of the sig
 :::
 
 ::: callout-right
-The European decarbonization process would keep reducing gas demand, successively pressuring the price action back towards the 25 €/MWh long-term equilibrium. Only in the High scenario, persisting geopolitical and commercial tensions would leave commodities shortages unresolved, leaving prices just below 45 €/MWh in the long-term. Effective green policies supported by economic growth may lead prices significantly lower in the Low scenario, with the TTF averaging near 10 €/MWh in the long-term.
+The European decarbonization process would keep reducing gas demand,
+successively pressuring the price action back towards the 25 €/MWh
+long-term equilibrium. Only in the High scenario, persisting
+geopolitical and commercial tensions would leave commodities shortages
+unresolved, leaving prices just below 45 €/MWh in the long-term.
+Effective green policies supported by economic growth may lead prices
+significantly lower in the Low scenario, with the TTF averaging near 10
+€/MWh in the long-term.
 :::
 :::
 
@@ -643,7 +700,9 @@ The European decarbonization process would keep reducing gas demand, successivel
 :::
 
 ::: callout-right
-We adjusted our short-term forecasts for European gas hub prices downward, particularly for 2024-25 winter season target, in response to the stalling recovery of European gas demand. 
+We adjusted our short-term forecasts for European gas hub prices
+downward, particularly for 2024-25 winter season target, in response to
+the stalling recovery of European gas demand.
 :::
 :::
 
@@ -652,7 +711,13 @@ We adjusted our short-term forecasts for European gas hub prices downward, parti
 ### Spread TTF-PSV
 
 ::: callout-main
-**IN THE SHORT-TO-MEDIUM TERM THE PSV GAS PRICE IS ANTICIPATED TO MAINTAIN A PREMIUM COMPARED TO THE TTF. THIS IS DUE TO THE NEED FOR INCREASED GAS FLOWS FROM NORTHERN EUROPE TO COMPENSATE FOR BOTH THE INTERRUPTION OF RUSSIAN PIPED GAS SUPPLIES AND FOR THE TEMPORARY CLOSURE OF THE OLT LNG REGASIFICATION FACILITY IN ITALY. HOWEVER, OVER THE LONG TERM, THE PRICE DIFFERENTIAL IS EXPECTED TO PROGRESSIVELY NARROW TOWARDS ZERO**
+**IN THE SHORT-TO-MEDIUM TERM THE PSV GAS PRICE IS ANTICIPATED TO
+MAINTAIN A PREMIUM COMPARED TO THE TTF. THIS IS DUE TO THE NEED FOR
+INCREASED GAS FLOWS FROM NORTHERN EUROPE TO COMPENSATE FOR BOTH THE
+INTERRUPTION OF RUSSIAN PIPED GAS SUPPLIES AND FOR THE TEMPORARY CLOSURE
+OF THE OLT LNG REGASIFICATION FACILITY IN ITALY. HOWEVER, OVER THE LONG
+TERM, THE PRICE DIFFERENTIAL IS EXPECTED TO PROGRESSIVELY NARROW TOWARDS
+ZERO**
 :::
 
 ![](figs/14.%20Spread%20TTF-PSV.png)
@@ -663,7 +728,11 @@ We adjusted our short-term forecasts for European gas hub prices downward, parti
 :::
 
 ::: callout-right
-The PSV-TTF spread is expected to widen in 2024 following the closure of the OLT LNG regasification facility, averaging at 2 €/MWh. This is due to the increased reliance on flows from Norway via Passo Gries to compensate for the reduced availability of LNG. Fluctuations throughout the year are anticipated, driven by seasonal factors. 
+The PSV-TTF spread is expected to widen in 2024 following the closure of
+the OLT LNG regasification facility, averaging at 2 €/MWh. This is due
+to the increased reliance on flows from Norway via Passo Gries to
+compensate for the reduced availability of LNG. Fluctuations throughout
+the year are anticipated, driven by seasonal factors.
 :::
 :::
 
@@ -673,7 +742,9 @@ The PSV-TTF spread is expected to widen in 2024 following the closure of the OLT
 :::
 
 ::: callout-right
-Flows from the TAP and Algeria, and LNG arrivals are seen as balancing imports in the medium-term, leading to a progressive spread closure to below 1 €/MWh by 2030.
+Flows from the TAP and Algeria, and LNG arrivals are seen as balancing
+imports in the medium-term, leading to a progressive spread closure to
+below 1 €/MWh by 2030.
 :::
 :::
 
@@ -683,7 +754,9 @@ Flows from the TAP and Algeria, and LNG arrivals are seen as balancing imports i
 :::
 
 ::: callout-right
-The PSV-TTF spread is foreseen to reabsorb towards zero in the long-term, since a gradual flows rebalancing is expected to combine with the underlying decarbonization-induced demand reduction.
+The PSV-TTF spread is foreseen to reabsorb towards zero in the
+long-term, since a gradual flows rebalancing is expected to combine with
+the underlying decarbonization-induced demand reduction.
 :::
 :::
 
@@ -693,7 +766,10 @@ The PSV-TTF spread is foreseen to reabsorb towards zero in the long-term, since 
 :::
 
 ::: callout-right
-PSV-TTF spread is still expected to remain positive in short and medium term and to reduce progressively towards null in the long-run. A slight increase in the short-term average PSV-TTF spread followed the aforementioned dynamics affecting Italian gas supply.
+PSV-TTF spread is still expected to remain positive in short and medium
+term and to reduce progressively towards null in the long-run. A slight
+increase in the short-term average PSV-TTF spread followed the
+aforementioned dynamics affecting Italian gas supply.
 :::
 :::
 
@@ -702,7 +778,16 @@ PSV-TTF spread is still expected to remain positive in short and medium term and
 ### PSV Price
 
 ::: callout-main
-**THE ITALIAN GAS PRICE CONTINUES TO BE CLOSELY TIED TO THE EUROPEAN HUB ONE, WITH THE TTF SIGNIFICANTLY AFFECTING PSV TRENDS. HOWEVER, THE TEMPORARY CLOSURE OF OLT FACILITY HAS IMPACTED ITALIAN IMPORTS, LEADING TO SHORT-TERM PROJECTIONS SUGGESTING WIDER DEVIATIONS FROM THE TTF. MOREOVER, THE PSV IS EXPECTED TO FOLLOW A TRAJECTORY LOWER THAN PREVIOUSLY ANTICIPATED, REFLECTING STAGNATING DEMAND AND ECONOMIC RECOVERY. IN THE LONG RUN, WE FORESEE THE PSV TO ALIGN WITH THE EUROPEAN PRICES NORMALIZATION PATH, TARGETING 30 €/MWH BY 2030 AMIDST A REBALANCING OF GLOBAL GAS DEMAND AND SUPPLY DRIVEN BY THE ACCELERATION OF THE ENERGY TRANSITION**
+**THE ITALIAN GAS PRICE CONTINUES TO BE CLOSELY TIED TO THE EUROPEAN HUB
+ONE, WITH THE TTF SIGNIFICANTLY AFFECTING PSV TRENDS. HOWEVER, THE
+TEMPORARY CLOSURE OF OLT FACILITY HAS IMPACTED ITALIAN IMPORTS, LEADING
+TO SHORT-TERM PROJECTIONS SUGGESTING WIDER DEVIATIONS FROM THE TTF.
+MOREOVER, THE PSV IS EXPECTED TO FOLLOW A TRAJECTORY LOWER THAN
+PREVIOUSLY ANTICIPATED, REFLECTING STAGNATING DEMAND AND ECONOMIC
+RECOVERY. IN THE LONG RUN, WE FORESEE THE PSV TO ALIGN WITH THE EUROPEAN
+PRICES NORMALIZATION PATH, TARGETING 30 €/MWH BY 2030 AMIDST A
+REBALANCING OF GLOBAL GAS DEMAND AND SUPPLY DRIVEN BY THE ACCELERATION
+OF THE ENERGY TRANSITION**
 :::
 
 ![](figs/15.%20PSV%20Price.png)
@@ -713,7 +798,18 @@ PSV-TTF spread is still expected to remain positive in short and medium term and
 :::
 
 ::: callout-right
-The 2023 PSV average price settled just below 45 €/MWh in 2023. In 2024, we anticipate a decrease in the PSV yearly average, with prices hovering around 30 €/MWh. This downward revision in PSV forecasts for 2024-2026 can be attributed to constrained gas demand recovery, which, in turn, stems from various factors. Firstly, gas consumption of the distribution network is anticipated to remain subdued amid a shift towards savings and efficiency. Limited growth in the energy-intensive sector and lower-than-average thermoelectric gas demand driven by sustained electricity imports and renewable electricity production on the rebound, will further limit national gas consumption. Delays in the commissioning of the Ravenna FSRU have also hampered gas demand recovery, falling short of initial expectations. 
+The 2023 PSV average price settled just below 45 €/MWh in 2023. In 2024,
+we anticipate a decrease in the PSV yearly average, with prices hovering
+around 30 €/MWh. This downward revision in PSV forecasts for 2024-2026
+can be attributed to constrained gas demand recovery, which, in turn,
+stems from various factors. Firstly, gas consumption of the distribution
+network is anticipated to remain subdued amid a shift towards savings
+and efficiency. Limited growth in the energy-intensive sector and
+lower-than-average thermoelectric gas demand driven by sustained
+electricity imports and renewable electricity production on the rebound,
+will further limit national gas consumption. Delays in the commissioning
+of the Ravenna FSRU have also hampered gas demand recovery, falling
+short of initial expectations.
 :::
 :::
 
@@ -723,7 +819,10 @@ The 2023 PSV average price settled just below 45 €/MWh in 2023. In 2024, we an
 :::
 
 ::: callout-right
-The PSV is expected to follow the European gas prices mid-term normalization towards 30 €/MWh by year 2030, as a gradual rebalancing of the global gas demand-supply dynamics should follow the expected acceleration of energy transition.
+The PSV is expected to follow the European gas prices mid-term
+normalization towards 30 €/MWh by year 2030, as a gradual rebalancing of
+the global gas demand-supply dynamics should follow the expected
+acceleration of energy transition.
 :::
 :::
 
@@ -733,7 +832,8 @@ The PSV is expected to follow the European gas prices mid-term normalization tow
 :::
 
 ::: callout-right
-The PSV Reference price is expected to stabilize, aligning to TTF prices at around 25 €/MWh in the long-term.
+The PSV Reference price is expected to stabilize, aligning to TTF prices
+at around 25 €/MWh in the long-term.
 :::
 :::
 
@@ -743,7 +843,10 @@ The PSV Reference price is expected to stabilize, aligning to TTF prices at arou
 :::
 
 ::: callout-right
-Our short-term expectations on the European gas hubs prices were revised lower, mainly across 2023-24 and 2024-25 winter seasons targets, following the recent relaxation of short-term market fundamentals and a significant slowdown in economic growth in Europe.
+Our short-term expectations on the European gas hubs prices were revised
+lower, mainly across 2023-24 and 2024-25 winter seasons targets,
+following the recent relaxation of short-term market fundamentals and a
+significant slowdown in economic growth in Europe.
 :::
 :::
 
@@ -752,7 +855,11 @@ Our short-term expectations on the European gas hubs prices were revised lower, 
 ### Logistics Costs for Italian Gas-Fired Units
 
 ::: callout-main
-**GAS LOGISTIC COSTS ARE EXPECTED TO REMAIN HIGH IN THE SHORT-TERM DUE TO THE INCREASE RELATED TO THE COVERAGE OF STORAGE INJECTIONS ACTIVITY  IN PARTICULAR. VARIABLE LOGISTIC GAS COSTS SHOULD START GRADUALLY DECREASING FROM 2027 ONWARDS, FOLLOWING THE EXPECTED GAS PRICES NORMALIZATION**
+**GAS LOGISTIC COSTS ARE EXPECTED TO REMAIN HIGH IN THE SHORT-TERM DUE
+TO THE INCREASE RELATED TO THE COVERAGE OF STORAGE INJECTIONS ACTIVITY
+IN PARTICULAR. VARIABLE LOGISTIC GAS COSTS SHOULD START GRADUALLY
+DECREASING FROM 2027 ONWARDS, FOLLOWING THE EXPECTED GAS PRICES
+NORMALIZATION**
 :::
 
 ![](figs/16.%20Italian%20Gas-Fired%20units.png)
@@ -763,7 +870,18 @@ Our short-term expectations on the European gas hubs prices were revised lower, 
 :::
 
 ::: callout-right
-The 2023 logistic cost for Italian gas-fired units averaged 4 €/MWh amid the increase of the CRVOS (which pays storage injections incentives), CRVBL (which covers the charges associated with the gas system balancing activity) and the CVU (which covers variable charges and it’s linked to the gas price trend) components. With the Consultation Document 588/2023/R/gas ARERA is evaluating the introduction of a Neutrality Charge of 2.2 €MWh from April 2024 (and for at least 3 years) to recover almost 4 Bln€ derived from the summer 2022 last resort buying activity put in place to refill the Italian storages. The overall gas transport cost should therefore remain above 4 €/MWh at least until 2026. The CRVOS component should reduce close to pre-crisis levels starting from October-2024 instead.  
+The 2023 logistic cost for Italian gas-fired units averaged 4 €/MWh amid
+the increase of the CRVOS (which pays storage injections incentives),
+CRVBL (which covers the charges associated with the gas system balancing
+activity) and the CVU (which covers variable charges and it's linked to
+the gas price trend) components. With the Consultation Document
+588/2023/R/gas ARERA is evaluating the introduction of a Neutrality
+Charge of 2.2 €MWh from April 2024 (and for at least 3 years) to recover
+almost 4 Bln€ derived from the summer 2022 last resort buying activity
+put in place to refill the Italian storages. The overall gas transport
+cost should therefore remain above 4 €/MWh at least until 2026. The
+CRVOS component should reduce close to pre-crisis levels starting from
+October-2024 instead.
 :::
 :::
 
@@ -785,7 +903,9 @@ nearing 1.6 €/MWh on average by 2030.
 :::
 
 ::: callout-right
-The variable transport charges forecast incorporates the regulator interventions to mitigate the recent commodities surge on bills, compensated by an increase in storages and balancing cost.
+The variable transport charges forecast incorporates the regulator
+interventions to mitigate the recent commodities surge on bills,
+compensated by an increase in storages and balancing cost.
 :::
 :::
 
@@ -796,7 +916,12 @@ The variable transport charges forecast incorporates the regulator interventions
 ### C02 Allowances Price
 
 ::: callout-main
-**THE NEW ETS REFORM, TO BE INCORPORATED INTO NATIONAL LEGISTLATION OF EU MEMBER STATES BY THE END OF 2024, AIMS TO PROGRESSIVELY RAISE THE CO2 PRICE BY TIGHTENING THE EMISSIONS CERTIFICATES MARKET THROUGH A COMBINATION OF SUPPLY CURTAILMENT AND DEMAND-INCREASING MEASURES. THE INCLUSION OF NEW SECTORS, SUCH AS THE MARITIME SECTOR, WILL CONTRIBUTE TO SUSTAINING THE ENVISIONED PRICE INCREASES**
+**THE NEW ETS REFORM, TO BE INCORPORATED INTO NATIONAL LEGISTLATION OF
+EU MEMBER STATES BY THE END OF 2024, AIMS TO PROGRESSIVELY RAISE THE CO2
+PRICE BY TIGHTENING THE EMISSIONS CERTIFICATES MARKET THROUGH A
+COMBINATION OF SUPPLY CURTAILMENT AND DEMAND-INCREASING MEASURES. THE
+INCLUSION OF NEW SECTORS, SUCH AS THE MARITIME SECTOR, WILL CONTRIBUTE
+TO SUSTAINING THE ENVISIONED PRICE INCREASES**
 :::
 
 ![](figs/17.%20CO2%20Allowances%20Price.png)
@@ -807,7 +932,17 @@ The variable transport charges forecast incorporates the regulator interventions
 :::
 
 ::: callout-right
-In our Reference scenario, the 2024 CO2 price average is projected to approach 65 €/ton, driven by the gradual implementation of the ETS system reform supporting CO2 prices. The phasing out of free allowances for the aviation sector, reaching 50% of the total in 2025, along with the planned removal of 90 Mln permits from the market in 2024, are expected to begin exerting upward pressure on allowances prices by curtailing supply. From 2025 onwards, the progressive inclusion of the maritime transport sector will further boost overall demand. Concerns remain regarding effective demand recovery, which is anticipated to be limited over the next couple of years due to anticipated slow economic growth.
+In our Reference scenario, the 2024 CO2 price average is projected to
+approach 65 €/ton, driven by the gradual implementation of the ETS
+system reform supporting CO2 prices. The phasing out of free allowances
+for the aviation sector, reaching 50% of the total in 2025, along with
+the planned removal of 90 Mln permits from the market in 2024, are
+expected to begin exerting upward pressure on allowances prices by
+curtailing supply. From 2025 onwards, the progressive inclusion of the
+maritime transport sector will further boost overall demand. Concerns
+remain regarding effective demand recovery, which is anticipated to be
+limited over the next couple of years due to anticipated slow economic
+growth.
 :::
 :::
 
@@ -817,7 +952,13 @@ In our Reference scenario, the 2024 CO2 price average is projected to approach 6
 :::
 
 ::: callout-right
-A notable widening of the supply-demand gap should manifest starting from 2026, as the maritime sector integrates into the ETS system and the phasing out of free allowances for aviation reaches full implementation. In addition, by 2030, the reinforcement of the Market Stability Reserve and the increase of the Linear Reduction Factor up to 4.4% will contribute to further tightening the market. As a result, CO2 prices are expected to accelerate, nearing just below 110 €/ton on average by 2030.
+A notable widening of the supply-demand gap should manifest starting
+from 2026, as the maritime sector integrates into the ETS system and the
+phasing out of free allowances for aviation reaches full implementation.
+In addition, by 2030, the reinforcement of the Market Stability Reserve
+and the increase of the Linear Reduction Factor up to 4.4% will
+contribute to further tightening the market. As a result, CO2 prices are
+expected to accelerate, nearing just below 110 €/ton on average by 2030.
 :::
 :::
 
@@ -827,7 +968,14 @@ A notable widening of the supply-demand gap should manifest starting from 2026, 
 :::
 
 ::: callout-right
-By 2034 the removal of free allowances for sectors covered by the CBAM will reach full implementation, inducing a further increase in allowances demand. The long-term targets would hinge upon the effective efficiency of the ETS System, with the CO2 price expected to exceed 120 €/ton in the Reference scenario by 2040, and potentially accelerate to just below 150 €/ton in the Low scenario, under the assumption of stricter decarbonization efforts in Europe to accelerate the prices increase.
+By 2034 the removal of free allowances for sectors covered by the CBAM
+will reach full implementation, inducing a further increase in
+allowances demand. The long-term targets would hinge upon the effective
+efficiency of the ETS System, with the CO2 price expected to exceed 120
+€/ton in the Reference scenario by 2040, and potentially accelerate to
+just below 150 €/ton in the Low scenario, under the assumption of
+stricter decarbonization efforts in Europe to accelerate the prices
+increase.
 :::
 :::
 
@@ -837,7 +985,13 @@ By 2034 the removal of free allowances for sectors covered by the CBAM will reac
 :::
 
 ::: callout-right
-We have revised out CO2 price targets downward in the very short term across all three scenarios, in response to the sharp decline in CO2 prices in evidence in the second half of 2023 and in the first quarter of 2024, resulting from weak demand and cumulative supply surplus. Consistent with our previous forecasts, we anticipate a rebound in allowances demand and, consequently, in average prices in the post-2024 period.
+We have revised out CO2 price targets downward in the very short term
+across all three scenarios, in response to the sharp decline in CO2
+prices in evidence in the second half of 2023 and in the first quarter
+of 2024, resulting from weak demand and cumulative supply surplus.
+Consistent with our previous forecasts, we anticipate a rebound in
+allowances demand and, consequently, in average prices in the post-2024
+period.
 :::
 :::
 
@@ -2568,7 +2722,7 @@ REACH AN EQUILIBRIUM AND PRICE WILL BE MAINLY DRIVEN BY CO2 VARIATION
 COSTS**
 :::
 
-![](figs/44.%20Baseload%20PUN.png)
+![](figs/46.%20Baseload%20PUN%20compon%20ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -2637,7 +2791,7 @@ AFFECT PEAK / OFF-PEAK DYNAMICS AFTER 2030, WHEN THE INVERSION OF PRICE
 SPREADS BETWEEN TIME SLOTS IS EXPECTED TO OCCUR**
 :::
 
-![](figs/45.%20Peak-off%20peak%20PUN.png)
+![](figs/47.%20Hourly%20PUN%20Shape%20referenc.png)
 
 ::: callout-item
 ::: callout-left
@@ -3429,7 +3583,7 @@ STRIKE PRICE (IN DELIVERY YEARS) COULD BECOME THE REFERENCE UPWARD
 PRICE, WITH MAJOR IMPACTS IN THE CENTRE-SOUTH MARKET ZONE**
 :::
 
-![](figs/57.%20ASM%20Start-up.png)
+![](figs/57.%20ASM.png)
 
 ::: callout-item
 ::: callout-left
