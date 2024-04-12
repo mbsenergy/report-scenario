@@ -57,7 +57,7 @@ vec_plot_line = excel_file_sn[c(1,2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
 
 ## Produce Plots
 
-for (i in 1:length(vec_plot_line)) { #i = 14
+for (i in 1:length(vec_plot_line)) { #i = 1
     
     if (i %in% c(9,14))  {
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
@@ -77,12 +77,19 @@ for (i in 1:length(vec_plot_line)) { #i = 14
     dt_line_lg[, anni := as.numeric(as.character(anni))]
     setorderv(dt_line_lg, cols = c(c_name, 'anni'))
     
-    dt_line_lg[, DASHED := fifelse(get(c_name) != report_num, "A", "B")]
+    #dt_line_lg[, DASHED := fifelse(get(c_name) != report_num, "A", "B")]
     
-    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name))) +
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
+    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name),group = get(c_name))) +
         geom_line(linewidth = 1.1) +
         scale_linetype_manual(values = linetype_mapping, breaks = levels_order) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_colour_manual(values=color_mapping, breaks = levels_order)+
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -253,14 +260,21 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     dt_line_lg[, anni := as.numeric(as.character(anni))]
     setorderv(dt_line_lg, cols = c(c_name, 'anni'))
     
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
     plot_line =
         dt_line_lg %>%
         ggplot() +
         geom_col(data = filter(dt_line_lg, get(c_name) == "Spread TTF-PSV"), aes(x = anni, y = valori*20, fill = get(c_name)), width = 0.6) +
-        geom_line(data = filter(dt_line_lg, get(c_name) != "Spread TTF-PSV"), aes(x = anni, y = valori, color = get(c_name)), linewidth = 1.1) +
+        geom_line(data = filter(dt_line_lg, get(c_name) != "Spread TTF-PSV"), aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1.1) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_y_continuous(name = NULL,sec.axis = sec_axis( trans=~./20, name=NULL)) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -654,12 +668,19 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, valori := valori/1000]
     
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
     plot_line =
         dt_line_lg %>%
         ggplot() +
         geom_col(data = dt_line_lg, aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
                fill = guide_legend(title = NULL),
@@ -810,12 +831,19 @@ for (i in 1:length(vec_plot_line)) { #i = 3
     
     dt_line_lg[, (c_name) := factor(get(c_name), levels = rev(levels_order))]
     
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
     plot_line =
         dt_line_lg %>%
         ggplot() +
         geom_col(data = dt_line_lg, aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
         scale_fill_manual(values = color_mapping, breaks = rev(levels_order)) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
                fill = guide_legend(title = NULL),
@@ -956,7 +984,7 @@ color_mapping = c(Reference = "#FF9933",
 
 levels_order = c("Reference","Low")
 
-years_to_display = c(2024:2040, 2045, 2050)
+years_to_display = c(2037:2050)
 
 ## Produce Plot
 
@@ -1035,7 +1063,7 @@ color_mapping = c(`LCOE range` = "#E8E8E8",
                   )
 levels_order = c( "LCOE range", "Reference" ,    "Low" ,           "High"    ,       "LCOE Reference")
 
-years_to_display = c(2024:2040, 2045, 2050)
+years_to_display = seq(2025,2050, by = 5)
 
 ## Produce Plot
 
@@ -1085,7 +1113,7 @@ for (i in 1:length(vec_plot_line)) { #i = 3
         theme(panel.grid.major = element_blank(),  
               panel.grid.minor = element_blank(),
               panel.border = element_blank(),
-              axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "#595959"),
+              axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 1, color = "#595959"),
               axis.ticks.x = element_blank(),
               axis.text.y = element_text(color = "#595959"),
               axis.ticks.y = element_blank(),
@@ -1127,11 +1155,9 @@ color_mapping = c(
 color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
 levels_order = c(  "Reference" ,    "Low" ,           "High"   )
 
-years_to_display = c(2024:2040, 2045, 2050)
-
 ## Produce Plot
 
-for (i in 1:length(vec_plot_line)) { #i = 1
+for (i in 1:length(vec_plot_line)) { #i = 2
     
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]]) %>% setDT() 
     
@@ -1150,8 +1176,22 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, (c_name) := fifelse(get(c_name)=="Reference ","Reference",get(c_name))]
     
+    if ( i == 1){
+        dt_line_lg = dt_line_lg %>%
+            filter(anni < 2038)
+        years_to_display = c(2024:2037)
+    }
+    
+    if ( i == 2) {
+        years_to_display = c(2024:2040, 2045, 2050)
+    }
+    
     dt_line_lg = dt_line_lg %>%
-        filter(anni < 2038)
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
     
     dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
     
@@ -1161,7 +1201,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         geom_col(data = dt_line_lg, aes(x = anni, y = valori, fill = get(c_name)), width = 0.6, position = "dodge") +
         scale_fill_manual(values = color_mapping) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_y_continuous(name = NULL) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -1320,6 +1360,13 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, (c_name) := factor(get(c_name), levels = rev(levels_order))]
     
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
     plot_line =
         dt_line_lg %>%
         ggplot() +
@@ -1327,6 +1374,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         geom_line(data = filter(dt_line_lg, get(c_name) == "PUN"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_y_continuous(name = NULL) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -1560,10 +1608,17 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     #dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
     
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
     plot_line = ggplot() +
         geom_line(data = dt_line_lg, aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1.1) +
         geom_hline(yintercept = 0, linetype = "solid", color = "grey") +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_colour_manual(values=color_mapping, breaks = levels_order)+
         scale_fill_manual(values=color_mapping, breaks = levels_order) + 
         theme_light() +
@@ -1643,7 +1698,14 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     #dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
     
-    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name))) +
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
+    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name),group = get(c_name))) +
         geom_line(linewidth = 1) +
         scale_linetype_manual(values = c("North Fixed tilt" = "solid", 
                                          "PUN Fixed tilt" = "solid",
@@ -1652,7 +1714,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
                                          "PUN solar TR" = "dashed",
                                          "South Solar TR" = "dashed"
         ), breaks = levels_order) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_colour_manual(values=color_mapping, breaks = levels_order)+
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -1733,7 +1795,14 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     #dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
     
-    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name))) +
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
+    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name), group = get(c_name))) +
         geom_line(linewidth = 1) +
         scale_linetype_manual(values = c("North - Wind Onshore" = "solid", 
                                          "South - Wind Onshore" = "solid",
@@ -1742,7 +1811,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
                                          "South - Wind Offshore" = "dashed",
                                          "PUN Offshore" = "dashed"
         ), breaks = levels_order) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_colour_manual(values=color_mapping, breaks = levels_order)+
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -1813,9 +1882,16 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     #dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
     
-    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name))) +
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
+    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), group = get(c_name))) +
         geom_line(linewidth = 1) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_colour_manual(values=color_mapping, breaks = levels_order)+
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -1975,18 +2051,25 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, (c_name) := factor(get(c_name), levels = rev(levels_order))]
     
+    dt_line_lg = dt_line_lg %>%
+        filter(anni %in% years_to_display)
+    
+    dt_line_lg[, anni := as.character(anni)]
+    
+    years_to_display = as.character(years_to_display)
+    
     plot_line =
         dt_line_lg %>%
         ggplot() +
         geom_col(data = filter(dt_line_lg, get(c_name)== "Reference"), aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
-        geom_line(data = filter(dt_line_lg, get(c_name)!= "Reference" & valori >0), aes(x = anni, y = valori, color = get(c_name)), linewidth = 1.1) +
-        geom_line(data = filter(dt_line_lg, get(c_name)!= "Reference" & valori <0), aes(x = anni, y = valori, color = get(c_name)), linewidth = 1.1) +
+        geom_line(data = filter(dt_line_lg, get(c_name)!= "Reference" & valori >0), aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1.1) +
+        geom_line(data = filter(dt_line_lg, get(c_name)!= "Reference" & valori <0), aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1.1) +
         geom_point(data = filter(dt_line_lg, get(c_name)!= "Reference" & valori >0), aes(x = anni, y = valori, color = get(c_name)), size = 3) +
         geom_point(data = filter(dt_line_lg, get(c_name)!= "Reference" & valori <0), aes(x = anni, y = valori, color = get(c_name)), size = 3) +
         geom_hline(yintercept = 0, linetype = "solid", color = "grey") +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
-        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_y_continuous(name = NULL) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
