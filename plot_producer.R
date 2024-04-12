@@ -7,6 +7,8 @@ options(box.path = getwd())
 
 library(dplyr)
 library(stringr)
+library(ggpubr)
+library(ggplot2)
 
 # library(mbsenergyUtils)
 box::use(ggplot2[...],
@@ -29,13 +31,21 @@ box::use(ggplot2[...],
 #     big.mark = " ",
 #     na_str = "<na>")
 
-report_num = 'III2023'
+report_num = 'IV2023'
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
-levels_order = c("High", "Reference", "Low", "III2023")
+years_to_display = c(2024:2040, 2045, 2050)
+
+altezza_grafici = 5
+
+levels_order = c("High", "Reference", "Low", report_num)
 color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
 color_mapping[report_num] = "#FF9933"
 
+linetype_mapping = c("High" = "solid", 
+                     "Low" = "solid",
+                     "Reference" = "solid")
+
+linetype_mapping[report_num] = "dashed"
 
 ## File 
 excel_file = file.path('data', 'Grafici report scenari.xlsx')
@@ -43,14 +53,19 @@ excel_file_sn = xl$getSheetNames(excel_file)
 
 ## Line graphs ----
 
-    vec_plot_line = excel_file_sn[c(1,2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
+vec_plot_line = excel_file_sn[c(1,2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
 
 ## Produce Plots
 
-for (i in 1:length(vec_plot_line)) { #i = 1
+for (i in 1:length(vec_plot_line)) { #i = 14
     
-    dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]]) %>% setDT() 
-    
+    if (i %in% c(9,14))  {
+    dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
+    dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
+    dt_line = dt_line[ , colSums(is.na(dt_line)) == 0] %>% setDT()
+    } else {
+        dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]]) %>% setDT() 
+    }
     c_name = names(dt_line)[1]
     c_name_clean = gsub("\\.", " ", c_name)
     unit_measure = sub(".*\\((.*)\\).*", "\\1", c_name_clean)
@@ -64,18 +79,14 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, DASHED := fifelse(get(c_name) != report_num, "A", "B")]
     
-    plot_line =
-        dt_line_lg %>%
-        ggplot(aes(x = anni,
-                   y = valori,
-                   color = get(c_name))) +
-        geom_line(aes(linetype = DASHED), linewidth = 1.1) +
-        scale_color_manual(values = color_mapping, breaks = levels_order) +
-        scale_linetype_manual(values = c("solid", "dashed"), breaks = c("A", "B"), labels = NULL) +
+    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name))) +
+        geom_line(linewidth = 1.1) +
+        scale_linetype_manual(values = linetype_mapping, breaks = levels_order) +
         scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
+        scale_colour_manual(values=color_mapping, breaks = levels_order)+
         theme_light() +
         guides(color = guide_legend(title = NULL),
-               linetype = 'none') +
+               linetype = guide_legend(title = NULL)) +
         theme(panel.grid.major = element_blank(),  
               panel.grid.minor = element_blank(),
               panel.border = element_blank(),
@@ -95,15 +106,16 @@ for (i in 1:length(vec_plot_line)) { #i = 1
              y = NULL,
              caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
     
+    
     if("%" %in% unit_measure) {
         plot_line = plot_line + 
             scale_y_continuous(labels = scales::percent_format()) 
     } else {
         plot_line
-        }   
+    }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -196,7 +208,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
               text = element_text(family = "Aptos Narrow"),
               plot.title = element_text(face = "bold"), 
               plot.subtitle = element_text(face = "italic"),
-              legend.position = 'top',
+              legend.position = 'right',
               legend.text = element_text(color = "#595959"),
               plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
         labs(title = c_name_clean,
@@ -213,7 +225,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -282,7 +294,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -290,7 +302,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
 
 vec_plot_line = excel_file_sn[c(10,11,12)]
 
-years_to_display = c(2025, 2030, 2035, 2040, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 years_to_display = as.character(years_to_display)
 
@@ -310,19 +322,19 @@ levels_order = rev(levels_order)
 color_mapping = c("Demand + storage consumption" = "#FF9933" ,               
                   "Industrial self-production" = "#669895",                    
                   "Net import" = "#97BBA3",                       
-                  "Hydro - Reservoirs and run-of-river" = "#D4E2D8",            
+                  "Hydro - Reservoirs and run-of-river" = "#0047CA",            
                   "Pumped hydro production" = "#97BBFF",                   
                   "BESS (Battery Energy Storage System) production" = "#D5E4FF",
-                  "Renewables" = "#00322F" ,                                   
-                  "Gas-fired thermal plants" = "#3D5B59",                       
-                  "Coal-fired thermal plants" = "#649976",                      
+                  "Renewables" = "#D4E2D8" ,                                   
+                  "Gas-fired thermal plants" = "#F4EE00",                       
+                  "Coal-fired thermal plants" = "#000000",                      
                   "Other production" = "#FFCC99")
 
-levels_order = rev(levels_order)
+#levels_order = rev(levels_order)
 
 ## Produce Plot
 
-for (i in 1:length(vec_plot_line)) { #i = 3
+for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
     dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
@@ -364,6 +376,8 @@ for (i in 1:length(vec_plot_line)) { #i = 3
               plot.subtitle = element_text(face = "italic"),
               legend.position = 'right',
               legend.text = element_text(color = "#595959"),
+              legend.key.size = unit(0.5, 'cm'),
+              #legend.key.width = unit(0.4, 'cm'),
               plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
         labs(title = c_name_clean,
              subtitle = unit_measure,
@@ -380,7 +394,7 @@ for (i in 1:length(vec_plot_line)) { #i = 3
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -446,7 +460,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -509,7 +523,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -524,7 +538,7 @@ color_mapping = c(`Excess Production Sold on the Market` = "#E8E8E8",
 
 levels_order = c("Excess Production Sold on the Market", "Installed capacity (GW)", "Self-production (TWh)", "Self-consumption (TWh)")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -598,7 +612,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -616,7 +630,7 @@ color_mapping = c("Calabria"= "#AEAEAE",
 
 levels_order = c("North", "Centre-North", "Centre-South", "South", "Sardinia", "Sicily", "Calabria")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -638,6 +652,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     dt_line_lg[, valori := as.numeric(valori)]
     setorderv(dt_line_lg, cols = c(c_name, 'anni'))
     
+    dt_line_lg[, valori := valori/1000]
     
     plot_line =
         dt_line_lg %>%
@@ -660,7 +675,8 @@ for (i in 1:length(vec_plot_line)) { #i = 1
               text = element_text(family = "Aptos Narrow"),
               plot.title = element_text(face = "bold"), 
               plot.subtitle = element_text(face = "italic"),
-              legend.position = 'top',
+              legend.position = 'right',
+              legend.key.size = unit(0.5, 'cm'),
               legend.text = element_text(color = "#595959"),
               plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
         labs(title = c_name_clean,
@@ -677,7 +693,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -724,7 +740,8 @@ for (i in 1:length(vec_plot_line)) { #i = 1
               text = element_text(family = "Aptos Narrow"),
               plot.title = element_text(face = "bold"), 
               plot.subtitle = element_text(face = "italic"),
-              legend.position = 'top',
+              legend.position = 'right',
+              legend.key.size = unit(0,5, 'cm'),
               legend.text = element_text(color = "#595959"),
               plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
         labs(title = c_name_clean,
@@ -742,7 +759,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -771,7 +788,7 @@ levels_order = c("CCGT"   ,                    "CHP"    ,                    "Co
                  "CCGT - CM 22-23"    ,  "Self-producers",      "Repowering CCGT - CM 22-23" ,"OCGT/Peaker - CM 22-23"  ,  
                  "CCGT - CM 24-25"    ,        "OCGT/Peaker - CM 24-25")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -831,7 +848,7 @@ for (i in 1:length(vec_plot_line)) { #i = 3
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -854,7 +871,7 @@ years_to_display = c(2017,2019,2022,2025, 2030, 2035, 2040, 2050)
 
 ## Produce Plot
 
-for (i in 1:length(vec_plot_line)) { #i = 2
+for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]]) %>% setDT() 
     
@@ -909,7 +926,7 @@ for (i in 1:length(vec_plot_line)) { #i = 2
               text = element_text(family = "Aptos Narrow"),
               plot.title = element_text(face = "bold"), 
               plot.subtitle = element_text(face = "italic"),
-              legend.position = 'top',
+              legend.position = 'right',
               legend.text = element_text(color = "#595959"),
               plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
         labs(title = c_name_clean,
@@ -926,7 +943,7 @@ for (i in 1:length(vec_plot_line)) { #i = 2
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -939,7 +956,7 @@ color_mapping = c(Reference = "#FF9933",
 
 levels_order = c("Reference","Low")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1002,7 +1019,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1018,7 +1035,7 @@ color_mapping = c(`LCOE range` = "#E8E8E8",
                   )
 levels_order = c( "LCOE range", "Reference" ,    "Low" ,           "High"    ,       "LCOE Reference")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1092,7 +1109,7 @@ for (i in 1:length(vec_plot_line)) { #i = 3
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1106,13 +1123,15 @@ color_mapping = c(
                   `High` = "#97BBA3"
                   
 )
+
+color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
 levels_order = c(  "Reference" ,    "Low" ,           "High"   )
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
-for (i in 1:length(vec_plot_line)) { #i = 2
+for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]]) %>% setDT() 
     
@@ -1176,7 +1195,7 @@ for (i in 1:length(vec_plot_line)) { #i = 2
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1192,7 +1211,7 @@ color_mapping = c(
 )
 levels_order = c(  "Peak" ,    "Off-peak" ,           "Holidays"   )
 
-years_to_display = c(2025, 2030, 2035, 2040, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1259,7 +1278,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1278,7 +1297,7 @@ levels_order = c("Fuel variable cost - CCGT 53%" ,    "Logistic variable cost - 
                  "ETS impact - CCGT 53%"      ,       "Clean Spark Spread - CCGT 53%"  ,  
                  "PUN")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1341,7 +1360,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1422,7 +1441,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1501,7 +1520,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1518,7 +1537,7 @@ color_mapping = c(`South 53%` = "#00544F",
 levels_order = c("South 53%" ,       "Baseload" ,
                  "North 53%"   ,     "Centre-South 53%")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1554,7 +1573,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         theme(panel.grid.major = element_blank(),  
               panel.grid.minor = element_blank(),
               panel.border = element_blank(),
-              axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 1, color = "#595959"),
+              axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "#595959"),
               axis.ticks.x = element_blank(),
               axis.text.y = element_text(color = "#595959"),
               axis.ticks.y = element_blank(),
@@ -1579,7 +1598,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1598,7 +1617,7 @@ color_mapping = c(`North Fixed tilt` = "#97BBA3",
 levels_order = c("North Fixed tilt" ,"North Solar TR",    "South Fixed tilt" ,"South Solar TR" , 
                  "PUN Fixed tilt" ,  "PUN solar TR")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1641,7 +1660,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         theme(panel.grid.major = element_blank(),  
               panel.grid.minor = element_blank(),
               panel.border = element_blank(),
-              axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 1, color = "#595959"),
+              axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "#595959"),
               axis.ticks.x = element_blank(),
               axis.text.y = element_text(color = "#595959"),
               axis.ticks.y = element_blank(),
@@ -1667,7 +1686,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1685,7 +1704,7 @@ color_mapping = c(`North - Wind Onshore` = "#00544F",
 levels_order = c("North - Wind Onshore", "North - Wind Offshore", "South - Wind Onshore" ,
                   "South - Wind Offshore", "PUN Onshore"  ,         "PUN Offshore" )
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1731,7 +1750,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         theme(panel.grid.major = element_blank(),  
               panel.grid.minor = element_blank(),
               panel.border = element_blank(),
-              axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 1, color = "#595959"),
+              axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "#595959"),
               axis.ticks.x = element_blank(),
               axis.text.y = element_text(color = "#595959"),
               axis.ticks.y = element_blank(),
@@ -1757,7 +1776,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1771,7 +1790,7 @@ color_mapping = c(`North` = "#00544F",
 
 levels_order = c("North","South","PUN")
 
-years_to_display = c(2025, 2030, 2035, 2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1804,7 +1823,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         theme(panel.grid.major = element_blank(),  
               panel.grid.minor = element_blank(),
               panel.border = element_blank(),
-              axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 1, color = "#595959"),
+              axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "#595959"),
               axis.ticks.x = element_blank(),
               axis.text.y = element_text(color = "#595959"),
               axis.ticks.y = element_blank(),
@@ -1830,7 +1849,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1848,7 +1867,7 @@ color_mapping = c(NORD = "#00544F",
 levels_order = c("NORD" ,       "CENTRO NORD" ,"CENTRO SUD",
                  "SUD"     ,    "CALABRIA"  ,  "SICILIA")
 
-years_to_display = c(2017,2019,2022,2025, 2030, 2035, 2040, 2050)
+years_to_display = c(2023:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1880,6 +1899,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         ggplot() +
         geom_col(data = dt_line_lg, aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
         geom_hline(yintercept = 0, linetype = "solid", color = "grey") +
+        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
         scale_y_continuous(name = NULL) +
@@ -1915,7 +1935,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -1929,7 +1949,7 @@ color_mapping = c(Reference = "#D4E2D8",
 
 levels_order = c("Reference","High","Low")
 
-years_to_display = c(2017,2019,2022,2025, 2030, 2035, 2040, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
@@ -1966,6 +1986,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         geom_hline(yintercept = 0, linetype = "solid", color = "grey") +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
+        scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
         scale_y_continuous(name = NULL) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -1999,7 +2020,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+           width = 9, height = altezza_grafici)
     
 }
 
@@ -2017,7 +2038,7 @@ years_to_display = c(2017,2019,2022,2025, 2030, 2035, 2040, 2050)
 
 ## Produce Plot
 
-for (i in 1:length(vec_plot_line)) { #i = 4
+for (i in 1:length(vec_plot_line)) { #i = 3
     
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]]) %>% setDT() 
     
@@ -2038,10 +2059,12 @@ for (i in 1:length(vec_plot_line)) { #i = 4
 
     #dt_line_lg[, (c_name) := factor(get(c_name), levels = rev(levels_order))]
     
-    plot_line =
+    names(dt_line_lg)[1] = "title"
+    
+    curr_plot_line =
         dt_line_lg %>%
         ggplot() +
-        geom_line(data = dt_line_lg, aes(x = anni, y = valori, color = get(c_name)), linewidth = 1.1) +
+        geom_line(data = dt_line_lg, aes(x = anni, y = valori, color = title), linewidth = 1.1) +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
         scale_y_continuous(name = NULL) +
@@ -2067,20 +2090,25 @@ for (i in 1:length(vec_plot_line)) { #i = 4
         labs(title = c_name_clean,
              subtitle = unit_measure,
              x = NULL,
-             y = NULL,
-             caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
+             y = NULL)
     
-    if("%" %in% unit_measure) {
-        plot_line = plot_line + 
-            scale_y_continuous(labels = scales::percent_format()) 
-    } else {
-        plot_line
-    }   
+    #plots_[[i]] = curr_plot_line
+    assign(paste0('plot_line',i),curr_plot_line)
     
-    ggsave(file.path('report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
-           width = 9, height = 3)
+    rm(curr_plot_line)
+    
     
 }
+
+plot_line3$labels$caption = expression(bold("Source: ") * "MBS Consulting elaborations")
+
+plot_line = ggarrange(plot_line1,plot_line2,
+                      plot_line3, plot_line4,
+                      labels = c("", "", "",""),
+                      ncol = 2, nrow = 2)
+
+ggsave(file.path('report_gen', 'figs', '57. ASM.png'), plot_line,
+       width = 9, height = altezza_grafici)
 
 t1 = Sys.time()
 
