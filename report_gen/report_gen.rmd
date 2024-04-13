@@ -1,5 +1,5 @@
 ---
-title: "Italian Market Scenario Update"
+title: "Scenario Update IQ2024"
 subtitle: "."
 author: "."
 date: "."
@@ -37,7 +37,7 @@ library(magrittr)
 theme_set(theme_mbs())
 
 set_flextable_defaults(
-    font.color = "#747E7E",
+    font.color = "#54565B",
     font.size = 7,
     font.family = 'calibri',
     padding = 2,
