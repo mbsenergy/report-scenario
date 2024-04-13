@@ -35,7 +35,7 @@ report_num = 'IV2023'
 
 years_to_display = c(2024:2040, 2045, 2050)
 
-altezza_grafici = 5
+altezza_grafici = 3.5
 
 levels_order = c("High", "Reference", "Low", report_num)
 color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
