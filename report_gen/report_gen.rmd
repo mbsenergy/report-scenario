@@ -27,14 +27,13 @@ knitr::opts_chunk$set(
 options(knitr.kable.NA = '')
 
 library(mbsenergyUtils)
-library(openxlsx)
-library(ggplot2)
-library(flextable)
-library(magrittr)
 
-
-# library(katex)
-theme_set(theme_mbs())
+box::use(ggplot2[...],
+         magrittr[...],
+         data.table[...],
+         scales[...],
+         flextable[...],
+         xl = openxlsx[read.xlsx, getSheetNames])
 
 set_flextable_defaults(
     font.color = "#54565B",
@@ -48,6 +47,11 @@ set_flextable_defaults(
     decimal.mark = ",",
     big.mark = " ",
     na_str = "<NA>")
+
+
+excel_file = file.path('data', 'tables_report.xlsx')
+excel_file_sn = xl$getSheetNames(excel_file)
+
 
 ```
 
@@ -377,30 +381,257 @@ implementing the net zero target.
 
 # Key Figures
 
-INSERT TABELLE DA FILE EXCEL tables_report_cb QUA
+```{r, net_power}
 
-```{r}
-dt_tables = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = 'Sheet0') %>% 
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[1]) %>% 
     setDT() 
 
-### Table 1
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
 
-dt_1 =
-  melt(dt_tables, id.vars = c(1,2), variable.name = 'Year', value.name = 'Values') %>% 
-    dcast(NET.POWER ~ Scenario + Year, value.var = 'Values')
-setcolorder(dt_1, neworder = c('NET.POWER', 'Reference_2025', 'Reference_2030', 'Reference_2040', 'Reference_2050',
-                                           'Low_2025', 'Low_2030', 'Low_2040', 'Low_2050',
-                                           'High_2025', 'High_2030', 'High_2040', 'High_2050'))
+dt_table = dt_table[2:.N]
 
-dt_1 |> flextable() %>% 
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
     separate_header() %>%  
     align(align = "center", part = "all") %>% 
-    bg(bg = "#B2BEBF", part = "header") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
     color(part = "header", color = 'white') %>% 
-    vline(j = c('NET.POWER', 'Reference_2050', 'Low_2050', 'High_2050'), border = officer::fp_border(color = "#dfe2e5", width = 2), part = "all") %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
     bold(i = NULL, j = 1) %>% 
-    width(width = 2, j = 1) 
+    width(width = 2, j = 1)
+
 ```
+```{r, balance}
+
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[2]) %>% 
+    setDT() 
+
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
+
+dt_table = dt_table[2:.N]
+
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1)
+
+```
+```{r, commodities}
+
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[3]) %>% 
+    setDT() 
+
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
+
+dt_table = dt_table[2:.N]
+
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1)
+
+```
+```{r, electricity_prices}
+
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[4]) %>% 
+    setDT() 
+
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
+
+dt_table = dt_table[2:.N]
+
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1)
+
+```
+
+```{r, zonal_prices}
+
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[5]) %>% 
+    setDT() 
+
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
+
+dt_table = dt_table[2:.N]
+
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1)
+
+```
+
+```{r, cp_pv_fx}
+
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[6]) %>% 
+    setDT() 
+
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
+
+dt_table = dt_table[2:.N]
+
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1)
+
+```
+
+```{r, cp_pv_tr}
+
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[7]) %>% 
+    setDT() 
+
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
+
+dt_table = dt_table[2:.N]
+
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1)
+
+```
+
+```{r, cp_wind_on}
+
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[8]) %>% 
+    setDT() 
+
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
+
+dt_table = dt_table[2:.N]
+
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1)
+
+```
+
+```{r, cp_wind_off}
+
+dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[9]) %>% 
+    setDT() 
+
+vec_sce = names(dt_table)[-1]
+vec_colnames = as.character(as.vector(dt_table[1]))
+
+dt_table = dt_table[2:.N]
+
+
+suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+vec_colnames = paste0(suffixes, vec_colnames)
+names(dt_table) = vec_colnames
+
+dt_table[, (vec_colnames[-1]) := lapply(.SD, function(x) {round(as.numeric(x), 1)}), .SDcols = vec_colnames[-1]]
+
+dt_table |> flextable() %>% 
+    separate_header() %>%  
+    align(align = "center", part = "all") %>% 
+    bg(bg = "#8497B0", part = "header") %>% 
+    color(part = "header", color = 'white') %>% 
+    vline(j = c(1, 5, 9, 13), border = officer::fp_border(color = "#dfe2e5", width = 1), part = "all") %>% 
+    bold(i = NULL, j = 1) %>% 
+    width(width = 2, j = 1)
+
+```
+
+
+
 
 # Macroeconomic Context
 
@@ -2859,7 +3090,9 @@ COMPETITIVE DYNAMICS**
 ::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
+:::
 
+::: callout-right
 The reduction in commodities prices negatively affects the CSS of
 existing CCGTs, bringing it below zero. Despite that, they will continue
 to be the marginal technology in the Italian system, therefore setting a
