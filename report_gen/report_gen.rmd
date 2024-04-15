@@ -376,6 +376,7 @@ order to discuss the economic sustainability of policy scenarios
 implementing the net zero target.
 
 #### Key market trends in Italy {.unnumbered}
+
 ![](support/01_table.png)
 
 # Key Figures
@@ -407,6 +408,7 @@ dt_table |> flextable() %>%
     width(width = 2, j = 1)
 
 ```
+
 ```{r, balance}
 
 dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[2]) %>% 
@@ -434,6 +436,7 @@ dt_table |> flextable() %>%
     width(width = 2, j = 1)
 
 ```
+
 ```{r, commodities}
 
 dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[3]) %>% 
@@ -461,6 +464,7 @@ dt_table |> flextable() %>%
     width(width = 2, j = 1)
 
 ```
+
 ```{r, electricity_prices}
 
 dt_table = openxlsx::read.xlsx(file.path('data', 'tables_report.xlsx'), sheet = excel_file_sn[4]) %>% 
@@ -629,9 +633,6 @@ dt_table |> flextable() %>%
 
 ```
 
-
-
-
 # Macroeconomic Context
 
 ## GDP
@@ -644,7 +645,7 @@ FINANCING CONDITIONS, AND THE IMPLEMENTATION OF THE NRRP ARE THE MAIN
 DRIVERS BEHIND MID AND LONG TERM GROWTH PERSPECTIVES**
 :::
 
-![](figs/10.%20Italian%20GDP%20Growth%20Rate.png)
+![](figs/10_Italian_GDP_Growth_Rate.png)
 
 ::: callout-item
 ::: callout-left
@@ -720,7 +721,7 @@ LIMITING INFLATIONARY PRESSURES AND KEEPING MEDIUM AND LONG TERM
 EXPECTATIONS UNDER CONTROL**
 :::
 
-![](figs/11.%20Inflation%20rate.png)
+![](figs/11_Inflation_rate.png)
 
 ::: callout-item
 ::: callout-left
@@ -787,7 +788,7 @@ POTENTIAL OVERSUPPLY IN THE LNG MARKET POST-2026, LAYING THE GROUNDWORK
 FOR PRICE NORMALIZATION IN THE LONG-TERM**
 :::
 
-![](figs/12.%20World%20LNG%20Demand.png)
+![](figs/12_World_LNG_Demand.png)
 
 ::: callout-item
 ::: callout-left
@@ -855,7 +856,7 @@ NORMALIZATION OF PRICES IS EXPECTED FROM 2026 ONWARDS, CONTINGENT UPON
 INCREASED EUROPEAN LNG SUPPLY**
 :::
 
-![](figs/13.%20TTF%20Price.png)
+![](figs/12_TTF_Price.png)
 
 ::: callout-item
 ::: callout-left
@@ -925,7 +926,7 @@ TERM, THE PRICE DIFFERENTIAL IS EXPECTED TO PROGRESSIVELY NARROW TOWARDS
 ZERO**
 :::
 
-![](figs/14.%20Spread%20TTF-PSV.png)
+![](figs/14_Spread_TTF_PSV.png)
 
 ::: callout-item
 ::: callout-left
@@ -995,7 +996,7 @@ REBALANCING OF GLOBAL GAS DEMAND AND SUPPLY DRIVEN BY THE ACCELERATION
 OF THE ENERGY TRANSITION**
 :::
 
-![](figs/15.%20PSV%20Price.png)
+![](figs/15_PSV_Price.png)
 
 ::: callout-item
 ::: callout-left
@@ -1057,7 +1058,7 @@ DECREASING FROM 2027 ONWARDS, FOLLOWING THE EXPECTED GAS PRICES
 NORMALIZATION**
 :::
 
-![](figs/16.%20Italian%20Gas-Fired%20units.png)
+![](figs/16_Italian_Gas_Fired_units.png)
 
 ::: callout-item
 ::: callout-left
@@ -1117,7 +1118,7 @@ PRICE. THE INCLUSION OF NEW SECTORS, SUCH AS THE MARITIME ONE, WILL
 CONTRIBUTE TO SUSTAINING THE ENVISIONED PRICE INCREASES**
 :::
 
-![](figs/17.%20CO2%20Allowances%20Price.png)
+![](figs/17_CO2_Allowances_Price.png)
 
 ::: callout-item
 ::: callout-left
@@ -1128,9 +1129,9 @@ CONTRIBUTE TO SUSTAINING THE ENVISIONED PRICE INCREASES**
 In the Reference scenario, the average CO2 price in 2024 is expected to
 reach around €65/ton. The aviation sector will see a reduction in free
 allowances, reaching 50% of the total by 2025, and 90 million permits
-will be removed from the market in 2024, which will limit supply
-and push prices upward. Starting from 2025, the inclusion
-of the maritime transport sector will increase demand. However,
+will be removed from the market in 2024, both of which will limit supply
+and push prices upward. Additionally, starting from 2025, the inclusion
+of the maritime transport sector will further increase demand. However,
 concerns persist about effective demand recovery due to anticipated slow
 economic growth over the next few years.
 :::
@@ -1142,7 +1143,7 @@ economic growth over the next few years.
 :::
 
 ::: callout-right
-A notable supply-demand gap widening should start
+A notable widening of the supply-demand gap should manifest starting
 from 2026, as the maritime sector integrates into the ETS system and the
 phasing out of free allowances for aviation reaches full implementation.
 By 2030, the reinforcement of the Market Stability Reserve and the
@@ -1197,7 +1198,7 @@ IN THE LONG-TERM, RENEWABLES TAKE THE LEAD AS THE PRIMARY SOURCE OF
 ELECTRICITY PRODUCTION, SUPPORTED BY GAS-FIRED PRODUCTION**
 :::
 
-![](figs/19.%20DAM%20Energy%20Balance%20Refer.png)
+![](figs/19_DAM_Energy_Balance_Refer.png)
 
 ::: callout-item
 ::: callout-left
@@ -1255,6 +1256,7 @@ European level.
 :::
 :::
 
+\newpage
 
 ### Low Case Scenario
 
@@ -1265,7 +1267,7 @@ CURRENT 2030 TARGET, REACHING 75% OF THE ELECTRICITY PRODUCTION MIX BY
 2050, SUPPORTED BY AN INCREASE IN THE BATTERY STORAGE CAPACITY**
 :::
 
-![](figs/20.%20DAM%20Energy%20Balance%20Low.png)
+![](figs/20_DAM_Energy_Balance_Low.png)
 
 ::: callout-item
 ::: callout-left
@@ -1339,7 +1341,7 @@ MAIN GRID INFRASTRUCTURE PROJECTS ALLOWS THE PHASE-OUT OF COAL UNITS BY
 GENERATION MIX**
 :::
 
-![](figs/21.%20DAM%20Energy%20Balance%20High.png)
+![](figs/21_DAM_Energy_Balance_High.png)
 
 ::: callout-item
 ::: callout-left
@@ -1407,7 +1409,7 @@ STRUCTURAL. IN THE LONG-TERM, ELECTRIFICATION AND EFFICIENCY IN FINAL
 CONSUMPTIONS ARE GOING TO BE THE MAIN DRIVERS FOR DEMAND RECOVERY**
 :::
 
-![](figs/22.%20Electricity%20demand.png)
+![](figs/22_Electricity_demand.png)
 
 ::: callout-item
 ::: callout-left
@@ -1477,7 +1479,7 @@ REDUCTION OBJECTIVES IN TRANSPORTS AND GENERALLY ON LONG- TERM TRANSPORT
 HABITS**
 :::
 
-![](figs/23.%20E-mobility.png)
+![](figs/23_E_mobility.png)
 
 ::: callout-item
 ::: callout-left
@@ -1548,7 +1550,7 @@ ON THE PACE OF GROWTH OF INSTALLATIONS FOR CIVIL AND INDUSTRIAL USES,
 POTENTIALLY SUSTAINED BY SUPPORT MEASURES FOR DECARBONIZATION**
 :::
 
-![](figs/24.%20Heating%20&%20Cooling.png)
+![](figs/24_Heating_Cooling.png)
 
 ::: callout-item
 ::: callout-left
@@ -1606,7 +1608,7 @@ REACH END-OF-LIFE AND THE EXEMPTIONS ACCORDED TO CLOSED DISTRIBUTION
 SYSTEMS WL BE AT LEAST PARTIALLY REMOVED**
 :::
 
-![](figs/25.%20Self-Produc%20and%20Self-Consum.png)
+![](figs/25_Self_Produc_and_Self_Consum.png)
 
 ::: callout-item
 ::: callout-left
@@ -1661,7 +1663,7 @@ in all the three scenarios.
 MOST RECENT REGIONAL TRENDS**
 :::
 
-![](figs/26.%20Zonal%20Distribution%20Elec%20Dem.png)
+![](figs/26_Zonal_Distribution_Elec_Dem.png)
 
 ::: callout-item
 ::: callout-left
@@ -1732,7 +1734,7 @@ TO 48 TWh IN 2024.** **IN THE LONG-TERM, GRID OPTIMIZATION AND
 INVESTMENT IN STORAGE SYSTEMS DRIVE THE REDUCTION OF IMPORTED ENERGY**
 :::
 
-![](figs/27.%20Net%20Import.png)
+![](figs/27_Net_Import.png)
 
 ::: callout-item
 ::: callout-left
@@ -1809,7 +1811,7 @@ PARTICIPATING TO THE AUCTIONS ARE SUPPOSED TO EXPLOIT THE ̴1-YEAR BUFFER
 PERMITTED BY THE RULES OF THE MECHANISM**
 :::
 
-![](figs/28.%20Newbuild%20capacity.png)
+![](figs/28_Newbuild_capacity.png)
 
 ::: callout-item
 ::: callout-left
@@ -1880,7 +1882,7 @@ TO BE PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING
 IN 2030**
 :::
 
-![](figs/29.%20Inst%20thermo%20capacity%20ref.png)
+![](figs/29_Inst_thermo_capacity_ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -1951,7 +1953,7 @@ TO BE PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING
 IN 2030**
 :::
 
-![](figs/30.%20Inst%20thermo%20capacity%20low.png)
+![](figs/30_Inst_thermo_capacity_low.png)
 
 ::: callout-item
 ::: callout-left
@@ -2019,7 +2021,7 @@ GAS-FIRED CAPACITY ONLINE BETWEEN 2022 AND EARLY 2025. PHASE-OUT OF
 COAL-FIRED POSTPONED UNTILL 2034 WHEN TYRRHENIAN LINK BECOME OPERATIVE**
 :::
 
-![](figs/31.%20Inst%20thermo%20capacity%20high.png)
+![](figs/31_Inst_thermo_capacity_high.png)
 
 ::: callout-item
 ::: callout-left
@@ -2084,7 +2086,7 @@ GREATER DEGREE OF COMPETITION BROUGHT BY THE NEWBUILD CAPACITY AFTER
 2024-2025 CAPACITY MARKET AUCTIONS**
 :::
 
-![](figs/32.%20Residual%20demand%20for%20CCGTs.png)
+![](figs/32_Residual_demand_for_CCGTs.png)
 
 ::: callout-item
 ::: callout-left
@@ -2158,7 +2160,7 @@ REFERENCE SCENARIO, AS IN 2030 THE TYRRHENIAN LINK WILL BE FULLY
 COMPLETED**
 :::
 
-![](figs/33.%20Coal-fired%20production.png)
+![](figs/33_Coal_fired_production.png)
 
 ::: callout-item
 ::: callout-left
@@ -2226,7 +2228,7 @@ CONSOLIDATE DRIVEN BY THE SURGE IN COMMODITIES PRICES AND
 DECARBONIZATION TARGETS**
 :::
 
-![](figs/34.%20Net%20Renewable%20Installed%20Cap.png)
+![](figs/34_Net_Renewable_Installed_Cap.png)
 
 ::: callout-item
 ::: callout-left
@@ -2300,7 +2302,7 @@ ONLY WITH A STRONG ACCELERATION OF PROJECTS RECEIVING THE GREEN LIGHT IN
 THE NEXT FEW YEARS**
 :::
 
-![](figs/35.%20Net%20Renewable%20Production.png)
+![](figs/35_Net_Renewable_Production.png)
 
 ::: callout-item
 ::: callout-left
@@ -2367,7 +2369,7 @@ SOUTHERN ZONES. ENERGY INTENSIVE STORAGES DEVELOPMENT AND ELECTROLYSIS
 CAPACITY INCREASE COULD MITIGATE THE MARKET COUNTEREFFECTS**
 :::
 
-![](figs/36.%20Day-Ahead%20Market%20Overgen.png)
+![](figs/36_Day_Ahead_Market_Overgen.png)
 
 ::: callout-item
 ::: callout-left
@@ -2440,7 +2442,7 @@ INSTALLED CAPACITY COULD REACH 0.5 GW IN REFERENCE AND 4 GW IN LOW
 SCENARIO, MAINLY IN SARDINIA AND SICILY**
 :::
 
-![](figs/37.%20Electrolyzer%20installed%20cap.png)
+![](figs/37_Electrolyzer_installed_cap.png)
 
 ::: callout-item
 ::: callout-left
@@ -2486,7 +2488,7 @@ PRICES, SOLAR PV CONTINUES TO BE COMPETITIVE, WITH CAPTURE RATES HIGHER
 THAN THE LIVELIZED COST OF ELECTRICITY**
 :::
 
-![](figs/38.%20Fixed%20tilt%20Solar%20PV%20.png)
+![](figs/38_Fixed_tilt_Solar_PV%20.png)
 
 ::: callout-item
 ::: callout-left
@@ -2556,7 +2558,7 @@ PRICES, WIND MARKET PARITY IS GUARANTEED BY CAPTURED PRICES HIGHER THAN
 THE LIVELIZED COST OF ELECTRICITY**
 :::
 
-![](figs/39.%20Wind%20LCOE%20Range%20and%20PUN.png)
+![](figs/39_Wind_LCOE_Range_and_PUN.png)
 
 ::: callout-item
 ::: callout-left
@@ -2621,7 +2623,7 @@ MANIFEST IN THE LONG-TERM BECAUSE OF THE CONTINUOUS INCREASE OF
 NON-PROGRAMMABLE RENEWABLE PRODUCTION**
 :::
 
-![](figs/40.%20Pumped%20hydro%20production.png)
+![](figs/40_Pumped_hydro_production.png)
 
 ::: callout-item
 ::: callout-left
@@ -2686,7 +2688,7 @@ THE LONG RUN INCREASE IN RES QUOTA AND MORE VOLATILE PRICES FAVOR
 CONVERSION TO ENERGY INTENSIVE STORAGE**
 :::
 
-![](figs/41.%20Power%20Intens%20Electroch%20stor.png)
+![](figs/41_Power_Intens_Electroch_stor.png)
 
 ::: callout-item
 ::: callout-left
@@ -2757,7 +2759,7 @@ THE SYSTEM, WHEN THE GREAT SOLAR PENETRATION CREATES OPPORTUNITIES FOR
 TIME-SHIFTING APPLICATIONS ON THE DAY-AHEAD MARKET**
 :::
 
-![](figs/42.%20Energy%20Intens%20Electroc%20stor.png)
+![](figs/42_Energy_Intens_Electroc_stor.png)
 
 ::: callout-item
 ::: callout-left
@@ -2821,12 +2823,14 @@ dynamics and price volatility on the DAM.
 ## Grid Reiforcements
 
 ::: callout-main
-**IMPORTANT GRID REINFORCEMENTS TO BE REALIZED ALREADY IN THE MID 2020s. MAJOR IMPROVEMENTS ARE EXPECTED TO BE COMPLETED IN THE 2030s – TYRRHENIAN LINK AND ADRIATIC LINK.**
+**IMPORTANT GRID REINFORCEMENTS TO BE REALIZED ALREADY IN THE MID 2020s
+BUT MAJOR IMPROVEMENTS ARE EXPECTED TO BE COMPLETED IN THE 2030s --
+TYRRHENIAN LINK AND ADRIATIC LINK. GREAT RES DEVELOPMENT GENERATE SIGNAL
+FOR FURTHER GRID REINFORCEMNTS AS INTER-ZONAL CONSTRAINT ARE NOT FULLY
+OVERCOM**
 :::
 
-```{r, echo=FALSE, out.height="50%", fig.cap="A nice image."}
-knitr::include_graphics(file.path("figs/60. Potenziamento Rete.png"))
-```
+![](figs/60_Potenziamento_Rete.png)
 
 ::: callout-item
 ::: callout-left
@@ -2845,7 +2849,16 @@ most recent indications provided by Terna.
 :::
 
 ::: callout-right
-Grid reinforcements are expected to improve grid flow management and reduce congestion between mainland zones. By 2030, two significant HVDC infrastructures are set to be operational: the Tyrrhenian Link, crucial for replacing Sardinian coal-fired units, and the Adriac Link, to ease bottlenecks between southern and northern regions. There may be delays compared to the proposed timeline by Terna and ARERA. In the Low scenario completion is assumed by 2028, while in the High scenario, is expected by 2035.
+Grid reinforcements are anticipated to enhance grid flow management and
+alleviate inter-zonal congestions on the mainland. By 2030, two
+significant HVDC infrastructures are expected to become operational: the
+Tyrrhenian Link, crucial for phasing out Sardinian coal-fired units, and
+the Adriac Link, aimed at reducing bottlenecks between southern and
+northern regions. However, these infrastructures are projected to be
+introduced with some delay compared to the proposed timeline by Terna
+and ARERA. In the Low scenario, they are assumed to be completed by
+2028, while in the High scenario, they are expected to be operational by
+2035.
 :::
 :::
 
@@ -2855,7 +2868,12 @@ Grid reinforcements are expected to improve grid flow management and reduce cong
 :::
 
 ::: callout-right
-In the Business as Usual (BAU) scenario, mainland inter-zonal constraints are expected to progressively decrease from 2035 onward. In the Low scenario, Terna's proposed Hypergrid project is assumed to be implemented, reaching a 30GW exchange capacity between market zones. In the High scenario, long-term network development is significantly limited.
+Under BAU assumption, a further progressive reduction of inter-zonal
+constraints in the mainland is assumed to take place since 2035. In the
+Low scenario we assume the implementation of the infrastructure proposed
+by Terna for the Hypergird project to reach 30GW of exchange capacity
+between market zones. In the High scenario the long-term network
+development is much more limited instead.
 :::
 :::
 
@@ -2865,7 +2883,11 @@ In the Business as Usual (BAU) scenario, mainland inter-zonal constraints are ex
 :::
 
 ::: callout-right
-BAU grid development is based on Terna's 2023 Development Plan. Assumptions in alternative scenarios are align with other boundary conditions.
+BAU grid development hypotheses based on the latest Development Plan
+published by Terna (2023) and on information publicly available
+concerning the feasibility of the various network improvements.
+Assumptions in the alternative scenarios are consistent with other
+boundary conditions.
 :::
 :::
 
@@ -2883,7 +2905,7 @@ REACH AN EQUILIBRIUM AND PRICE WILL BE MAINLY DRIVEN BY CO2 VARIATION
 COSTS**
 :::
 
-![](figs/44.%20Baseload%20PUN.png)
+![](figs/44_Baseload_PUN.png)
 
 ::: callout-item
 ::: callout-left
@@ -2952,7 +2974,7 @@ AFFECT PEAK / OFF-PEAK DYNAMICS AFTER 2030, WHEN THE INVERSION OF PRICE
 SPREADS BETWEEN TIME SLOTS IS EXPECTED TO OCCUR**
 :::
 
-![](figs/45.%20Peak-off%20peak%20PUN.png)
+![](figs/45_Peak_off_peak_PUN.png)
 
 ::: callout-item
 ::: callout-left
@@ -3016,7 +3038,7 @@ GROWING PENETRATION OF RENEWABLES AND THE CM-SUPPORTED NEWBUILDS AFFECT
 COMPETITIVE DYNAMICS**
 :::
 
-![](figs/48.%20Baseload%20Zonal%20Prices%20ref.png)
+![](figs/46_Baseload_PUN_compon_ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3083,7 +3105,7 @@ THE LONG-TERM. THE EFFECT IS PARTIALLY MITIGATED BY THE DEVELOPMENT OF
 STORAGE UNITS**
 :::
 
-![](figs/47.%20Hourly%20PUN%20Shape%20referenc.png)
+![](figs/47_Hourly_PUN_Shape_referenc.png)
 
 ::: callout-item
 ::: callout-left
@@ -3148,7 +3170,7 @@ MACRO-ZONE AND IMPROVEMENTS IN THE TRANSMISSION GRID WILL AVOID ZONAL
 PRICES SPREAD EXPLOITATION**
 :::
 
-![](figs/48.%20Baseload%20Zonal%20Prices%20ref.png)
+![](figs/48_Baseload_Zonal_Prices_ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3216,7 +3238,7 @@ RENEWABLES PENETRATION, STORAGE DEVELOPMENT, AND THE TIMING OF
 REALIZATION OF GRID INFRASTRUCTURES**
 :::
 
-![](figs/49.%20Baseload%20PUN-South.png)
+![](figs/49_Baseload_PUN_South.png)
 
 ::: callout-item
 ::: callout-left
@@ -3291,7 +3313,7 @@ IN THE SECOND HALF OF THE 2020s AND TO BE AMPLIFIED IN ALTERNATIVE
 SCENARIOS**
 :::
 
-![](figs/50.%20Baseload%20CSS%20for%20CCGTs.png)
+![](figs/50_Baseload_CSS_for_CCGTs.png)
 
 ::: callout-item
 ::: callout-left
@@ -3361,7 +3383,7 @@ UNITS TO MAXIMIZE DAM VOLUMES WHILE PRESERVING A DOUBLE DIGIT CAPTURED
 MARGINALITY**
 :::
 
-![](figs/51.%20Captured%20CSS%20of%20CCGT%20ref.png)
+![](figs/51_Captured_CSS_of_CCGT_ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3432,7 +3454,7 @@ RENEWABLE PENETRATION IS GREATER AND INTERCONNECTION CAPACITY WITH
 NORTHERN ZONES IS LIMITED**
 :::
 
-![](figs/52.%20Solar%20Captured%20Prices%20ref.png)
+![](figs/52_Solar_Captured_Prices_ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3494,7 +3516,7 @@ GREATER DISTRIBUTION OVER THE SEASONS AND THE HOURS OF THE DAY LEADS
 CAPTURED PRICES TO ALIGN WITH -- OR EVEN OUTPERFORM -- BASELOAD PRICES**
 :::
 
-![](figs/53.%20Wind%20Captured%20Prices%20ref.png)
+![](figs/53_Wind_Captured_Prices_ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3545,7 +3567,7 @@ TRENDS THAN TO HOURLY VARIABILITY, SO THAT CAPTURED PRICES REMAIN
 BASICALLY IN LINE WITH BASELOAD PRICES**
 :::
 
-![](figs/54.%20Hydro%20Run-of-river%20ref.png)
+![](figs/54_Hydro_Run_of_river_ref.png)
 
 ::: callout-item
 ::: callout-left
@@ -3600,7 +3622,7 @@ TSO. IN THE LONG-TERM BESS AND GRID DEVELOPMENT CAN IMRPOVE THE
 ANCILLARY SERVICES MARKET**
 :::
 
-![](figs/55.%20ASM%20Ex-ante%20Zonal%20Vol%20ref.png)
+![](figs/55_ASM_Ex_ante_Zonal_Vol_ref.png.png)
 
 ::: callout-item
 ::: callout-left
@@ -3675,7 +3697,7 @@ THE POST-2030 SCENARIO, STORAGE SYSTEMS AND GRID REINFORCEMENTS ARE
 EXPECTED TO LIMIT THE EXPANSION TREND IN THE THREE SCENARIOS**
 :::
 
-![](figs/56.%20ASM%20Ex-ante%20Vol%20alternat.png)
+![](figs/56_ASM_Ex_ante_Vol_alternat.png)
 
 ::: callout-item
 ::: callout-left
