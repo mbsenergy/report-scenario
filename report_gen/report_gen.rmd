@@ -376,7 +376,6 @@ order to discuss the economic sustainability of policy scenarios
 implementing the net zero target.
 
 #### Key market trends in Italy {.unnumbered}
-
 ![](support/01_table.png)
 
 # Key Figures
@@ -796,46 +795,32 @@ FOR PRICE NORMALIZATION IN THE LONG-TERM**
 :::
 
 ::: callout-right
-In 2023, global LNG demand growth registered a +2% y/y increase, and is
-forecasted to rebound with an average growth rate close to 5% in both
-2024 and 2025. European and Chinese gas demand will primarily drive this
-uprise, as LNG intake is expected to accelerate in the short-term, in
-response to expansion of regasification capacity, and to support the
-transition from coal. Despite 2024 LNG supply growth being limited
-globally, reduced competition between Europe and Asia, and the expected
-new capacity entering the market in 2024 and 2025, are likely to
-guarantee adequate demand coverage, limiting the potential risk for
-supply shortages until winter 2024-2025. Fluctuations in LNG demand from
-European and Asian importers, determined by economic activity and
-meteorological conditions, and the progress status of the new expected
-capacity, will be pivotal in determining the global equilibrium in 2025
-and 2026, with growth rate ranging above 7% in the high scenario.
+In 2023, global LNG demand increased by 2% year-on-year, and it's
+predicted to rise by close to 5% annually in both 2024 and 2025, driven
+by an increased demand from Europe and China. Despite limited global LNG
+supply growth in 2024, competition between Europe and Asia will
+decrease, and new capacity coming online in 2024 and 2025 should meet
+demand. The balance of LNG demand between Europe and Asia, influenced by
+economic activity and weather conditions, along with the progress of new
+capacity, will be crucial in determining the global equilibrium in 2025
+and 2026, with a growth rate potentially exceeding 7% in the high
+scenario.
 :::
 :::
 
 ::: callout-item
 ::: callout-left
-#### 26-30 {.unnumbered}
+#### 26-50 {.unnumbered}
 :::
 
 ::: callout-right
-Starting from 2026, LNG demand growth is expected to gradually slowdown,
-stabilizing just below 5% y/y, consistently with rising renewable energy
-production and improved energy efficiency measures. Conditional on the
-lack of further delays, a new wave of liquefaction capacity will enter
-the market by 2026, driven by US and Qatar, contributing to almost
-eliminating the risk of market tightness.
-:::
-:::
-
-::: callout-item
-::: callout-left
-#### 31-50 {.unnumbered}
-:::
-
-::: callout-right
-In the long-term, pressure on the LNG market is expected to ease, with
-new capacity growing and green energy commitments becoming effective.
+After 2026, LNG demand growth is expected to slow down to just below 5%
+per year due to increased renewable energy production and improved
+energy efficiency. By 2026, new liquefaction capacity from the US and
+Qatar is expected to enter the market, reducing the risk of market
+tightness. In the long term, the pressure on the LNG market is expected
+to ease further due to the growth in new capacity and the implementation
+of green energy commitments.
 :::
 :::
 
@@ -845,12 +830,12 @@ new capacity growing and green energy commitments becoming effective.
 :::
 
 ::: callout-right
-Global LNG demand growth in the short term remained substantially in
-line with our previous market update. 2024 European LNG demand growth
-was revised slightly lower since record high gas storages should
-slowdown demand recovery over the next few months, while the Asian one
-was revised higher to account for a faster than expected recovery of
-price-sensitive importers.
+Global LNG demand growth in the short term remained in line with our
+previous update. 2024 European LNG demand growth was revised slightly
+lower since record high gas storages should slowdown demand recovery
+over the next few months, while the Asian one was revised higher to
+account for a faster than expected recovery of price-sensitive
+importers.
 :::
 :::
 
@@ -895,32 +880,22 @@ of Russian piped gas.
 
 ::: callout-item
 ::: callout-left
-#### 26-30 {.unnumbered}
+#### 26-50 {.unnumbered}
 :::
 
 ::: callout-right
-From 2025 onwards, a gradual normalization is anticipated as a result of
-the significant deployment of new liquefaction capacity. Assuming a
-progressive normalization of the global LNG market alongside an
-acceleration of the energy transition, European gas prices are projected
-to steadily decrease towards €30/MWh by 2028.
-:::
-:::
-
-::: callout-item
-::: callout-left
-#### 31-50 {.unnumbered}
-:::
-
-::: callout-right
-The European decarbonization process would keep reducing gas demand,
-successively pressuring the price action back towards the 25 €/MWh
-long-term equilibrium. Only in the High scenario, persisting
-geopolitical and commercial tensions would leave commodities shortages
-unresolved, leaving prices just below 45 €/MWh in the long-term.
-Effective green policies supported by economic growth may lead prices
-significantly lower in the Low scenario, with the TTF averaging near 10
-€/MWh in the long-term.
+Starting from 2025, there will be a gradual return to normalcy in the
+global LNG market due to the deployment of new liquefaction capacity.
+This normalization, combined with an accelerated energy transition, is
+expected to lead to a steady decrease in European gas prices, reaching
+around €30/MWh by 2028. The ongoing decarbonization process in Europe
+will continue to reduce gas demand, which will further push prices down
+towards the long-term equilibrium of €25/MWh. However, in a scenario of
+persisting geopolitical and commercial tensions (High scenario), prices
+may remain just below €45/MWh in the long term. Conversely, effective
+green policies coupled with economic growth (Low scenario) could drive
+prices significantly lower, with the TTF averaging around €10/MWh in the
+long term.
 :::
 :::
 
@@ -1045,25 +1020,15 @@ short of initial expectations.
 
 ::: callout-item
 ::: callout-left
-#### 26-30 {.unnumbered}
+#### 26-50 {.unnumbered}
 :::
 
 ::: callout-right
 The PSV is expected to follow the European gas prices mid-term
 normalization towards 30 €/MWh by year 2030, as a gradual rebalancing of
 the global gas demand-supply dynamics should follow the expected
-acceleration of energy transition.
-:::
-:::
-
-::: callout-item
-::: callout-left
-#### 31-50 {.unnumbered}
-:::
-
-::: callout-right
-The PSV Reference price is expected to stabilize, aligning to TTF prices
-at around 25 €/MWh in the long-term.
+acceleration of energy transition. PSV Reference price is expected to
+stabilize, aligning to TTF prices at around 25 €/MWh in the long-term.
 :::
 :::
 
@@ -1143,7 +1108,7 @@ compensated by an increase in storages and balancing cost.
 
 ## EU ETS
 
-### C02 Allowances Price
+### CO2 Allowances Price
 
 ::: callout-main
 **THE NEW ETS REFORM, TO BE INCORPORATED INTO NATIONAL LEGISTLATION OF
@@ -1185,10 +1150,10 @@ growth.
 A notable widening of the supply-demand gap should manifest starting
 from 2026, as the maritime sector integrates into the ETS system and the
 phasing out of free allowances for aviation reaches full implementation.
-In addition, by 2030, the reinforcement of the Market Stability Reserve
-and the increase of the Linear Reduction Factor up to 4.4% will
-contribute to further tightening the market. As a result, CO2 prices are
-expected to accelerate, nearing just below 110 €/ton on average by 2030.
+By 2030, the reinforcement of the Market Stability Reserve and the
+increase of the Linear Reduction Factor up to 4.4% will contribute to
+further tightening the market. CO2 prices are expected to accelerate,
+nearing just below 110 €/ton by 2030.
 :::
 :::
 
@@ -1215,13 +1180,10 @@ increase.
 :::
 
 ::: callout-right
-We have revised out CO2 price targets downward in the very short term
-across all three scenarios, in response to the sharp decline in CO2
-prices in evidence in the second half of 2023 and in the first quarter
-of 2024, resulting from weak demand and cumulative supply surplus.
-Consistent with our previous forecasts, we anticipate a rebound in
-allowances demand and, consequently, in average prices in the post-2024
-period.
+CO2 price targets downward in the very short term, in response to the
+sharp decline in CO2 prices in evidence until the first quarter of 2024.
+Consistent with our previous forecasts, a rebound in allowances demand
+and, in average prices in the post-2024 period is expected.
 :::
 :::
 
@@ -1268,9 +1230,7 @@ the marginal source.
 Coal-fired units are going to phase-out within 2025, with the exception
 of the Sardinian ones, which remian operative until the completion of
 the Tyrrhenian Link in 2030. Electricity production from renewables will
-cover almost 50% by 2030. The normalization of commodities over time,
-and the Capacity Market (CM) mechanism will bring 7.3 GW of new
-thermoelectrict capacity, reducing the need for imported electricity.
+cover almost 50% by 2030.
 :::
 :::
 
@@ -1295,7 +1255,7 @@ energy intensive storage.
 :::
 
 ::: callout-right
-Net import will increase in the short-term, supported by French nuclear
+Net import increases in the short-term, supported by French nuclear
 capacity recovery and a general reduction in the electricity demand and
 European level.
 :::
@@ -2267,9 +2227,9 @@ thermoelectric installed capacity.
 ### Renewable Installed Capacity
 
 ::: callout-main
-**THE ACCELERATION IN THE GROWTH OF RES CAPACITY OBSERVED IN THE LAST
-YEAR WILL CONTINUE IN THE SHORT-TERM. IN THE LONG-TERM,** **RES MARKET
-PARITY WILL CONSOLIDATE DRIVEN BY THE SURGE IN COMMODITIES PRICES AND
+**THE ACCELERATION GROWTH OF RES CAPACITY OBSERVED IN THE LAST YEAR WILL
+CONTINUE IN THE SHORT-TERM. IN THE LONG-TERM,** **RES MARKET PARITY WILL
+CONSOLIDATE DRIVEN BY THE SURGE IN COMMODITIES PRICES AND
 DECARBONIZATION TARGETS**
 :::
 
@@ -2285,9 +2245,9 @@ In the Reference case, the potential for renewable development is
 considered based on recent trends, taking into account both bureaucratic
 and technical obstacles. This results in an estimated increase of 7.4 GW
 of solar and 2 GW of wind capacity. In Low scenario, there is a greater
-emphasis on achieving a decarbonized economy,with 10 GW of solar and 2
-GW of wind power. High scenario, the growth of renewables is hindered by
-unfavourable economic conditions, resulting in an increase of just 5.4
+emphasis on achieving a decarbonized economy, with 10 GW of solar and 2
+GW of wind power. In High scenario, the growth of renewables is hindered
+by unfavorable economic conditions, resulting in an increase of just 5.4
 GW and 0.6 GW of new solar and wind capacity, respectively, over the
 same two-year period.
 :::
@@ -2299,13 +2259,13 @@ same two-year period.
 :::
 
 ::: callout-right
-Market parity conditions will accelerate the progress towards achieving
-long-term targets. In the Reference case, there is an ambitious plan for
-the development of renewables with an estimated 49 GW of solar and 16 GW
-of wind capacity by 2030, allowing to reach almost 50% of the energy
-demand. This scenario assumes a market-driven evolution of the sector.
-Low scenario reach 63 GW of solar and 21 GW of wind capacity by 2030,
-development achieved through a faster decrease in technology costs.
+Market parity conditions will accelerate long-term targets achievement.
+In the Reference case, there is an ambitious plan for the development of
+renewables with an estimated 49 GW of solar and 16 GW of wind capacity
+by 2030, allowing to reach almost 50% of the energy demand. This
+scenario assumes a market-driven evolution of the sector. Low scenario
+reach 63 GW of solar and 21 GW of wind capacity by 2030, achieved
+through a faster decrease in technology costs.
 :::
 :::
 
@@ -2317,12 +2277,10 @@ development achieved through a faster decrease in technology costs.
 ::: callout-right
 The Reference scenario predicts a continued increase in renewables
 penetration, with solar and wind capacity expected to reach 69 GW and
-27.6 GW, respecvely, by 2040. However, an even faster transition towards
-achieving long-term decarbonization goals may be possible with the help
-of greater-than- anticipated investments in grid infrastructure and
-high-capacity energy storage solutions. These investments could enable
-an accelerated convergence towards meeting long-term decarbonization
-objecves.
+27.6 GW respectively, by 2040. A faster transition towards long-term
+decarbonization goals may be possible with greater-than-anticipated
+investments in grid infrastructure and high-capacity energy storage
+solutions.
 :::
 :::
 
@@ -2896,16 +2854,16 @@ most recent indications provided by Terna.
 :::
 
 ::: callout-right
-In the 2020s, some grid reinforcements are expected to improve the
-management of grid flows and reduce inter-zonal congestions in the
-mainland. Two main HVDC infrastructures are expected to come online in
-2030: the two branches of the Tyrrhenian Link (key enabler of the
-phase-out of Sardinian coal-fired units) and the Adriac Link (that would
-help reduce bottlenecks between southern and northern regions). The two
-infrastructures are introduced in the scenario with some years of delay
-with respect to the current timeline proposed by Terna and ARERA. In the
-Low scenario, the two infrastructures are assumed to be realized in
-2028. In the High scenario, these infrastructures enter only in 2035.
+Grid reinforcements are anticipated to enhance grid flow management and
+alleviate inter-zonal congestions on the mainland. By 2030, two
+significant HVDC infrastructures are expected to become operational: the
+Tyrrhenian Link, crucial for phasing out Sardinian coal-fired units, and
+the Adriac Link, aimed at reducing bottlenecks between southern and
+northern regions. However, these infrastructures are projected to be
+introduced with some delay compared to the proposed timeline by Terna
+and ARERA. In the Low scenario, they are assumed to be completed by
+2028, while in the High scenario, they are expected to be operational by
+2035.
 :::
 :::
 
@@ -2952,7 +2910,7 @@ REACH AN EQUILIBRIUM AND PRICE WILL BE MAINLY DRIVEN BY CO2 VARIATION
 COSTS**
 :::
 
-![](figs/46.%20Baseload%20PUN%20compon%20ref.png)
+![](figs/44.%20Baseload%20PUN.png)
 
 ::: callout-item
 ::: callout-left
@@ -3021,7 +2979,7 @@ AFFECT PEAK / OFF-PEAK DYNAMICS AFTER 2030, WHEN THE INVERSION OF PRICE
 SPREADS BETWEEN TIME SLOTS IS EXPECTED TO OCCUR**
 :::
 
-![](figs/47.%20Hourly%20PUN%20Shape%20referenc.png)
+![](figs/45.%20Peak-off%20peak%20PUN.png)
 
 ::: callout-item
 ::: callout-left
@@ -3085,7 +3043,7 @@ GROWING PENETRATION OF RENEWABLES AND THE CM-SUPPORTED NEWBUILDS AFFECT
 COMPETITIVE DYNAMICS**
 :::
 
-![](figs/46.%20Baseload%20PUN%20compon%20ref.png)
+![](figs/48.%20Baseload%20Zonal%20Prices%20ref.png)
 
 ::: callout-item
 ::: callout-left
