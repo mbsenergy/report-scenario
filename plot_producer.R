@@ -57,7 +57,7 @@ vec_plot_line = excel_file_sn[c(1,2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
 
 ## Produce Plots
 
-for (i in 1:length(vec_plot_line)) { #i = 1
+for (i in 1:length(vec_plot_line)) { #i = 13
     
     if (i %in% c(9,14))  {
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
@@ -1933,15 +1933,15 @@ for (i in 1:length(vec_plot_line)) { #i = 1
 
 vec_plot_line = excel_file_sn[c(46)]
 
-color_mapping = c(NORD = "#00544F", 
-                  `CENTRO NORD` = "#669895", 
-                  `CENTRO SUD` = "#97BBA3",
-                  SUD = "#D4E2D8",
-                  CALABRIA = "#97BBFF",
-                  SICILIA = "#FFCC99")
+color_mapping = c(North = "#00544F", 
+                  `Centre-North` = "#669895", 
+                  `Centre-South` = "#97BBA3",
+                  South = "#D4E2D8",
+                  Sicily = "#97BBFF",
+                  Sardinia = "#FFCC99")
 
-levels_order = c("NORD" ,       "CENTRO NORD" ,"CENTRO SUD",
-                 "SUD"     ,    "CALABRIA"  ,  "SICILIA")
+levels_order = c("North" ,       "Centre-North" ,"Centre-South",
+                 "South"     ,  "Sicily", "Sardinia")
 
 years_to_display = c(2023:2040, 2045, 2050)
 
@@ -2191,7 +2191,7 @@ plot_line = ggarrange(plot_line1,plot_line2,
                       ncol = 2, nrow = 2)
 
 ggsave(file.path('report_gen', 'figs', '57. ASM.png'), plot_line,
-       width = 9, height = altezza_grafici)
+       width = 9, height = 5)
 
 t1 = Sys.time()
 
