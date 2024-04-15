@@ -1113,10 +1113,8 @@ compensated by an increase in storages and balancing cost.
 ::: callout-main
 **THE NEW ETS REFORM, TO BE INCORPORATED INTO NATIONAL LEGISTLATION OF
 EU MEMBER STATES BY THE END OF 2024, AIMS TO PROGRESSIVELY RAISE THE CO2
-PRICE BY TIGHTENING THE EMISSIONS CERTIFICATES MARKET THROUGH A
-COMBINATION OF SUPPLY CURTAILMENT AND DEMAND-INCREASING MEASURES. THE
-INCLUSION OF NEW SECTORS, SUCH AS THE MARITIME SECTOR, WILL CONTRIBUTE
-TO SUSTAINING THE ENVISIONED PRICE INCREASES**
+PRICE. THE INCLUSION OF NEW SECTORS, SUCH AS THE MARITIME ONE, WILL
+CONTRIBUTE TO SUSTAINING THE ENVISIONED PRICE INCREASES**
 :::
 
 ![](figs/17.%20CO2%20Allowances%20Price.png)
@@ -1127,17 +1125,14 @@ TO SUSTAINING THE ENVISIONED PRICE INCREASES**
 :::
 
 ::: callout-right
-In our Reference scenario, the 2024 CO2 price average is projected to
-approach 65 €/ton, driven by the gradual implementation of the ETS
-system reform supporting CO2 prices. The phasing out of free allowances
-for the aviation sector, reaching 50% of the total in 2025, along with
-the planned removal of 90 Mln permits from the market in 2024, are
-expected to begin exerting upward pressure on allowances prices by
-curtailing supply. From 2025 onwards, the progressive inclusion of the
-maritime transport sector will further boost overall demand. Concerns
-remain regarding effective demand recovery, which is anticipated to be
-limited over the next couple of years due to anticipated slow economic
-growth.
+In the Reference scenario, the average CO2 price in 2024 is expected to
+reach around €65/ton. The aviation sector will see a reduction in free
+allowances, reaching 50% of the total by 2025, and 90 million permits
+will be removed from the market in 2024, which will limit supply
+and push prices upward. Starting from 2025, the inclusion
+of the maritime transport sector will increase demand. However,
+concerns persist about effective demand recovery due to anticipated slow
+economic growth over the next few years.
 :::
 :::
 
@@ -1147,7 +1142,7 @@ growth.
 :::
 
 ::: callout-right
-A notable widening of the supply-demand gap should manifest starting
+A notable supply-demand gap widening should start
 from 2026, as the maritime sector integrates into the ETS system and the
 phasing out of free allowances for aviation reaches full implementation.
 By 2030, the reinforcement of the Market Stability Reserve and the
@@ -1180,10 +1175,9 @@ increase.
 :::
 
 ::: callout-right
-CO2 price targets downward in the very short term, in response to the
-sharp decline in CO2 prices in evidence until the first quarter of 2024.
-Consistent with our previous forecasts, a rebound in allowances demand
-and, in average prices in the post-2024 period is expected.
+CO2 price targets downward in the very short term, following the sharp
+decline observed in the first quarter of 2024. After 2024, a rebound in
+allowances demand and prices is expected.
 :::
 :::
 
@@ -1261,7 +1255,6 @@ European level.
 :::
 :::
 
-\newpage
 
 ### Low Case Scenario
 
@@ -2828,14 +2821,12 @@ dynamics and price volatility on the DAM.
 ## Grid Reiforcements
 
 ::: callout-main
-**IMPORTANT GRID REINFORCEMENTS TO BE REALIZED ALREADY IN THE MID 2020s
-BUT MAJOR IMPROVEMENTS ARE EXPECTED TO BE COMPLETED IN THE 2030s --
-TYRRHENIAN LINK AND ADRIATIC LINK. GREAT RES DEVELOPMENT GENERATE SIGNAL
-FOR FURTHER GRID REINFORCEMNTS AS INTER-ZONAL CONSTRAINT ARE NOT FULLY
-OVERCOM**
+**IMPORTANT GRID REINFORCEMENTS TO BE REALIZED ALREADY IN THE MID 2020s. MAJOR IMPROVEMENTS ARE EXPECTED TO BE COMPLETED IN THE 2030s – TYRRHENIAN LINK AND ADRIATIC LINK.**
 :::
 
-![](figs/60.%20Potenziamento%20Rete.png)
+```{r, echo=FALSE, out.height="50%", fig.cap="A nice image."}
+knitr::include_graphics(file.path("figs/60. Potenziamento Rete.png"))
+```
 
 ::: callout-item
 ::: callout-left
@@ -2854,16 +2845,7 @@ most recent indications provided by Terna.
 :::
 
 ::: callout-right
-Grid reinforcements are anticipated to enhance grid flow management and
-alleviate inter-zonal congestions on the mainland. By 2030, two
-significant HVDC infrastructures are expected to become operational: the
-Tyrrhenian Link, crucial for phasing out Sardinian coal-fired units, and
-the Adriac Link, aimed at reducing bottlenecks between southern and
-northern regions. However, these infrastructures are projected to be
-introduced with some delay compared to the proposed timeline by Terna
-and ARERA. In the Low scenario, they are assumed to be completed by
-2028, while in the High scenario, they are expected to be operational by
-2035.
+Grid reinforcements are expected to improve grid flow management and reduce congestion between mainland zones. By 2030, two significant HVDC infrastructures are set to be operational: the Tyrrhenian Link, crucial for replacing Sardinian coal-fired units, and the Adriac Link, to ease bottlenecks between southern and northern regions. There may be delays compared to the proposed timeline by Terna and ARERA. In the Low scenario completion is assumed by 2028, while in the High scenario, is expected by 2035.
 :::
 :::
 
@@ -2873,12 +2855,7 @@ and ARERA. In the Low scenario, they are assumed to be completed by
 :::
 
 ::: callout-right
-Under BAU assumption, a further progressive reduction of inter-zonal
-constraints in the mainland is assumed to take place since 2035. In the
-Low scenario we assume the implementation of the infrastructure proposed
-by Terna for the Hypergird project to reach 30GW of exchange capacity
-between market zones. In the High scenario the long-term network
-development is much more limited instead.
+In the Business as Usual (BAU) scenario, mainland inter-zonal constraints are expected to progressively decrease from 2035 onward. In the Low scenario, Terna's proposed Hypergrid project is assumed to be implemented, reaching a 30GW exchange capacity between market zones. In the High scenario, long-term network development is significantly limited.
 :::
 :::
 
@@ -2888,11 +2865,7 @@ development is much more limited instead.
 :::
 
 ::: callout-right
-BAU grid development hypotheses based on the latest Development Plan
-published by Terna (2023) and on information publicly available
-concerning the feasibility of the various network improvements.
-Assumptions in the alternative scenarios are consistent with other
-boundary conditions.
+BAU grid development is based on Terna's 2023 Development Plan. Assumptions in alternative scenarios are align with other boundary conditions.
 :::
 :::
 

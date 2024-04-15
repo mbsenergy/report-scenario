@@ -35,7 +35,7 @@ report_num = 'IV2023'
 
 years_to_display = c(2024:2040, 2045, 2050)
 
-altezza_grafici = 3.5
+altezza_grafici = 5
 
 levels_order = c("High", "Reference", "Low", report_num)
 color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
@@ -53,16 +53,18 @@ excel_file_sn = xl$getSheetNames(excel_file)
 
 ## Line graphs ----
 
-vec_plot_line = excel_file_sn[c(1,2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
+# vec_plot_line = excel_file_sn[c(2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
+vec_plot_line = excel_file_sn[c(2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
 
 ## Produce Plots
 
-for (i in 1:length(vec_plot_line)) { #i = 13
-    
+for (i in 1:length(vec_plot_line)) { #i = 1
+    c_name = names(dt_line)[1]
+    print(c_name)
     if (i %in% c(9,14))  {
-    dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
-    dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
-    dt_line = dt_line[ , colSums(is.na(dt_line)) == 0] %>% setDT()
+        dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
+        dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
+        dt_line = dt_line[ , colSums(is.na(dt_line)) == 0] %>% setDT()
     } else {
         dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]]) %>% setDT() 
     }
@@ -321,15 +323,15 @@ years_to_display = c(2024:2040, 2045, 2050)
 years_to_display = as.character(years_to_display)
 
 levels_order = c("Demand + storage consumption",                   
-  "Industrial self-production" ,                    
-  "Net import",                       
-  "Hydro - Reservoirs and run-of-river",            
-  "Pumped hydro production",                   
-  "BESS (Battery Energy Storage System) production",
-  "Renewables"  ,                                   
-  "Gas-fired thermal plants",                       
-  "Coal-fired thermal plants",                      
-  "Other production")
+                 "Industrial self-production" ,                    
+                 "Net import",                       
+                 "Hydro - Reservoirs and run-of-river",            
+                 "Pumped hydro production",                   
+                 "BESS (Battery Energy Storage System) production",
+                 "Renewables"  ,                                   
+                 "Gas-fired thermal plants",                       
+                 "Coal-fired thermal plants",                      
+                 "Other production")
 
 levels_order = rev(levels_order)
 
@@ -340,9 +342,9 @@ color_mapping = c("Demand + storage consumption" = "#FF9933" ,
                   "Pumped hydro production" = "#97BBFF",                   
                   "BESS (Battery Energy Storage System) production" = "#D5E4FF",
                   "Renewables" = "#D4E2D8" ,                                   
-                  "Gas-fired thermal plants" = "#F4EE00",                       
+                  "Gas-fired thermal plants" = "#FFCC99",                       
                   "Coal-fired thermal plants" = "#000000",                      
-                  "Other production" = "#FFCC99")
+                  "Other production" = "#FFCC00")
 
 #levels_order = rev(levels_order)
 
@@ -366,7 +368,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     setorderv(dt_line_lg, cols = c(c_name, 'anni'))
     
     dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
-
+    
     plot_line = ggplot() +
         geom_col(data = filter(dt_line_lg, get(c_name) != "Demand + storage consumption"), aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
         geom_line(data = filter(dt_line_lg, get(c_name) == "Demand + storage consumption"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1) +
@@ -1060,7 +1062,7 @@ color_mapping = c(`LCOE range` = "#E8E8E8",
                   `Low` = "#97BBFF", 
                   `High` = "#007F77",
                   `LCOE Reference` = "#747474"
-                  )
+)
 levels_order = c( "LCOE range", "Reference" ,    "Low" ,           "High"    ,       "LCOE Reference")
 
 years_to_display = seq(2025,2050, by = 5)
@@ -1146,10 +1148,10 @@ for (i in 1:length(vec_plot_line)) { #i = 3
 vec_plot_line = excel_file_sn[c(33,34)]
 
 color_mapping = c(
-                  `Reference` = "#00544F", 
-                  `Low` = "#669895", 
-                  `High` = "#97BBA3"
-                  
+    `Reference` = "#00544F", 
+    `Low` = "#669895", 
+    `High` = "#97BBA3"
+    
 )
 
 color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
@@ -1694,7 +1696,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     setorderv(dt_line_lg, cols = c(c_name, 'anni'))
     
     dt_line_lg[, (c_name) := fifelse(get(c_name) =="Noth Solar TR",
-                                      "North Solar TR",get(c_name))]
+                                     "North Solar TR",get(c_name))]
     
     #dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
     
@@ -1738,7 +1740,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
              y = NULL,
              caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
     
-        
+    
     if("%" %in% unit_measure) {
         plot_line = plot_line + 
             scale_y_continuous(labels = scales::percent_format()) 
@@ -1764,7 +1766,7 @@ color_mapping = c(`North - Wind Onshore` = "#00544F",
                   `PUN Offshore` = "#FF9933")
 
 levels_order = c("North - Wind Onshore", "North - Wind Offshore", "South - Wind Onshore" ,
-                  "South - Wind Offshore", "PUN Onshore"  ,         "PUN Offshore" )
+                 "South - Wind Offshore", "PUN Onshore"  ,         "PUN Offshore" )
 
 years_to_display = c(2024:2040, 2045, 2050)
 
@@ -1933,15 +1935,15 @@ for (i in 1:length(vec_plot_line)) { #i = 1
 
 vec_plot_line = excel_file_sn[c(46)]
 
-color_mapping = c(North = "#00544F", 
-                  `Centre-North` = "#669895", 
-                  `Centre-South` = "#97BBA3",
-                  South = "#D4E2D8",
-                  Sicily = "#97BBFF",
-                  Sardinia = "#FFCC99")
+color_mapping = c(NORD = "#00544F", 
+                  `CENTRO NORD` = "#669895", 
+                  `CENTRO SUD` = "#97BBA3",
+                  SUD = "#D4E2D8",
+                  CALABRIA = "#97BBFF",
+                  SICILIA = "#FFCC99")
 
-levels_order = c("North" ,       "Centre-North" ,"Centre-South",
-                 "South"     ,  "Sicily", "Sardinia")
+levels_order = c("NORD" ,       "CENTRO NORD" ,"CENTRO SUD",
+                 "SUD"     ,    "CALABRIA"  ,  "SICILIA")
 
 years_to_display = c(2023:2040, 2045, 2050)
 
@@ -2139,7 +2141,7 @@ for (i in 1:length(vec_plot_line)) { #i = 3
     setorderv(dt_line_lg, cols = c(c_name, 'anni'))
     
     #dt_line_lg[, anni := as.character(anni)]
-
+    
     #dt_line_lg[, (c_name) := factor(get(c_name), levels = rev(levels_order))]
     
     names(dt_line_lg)[1] = "title"
@@ -2191,7 +2193,7 @@ plot_line = ggarrange(plot_line1,plot_line2,
                       ncol = 2, nrow = 2)
 
 ggsave(file.path('report_gen', 'figs', '57. ASM.png'), plot_line,
-       width = 9, height = 5)
+       width = 9, height = altezza_grafici)
 
 t1 = Sys.time()
 
