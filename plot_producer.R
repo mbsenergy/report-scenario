@@ -796,16 +796,17 @@ color_mapping = c("CCGT"= "#00544F",
                   "Turbogas Diesel" = "#D4E2D8" ,
                   "Turbogas/Diesel" = "#D4E2D8" ,
                   "Ex-CIP6" = "#97BBFF" ,
-                  "Total Coal" = "#FFCC99",      
-                  "CCGT - CM 22-23" = "#00322F",
-                  "Self-producers" = "#00322F",
+                  "Coal" = "#000000",   
+                  "Coal USC" = "#00322F", 
+                  "CCGT - CM 22-23" = "#D1D1D1",
+                  "Self-producers" = "#808080",
                   "Repowering CCGT - CM 22-23" = "#3D5B59",
                   "OCGT/Peaker - CM 22-23" = "#507B5E",
                   "CCGT - CM 24-25" = "#0046CB",
                   "OCGT/Peaker - CM 24-25" = "#FF9933")
 
 levels_order = c("CCGT"   ,                    "CHP"    ,                    "Conventional"   ,           
-                 "Turbogas Diesel","Turbogas/Diesel"    ,        "Ex-CIP6"  ,                  "Total Coal" ,               
+                 "Turbogas Diesel","Turbogas/Diesel"    ,        "Ex-CIP6"  ,                  "Coal" ,   "Coal USC",            
                  "CCGT - CM 22-23"    ,  "Self-producers",      "Repowering CCGT - CM 22-23" ,"OCGT/Peaker - CM 22-23"  ,  
                  "CCGT - CM 24-25"    ,        "OCGT/Peaker - CM 24-25")
 
@@ -1933,17 +1934,17 @@ for (i in 1:length(vec_plot_line)) { #i = 1
 
 vec_plot_line = excel_file_sn[c(46)]
 
-color_mapping = c(NORD = "#00544F", 
-                  `CENTRO NORD` = "#669895", 
-                  `CENTRO SUD` = "#97BBA3",
-                  SUD = "#D4E2D8",
-                  CALABRIA = "#97BBFF",
-                  SICILIA = "#FFCC99")
+color_mapping = c(North = "#00544F", 
+                  `Centre-North` = "#669895", 
+                  `Centre-South` = "#97BBA3",
+                  South = "#D4E2D8",
+                  Calabria = "#97BBFF",
+                  Sicily = "#FFCC99")
 
-levels_order = c("NORD" ,       "CENTRO NORD" ,"CENTRO SUD",
-                 "SUD"     ,    "CALABRIA"  ,  "SICILIA")
+levels_order = c("North" ,       "Centre-North" ,"Centre-South",
+                 "South"     ,    "Calabria"  ,  "Sicily")
 
-years_to_display = c(2023:2040, 2045, 2050)
+years_to_display = c(2024:2040, 2045, 2050)
 
 ## Produce Plot
 
