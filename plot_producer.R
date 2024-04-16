@@ -35,7 +35,7 @@ report_num = 'IV2023'
 
 years_to_display = c(2024:2040, 2045, 2050)
 
-altezza_grafici = 5
+altezza_grafici = 4
 
 levels_order = c("High", "Reference", "Low", report_num)
 color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
@@ -53,14 +53,12 @@ excel_file_sn = xl$getSheetNames(excel_file)
 
 ## Line graphs ----
 
-# vec_plot_line = excel_file_sn[c(2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
-vec_plot_line = excel_file_sn[c(2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
+vec_plot_line = excel_file_sn[c(1,2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
 
 ## Produce Plots
 
 for (i in 1:length(vec_plot_line)) { #i = 1
-    c_name = names(dt_line)[1]
-    print(c_name)
+    
     if (i %in% c(9,14))  {
         dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
         dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
@@ -2193,7 +2191,7 @@ plot_line = ggarrange(plot_line1,plot_line2,
                       ncol = 2, nrow = 2)
 
 ggsave(file.path('report_gen', 'figs', '57. ASM.png'), plot_line,
-       width = 9, height = altezza_grafici)
+       width = 9, height = 6)
 
 t1 = Sys.time()
 

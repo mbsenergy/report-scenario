@@ -709,7 +709,6 @@ combined with positive wage dynamics contribute to GDP growth.
 :::
 :::
 
-\newpage
 
 ## Inflation rate
 
@@ -1182,7 +1181,6 @@ allowances demand and prices is expected.
 :::
 :::
 
-\newpage
 
 # Energy Mix
 
@@ -2854,11 +2852,8 @@ alleviate inter-zonal congestions on the mainland. By 2030, two
 significant HVDC infrastructures are expected to become operational: the
 Tyrrhenian Link, crucial for phasing out Sardinian coal-fired units, and
 the Adriac Link, aimed at reducing bottlenecks between southern and
-northern regions. However, these infrastructures are projected to be
-introduced with some delay compared to the proposed timeline by Terna
-and ARERA. In the Low scenario, they are assumed to be completed by
-2028, while in the High scenario, they are expected to be operational by
-2035.
+northern regions. These infrastructures are projected to be
+introduced with some delay compared to the Terna-Arera timeline. 
 :::
 :::
 
@@ -2868,12 +2863,11 @@ and ARERA. In the Low scenario, they are assumed to be completed by
 :::
 
 ::: callout-right
-Under BAU assumption, a further progressive reduction of inter-zonal
+Under BAU assumption, a progressive reduction of inter-zonal
 constraints in the mainland is assumed to take place since 2035. In the
-Low scenario we assume the implementation of the infrastructure proposed
-by Terna for the Hypergird project to reach 30GW of exchange capacity
-between market zones. In the High scenario the long-term network
-development is much more limited instead.
+Low scenario, the implementation of the 30 GW Hypergrid infrastructure proposed
+by Terna is considered. In the High scenario, instead, the long-term network
+development is more limited.
 :::
 :::
 
@@ -2884,8 +2878,7 @@ development is much more limited instead.
 
 ::: callout-right
 BAU grid development hypotheses based on the latest Development Plan
-published by Terna (2023) and on information publicly available
-concerning the feasibility of the various network improvements.
+published by Terna (2023).
 Assumptions in the alternative scenarios are consistent with other
 boundary conditions.
 :::
