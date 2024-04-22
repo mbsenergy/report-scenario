@@ -74,6 +74,7 @@ In this perspective, we defined three scenarios:
 -   The **Low Case scenario** would materialize in the event of favorable weather conditions and a fast energy transition, supported by low inflation and a faster economic recovery, reducing power and fossil fuels demand over the next few years. This would limit energy prices upside potential and then fuel a downward acceleration. 
 
 ![](support/01_scenari.png)
+
 \newpage
 
 ## Without reforms, how far could the Italian market advance in decarbonization?
