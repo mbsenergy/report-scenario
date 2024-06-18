@@ -4,9 +4,14 @@ subtitle: "."
 author: "."
 date: "."
 output: 
-  mbsenergyUtils::paged_windmill:
+  pagedown::html_paged:
+    css: style_report.css
+    template: template_paged.html
+    front_cover: resources/cover.png
+    back_cover: resources/backcover.png      
     toc: true
     toc_depth: 3
+    number_sections: true
     df_print: kable
 knit: pagedown::chrome_print
 editor_options: 
@@ -26,7 +31,7 @@ knitr::opts_chunk$set(
                warning=FALSE)
 options(knitr.kable.NA = '')
 
-library(mbsenergyUtils)
+library(teamscenario)
 
 box::use(ggplot2[...],
          magrittr[...],
@@ -55,8 +60,6 @@ excel_file_sn = xl$getSheetNames(excel_file)
 
 ```
 
-# a {.unnumbered}
-\newpage
 
 # Frame of Reference
 
