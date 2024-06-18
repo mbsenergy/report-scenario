@@ -5,10 +5,8 @@ author: "."
 date: "."
 output: 
   pagedown::html_paged:
-    css: style_report.css
-    template: template_paged.html
-    front_cover: resources/cover.png
-    back_cover: resources/backcover.png      
+    css: resources/style_report.css
+    template: resources/template_paged.html
     toc: true
     toc_depth: 3
     number_sections: true
