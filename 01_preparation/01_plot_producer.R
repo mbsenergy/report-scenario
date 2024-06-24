@@ -1,5 +1,8 @@
 
 
+report_num = 'IV2023'
+
+
 # Packages and Setup ------------------------------------------------------------------
 t0 = Sys.time()
 
@@ -16,7 +19,6 @@ box::use(ggplot2[...],
          scales,
          xl = openxlsx[read.xlsx])
 
-report_num = 'IV2023'
 
 years_to_display = c(2024:2040, 2045, 2050)
 
@@ -33,7 +35,7 @@ linetype_mapping = c("High" = "solid",
 linetype_mapping[report_num] = "dashed"
 
 ## File 
-excel_file = file.path('data', 'Grafici report scenari.xlsx')
+excel_file = file.path('01_preparation', 'Grafici report scenari.xlsx')
 excel_file_sn = xl$getSheetNames(excel_file)
 
 ## Line graphs ----
@@ -106,7 +108,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         plot_line
     }   
     
-    ggsave(file.path('02_02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
+    ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
            width = 9, height = altezza_grafici)
     
 }
@@ -216,7 +218,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         plot_line
     }   
     
-    ggsave(file.path('02_02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
+    ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
            width = 9, height = altezza_grafici)
     
 }
@@ -292,7 +294,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         plot_line
     }   
     
-    ggsave(file.path('02_02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
+    ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
            width = 9, height = altezza_grafici)
     
 }
@@ -392,7 +394,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     
-    ggsave(file.path('02_02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
+    ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
            width = 9, height = altezza_grafici)
     
 }
@@ -458,7 +460,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     
-    ggsave(file.path('02_02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
+    ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
            width = 9, height = altezza_grafici)
     
 }
@@ -521,7 +523,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     }   
     
     
-    ggsave(file.path('02_02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
+    ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
            width = 9, height = altezza_grafici)
     
 }
@@ -610,7 +612,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         plot_line
     }   
     
-    ggsave(file.path('02_02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
+    ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
            width = 9, height = altezza_grafici)
     
 }
