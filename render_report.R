@@ -1,14 +1,17 @@
-# Install pdftools package if not already installed
-library(pdftools)
+
+
+
+box::use(pdftools[...])
 
 # Paths to your PDF files
-pdf_files <- c("report_gen/resources/cover.pdf",
-               "report_gen/resources/pre.pdf",
-               "report_gen/report_gen.pdf",
-               "report_gen/resources/backcover.pdf")
+pdf_files = c("02_report_gen/resources/cover.pdf",
+              "02_report_gen/resources/pre.pdf",
+              "02_report_gen/report_gen.pdf",
+              "02_report_gen/resources/backcover.pdf")
 
 # Output file path
-output_pdf <- "report_scenario_final.pdf"
+output_pdf = paste0("report_scenario", Sys.Date(), ".pdf")
 
 # Combine the PDF files
 pdf_combine(pdf_files, output = output_pdf)
+
