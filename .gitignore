@@ -47,3 +47,4 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+report_gen/report_gen.html
