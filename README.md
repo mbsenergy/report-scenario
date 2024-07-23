@@ -12,7 +12,7 @@ In a nutshell the workflow shall go like this:
 
 ### Figures preparation
 
-1.  Paste the updated `excel` file called `"Grafici report scenari.xlsx"`\
+1.  Paste the updated `excel` file called `"/01_prep/Grafici report scenari.xlsx"`\
 2.  Open `01_plot_producer.R` located in `01_preparation` and update `report_num = 'IV2023'` with the current version\
 3.  Run the file. The figures will be saved in `02_report_gen/figs`
 4.  Eventually, adjust the plot size iteratively when need to fit the report
