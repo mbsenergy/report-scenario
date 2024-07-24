@@ -1,10 +1,7 @@
 
 
-report_num = 'IV2023'
-
-
 # Packages and Setup ------------------------------------------------------------------
-t0 = Sys.time()
+t0= Sys.time()
 
 options(box.path = getwd())
 
@@ -19,6 +16,22 @@ box::use(ggplot2[...],
          scales,
          xl = openxlsx[read.xlsx])
 
+# library(flextable)
+# 
+# set_flextable_defaults(
+#     font.color = "#747E7E",
+#     font.size = 9,
+#     font.family = 'calibri',
+#     padding = 5,
+#     border.color = "#dfe2e5",
+#     background.color = "whitesmoke",
+#     split = FALSE,
+#     theme_fun = "theme_box",
+#     decimal.mark = ",",
+#     big.mark = " ",
+#     na_str = "<na>")
+
+report_num = 'II2024'
 
 years_to_display = c(2024:2040, 2045, 2050)
 
@@ -44,7 +57,7 @@ vec_plot_line = excel_file_sn[c(1,2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
 
 ## Produce Plots
 
-for (i in 1:length(vec_plot_line)) { #i = 1
+for (i in 1:length(vec_plot_line)) { #i = 5
     
     if (i %in% c(9,14))  {
         dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
@@ -99,6 +112,39 @@ for (i in 1:length(vec_plot_line)) { #i = 1
              x = NULL,
              y = NULL,
              caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
+    
+    if (i ==5 ) {
+        plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name),group = get(c_name))) +
+            geom_line(linewidth = 1.1) +
+            scale_linetype_manual(values = linetype_mapping, breaks = levels_order) +
+            scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
+            scale_y_continuous(limits = c(0,7), breaks=seq(0,7,by=1))+
+            scale_colour_manual(values=color_mapping, breaks = levels_order)+
+            #ylim(0,7)+
+            theme_light() +
+            guides(color = guide_legend(title = NULL),
+                   linetype = guide_legend(title = NULL)) +
+            theme(panel.grid.major = element_blank(),  
+                  panel.grid.minor = element_blank(),
+                  panel.border = element_blank(),
+                  axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "#595959"),
+                  axis.ticks.x = element_blank(),
+                  axis.text.y = element_text(color = "#595959"),
+                  axis.ticks.y = element_blank(),
+                  text = element_text(family = "Aptos Narrow"),
+                  plot.title = element_text(face = "bold"), 
+                  plot.subtitle = element_text(face = "italic"),
+                  legend.position = 'top',
+                  legend.text = element_text(color = "#595959"),
+                  plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
+            labs(title = c_name_clean,
+                 subtitle = unit_measure,
+                 x = NULL,
+                 y = NULL,
+                 caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
+        
+        
+    }
     
     
     if("%" %in% unit_measure) {
@@ -2181,8 +2227,152 @@ plot_line = ggarrange(plot_line1,plot_line2,
 ggsave(file.path('02_report_gen', 'figs', '57. ASM.png'), plot_line,
        width = 9, height = 6)
 
+
+## 58. 59.  CAPEX ----
+
+vec_plot_line = excel_file_sn[c(52,53)]
+
+levels_order = c("Inverter + Transformer",               
+                 "Module",                    
+                 "Tracker",                       
+                 "Bos + structure",            
+                 "Other",                   
+                 "Turbine + Inverter",
+                 "Bop",                                   
+                 "Grid Connection")
+
+color_mapping = c("Inverter + Transformer" = "#FF9933" ,               
+                  "Module" = "#669895",                    
+                  "Tracker" = "#97BBA3",                       
+                  "Bos + structure" = "#0047CA",            
+                  "Other" = "#97BBFF",                   
+                  "Turbine + Inverter" = "#97BBA3",
+                  "Bop" = "#0047CA" ,                                   
+                  "Grid Connection" = "#97BBFF"                       
+                  )
+#Other:  (residual BOP, connection, land)
+
+#levels_order = rev(levels_order)
+
+## Produce Plot
+
+for (i in 1:length(vec_plot_line)) { #i = 1
+    
+    if ( i == 1) { 
+    
+    dt_line1 = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
+    #dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
+    #dt_line = dt_line[ , colSums(is.na(dt_line)) == 0] %>% setDT()
+    dt_line1 = dt_line1 %>% setDT()
+    
+    c_name1 = names(dt_line1)[1]
+    c_name_clean1 = gsub("\\.", " ", c_name1)
+    unit_measure1 = sub(".*\\((.*)\\).*", "\\1", c_name_clean1)
+    c_name_clean1 = gsub("\\s*\\([^\\)]+\\)", "", c_name_clean1)
+    
+    dt_line_lg1 = dt_line1 %>% 
+        melt(id.vars = c_name1, variable.name = 'CAPEX', value.name = 'valori') 
+    
+    dt_line_lg1[, (c_name1) := factor(get(c_name1), levels = levels_order)]
+    
+    
+    
+    plot_line1 = ggplot() +
+        geom_col(data = dt_line_lg1, aes(x = CAPEX, y = valori, fill = get(c_name1)), width = 0.4) +
+        #scale_x_discrete(expand = c(0.5, 0)) +
+        scale_colour_manual(values=color_mapping, breaks = levels_order)+
+        scale_fill_manual(values=color_mapping, breaks = levels_order) + 
+        theme_light() +
+        ylim(0,1500)+
+        guides(color = guide_legend(title = NULL, reverse = FALSE),
+               fill = guide_legend(title=NULL),
+               linetype = 'none') +
+        theme(panel.grid.major = element_blank(),  
+              panel.grid.minor = element_blank(),
+              panel.border = element_blank(),
+              #axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 1, color = "#595959"),
+              axis.ticks.x = element_blank(),
+              axis.text.y = element_text(color = "#595959"),
+              axis.ticks.y = element_blank(),
+              text = element_text(family = "Aptos Narrow"),
+              plot.title = element_text(face = "bold"), 
+              plot.subtitle = element_text(face = "italic"),
+              legend.position = 'right',
+              legend.text = element_text(color = "#595959"),
+              legend.key.size = unit(0.3, 'cm'),
+              #legend.key.width = unit(0.4, 'cm'),
+              plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
+        labs(title = c_name_clean1,
+             subtitle = unit_measure1,
+             x = NULL,
+             y = NULL,
+             caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
+    }
+    else { 
+        
+        dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
+        #dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
+        #dt_line = dt_line[ , colSums(is.na(dt_line)) == 0] %>% setDT()
+        dt_line = dt_line %>% setDT()
+        
+        c_name = names(dt_line)[1]
+        c_name_clean = gsub("\\.", " ", c_name)
+        unit_measure = sub(".*\\((.*)\\).*", "\\1", c_name_clean)
+        c_name_clean = gsub("\\s*\\([^\\)]+\\)", "", c_name_clean)
+        
+        dt_line_lg = dt_line %>% 
+            melt(id.vars = c_name, variable.name = 'CAPEX', value.name = 'valori') 
+        
+        dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
+        
+        plot_line2 = ggplot() +
+            geom_col(data = dt_line_lg, aes(x = CAPEX, y = valori, fill = get(c_name)), width = 0.4) +
+            #scale_x_discrete(expand = c(0.5, 0)) +
+            scale_colour_manual(values=color_mapping, breaks = levels_order)+
+            scale_fill_manual(values=color_mapping, breaks = levels_order) + 
+            theme_light() +
+            #ylim(0,1500)+
+            guides(color = guide_legend(title = NULL, reverse = FALSE),
+                   fill = guide_legend(title=NULL),
+                   linetype = 'none') +
+            theme(panel.grid.major = element_blank(),  
+                  panel.grid.minor = element_blank(),
+                  panel.border = element_blank(),
+                  #axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 1, color = "#595959"),
+                  axis.ticks.x = element_blank(),
+                  axis.text.y = element_text(color = "#595959"),
+                  axis.ticks.y = element_blank(),
+                  text = element_text(family = "Aptos Narrow"),
+                  plot.title = element_text(face = "bold"), 
+                  plot.subtitle = element_text(face = "italic"),
+                  legend.position = 'right',
+                  legend.text = element_text(color = "#595959"),
+                  legend.key.size = unit(0.3, 'cm'),
+                  #legend.key.width = unit(0.4, 'cm'),
+                  plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
+            labs(title = c_name_clean,
+                 subtitle = unit_measure,
+                 x = NULL,
+                 y = NULL,
+                 caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
+    }
+}
+
+plot_line1$labels$caption = expression(bold("Source: ") * "MBS Consulting elaborations")
+
+plot_line = ggarrange(plot_line1,plot_line2,
+                      labels = c("", ""),
+                      ncol = 2, nrow = 1)
+
+
+ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
+       width = 9, height = altezza_grafici)
+
+
+
 t1 = Sys.time()
 
 time_diff = round(difftime(t1, t0, units = "mins"),0)
 
 print(paste("Tempo creazione grafici:", time_diff, "minuti"))
+
