@@ -57,7 +57,7 @@ vec_plot_line = excel_file_sn[c(1,2,4,6,7,8,13,18,23,24,27,32,35,40,41)]
 
 ## Produce Plots
 
-for (i in 1:length(vec_plot_line)) { #i = 5
+for (i in 1:length(vec_plot_line)) { #i = 9
     
     if (i %in% c(9,14))  {
         dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
@@ -113,6 +113,38 @@ for (i in 1:length(vec_plot_line)) { #i = 5
              y = NULL,
              caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
     
+    
+    if (i %in% c(3,4)) {
+    
+    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name),group = get(c_name))) +
+        geom_line(linewidth = 1.1) +
+        scale_linetype_manual(values = linetype_mapping, breaks = levels_order) +
+        scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
+        scale_colour_manual(values=color_mapping, breaks = levels_order)+
+        scale_y_continuous(limits = c(0,dt_line_lg$valori %>% max()), breaks=seq(0,dt_line_lg$valori %>% max(),by=10))+
+        theme_light() +
+        guides(color = guide_legend(title = NULL),
+               linetype = guide_legend(title = NULL)) +
+        theme(panel.grid.major = element_blank(),  
+              panel.grid.minor = element_blank(),
+              panel.border = element_blank(),
+              axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "#595959"),
+              axis.ticks.x = element_blank(),
+              axis.text.y = element_text(color = "#595959"),
+              axis.ticks.y = element_blank(),
+              text = element_text(family = "Aptos Narrow"),
+              plot.title = element_text(face = "bold"), 
+              plot.subtitle = element_text(face = "italic"),
+              legend.position = 'top',
+              legend.text = element_text(color = "#595959"),
+              plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
+        labs(title = c_name_clean,
+             subtitle = unit_measure,
+             x = NULL,
+             y = NULL,
+             caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
+    }
+    
     if (i ==5 ) {
         plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name),group = get(c_name))) +
             geom_line(linewidth = 1.1) +
@@ -145,6 +177,39 @@ for (i in 1:length(vec_plot_line)) { #i = 5
         
         
     }
+    
+    if (i == 9) {
+        
+        plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name),group = get(c_name))) +
+            geom_line(linewidth = 1.1) +
+            scale_linetype_manual(values = linetype_mapping, breaks = levels_order) +
+            scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
+            scale_colour_manual(values=color_mapping, breaks = levels_order)+
+            scale_y_continuous(limits = c(20,dt_line_lg$valori %>% max()%>% round(0)+1), breaks=seq(20,dt_line_lg$valori %>% max()%>% round(0)+1,by=10))+
+            theme_light() +
+            guides(color = guide_legend(title = NULL),
+                   linetype = guide_legend(title = NULL)) +
+            theme(panel.grid.major = element_blank(),  
+                  panel.grid.minor = element_blank(),
+                  panel.border = element_blank(),
+                  axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "#595959"),
+                  axis.ticks.x = element_blank(),
+                  axis.text.y = element_text(color = "#595959"),
+                  axis.ticks.y = element_blank(),
+                  text = element_text(family = "Aptos Narrow"),
+                  plot.title = element_text(face = "bold"), 
+                  plot.subtitle = element_text(face = "italic"),
+                  legend.position = 'top',
+                  legend.text = element_text(color = "#595959"),
+                  plot.caption = element_text(hjust = 0, face = "italic", margin = margin(t = 20))) + 
+            labs(title = c_name_clean,
+                 subtitle = unit_measure,
+                 x = NULL,
+                 y = NULL,
+                 caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
+    }
+    
+    
     
     
     if("%" %in% unit_measure) {
@@ -1101,7 +1166,7 @@ years_to_display = seq(2025,2050, by = 5)
 
 ## Produce Plot
 
-for (i in 1:length(vec_plot_line)) { #i = 3
+for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]]) %>% setDT() 
     
@@ -1129,11 +1194,11 @@ for (i in 1:length(vec_plot_line)) { #i = 3
     plot_line =
         dt_line_lg %>%
         ggplot() +
-        geom_ribbon(data = dt_geom_ribbon,aes(x = anni,
-                                              ymin = `LCOE low`,
-                                              ymax = `LCOE range`, 
-                                              fill = "LCOE range"),
-                    alpha = 0.5) + 
+        #geom_ribbon(data = dt_geom_ribbon,aes(x = anni,
+        #                                      ymin = `LCOE low`,
+        #                                      ymax = `LCOE range`, 
+        #                                      fill = "LCOE range"),
+        #            alpha = 0.5) + 
         geom_line(data = filter(dt_line_lg, !get(c_name) %in%  c("LCOE low","LCOE range")), aes(x = anni, y = valori, color = get(c_name)), linewidth = 1.1) +
         scale_fill_manual(values = color_mapping) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
@@ -1650,7 +1715,9 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     years_to_display = as.character(years_to_display)
     
     plot_line = ggplot() +
-        geom_line(data = dt_line_lg, aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1.1) +
+        geom_line(data = dt_line_lg %>% filter(get(c_name)== "Baseload"), aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1.1) +
+        geom_point(data = dt_line_lg %>% filter(get(c_name)== "Baseload"), aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), size = 3,shape=16) +
+        geom_col(data = dt_line_lg %>% filter(get(c_name)!= "Baseload"), aes(x = anni, y = valori, fill = get(c_name)), width = 0.6,position = "dodge") +
         geom_hline(yintercept = 0, linetype = "solid", color = "grey") +
         scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
         scale_colour_manual(values=color_mapping, breaks = levels_order)+

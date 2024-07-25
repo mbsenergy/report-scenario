@@ -3268,13 +3268,9 @@ high degree of cannibalization effect.
 ### Investment costs and IRR of Solar and Wind
 
 ::: callout-main
-**THE INTENSE COMPETITION IN THE PV MODULES MARKET DRIVES DOWN
+**INTENSE COMPETITION IN THE PV MODULES MARKET DRIVES DOWN
 INVESTMENT COSTS FOR SOLAR IN THE MID AND LONG TERM, EVEN THOUGH GRID
-CONNECTION AND LAND COSTS MAY RISE. CONSEQUENTLY, THE IRR FOR PV
-INVESTMENTS IS EXPECTED TO STABILIZE AT AROUND 7%. TURBINES AND
-INVERTERS CONSTITUTE 75% OF WIND CAPEX, WHICH IS APPROXIMATELY €1.5
-MILLION. AS THE COSTS OF WIND TECHNOLOGIES DECREASE, OVERALL CAPEX WILL
-REDUCE, LEADING TO A STABILIZATION OF THE IRR AT AROUND 7%**
+CONNECTION AND LAND COSTS MAY RISE. HIGHER TECHNOLOGY COSTS FOR WIND**
 :::
 
 ![](figs/59_Capex_Wind.png)
@@ -3301,10 +3297,7 @@ cost of land acquisition or rental, which constitutes nearly 8% of the
 total cost, has increased in recent years. The anticipated acceleration
 of new installations in the coming years may further drive up land
 demand for solar projects, as available sites diminish, thereby
-increasing rental costs. Other residual costs, such as design,
-administration, internal development, engineering, mitigation works, and
-contingencies, are highly project-dependent and account for nearly 30%
-of the total solar CAPEX. This cost structure typically results in an
+increasing rental costs. This cost structure typically results in an
 IRR of around 7% (base case considering South zone, pre-tax captured
 prices, 30 years time horizon) for solar projects, with regional
 variations according to different zonal captured prices. For
@@ -3330,8 +3323,7 @@ there may be a reduction in technology costs. Despite this, the CAPEX
 for a wind project is expected to remain above €1 million until 2040.
 This cost structure typically results in an IRR of around 7% (base case
 considering South zone, pre-tax captured prices, 20 years time horizon)
-for onshore wind projects, with regional variations according to
-different zonal captured prices.
+for onshore wind projects.
 :::
 :::
 
