@@ -869,13 +869,10 @@ SUSTAINING THE ENVISIONED PRICE INCREASES**
 In our Reference scenario, the 2024 CO2 price average is projected to
 stay near 70 €/ton, driven by the gradual implementation of the ETS
 system reform. The phasing out of free allowances for the aviation
-sector, reaching 50% of the total in 2025, along with the planned
-removal of 90 Mln permits from the market in 2024, are expected to begin
+sector, reaching 50% of the total in 2025, are expected to begin
 exerting upward pressure on allowances prices by curtailing supply. From
 2025 onwards, the progressive inclusion of the maritime transport sector
-will further boost overall demand. Concerns remain regarding the
-underlying demand recovery, which is anticipated to be limited over the
-next couple of years due to a slow economic growth.
+will further boost overall demand. 
 :::
 :::
 
@@ -888,7 +885,7 @@ next couple of years due to a slow economic growth.
 The widening of the supply-demand gap should become evident starting
 from 2026, as the maritime sector integrates into the ETS system and the
 phasing out of free allowances for aviation reaches full implementation.
-In addition, by 2030, the reinforcement of the Market Stability Reserve
+By 2030, the reinforcement of the Market Stability Reserve
 and the increase of the Linear Reduction Factor up to 4.4% will
 contribute to further tightening the market. As a result, the CO2 price
 is expected to accelerate towards 110 €/ton on average by 2030.
@@ -1601,79 +1598,72 @@ conditions must be ensured.
 # :::
 # 
 # \newpage
-# 
-# ## Thermoelectric Generation
-# 
-# ### Installed Capacity, Reference Scenario
-# 
-# ::: callout-main
-# **CAPACITY MARKET AUCTIONS WILL COMPREHENSIVELY BRING 7.3 GW OF NEW
-# GAS-FIRED CAPACITY BY MID 2025. SARDINIAN COAL-FIRED UNITS TO BE
-# PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING IN
-# 2030**
-# :::
-# 
-# ![](figs/29_Inst_thermo_capacity_ref.png)
-# 
-# ::: callout-item
-# ::: callout-left
-# #### 24-25 {.unnumbered}
-# :::
-# 
-# ::: callout-right
-# Due to troubles in completing the permitting process, some capacity
-# procured through the 2022-2023 Capacity Market (CM) auctions will not be
-# realized. According to the latest data published by Terna, the total
-# amount of new gas-fired capacity supported by 2022-2023 CM premium
-# should total around 5 GW, with only 2.8 GW currently operative. 2024 CM
-# capacity should enter the market between late 2024 and mid-2025.
-# :::
-# :::
-# 
-# ::: callout-item
-# ::: callout-left
-# #### 26-30 {.unnumbered}
-# :::
-# 
-# ::: callout-right
-# Auction results show also that Sardinia coal-fired capacity will not be
-# substituted by gas-fired units, as only storage capacity was awarded in
-# the island. Anyway, while coal-fired plants on the peninsula will be
-# phased-out after 2025, Sardinia units are expected to operate until the
-# Tyrrhenian Link infrastructure is fully completed (2030).
-# :::
-# :::
-# 
-# ::: callout-item
-# ::: callout-left
-# #### 31-50 {.unnumbered}
-# :::
-# 
-# ::: callout-right
-# The amount of capacity auctioned through the CM is expected to grant
-# full system adequacy at least through to 2030. No other thermoelectric
-# capacity investments are envisaged after the wave of investment brought
-# by the last CM auctions. Existing CHP power plants continue to support
-# industrial acvities under the assumption of a BAU evolution of the
-# industrial needs they serve. Some ageing CCGT capacity exit the market.
-# :::
-# :::
-# 
-# ::: callout-wrap
-# ::: callout-left
-# #### Main updates {.unnumbered}
-# :::
-# 
-# ::: callout-right
-# Evolution of new thermoelectric capacity reviewed consistently with
-# latest information diffused by Terna with respect to the results of
-# Capacity Market auctions. Hypotheses related to existing gas-fired
-# capacity are in line with the previous market update.
-# :::
-# :::
-# 
-# \newpage
 ```
+
+ ## Thermoelectric Generation
+
+### Installed Capacity, Reference Scenario
+
+::: callout-main
+**CAPACITY MARKET AUCTIONS WILL COMPREHENSIVELY BRING 7.3 GW OF NEW
+ GAS-FIRED CAPACITY BY MID 2025. SARDINIAN COAL-FIRED UNITS TO BE
+ PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING IN
+ 2030**
+:::
+
+![](figs/29_Inst_thermo_capacity_ref.png)
+
+::: callout-item
+::: callout-left
+#### 24-25 {.unnumbered}
+:::
+
+::: callout-right
+2024 CM capacity should enter the market between late 2024 and mid-2025.
+:::
+:::
+
+::: callout-item
+::: callout-left
+#### 26-30 {.unnumbered}
+:::
+
+::: callout-right
+Auction results show also that Sardinia coal-fired capacity will not be substituted by gas-fired units, as only storage capacity was awarded in the island. Anyway, while coal-fired plants on the peninsula will be phased-out after 2025, Sardinia units are expected to operate until the Tyrrhenian Link infrastructure is fully completed (2030).
+:::
+:::
+
+::: callout-item
+::: callout-left
+#### 31-50 {.unnumbered}
+:::
+
+::: callout-right
+The amount of capacity auctioned through the CM is expected to grant
+ full system adequacy at least through to 2030. No other thermoelectric
+ capacity investments are envisaged after the wave of investment brought
+ by the last CM auctions. Existing CHP power plants continue to support
+ industrial acvities under the assumption of a BAU evolution of the
+ industrial needs they serve. Some ageing CCGT capacity exit the market.
+:::
+:::
+
+::: callout-wrap
+::: callout-left
+#### Main updates {.unnumbered}
+:::
+
+::: callout-right
+Evolution of new thermoelectric capacity reviewed consistently with
+ latest information diffused by Terna with respect to the results of
+ Capacity Market auctions. Hypotheses related to existing gas-fired
+ capacity are in line with the previous market update.
+:::
+:::
+
+ 
+
+\newpage
 
 ### Installed Capacity, Low Case Scenario
 
@@ -1692,12 +1682,7 @@ IN 2030**
 :::
 
 ::: callout-right
-Due to troubles in completing the permitting process, some capacity
-procured through the 2022-2023 Capacity Market (CM) auctions will not be
-realized. According to the latest data published by Terna, the total
-amount of new gas-fired capacity supported by 2022-2023 CM premium
-should total around 5 GW, with only 2.8 GW currently operative. 2024 CM
-capacity should enter the market between late 2024 and mid-2025.
+2024 CM capacity should enter the market between late 2024 and mid-2025.
 :::
 :::
 
@@ -1713,7 +1698,9 @@ the island. Anyway, while coal-fired plants on the peninsula will be
 phased-out after 2025, Sardinia units are expected to operate until the
 Tyrrhenian Link infrastructure is fully completed (2029).
 :::
+:::
 
+::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1760,12 +1747,7 @@ COAL-FIRED POSTPONED UNTILL 2034 WHEN TYRRHENIAN LINK BECOME OPERATIVE**
 :::
 
 ::: callout-right
-Due to troubles in completing the permitting process, some capacity
-procured through the 2022-2023 Capacity Market (CM) auctions will not be
-realized. According to the latest data published by Terna, the total
-amount of new gas-fired capacity supported by 2022-2023 CM premium
-should total around 5 GW, with only 2.8 GW currently operative. 2024 CM
-capacity should enter the market between late 2024 and mid-2025.
+2024 CM capacity should enter the market between late 2024 and mid-2025.
 :::
 :::
 
