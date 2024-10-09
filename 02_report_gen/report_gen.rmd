@@ -447,14 +447,17 @@ TERM EXPECTATIONS UNDER CONTROL**
 :::
 
 ::: callout-right
-Inflation is expected to remain close to 2% both in 2024 and 2025, in
-line with the ongoing disinflation path. In the second half of 2024
-monetary policy may revert to easing supporting investments growth. The
-European Central Bank (ECB) has in fact decided to start a slow path of
-rate reduction, with an initial cut of 0.25 percentage points from the
-previous 4.75%. However, geopolitical uncertainty and the risk of
-pressures, particularly on energy prices, could cause delays in the
-anticipated lowering of interest rates.
+Inflation is expected to remain close to 2% both in 2024 and 2025, with
+the ongoing disinflation path expected to gradually ease as the
+carry-over effect of declining energy prices diminish and the monetary
+policy stance reverts. Since mid-2024, the European Central Bank and the
+Federal Reserve have indeed approved the first cuts to reference rates
+to support investments, following the reduction in inflation risk. The
+path to monetary normalization remains uncertain, though, as the
+decisions of the two Central Banks are highly dependent on economic
+outcomes. Geopolitical uncertainty could further weigh on the inflation
+outlook, as new disruptions in the production and transportation chains
+of imported goods may increase pressure on inflation.
 :::
 :::
 
@@ -989,9 +992,8 @@ their contribution to the energy mix.
 :::
 
 ::: callout-right
-Net import increase in the short-term, aligned with market
-dyanmics,supported by French nuclear capacity recovery and a general
-reduction in the electricity demand at European level.
+Short-term shifts in the production mix reflect updated commodity
+prices.
 :::
 :::
 
@@ -1062,9 +1064,7 @@ manage surplus renewable energy output effectively.
 
 ::: callout-right
 Short-term shifts in the production mix reflect updated commodity
-prices. In the long term, the addition of new renewable capacity will be
-bolstered by thermoelectric power and storage solutions to ensure system
-reliability and adequacy.
+prices.
 :::
 :::
 
@@ -1117,14 +1117,13 @@ sources steadily increasing their share in the energy mix.
 :::
 
 ::: callout-right
-The anticipated rise in CO2 prices is projected to further diminish the
-competitiveness of coal generation until 2035, when the completion of
-the Tyrrhenian Link will facilitate the phase-out of all coal units.
-Concurrently, gas-fired generation is expected to increase its share in
-the national energy mix to approximately 38%. The dynamic nature of the
-Day-Ahead Market (DAM) and the ongoing development of renewable energy
-sources will support the integration of 10 GW of energy-intensive
-storage in the long term.
+The projected rise in CO2 prices is expected to further erode the
+competitiveness of coal generation, leading to its full phase-out by
+2035 with the completion of the Tyrrhenian Link. Meanwhile, gas-fired
+generation is anticipated to account for 22% of the energy mix by 2050.
+The evolving dynamics of the Day-Ahead Market (DAM) and the continued
+expansion of renewable energy sources will support the long-term
+integration of 10 GW of energy-intensive storage.
 :::
 :::
 
@@ -1144,10 +1143,11 @@ short-term.
 ## Electricity Demand
 
 ::: callout-main
-**THE REDUCTION OF ELECTRICITY DEMAND AT EUROPEAN LEVEL IS REFLECTED IN
-THE ITALIAN SCENARIO, STILL TO EVALUATE WHETHER THE TREND IS GOING TO BE
-STRUCTURAL. IN THE LONG-TERM, ELECTRIFICATION AND EFFICIENCY IN FINAL
-CONSUMPTIONS ARE GOING TO BE THE MAIN DRIVERS FOR DEMAN RECOVERY**
+**THE REDUCTION IN ELECTRICITY DEMAND AT THE EUROPEAN LEVEL IS ALSO
+EVIDENT IN THE ITALIAN CONTEXT, ALTHOUGH IT REMAINS TO BE SEEN WHETHER
+THIS TREND WILL BE STRUCTURAL. IN THE LONG TERM, ELECTRIFICATION AND
+EFFICIENCY IMPROVEMENTS IN FINAL CONSUMPTION ARE EXPECTED TO BE THE
+PRIMARY DRIVERS OF DEMAND RECOVERY.**
 :::
 
 ![](figs/22_Electricity_demand.png)
@@ -1158,13 +1158,13 @@ CONSUMPTIONS ARE GOING TO BE THE MAIN DRIVERS FOR DEMAN RECOVERY**
 :::
 
 ::: callout-right
-A slight recovery of the economy is expected in the next two years,
-leading to an increase in the electricity demand, which would reach
-almost 316 TWh in 2025 (+1.1% y/y). The positive growth is foreseen also
-in the alternative views: in the high case scenario, the demand would
-reach 312 TWh, according to a lower economic recovery, and 321 TWh in
-the low case scenario, where the economic growth is expected to be more
-sustained.
+A modest economic recovery is anticipated over the next two years,
+resulting in an increase in electricity demand, projected to reach
+nearly 316 TWh by 2025 (+1.1% year-on-year). Positive growth is also
+expected in alternative scenarios: in the high case scenario, demand is
+estimated at 312 TWh, reflecting a lower rate of economic recovery,
+while in the low case scenario, where economic growth is projected to be
+more robust, demand could rise to 321 TWh.
 :::
 :::
 
@@ -1189,12 +1189,12 @@ consumption at 327 TWh.
 :::
 
 ::: callout-right
-After 2030, the progressive electrification of consumption in the
-transport sector and the diffusion of heating and cooling appliances
-could be compensated by efficiency measures in the industrial and civil
-sectors. This could lead electricity demand below 370 TWh in 2040. In
-the alternave scenarios 2040 demand totals 377 TWh in Low case and 347
-TWh in High case.
+After 2030, the gradual electrification of consumption in the
+transportation sector and the widespread adoption of heating and cooling
+appliances may be offset by efficiency measures in the industrial and
+residential sectors. As a result, electricity demand could fall below
+370 TWh by 2040. In alternative scenarios, electricity demand is
+projected to reach 377 TWh in the low case and 340 TWh in the high case.
 :::
 :::
 
@@ -1204,8 +1204,7 @@ TWh in High case.
 :::
 
 ::: callout-right
-Electricity demand hypothesis are in line with the previous update, with
-a 1 TWh increase in 2024.
+Electricity demand hypothesis are in line with the previous update.
 :::
 :::
 
@@ -1214,10 +1213,10 @@ a 1 TWh increase in 2024.
 ### E-mobility
 
 ::: callout-main
-**ADDITIONAL ELECTRICITY DEMAND FROM EVs CAN SIGNIFICANTLY VARY BASED ON
-THE FUTURE DEPLOYMENT OF E- MOBILITY APPLICATIONS IN CITIES, EMISSION
-REDUCTION OBJECTIVES IN TRANSPORTS AND GENERALLY ON LONG- TERM TRANSPORT
-HABITS**
+**ADDITIONAL ELECTRICITY DEMAND FROM ELECTRIC VEHICLES (EVS) CAN VARY
+SIGNIFICANTLY DEPENDING ON THE FUTURE IMPLEMENTATION OF E-MOBILITY
+SOLUTIONS IN URBAN AREAS, EMISSIONS REDUCTION TARGETS IN TRANSPORTATION,
+AND OVERALL LONG-TERM TRANSPORTATION HABITS**
 :::
 
 ![](figs/23_E_mobility.png)
@@ -1228,22 +1227,22 @@ HABITS**
 :::
 
 ::: callout-right
-Electric vehicles are assumed to increase up to 1.2 million in 2025, 4.5
-million in 2030 and 11 million in 2040, bringing 2 TWh, 7.6 TWh and 18.7
-TWh of additional consumption, respectively. In the Low scenario, a
-greater diffusion of electric vehicles leads 10.5 million in 2030 and 14
-million in 2040. In the High scenario, e-mobility development suffers a
-5-year delay compared to the Reference case.
-:::
+Electric vehicle (EV) numbers are projected to reach 1.2 million by
+2025, 4.5 million by 2030, and 11.1 million by 2040 in the Reference
+scenario, resulting in total consumption of 2 TWh, 7.6 TWh, and 18.7 TWh
+from EVs, respectively. In the Low scenario, a more rapid adoption of
+electric vehicles is expected to reach 6 million by 2030 and 15 million
+by 2040. Conversely, in the High scenario, the development of e-mobility
+experiences a 5- to 10-year delay compared to the Reference scenario,
+with the target of 4.5 million EVs only being achieved by 2040.
 :::
 
-::: callout-item
 ::: callout-left
 #### 30 {.unnumbered}
 :::
 
 ::: callout-right
-The NIECP envisages 6 million electric vehicles in Italy in 2030 - 4
+The NIECP envisages 6.5 million electric vehicles in Italy in 2030 - 4.3
 million are pure EVs (BEV: Battery Electric Vehicles) -- accounting for
 about 8 TWh of additional electricity demand. In our Reference view we
 estimate additional 7.5 TWh to come from BEV and PHEV (Plug-in Hybrid
@@ -1260,11 +1259,11 @@ applications in cities or long-term transport.
 :::
 
 ::: callout-right
-Notwithstanding the newest Green Deal proposals at EU level concerning
-transports, considering the uncertainty connected to the future
-expansion of a market which is still in a first stage of development, we
-assume a BAU trend in the long-term horizon, starting from the annual
-level of EVs addition reached in 2030.
+Despite the recent Green Deal proposals at the EU level regarding
+transportation, the uncertainty surrounding the future expansion of a
+market still in its early stages of development leads us to assume a
+business-as-usual (BAU) trend over the long term, beginning with the
+annual level of electric vehicle (EV) additions projected for 2030.
 :::
 :::
 
@@ -1287,8 +1286,8 @@ strengthening of EU standards.
 
 ::: callout-main
 **THE ADDITIONAL ELECTRICITY DEMAND FOR HEATING AND COOLING WILL DEPEND
-ON THE PACE OF GROWTH OF INSTALLATIONS FOR CIVIL AND INDUSTRIAL USES,
-POTENTIALLY SUSTAINED BY SUPPORT MEASURES FOR DECARBONIZATION**
+ON THE GROWTH RATE OF INSTALLATIONS FOR RESIDENTIAL AND INDUSTRIAL USES,
+WHICH MAY BE FURTHER SUPPORTED BY DECARBONIZATION INCENTIVES**
 :::
 
 ![](figs/24_Heating_Cooling.png)
@@ -1299,9 +1298,10 @@ POTENTIALLY SUSTAINED BY SUPPORT MEASURES FOR DECARBONIZATION**
 :::
 
 ::: callout-right
-H&C is expected to account for additional electricity requirements in a
-range between 2.5 TWh and 8 TWh in 2025, 4 TWh and 16 TWh in 2030, 7 TWh
-and 18 TWh in 2040, depending on the scenario considered.
+Heating and cooling (H&C) is projected to represent additional
+electricity requirements ranging from 2 TWh to 5 TWh in 2025, 4 TWh to 9
+TWh in 2030, and 8 TWh to 17 TWh in 2040, depending on the scenario
+analyzed.
 :::
 :::
 
@@ -1311,8 +1311,9 @@ and 18 TWh in 2040, depending on the scenario considered.
 :::
 
 ::: callout-right
-Our assumptions lead to estimate 6.7 TWh of H&C consumption in 2030,
-corresponding to around 1.8 million installations for civil uses.
+Our assumptions lead to estimate 6.7 TWh of H&C consumption in 2030, as
+per the reference scenario, corresponding to around 1.8 million
+installations for civil uses.
 :::
 :::
 
@@ -1346,7 +1347,7 @@ among H&C installers.
 ::: callout-main
 **INDUSTRIAL SELF-CONSUMPTION WILL GRADUALLY DECREASE AS EXISTING ASSETS
 REACH END-OF-LIFE AND THE EXEMPTIONS ACCORDED TO CLOSED DISTRIBUTION
-SYSTEMS WL BE AT LEAST PARTIALLY REMOVED**
+SYSTEMS WILL BE AT LEAST PARTIALLY REMOVED**
 :::
 
 ![](figs/25_Self_Produc_and_Self_Consum.png)
@@ -1388,10 +1389,9 @@ existing power plants that serve industrial sites.
 :::
 
 ::: callout-right
-Industrial self-production and self-consumption hypotheses have been
-updated considering the most recent historical data but are in line with
-the previous update. Self-production/consumption hypotheses are the same
-in all the three scenarios.
+Industrial self-production and self-consumption hypotheses are in line
+with the previous update. Self-production/consumption hypotheses are the
+same in all the three scenarios.
 :::
 :::
 
@@ -1467,13 +1467,13 @@ previous update.
 ## Net Import
 
 ::: callout-main
-**THE RECOVERY OF NUCLEAR CAPACITY FROM THE O&M OPERATION HELD SINCE
-2022, AN INCREASE IN HYDRO PRODUCTION IN SWITZERALND, AND ELECTRICITY
-DEMAND REDUCTION AT EUROPEAN LEVEL LEAD TO AN INCREASE IN NET IMPORT
-FROM THE NEIGHTBORS COUNTRIES TO THE NORTH ZONE. AS RESULT, NET IMPORT
-IS GOING TO REACH UP TO 50 TWh BY THE END OF 2024. AFTER 2029, THE
-COMPLETION OF 600 MW POWER INTERCONNECTOR WITH TUNISIA (MONTEL) WILL
-INCREASE ELECTRICITY EXPORT**
+**THE RECOVERY OF NUCLEAR CAPACITY FROM O&M OPERATIONS INITIATED IN
+2022, AN INCREASE IN HYDROPOWER PRODUCTION IN SWITZERLAND, AND A
+REDUCTION IN ELECTRICITY DEMAND AT THE EUROPEAN LEVEL WILL RESULTED IN
+GREATER NET IMPORTS FROM NEIGHBORING COUNTRIES TO THE NORTHERN ZONE. AS
+A RESULT, NET IMPORTS ARE EXPECTED TO REACH UP TO 50 TWH BY THE END OF
+2024. AFTER 2029, THE COMPLETION OF A 600 MW POWER INTERCONNECTOR WITH
+TUNISIA (MONTEL) WILL BOOST ELECTRICITY EXPORTS**
 :::
 
 ![](figs/27_Net_Import.png)
@@ -1484,13 +1484,15 @@ INCREASE ELECTRICITY EXPORT**
 :::
 
 ::: callout-right
-Continuing the trend registered in 2023 and in the first half of 2024,
-net import from neighboring countries is going to be higher than
-historical average. This is manly due to French nuclear power production
-recovery, after two years operation and maintenance stops, recovery in
-hydro production in Switzerland, and a general delay in European demand
-increase. Net import is expected to reach 49.7 TWh in 2024, and
-stabilize also in 2025.
+Building on the trend observed in 2023 and the first half of 2024, net
+imports from neighboring countries are expected to exceed the historical
+average. This is primarily driven by the recovery of French nuclear
+power production following two years of operation and maintenance
+interruptions, increased hydro production in Switzerland, and a general
+lag in the recovery of European electricity demand. Net imports are
+projected to reach 49.7 TWh in 2024 and are anticipated to remain stable
+through 2025, covering almost 16% of electricity demand in the
+short-term.
 :::
 :::
 
@@ -1500,15 +1502,14 @@ stabilize also in 2025.
 :::
 
 ::: callout-right
-Net imports flows are assumed to slowly decrease in the second half of
-the decade to around 45 TWh in 2030. This is due to: (i) recovering
-switching conditions and the partial dismission of the nuclear and coal-
-fired capacity in France and Germany, (ii) demand recovery at European
-level lead by electrification, and (iii) the achievement of 2030
-renewable targets in other European countries, which increases
-electricity production from RES. Moreover, the go-live of the
-Tunisia-Sicily cable by the end of 2028, will reduce the net import
-balance by adding more than 3.5 TWh of export flows.
+The combination of consistently low demand and continued growth in
+renewable energy capacity across Europe is expected to lead to systemic
+overgeneration in the medium term, confirming imports a cost-effective
+solution. Net imports are projected to remain steady, averaging around
+49 TWh annually through 2029. However, with the activation of the Elmed
+interconnection between Sicily and Tunisia by the end of 2028, net
+import balance will shrink to around 45 TWh as over 3.5 TWh of
+electricity is redirected for export.
 :::
 :::
 
@@ -1518,14 +1519,10 @@ balance by adding more than 3.5 TWh of export flows.
 :::
 
 ::: callout-right
-The phase-out of nuclear and coal-fired units in continental Europe
-could lead to a further net import decrease in the 2030s, until 13 TWh
-ca. in 2040. The slight increase in net import seen from 2035 is due to
-an estimated reduction (1 TWh ca.) in the export flows towards Tunisia,
-following the Tunisian system development plan. In the High scenario,
-net imports remain sustained as switching conditions only partially
-improve and no significant nuclear/coal-fired dismission is supposed in
-continental Europe.
+Import levels are expected to stable also after 2030, ranging above 45
+TWh. The slight increase in net import seen from 2035 is due to an
+estimated reduction (1 TWh ca.) in the export flows towards Tunisia,
+following the Tunisian system development plan.
 :::
 :::
 
@@ -1534,11 +1531,8 @@ continental Europe.
 #### Main updates {.unnumbered}
 :::
 
-::: callout-right
-Update in short-term trend, in line with 2023 results. In the
-alternative scenarios, net import values are assumed equivalent to the
-Reference case under the assumption that national grid security
-conditions must be ensured.
+::: callout-wrap
+Import hypotheses are in line with the previous update.
 :::
 :::
 
@@ -1723,8 +1717,8 @@ Tyrrhenian Link infrastructure is fully completed (2029).
 :::
 
 ::: callout-right
-No other thermoelectric capacity investments are envisaged afer the wave
-of investment brought by the last CM auctions. Most of existing CHP
+No other thermoelectric capacity investments are envisaged after the
+wave of investment brought by the last CM auctions. Most of existing CHP
 power plants gradually exit the market, substituted by greener
 solutions. Some ageing CCGT capacity exit the market following strong
 competitive conditions.
@@ -1739,10 +1733,11 @@ competitive conditions.
 ::: callout-right
 Evolution of new thermoelectric capacity reviewed consistently with
 latest information diffused by Terna with respect to the results of
-Capacity Market auctions. All coal-fired units phased-out in 2029 under
-the hypothesis of a realization of the Tyrrhenian Link infrastructure in
-line with Terna assumptions. Hypotheses related to existing gas-fired
-capacity are in line with the previous market update.
+Capacity Market auctions. All coal-fired units are expected to be
+phased-out in 2029 under the hypothesis of a realization of the
+Tyrrhenian Link infrastructure in line with Terna assumptions.
+Hypotheses related to existing gas-fired capacity are in line with the
+previous market update.
 :::
 :::
 
@@ -1753,7 +1748,8 @@ capacity are in line with the previous market update.
 ::: callout-main
 **CAPACITY MARKET AUCTIONS WILL COMPREHENSIVELY BRING 7.3 GW OF NEW
 GAS-FIRED CAPACITY ONLINE BETWEEN 2022 AND EARLY 2025. PHASE-OUT OF
-COAL-FIRED POSTPONED UNTILL 2034 WHEN TYRRHENIAN LINK BECOME OPERATIVE**
+COAL-FIRED UNITS IS POSTPONED UNTIL 2034 WHEN THE TYRRHENIAN LINK
+BECOMES OPERATIVE**
 :::
 
 ![](figs/31_Inst_thermo_capacity_high.png)
@@ -1774,8 +1770,8 @@ COAL-FIRED POSTPONED UNTILL 2034 WHEN TYRRHENIAN LINK BECOME OPERATIVE**
 :::
 
 ::: callout-right
-Thermal capacity expected to be stable in the second half of the '20s in
-High scenario
+Thermal capacity expected to be stable in the second half of the decade
+in the High scenario.
 :::
 :::
 
@@ -1787,8 +1783,9 @@ High scenario
 ::: callout-right
 No other thermoelectric capacity investments are envisaged after the
 wave of investment brought by the last CM auctions. Existing CHP and
-CCGT power plants are remain operative. Realization of the Tyrrhenian
-Link in 2035 determine the phase-out of all coal power plants.
+CCGT power plants are projected to remain operative. The commissioning
+of the Tyrrhenian Link is postponed until 2035, determining a delayed
+phase-out of all coal power plants.
 :::
 :::
 
@@ -1811,11 +1808,12 @@ the previous market update.
 ### Residual Demand for CCGTs
 
 ::: callout-main
-**EXISTING CCGTs COULD OVERCOME 2000 EOH IN THE SHORT-THERM AND RANGE
-BETWEEN 2000 AND 1300 EOH IN THE MID- AND LONG-TERM DUE TO THE GREATER
-INCREASE OF PRODUCTION FROM NEW RES INSTALLATIONS AND HIGHER DEGREE OF
-COMPETITION BROUGHT BY THE NEWBUILD CAPACITY AFTER 2024-2025 CAPACITY
-MARKET AUCTIONS**
+**EXISTING CCGTS COULD EXCEED 2000 EOH IN THE SHORT TERM, WITH
+EXPECTATIONS TO RANGE BETWEEN 2000 AND 1300 EOH IN THE MID- AND
+LONG-TERM. THIS VARIATION IS ATTRIBUTED TO THE SIGNIFICANT INCREASE IN
+PRODUCTION FROM NEW RENEWABLE ENERGY INSTALLATIONS, ALONG WITH A HIGHER
+DEGREE OF COMPETITION INTRODUCED BY NEWLY BUILT CAPACITY FOLLOWING THE
+2024-2025 CAPACITY MARKET AUCTIONS.**
 :::
 
 ![](figs/32_Residual_demand_for_CCGTs.png)
@@ -1826,10 +1824,12 @@ MARKET AUCTIONS**
 :::
 
 ::: callout-right
-Existing CCGT fleet is supposed to average around 2300 EOH in the
-2024-2025 period, with considerable zonal differences. In the Norther
-zone, the load factor for CCGTs is around 1800 EOH, while Southern zones
-have lower values, around 1000 EOH.
+The existing fleet of combined cycle gas turbines (CCGTs) is projected
+to average approximately 2200 EOH during the 2024-2025 period,
+exhibiting significant zonal variations. In the Northern zone, the load
+factor for CCGTs is around 1800 EOH, while the Southern zones show lower
+figures, averaging about 1000 EOH. Notably, Calabria stands out with an
+average of 3000 EOH.
 :::
 :::
 
@@ -1839,13 +1839,14 @@ have lower values, around 1000 EOH.
 :::
 
 ::: callout-right
-After the phase-out of coal-fired units, the residual demand rebounds
-but existing CCGTs suffer the competition brought by sustained import
-levels and new high-efficiency competitors entering with the Capacity
-Market support. In the Low scenario, residual demand is furtherly
-reduced by the energy efficiency effect on consumption and the greater
-renewable penetration. In the High scenario, the progressive increase of
-residual demand is due to improving switching conditions.
+After the phase-out of coal-fired units, residual demand is expected to
+rebound. However, existing combined cycle gas turbines (CCGTs) will face
+significant competition from sustained import levels and new
+high-efficiency entrants supported by the capacity market. In the low
+scenario, residual demand is further reduced due to the effects of
+energy efficiency improvements and increased renewable penetration.
+Conversely, in the high scenario, residual demand gradually increases as
+switching conditions improve.
 :::
 :::
 
@@ -1871,9 +1872,8 @@ the 4800 EOH only in the Low scenario.
 :::
 
 ::: callout-right
-CCGTs production varies in the scenarios according to the different
-hypotheses made for commodities, demand growth and the evolution of the
-thermoelectric installed capacity.
+Hypotheses related to CCGT residual demand are in line with the previous
+market update.
 :::
 :::
 
@@ -1882,10 +1882,10 @@ thermoelectric installed capacity.
 ### Coal-fired Production
 
 ::: callout-main
-**THE PHASE-OUT OF COAL-FIRED THERMAL PLANTS IS EXPECTED IN 2025, A PART
-FROM THE SARDINIAN PLANTS THAT ARE GOING TO CLOSE IN 2029 IN THE
-REFERENCE SCENARIO, AS IN 2030 THE TYRRHENIAN LINK WILL BE FULLY
-COMPLETED**
+**THE PHASE-OUT OF COAL-FIRED THERMAL PLANTS IS EXPECTED TO OCCUR IN
+2025, EXCEPT FOR THE SARDINIAN PLANTS, WHICH ARE SET TO CLOSE IN 2029.
+THIS TIMELINE COINCIDES WITH THE FULL COMPLETION OF THE TYRRHENIAN LINK
+IN 2030.**
 :::
 
 ![](figs/33_Coal_fired_production.png)
@@ -1898,8 +1898,9 @@ COMPLETED**
 ::: callout-right
 The decrease in the electricity demand and favorable switching
 conditions are leading to a reduction in the coal production, reaching
-1.8 TWh in 2025 in the Reference Scenario. In the High Case Scenario,
-the share coal production will amount to 4.9 TWh in 2025.
+1.8 TWh in 2025 in the Reference scenario, and less than 1 TWh in the
+Low Scenario. In the High case Scenario, the quota coal production will
+amount to 4.7 TWh in 2025.
 :::
 :::
 
@@ -1909,12 +1910,13 @@ the share coal production will amount to 4.9 TWh in 2025.
 :::
 
 ::: callout-right
-Coal phase-out in the different scenarios depend on the functionality of
-the main grid infrastructure (Tyrrhenian link). In the Reference case
-only the units in Sardinia will continue to operate after 2025 until the
-Tyrrhenian Link is completed in 2030, while in 2028 in the Low scenario.
-HIn the high scenario coal-powered units may continue to operate until
-2035.
+The phase-out of coal varies across different scenarios, influenced by
+the functionality of the main grid infrastructure, particularly the
+Tyrrhenian Link. In the Reference case, only the units in Sardinia will
+remain operational beyond 2025 until the Tyrrhenian Link is completed in
+2030. In the Low scenario, the complete retirement of coal-powered
+plants is expected by 2028. Conversely, in the High scenario,
+coal-powered units are projected to continue operating until 2035.
 :::
 :::
 
@@ -1924,8 +1926,9 @@ HIn the high scenario coal-powered units may continue to operate until
 :::
 
 ::: callout-right
-Coal units remain operative only in the High scenario untill phase-out
-in 2035, with the entrance of the Tyrrhenian Link.
+Coal units remain operative beyond 2030 only in the High scenario, until
+the complete phase-out projected in 2035, with the entrance of the
+Tyrrhenian Link.
 :::
 :::
 
@@ -1935,9 +1938,8 @@ in 2035, with the entrance of the Tyrrhenian Link.
 :::
 
 ::: callout-right
-Coal production varies in the scenarios according to the different
-hypotheses made for commodities, demand growth and the evolution of the
-thermoelectric installed capacity.
+Coal production varies in the short-term horizong in accordance with the
+different hypotheses made for commodities.
 :::
 :::
 
@@ -1948,10 +1950,10 @@ thermoelectric installed capacity.
 ### Renewable Installed Capacity
 
 ::: callout-main
-**THE ACCELERATION GROWTH OF RES CAPACITY OBSERVED IN THE LAST YEAR WILL
-CONTINUE IN THE SHORT-TERM. IN THE LONG-TERM,** **RES MARKET PARITY WILL
-CONSOLIDATE DRIVEN BY THE SURGE IN COMMODITIES PRICES AND
-DECARBONIZATION TARGETS**
+**THE SIGNIFICANT INCREASE IN RENEWABLE ENERGY SOURCE (RES) CAPACITY
+OBSERVED IN THE PAST YEAR IS EXPECTED TO CONTINUE IN THE SHORT TERM. IN
+THE LONG TERM, RES MARKET PARITY WILL BE STRENGTHENED BY RISING
+COMMODITY PRICES AND THE ACTIONS TAKEN TO MEET DECARBONIZATION TARGETS**
 :::
 
 ![](figs/34_Net_Renewable_Installed_Cap.png)
@@ -1966,11 +1968,12 @@ By the end of the year, 36 GW of solar and 13 GW of wind capacity are
 expected to be operational. The potential for renewable energy
 development is assessed based on recent trends, considering both
 bureaucratic and technical obstacles. This analysis projects an increase
-of 6.5 GW in solar capacity and 1.5 GW in wind capacity between the end
+of 6.5 GW in solar capacity and 1.7 GW in wind capacity between the end
 of 2024 and 2027. These estimates are aligned with the installation
-growth trends observed in recent years, driven by the completion of the
-authorization process, Fer 1 incentives, signed PPAs, and merchant
-projects.
+growth trends observed in recent years, driven by the joint impact of
+the normative simplification of the permitting process brought about by
+the "Semplificazioni Decree", Fer 1 incentives, signed PPAs, and
+merchant projects.
 :::
 :::
 
@@ -1980,15 +1983,15 @@ projects.
 :::
 
 ::: callout-right
-Market parity conditions and FerX incentive scheme will accelerate
-long-term targets achievement. In the Reference case, there is an
-ambitious plan for the development of renewables with an estimated 50 GW
-of solar and 16 GW of wind capacity by 2030, allowing to reach almost
-50% of the energy demand. This scenario assumes a market-driven
-evolution of the sector. Low scenario reach 63 GW of solar and 20 GW of
-wind capacity by 2030, achieved through a faster decrease in technology
-costs and more favorable economic conditions boosting investment in new
-RES capacity.
+Market parity conditions, coupled with the FerX incentive scheme, are
+expected to accelerate the achievement of long-term targets. In the
+Reference scenario, an ambitious renewable energy expansion plan
+foresees the addition of 50 GW of solar and 16 GW of wind capacity by
+2030, driving the RES share to nearly 50% of total energy demand. This
+scenario assumes a market-driven evolution. In the Low scenario, faster
+declines in technology costs and more favorable economic conditions push
+capacity growth further, resulting in 63 GW of solar and 21 GW of wind
+capacity by 2030.
 :::
 :::
 
@@ -1998,11 +2001,11 @@ RES capacity.
 :::
 
 ::: callout-right
-The Reference scenario predicts a continued increase in renewables
-penetration, with solar and wind capacity expected to reach 80 GW and 27
-GW respectively, by 2040. A faster transition towards long-term
-decarbonization goals may be possible with greater-than-anticipated
-investments in grid infrastructure and high-capacity energy storage
+The Reference scenario forecasts a steady increase in renewable energy
+penetration, with solar capacity projected to reach 80 GW and wind
+capacity 27 GW by 2040. Accelerating progress towards long-term
+decarbonization goals may be achievable through higher-than-expected
+investments in grid infrastructure and advanced energy storage
 solutions.
 :::
 :::
@@ -2013,9 +2016,9 @@ solutions.
 :::
 
 ::: callout-right
-The assumptions regarding renewable capacity have been updated in line
-with the latest available data and consistently with the TSO connection
-requests.
+The short-term projections regarding renewable capacity have been
+updated in line with the latest available data on the evolution of
+installated capacity.
 :::
 :::
 
@@ -2025,9 +2028,10 @@ requests.
 
 ::: callout-main
 **THE ACHIEVEMENT OF THE NIECP TARGETS RELATED TO THE ELECTRICITY SECTOR
-REQUIRES A GREAT EFFORT: IN 2030 RES/GDC RATIO OF 50% COULD BE ACHIEVED
-ONLY WITH A STRONG ACCELERATION OF PROJECTS RECEIVING THE GREEN LIGHT IN
-THE NEXT YEARS AND INCENTIVIZED BY FER-X**
+REQUIRES A GREAT EFFORT: THE 2030 RES/GDC TARGET OF 63% COULD BE
+ACHIEVED ONLY WITH A NOTABLE ACCELERATION IN THE PERMITTING PROCESS IN
+THE NEXT YEARS AND WITH THE FAVOURABLE SUPPORT OF FER-X INCENTIVES
+SCHEME**
 :::
 
 ![](figs/35_Net_Renewable_Production.png)
@@ -2038,10 +2042,10 @@ THE NEXT YEARS AND INCENTIVIZED BY FER-X**
 :::
 
 ::: callout-right
-In the next two years, solar and wind production are assumed to reach
-past 37 TWh and 42 TWh by 2025. In the Low scenario, instead, the
-greater amount of investments in decarbonization projects leads to
-achieve 49 TWh and 52 TWh in the same period.
+Over the next two years, solar and wind generation are projected to
+surpass 25 TWh and 42 TWh, respectively, by 2025. In the Low scenario,
+more favorable economic conditions result in even higher projections,
+with solar reaching 27 TWh and wind 43 TWh within the same period.
 :::
 :::
 
@@ -2051,13 +2055,13 @@ achieve 49 TWh and 52 TWh in the same period.
 :::
 
 ::: callout-right
-Assuming a BAU evolution of the market and the elimination of perming
-process constraints in the next future, a 90% quota of the 2030 RES/GDC
-ratio target is expected to be achieved. Only a greener evolution of the
-Italian system is expected to be able to lead to the full achievement of
-the target (+55%). The achievement of Green Deal targets -- possibly
-RES/GDC around 70%, yet to be defined -- would surely require a greater
-effort instead.
+Assuming a business-as-usual market trajectory and the resolution of
+permitting process bottlenecks in the near future, it is expected that
+90% of the 2030 RES/GDC target will be met. Full achievement of the 63%
+target is anticipated only with a greener, more ambitious evolution of
+the Italian energy system. Meeting the more stringent Green Deal
+objectives—potentially setting the RES/GDC target around 70%, though
+still under discussion—would require a significantly greater effort.
 :::
 :::
 
@@ -2068,10 +2072,10 @@ effort instead.
 
 ::: callout-right
 The reduction of technology costs and consolidated market parity
-conditions could allow solar production to almost quadruple and wind
-generation to more than triple with respect to 2022 values in 2040 in
-the Reference scenario. Boundary conditions of alternative scenarios
-lead to different degrees of renewable development and production level.
+conditions could allow both solar and wind generation to triple in 2040,
+with respect to 2024 values, in the Reference scenario. Boundary
+conditions of alternative scenarios lead to different degrees of
+renewable development and production level.
 :::
 :::
 
@@ -2081,8 +2085,8 @@ lead to different degrees of renewable development and production level.
 :::
 
 ::: callout-right
-RES production are in line with capacity installation and technology
-performance.
+Short-term RES production projections have been revised in order to
+factor in the changes to short-term installation.
 :::
 :::
 
