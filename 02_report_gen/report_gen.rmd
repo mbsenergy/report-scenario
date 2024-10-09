@@ -100,8 +100,6 @@ In this perspective, we defined three scenarios:
 
 ### Key Insights {.unnumbered}
 
-
-
 #### Key market trends in Italy {.unnumbered}
 
 ![](support/01_table.png)
@@ -435,10 +433,10 @@ combined with positive wage dynamics contribute to GDP growth.
 
 ::: callout-main
 **THE PERSISTENCE OF THE ENERGY PRICES NORMALIZATION IS DRIVING THE
-GENERAL PRICE INDEX DECLINE, WITH ITS REDUCTION BEGINNING TRANSMIT ALSO
-TO THE CORE INDEX. MONETARY POLICY TIGHTENING PROVED TO BE EFFECTIVE IN
-LIMITING INFLATIONARY PRESSURES AND KEEPING MEDIUM AND LONG TERM
-EXPECTATIONS UNDER CONTROL**
+GENERAL PRICE INDEX DECLINE, WITH ITS REDUCTION BEGINNING TO TRANSMIT
+ALSO TO THE CORE INDEX. MONETARY POLICY TIGHTENING PROVED TO BE
+EFFECTIVE IN LIMITING INFLATIONARY PRESSURES AND KEEPING MEDIUM AND LONG
+TERM EXPECTATIONS UNDER CONTROL**
 :::
 
 ![](figs/11_Inflation_rate.png)
@@ -505,12 +503,12 @@ update.
 ### LNG
 
 ::: callout-main
-**GLOBAL LNG DEMAND IS SEEN AS GROWING STEADY IN THE SHORT TERM, WITH A
-NOTABLE DISPARITY IN GROWTH RATE SHOWCASED BETWEEN THE ASIAN AND
+**GLOBAL LNG DEMAND IS SEEN AS GROWING STEADILY IN THE SHORT TERM, WITH
+A NOTABLE DISPARITY IN GROWTH RATE SHOWCASED BETWEEN THE ASIAN AND
 EUROPEAN BLOCS. DELAYS IN THE CONSTRUCTION OF LIQUEFACTION AND
 REGASIFICATION CAPACITY, INDUCED BY LOW PRICES, COULD TRANSLATE IN
 RENEWED DEMAND-SUPPLY TENSIONS IN 2025-2026. THERE IS A HIGH PROPABILITY
-OF AN OVERSUPPLED MARKET POST-2026 LAYING THE GROUNDWORK FOR LNG PRICES
+OF AN OVERSUPPLIED MARKET POST-2026 LAYING THE GROUNDWORK FOR LNG PRICES
 NORMALIZING IN THE MEDIUM TO LONG-TERM**
 :::
 
@@ -579,7 +577,7 @@ NEXT THREE YEARS IS CONSIDERED LOW, WITH THE SAVINGS PUT IN PLACE IN
 RESPONSE TO THE RUSSIAN GAS HALT LEADING TO STRUCTURAL CHANGES. IN THE
 LONG TERM, WE ANTICIPATE FURTHER DEMAND REDUCTION DUE TO EUROPE'S
 DECARBONIZATION EFFORTS, LEADING TO A LOWER TTF PRICE TRAJECTORY NEARING
-€25/MWH. PRICE TENSION AND VOLATILITY SPIKES, PARTICULARLY DURING
+25€/MWH. PRICE TENSION AND VOLATILITY SPIKES, PARTICULARLY DURING
 WINTERS, MAY OCCUR OVER THE NEXT FEW YEARS THOUGH**
 :::
 
@@ -591,12 +589,12 @@ WINTERS, MAY OCCUR OVER THE NEXT FEW YEARS THOUGH**
 :::
 
 ::: callout-right
-In our Reference scenario, the 2024 TTF yearly average is projected to
-stay below 40 €/MWh, with the persistence of subdued demand weighing on
-prices. Europe LNG import capacity is poised to expand by further 30 Bcm
-in 2024 enabling additional LNG arrivals, crucial to maintain market
-equilibrium in the short-term and to structurally adapt to the absence
-of Russian piped gas.
+In our Reference scenario, the projected average TTF price for 2024 is
+expected to remain below €40/MWh, primarily due to sustained low demand
+impacting prices. Additionally, Europe’s LNG import capacity is set to
+increase by 30 Bcm in 2024, facilitating additional LNG shipments. This
+expansion is crucial for maintaining market stability in the short term
+and for adapting to the ongoing reduction of Russian piped gas supplies.
 :::
 :::
 
@@ -692,7 +690,7 @@ progressive spread closure to below 1 €/MWh by 2030.
 
 ::: callout-right
 The PSV-TTF spread is foreseen to reabsorb towards zero in the
-long-term, with the completion of flows rebalancing from Noth to South
+long-term, with the completion of flows rebalancing from North to South
 and LNG expected to combine with the underlying decarbonization-induced
 demand reduction.
 :::
@@ -872,7 +870,7 @@ system reform. The phasing out of free allowances for the aviation
 sector, reaching 50% of the total in 2025, are expected to begin
 exerting upward pressure on allowances prices by curtailing supply. From
 2025 onwards, the progressive inclusion of the maritime transport sector
-will further boost overall demand. 
+will further boost overall demand.
 :::
 :::
 
@@ -885,10 +883,10 @@ will further boost overall demand.
 The widening of the supply-demand gap should become evident starting
 from 2026, as the maritime sector integrates into the ETS system and the
 phasing out of free allowances for aviation reaches full implementation.
-By 2030, the reinforcement of the Market Stability Reserve
-and the increase of the Linear Reduction Factor up to 4.4% will
-contribute to further tightening the market. As a result, the CO2 price
-is expected to accelerate towards 110 €/ton on average by 2030.
+By 2030, the reinforcement of the Market Stability Reserve and the
+increase of the Linear Reduction Factor up to 4.4% will contribute to
+further tightening the market. As a result, the CO2 price is expected to
+accelerate towards 110 €/ton on average by 2030.
 :::
 :::
 
@@ -926,11 +924,12 @@ post-2024 period, is envisaged.
 ### Reference Scenario
 
 ::: callout-main
-**IN THE SHORT-TERM, SUBDUED DEMAND COVERED BY GROWTH IN RES AND NET
-IMPORT FLOWS. IN THE MID-TERM, GAS-FIRED GENERATION REMAIN THE BACKBONE
-OF THE ENERGY MIX AS RES GAIN SHARES. IN THE LONG-TERM, RENEWABLES TAKE
-THE LEAD AS THE PRIMARY SOURCE OF ELECTRICITY PRODUCTION, SUPPORTED BY
-GAS-FIRED PRODUCTION**
+**IN THE SHORT TERM, SUBDUED DEMAND IS INCREASINGLY COVERED BY GROWTH IN
+RENEWABLE ENERGY SOURCES (RES) AND NET IMPORT FLOWS. IN THE MID TERM,
+GAS-FIRED GENERATION CONTINUES TO SERVE AS THE BACKBONE OF THE ENERGY
+MIX, EVEN AS RENEWABLES INCREASE THEIR SHARE. IN THE LONG TERM,
+RENEWABLES WILL EMERGE AS THE PRIMARY SOURCE OF ELECTRICITY PRODUCTION,
+WITH GAS-FIRED GENERATION PROVIDING ESSENTIAL SUPPORT**
 :::
 
 ![](figs/19_DAM_Energy_Balance_Refer.png)
@@ -941,12 +940,17 @@ GAS-FIRED PRODUCTION**
 :::
 
 ::: callout-right
-Electricity demand reduction at European level, nuclear plants capacity
-recovered from the O&M maintenance of the last two years, and recover in
-hydro production lead to an increase in the electricity import from the
-Northern borders. Positive trend of new RES installed capacity in 2023
-and first half of 2024 is expected to continue, with gas powered thermal
-plants remaining the marginal source of the system.
+::: callout-item
+The reduction in electricity demand across Europe, combined with
+supply-side overgeneration driven by the recovery of nuclear plant
+capacity after two years of maintenance and an increase in hydroelectric
+production, has led to a rise in electricity imports from the northern
+borders. This phenomenon is expected to continue in the short term.
+Additionally, the positive trend in the installation of new renewable
+energy sources (RES) observed in 2023 and the first half of 2024 is
+anticipated to persist, with gas-fired thermal plants maintaining their
+role as the marginal source in the energy mix.
+:::
 :::
 :::
 
@@ -956,11 +960,11 @@ plants remaining the marginal source of the system.
 :::
 
 ::: callout-right
-Coal-fired units are going to phase-out within 2025, with the exception
-of the Sardinia ones, which remain operative until the completion of the
-Tyrrhenian Link in 2030 in Reference scenario, 2029 in Low case.
-Electricity production from renewables will cover almost 50% of demand
-by 2030.
+Coal-fired units are set to phase out by 2025, with the exception of
+those in Sardinia, which will remain operational until the completion of
+the Tyrrhenian Link—projected for 2030 in the Reference scenario and
+2029 in the Low case. By 2030, electricity production from renewable
+sources is expected to meet approximately 47% of overall demand.
 :::
 :::
 
@@ -970,8 +974,12 @@ by 2030.
 :::
 
 ::: callout-right
-Renewables become the main source in the mix with 70% share. Convenient
-market conditions favoured energy intensive storage.
+Renewable energy is projected to become the dominant source in the
+energy mix, reaching nearly 70% by 2040 and 85% by 2050. The share of
+gas-fired thermal plants in the energy mix is expected to reach 10% by
+2050. Favorable market conditions are expected to promote the
+development of energy-intensive storage solutions, thereby enhancing
+their contribution to the energy mix.
 :::
 :::
 
@@ -981,19 +989,20 @@ market conditions favoured energy intensive storage.
 :::
 
 ::: callout-right
-Net import increase in the short-term, aligned with market dyanmics,
-supported by French nuclear capacity recovery and a general reduction in
-the electricity demand at European level.
+Net import increase in the short-term, aligned with market
+dyanmics,supported by French nuclear capacity recovery and a general
+reduction in the electricity demand at European level.
 :::
 :::
 
 ### Low Case Scenario
 
 ::: callout-main
-**HIGHER COMMITMENT TO DECARBONIZE IN THE EUROPEAN ECONOMY LEADS TO A
-STRONGER RENWABLES DEVELOPMENT, WHICH COULD SURPASS THE CURRENT 2030
-TARGET, REACHING 85% OF THE ELECTRICITY PRODUCTION MIX BY 2050,
-SUPPORTED BY AN INCREASE IN THE BATTERY STORAGE CAPACITY**
+**GREATER COMMITMENT TO DECARBONIZATION IN THE EUROPEAN ECONOMY DRIVES
+STRONG RENEWABLE ENERGY GROWTH, WHICH IS EXPECTED TO APPROACH THE
+CURRENT 2030 PNIEC TARGET, REACHING 55% OF THE ELECTRICITY MIX BY 2030
+AND EXCEEDING 85% BY 2050. THIS EXPANSION IN RENEWABLES WILL BE FURTHER
+SUPPORTED BY SIGNIFICANT INCREASES IN BATTERY STORAGE CAPACITY**
 :::
 
 ![](figs/20_DAM_Energy_Balance_Low.png)
@@ -1004,13 +1013,13 @@ SUPPORTED BY AN INCREASE IN THE BATTERY STORAGE CAPACITY**
 :::
 
 ::: callout-right
-A swift rise in decarbonization solutions is supported by an increase in
-commodities' prices, higher prices in the EU ETS mechanisms, and easier
-authorization for new renewables projects encourage investments in the
-energy efficiency. Coal phase-out is expected in 2025 for all units in
-the peninsula, gas-fired thermal plants production will reach up to 33%
-of the national electricity demand by 2025, with net import flows over
-45 TWh.
+A rapid surge in decarbonization efforts is driven by rising commodity
+prices, increased EU ETS costs, and streamlined approval processes for
+new renewable projects, all of which collectively boost investment in
+energy efficiency. The phase-out of coal-fired units across the
+peninsula is projected by 2025. Gas-fired thermal plants are expected to
+supply up to 34% of national electricity demand by then, with net
+electricity imports exceeding 49 TWh.
 :::
 :::
 
@@ -1021,7 +1030,7 @@ of the national electricity demand by 2025, with net import flows over
 
 ::: callout-right
 By the end of 2028 coal-fired units are entirely phased-out. Falling
-renewables costs and a greater effort to reach decarbonizations goals
+renewables' costs and a greater effort to reach decarbonization goals
 support renewables development. In 2030 the ratio between renewable
 energy and total electricity consumption reach 59%. Improvements in the
 electricity grid will facilitate the reduction of electricity imported
@@ -1035,12 +1044,14 @@ from neighborhood countries.
 :::
 
 ::: callout-right
-In the long-term, gas-fired thermal plants will be operative to
-guarantee system security and adequacy, even though the increase in
-storage system will down their share to 15% by 2050. Despite storage and
-network reinforcements the integration of renewables in the energy mix
-will only be partial reached as congestion and overgeneration problems
-are going to manifest, generating signals for ectrolysis capacty.
+In the long term, gas-fired thermal plants will remain crucial for
+ensuring system security and reliability, but their share in the energy
+mix is expected to drop to 15% by 2040 and 6% by 2050, as storage
+capacity expands. However, despite progress in storage and grid
+enhancements, achieving full renewable integration will encounter
+challenges like grid congestion and overproduction. These issues are
+likely to highlight the need for increased electrolyzer capacity to
+manage surplus renewable energy output effectively.
 :::
 :::
 
@@ -1050,9 +1061,10 @@ are going to manifest, generating signals for ectrolysis capacty.
 :::
 
 ::: callout-right
-Changes in the production mix reflect updated commodities in the
-short-term. In the long term, new renewables installed capacity will be
-supported by thermoelectric and storage to maintain system adequacy.
+Short-term shifts in the production mix reflect updated commodity
+prices. In the long term, the addition of new renewable capacity will be
+bolstered by thermoelectric power and storage solutions to ensure system
+reliability and adequacy.
 :::
 :::
 
@@ -1061,11 +1073,11 @@ supported by thermoelectric and storage to maintain system adequacy.
 ### High Case Scenario
 
 ::: callout-main
-**SLOWER ECONOMIC RECOVERY IS REFLECTED IN A LOWER ELECTRICITY DEMAND
-AND LOWER AMOUNT OF INVESTMENT IN DECARBONIZATION. THE ENTRANCE OF THE
-MAIN GRID INFRASTRUCTURE PROJECTS ALLOWS THE PHASE-OUT OF COAL UNITS BY
-2034. RENEWABLES AND BESS GRADUALLY INCREASE THEIR SHARES IN THE
-GENEATION MIX**
+**A SLOWER ECONOMIC RECOVERY TRANSLATES INTO REDUCED ELECTRICITY DEMAND
+AND LOWER INVESTMENTS IN DECARBONIZATION. THE COMPLETION OF KEY GRID
+INFRASTRUCTURE PROJECTS FACILITATES THE PHASE-OUT OF COAL UNITS BY 2034,
+WHILE RENEWABLES AND BATTERY STORAGE SYSTEMS GRADUALLY EXPAND THEIR
+SHARE IN THE ENERGY MIX**
 :::
 
 ![](figs/21_DAM_Energy_Balance_High.png)
@@ -1076,10 +1088,10 @@ GENEATION MIX**
 :::
 
 ::: callout-right
-Coal-fired thermal plants are still an important source of power, even
-though the reduction in the gas prices will increase the share of the
-gas-fired thermal plant, covering 35% of the demand. The increase in net
-import up to 47 TWh in 2025 reduce the need of coal genration to 5 TWh.
+Coal-fired thermal plants remain a significant power source, but lower
+gas prices will increase the share of gas-fired plants to 32% of demand.
+Net imports are expected to stabilize at 49 TWh in 2025, reducing coal
+generation from 7 TWh in 2024 to to 5 TWh.
 :::
 :::
 
@@ -1089,12 +1101,13 @@ import up to 47 TWh in 2025 reduce the need of coal genration to 5 TWh.
 :::
 
 ::: callout-right
-CM-led investments come online but the phase-out of coal-fired capacity
-is postponed, so as the realization of great network investments. Net
-imports will reduce to 36 TWh within 2030, and gas-fired production
-maintains a 40% quota of total electricity needs, as hydro production
-normalize aroung 46.5 TWh/y and renewable energy sources gradually
-increase thier share in the mix.
+CM-led investments are set to come online, but the phase-out of
+coal-fired capacity is delayed until 2035, coinciding with the
+completion of significant network investments. By 2030, net imports are
+expected to decline to just over 44 TWh, while gas-fired generation will
+account for 35% of total electricity demand. Hydroelectric output is
+projected to stabilize around 46.5 TWh per year, with renewable energy
+sources steadily increasing their share in the energy mix.
 :::
 :::
 
@@ -1104,12 +1117,14 @@ increase thier share in the mix.
 :::
 
 ::: callout-right
-Increase in CO2 price reduce coal generation competitiveness until 2035,
-when the entrance of the Tyrrhenian Link determine the phase-out of all
-coal units. Gas-fired production increases its share in the national
-energy mix to around 38%. Volatile DAM dynamics and RES development
-sustain the entrance of 10GW of energy intensive storage in the
-long-term.
+The anticipated rise in CO2 prices is projected to further diminish the
+competitiveness of coal generation until 2035, when the completion of
+the Tyrrhenian Link will facilitate the phase-out of all coal units.
+Concurrently, gas-fired generation is expected to increase its share in
+the national energy mix to approximately 38%. The dynamic nature of the
+Day-Ahead Market (DAM) and the ongoing development of renewable energy
+sources will support the integration of 10 GW of energy-intensive
+storage in the long term.
 :::
 :::
 
@@ -1600,15 +1615,15 @@ conditions must be ensured.
 # \newpage
 ```
 
- ## Thermoelectric Generation
+\## Thermoelectric Generation
 
 ### Installed Capacity, Reference Scenario
 
 ::: callout-main
 **CAPACITY MARKET AUCTIONS WILL COMPREHENSIVELY BRING 7.3 GW OF NEW
- GAS-FIRED CAPACITY BY MID 2025. SARDINIAN COAL-FIRED UNITS TO BE
- PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING IN
- 2030**
+GAS-FIRED CAPACITY BY MID 2025. SARDINIAN COAL-FIRED UNITS TO BE
+PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING IN
+2030**
 :::
 
 ![](figs/29_Inst_thermo_capacity_ref.png)
@@ -1629,7 +1644,11 @@ conditions must be ensured.
 :::
 
 ::: callout-right
-Auction results show also that Sardinia coal-fired capacity will not be substituted by gas-fired units, as only storage capacity was awarded in the island. Anyway, while coal-fired plants on the peninsula will be phased-out after 2025, Sardinia units are expected to operate until the Tyrrhenian Link infrastructure is fully completed (2030).
+Auction results show also that Sardinia coal-fired capacity will not be
+substituted by gas-fired units, as only storage capacity was awarded in
+the island. Anyway, while coal-fired plants on the peninsula will be
+phased-out after 2025, Sardinia units are expected to operate until the
+Tyrrhenian Link infrastructure is fully completed (2030).
 :::
 :::
 
@@ -1640,11 +1659,11 @@ Auction results show also that Sardinia coal-fired capacity will not be substitu
 
 ::: callout-right
 The amount of capacity auctioned through the CM is expected to grant
- full system adequacy at least through to 2030. No other thermoelectric
- capacity investments are envisaged after the wave of investment brought
- by the last CM auctions. Existing CHP power plants continue to support
- industrial acvities under the assumption of a BAU evolution of the
- industrial needs they serve. Some ageing CCGT capacity exit the market.
+full system adequacy at least through to 2030. No other thermoelectric
+capacity investments are envisaged after the wave of investment brought
+by the last CM auctions. Existing CHP power plants continue to support
+industrial acvities under the assumption of a BAU evolution of the
+industrial needs they serve. Some ageing CCGT capacity exit the market.
 :::
 :::
 
@@ -1655,13 +1674,11 @@ The amount of capacity auctioned through the CM is expected to grant
 
 ::: callout-right
 Evolution of new thermoelectric capacity reviewed consistently with
- latest information diffused by Terna with respect to the results of
- Capacity Market auctions. Hypotheses related to existing gas-fired
- capacity are in line with the previous market update.
+latest information diffused by Terna with respect to the results of
+Capacity Market auctions. Hypotheses related to existing gas-fired
+capacity are in line with the previous market update.
 :::
 :::
-
- 
 
 \newpage
 
@@ -3268,9 +3285,9 @@ high degree of cannibalization effect.
 ### Investment costs and IRR of Solar and Wind
 
 ::: callout-main
-**INTENSE COMPETITION IN THE PV MODULES MARKET DRIVES DOWN
-INVESTMENT COSTS FOR SOLAR IN THE MID AND LONG TERM, EVEN THOUGH GRID
-CONNECTION AND LAND COSTS MAY RISE. HIGHER TECHNOLOGY COSTS FOR WIND**
+**INTENSE COMPETITION IN THE PV MODULES MARKET DRIVES DOWN INVESTMENT
+COSTS FOR SOLAR IN THE MID AND LONG TERM, EVEN THOUGH GRID CONNECTION
+AND LAND COSTS MAY RISE. HIGHER TECHNOLOGY COSTS FOR WIND**
 :::
 
 ![](figs/59_Capex_Wind.png)
@@ -3297,12 +3314,12 @@ cost of land acquisition or rental, which constitutes nearly 8% of the
 total cost, has increased in recent years. The anticipated acceleration
 of new installations in the coming years may further drive up land
 demand for solar projects, as available sites diminish, thereby
-increasing rental costs. This cost structure typically results in an
-IRR of around 7% (base case considering South zone, pre-tax captured
-prices, 30 years time horizon) for solar projects, with regional
-variations according to different zonal captured prices. For
-agri-voltaic projects, a markup of 20%-40% on the total investment cost
-must be applied, leading to a lower expected IRR of around 6%.
+increasing rental costs. This cost structure typically results in an IRR
+of around 7% (base case considering South zone, pre-tax captured prices,
+30 years time horizon) for solar projects, with regional variations
+according to different zonal captured prices. For agri-voltaic projects,
+a markup of 20%-40% on the total investment cost must be applied,
+leading to a lower expected IRR of around 6%.
 :::
 :::
 
