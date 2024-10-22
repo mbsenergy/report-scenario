@@ -1,3 +1,5 @@
+install.packages("pdftools")
+install.packages("pagedown")
 
 # Packages
 box::use(pagedown[...])
