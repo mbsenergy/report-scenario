@@ -116,7 +116,6 @@ within energy-intensive industries. Moreover, widespread adoption of
 energy-saving practices and enhanced efficiency measures have further
 contributed to the reduction in electricity consumption.
 
-![](support/01_demand.png)
 
 Simultaneously, across most European countries—and similarly in
 Italy—the proportion of renewables in the energy mix has reached
