@@ -2166,7 +2166,7 @@ The amount of capacity auctioned through the CM is expected to grant
 full system adequacy at least through to 2030. No other thermoelectric
 capacity investments are envisaged after the wave of investment brought
 by the last CM auctions. Existing CHP power plants continue to support
-industrial acvities under the assumption of a BAU evolution of the
+industrial activities under the assumption of a BAU evolution of the
 industrial needs they serve. Some ageing CCGT capacity exit the market.
 :::
 :::
@@ -2482,7 +2482,7 @@ merchant projects.
 Market parity conditions, coupled with the FerX incentive scheme, are
 expected to accelerate the achievement of long-term targets. In the
 Reference scenario, an ambitious renewable energy expansion plan
-foresees the addition of 50 GW of solar and 16 GW of wind capacity by
+foresees the addition of 51 GW of solar and 16 GW of wind capacity by
 2030, driving the RES share to nearly 50% of total energy demand. This
 scenario assumes a market-driven evolution. In the Low scenario, faster
 declines in technology costs and more favorable economic conditions push
@@ -2523,8 +2523,8 @@ installed capacity.
 ### Renewable Production
 
 ::: callout-main
-**THE ACHIEVEMENT OF THE NIECP TARGETS RELATED TO THE ELECTRICITY SECTOR
-REQUIRES A GREAT EFFORT: THE 2030 RES/GDC TARGET OF 63% COULD BE
+**THE ACHIEVEMENT OF THE ITALIAN NECP TARGETS RELATED TO THE ELECTRICITY
+SECTOR REQUIRES A GREAT EFFORT: THE 2030 RES/GDC TARGET OF 63% COULD BE
 ACHIEVED ONLY WITH A NOTABLE ACCELERATION IN THE PERMITTING PROCESS IN
 THE NEXT YEARS AND WITH THE FAVOURABLE SUPPORT OF FER-X INCENTIVES
 SCHEME**
@@ -2538,10 +2538,10 @@ SCHEME**
 :::
 
 ::: callout-right
-Over the next two years, solar and wind generation are projected to
-surpass 25 TWh and 42 TWh, respectively, by 2025. In the Low scenario,
-more favorable economic conditions result in even higher projections,
-with solar reaching 27 TWh and wind 43 TWh within the same period.
+Wind and solar generation are projected to surpass 25 TWh and 42 TWh,
+respectively, by 2025. In the Low scenario, more favorable economic
+conditions result in even higher projections, with wind reaching 27 TWh
+and solar 43 TWh within the same period.
 :::
 :::
 
@@ -2627,7 +2627,7 @@ conditions. In contrast, the Reference scenario anticipates a more
 moderate level of overgeneration, approaching 0.5 TWh by 2030. Overall,
 during this decade, overgeneration is expected to intensify due to the
 rapid expansion of renewable energy in the Southern regions of the
-country, and it could be exacertbated if coupled with insufficient grid
+country, and it could be exacerbated if coupled with insufficient grid
 reinforcement.
 :::
 :::
@@ -3421,8 +3421,8 @@ commodity assumptions.
 **IN THE SHORT TERM, ZONAL PRICES ARE EXPECTED TO DIVERGE DUE TO
 FLUCTUATIONS IN THE DEMAND-OFFER BALANCE AMONG DIFFERENT ZONES. IN THE
 LONG TERM, THE SIGNIFICANT EXPANSION OF RENEWABLE ENERGY SOURCES IN THE
-SOUTHERN MACRO-ZONE, COUPLED WITH IMPROVEMENTS TO THE TRANSMISSION GRID,
-WILL REDUCE THE OCCURRENCE OF ZONAL PRICE SPREADS**
+SOUTHERN MACRO-ZONE, ENABLED BY IMPROVEMENTS TO THE TRANSMISSION GRID,
+WILL REDUCE BASELOAD ZONAL PRICES**
 :::
 
 ![](figs/48_Baseload_Zonal_Prices_ref.png)
@@ -3436,9 +3436,9 @@ WILL REDUCE THE OCCURRENCE OF ZONAL PRICE SPREADS**
 Network congestion is generally not a significant problem on the
 mainland. With electricity demand remaining below historical levels and
 renewable generation increasing gradually, prices in the Southern
-regions are lower. Meanwhile, increased CCGT operations in the Northern
-zones contribute to prices exceeding the PUN, aligning with recent
-historical trends.
+regions are lower. In contrast, increased CCGT operations in the
+Northern zones contribute to prices exceeding the PUN, in line with
+recent historical trends.
 :::
 :::
 
@@ -3448,13 +3448,13 @@ historical trends.
 :::
 
 ::: callout-right
-Surging renewable penetration is projected to increase inter-zonal
-congestion until 2030, when the completion of the Adriatic Link is
-expected to help alleviate this issue on the mainland and improve energy
-exchanges from South to North. However, a further expansion of renewable
-energy sources in the Southern zones is likely to lead to more frequent
-instances of congestion over time, upsurging the incidence of price
-spreads.
+Surging renewable penetration is projected to exacerbate inter-zonal
+congestion through 2030; while major grid enhancements, such as the
+completion of the Adriatic Link, will improve energy exchanges from
+South to North, they will only partially mitigate congestion in the
+medium term. Continued expansion of renewable capacity in the Southern
+zones is likely to increase the frequency of congestion events,
+upsurging the incidence of price spreads over time.
 :::
 :::
 
@@ -3464,12 +3464,12 @@ spreads.
 :::
 
 ::: callout-right
-Despite the completed grid improvements, bottlenecks are still
-anticipated to arise between the Northern and Southern zones, resulting
-in differing price levels between them in the 2030s. Additional grid
-reinforcements are projected to begin in 2035, which will likely reduce
-inter-zonal congestion issues on the mainland, while challenges will
-continue to be evident in the islands.
+Despite the completion of grid improvements, bottlenecks are expected to
+persist between the Northern and Southern zones, leading to sustained
+price differentials throughout the 2030s. Further grid reinforcements,
+scheduled to begin in 2035, are anticipated to alleviate inter-zonal
+congestion on the mainland; however, similar challenges are expected to
+remain pronounced in the island regions.
 :::
 :::
 
@@ -3489,7 +3489,7 @@ The dynamics of zonal prices are in line with the previous update.
 
 ::: callout-main
 **THE TREND IN THE SPREAD BETWEEN THE PUN PRICE—PRIMARILY INFLUENCED BY
-THE PERFORMANCE OF THE NORTHERN MARKET ZONE—and THE PRICES IN THE
+THE PERFORMANCE OF THE NORTHERN MARKET ZONE—AND THE PRICES IN THE
 SOUTHERN MARKET ZONES IS HEAVILY DEPENDENT ON ASSUMPTIONS REGARDING
 RENEWABLE PENETRATION, STORAGE DEVELOPMENT, AND THE TIMING OF GRID
 INFRASTRUCTURE IMPLEMENTATION**
@@ -3566,11 +3566,11 @@ levels and the slight changes to the production mix.
 ### Baseload CSS for Existing CCGT Units
 
 ::: callout-main
-**BASELOAD CSS EXPECTED TO DECREASE IN THE SHORT-TERM AS HIGH IMPORT AND
-RES PENETRATION AFFECT CCGTS PRODUCTION. IN MID- AND LONG-TERM VALUES
-EXPECTED TO STABILIZE AROUND -2 AND 1 €/MWh DEPENDING ON THE SCENARIO.
-MISSING MONEY ISSUES LIKELY TO ARISE IN THE SECOND HALF OF THE 2020s AND
-TO BE AMPLIFIED IN ALTERNATIVE SCENARIOS**
+**BASELOAD CSS IS EXPECTED TO DECREASE IN THE SHORT-TERM AS HIGH IMPORT
+AND RES PENETRATION AFFECT CCGTS PRODUCTION. IN MID- AND LONG-TERM
+VALUES ARE EXPECTED TO STABILIZE AROUND -4 AND -1 €/MWh DEPENDING ON THE
+SCENARIO. MISSING MONEY ISSUES LIKELY TO ARISE IN THE SECOND HALF OF THE
+2020s AND TO BE AMPLIFIED IN ALTERNATIVE SCENARIOS**
 :::
 
 ![](figs/50_Baseload_CSS_for_CCGTs.png)
@@ -3581,10 +3581,12 @@ TO BE AMPLIFIED IN ALTERNATIVE SCENARIOS**
 :::
 
 ::: callout-right
-Increase competition for the existing fleet brought by the expected
-energy outlook characterized by subdued electricity demand, greater
-share of RES and import in the energy mix affecting CSS for existing
-CCGTs, averaging -1.8 €/MWh between 2024-2025.
+The anticipated energy outlook, marked by stagnating electricity demand,
+an increasing share of renewable energy sources (RES), and higher levels
+of imports, is expected to intensify competition for the existing fleet.
+These factors will exert downward pressure on Clean Spark Spreads (CSS)
+for CCGTs, with average values projected at -1.9 €/MWh over the
+2024-2025 period.
 :::
 :::
 
@@ -3594,14 +3596,14 @@ CCGTs, averaging -1.8 €/MWh between 2024-2025.
 :::
 
 ::: callout-right
-Market competition is expected to increase with the import flows
-stabilization from the northern borders, the rise in renewable capacity,
-and the entry of new high-efficiency CCGTs, which were acquired through
-Capacity Market auctions. These factors will keep the baseload CSS in
-the negative territory. In the Low scenario, where renewable development
-is greater and the competition within the thermoelectric sector is
-stronger, this effect will be even more pronounced, with CSS averaging
-around -3 €/MWh.
+Market competition is expected to increase due to the stabliziation of
+import flows from Northern borders, the rise in renewable capacity, and
+the entry of new high-efficiency CCGTs, acquired through Capacity Market
+auctions. These dynamics are expected to keep baseload CSS in negative
+territory. In the Low scenario, characterized by accellerated renewable
+development and heightened competition within the thermoelectric sector,
+this pressure will be even more pronounced, with CSS projected to
+average around -3 €/MWh.
 :::
 :::
 
@@ -3611,13 +3613,16 @@ around -3 €/MWh.
 :::
 
 ::: callout-right
-After 2030, the exit of some ageing capacity allow existing CCGTs
-(53%-efficiency) to remain the marginal technology in the system for at
-least 85% of the hours, with the baseload CSS below -2 €/MWh for all the
-horizon. Greater renewable penetration in the Low scenario, maintain the
-baseload CSS below -7 €/MWh also in the long-term. In the High case
-scenario, reduced renewable development favor CCGT production increases
-baseload CSS, which remains below -4 €/MWh.
+Post-2030, the decommissioning of aging capacity will enable existing
+CCGTs (53%-efficiency) to remain the marginal technology for at least
+85% of the operating hours through 2040. During this horizon, baseload
+CSS is expected to remain below -2 €/MWh. In the Low scenario,
+characterized by greater renewable penetration, baseload CSS is
+projected to fall further, staying below -7 €/MWh in the long-term
+(post-2040). Conversely, in the High scenario, where renewable
+development is more limited, increased CCGT generation will result in
+higher baseload CSS, though it is still expected to remain below -4
+€/MWh from 2040 onwards.
 :::
 :::
 
