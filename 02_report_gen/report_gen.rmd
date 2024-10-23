@@ -96,131 +96,12 @@ In this perspective, we defined three scenarios:
 
 \newpage
 
-## The Outlook for Italy's Energy Market Amid
-
-Regulatory Changes, Geopolitical Tensions, and RES Dynamics
+## The Outlook for Italy's Energy Market Amid Regulatory Changes, Geopolitical Tensions, and RES Dynamics
 
 ### Key Insights {.unnumbered}
 
-Following the challenging period for European energy markets between
-2021 and 2023, the decarbonization of the electricity sector is now
-gaining significant momentum, with renewable energy sources driving the
-transformation across major European markets. In the first nine months
-of 2024, electricity consumption across Europe stabilized, closely
-aligning with the average levels recorded in 2023. This stability
-occurred despite the ongoing downward trend in demand observed over
-recent years. Factors such as slow economic growth, decreased industrial
-production, and delays in the electrification process—particularly in
-countries like Italy—have continued to suppress demand, especially
-within energy-intensive industries. Moreover, widespread adoption of
-energy-saving practices and enhanced efficiency measures have further
-contributed to the reduction in electricity consumption.
-
-![](support/01_demand.png)
-
-Simultaneously, across most European countries—and similarly in
-Italy—the proportion of renewables in the energy mix has reached
-historic levels. In the first half of 2024, renewable energy sources
-accounted for over 60% of Germany’s electricity consumption,
-representing a nearly 10 percentage point rise compared to the same
-period in 2023. This growth was primarily fueled by favorable wind
-conditions and the significant expansion of photovoltaic (PV) systems.
-In Spain, the energy mix was substantially influenced by a rebound in
-hydroelectric production and the rapid addition of nearly 6 GW of PV
-capacity in 2023. Meanwhile, Switzerland enacted the Federal Act on a
-Secure Electricity Supply from Renewable Energy Sources, aiming to
-accelerate the deployment of renewables, reduce dependency on nuclear
-power, and facilitate electricity exports to Italy. In contrast, France
-remains steadfast in its reliance on nuclear energy, which continues to
-provide approximately 70% of its total electricity generation.
-
-In Italy, the notable 2023 surge in renewables (with an increase of 5.7
-GW compared to the 1.5 GW/year averaged over the last five years) has
-continued into 2024, marking further progress on the path to net zero.
-In the first eight months of 2024, solar capacity grew by 4.3 GW, with a
-monthly growth rate consistent with 2023 and a geographical distribution
-of new capacity largely following historical patterns: Lazio led in
-installations, followed by Piedmont, Lombardy, Sicily, and Sardinia.
-Wind capacity, meanwhile, expanded by just under 500 MW in 2024,
-predominantly in the Central and Southern regions, aligning with the
-post-2021 trajectory (we recall that 2021 corresponds to the year of the
-implementation of the “*Semplificazioni*” Decree). The positive impact
-of previous regulatory simplifications in the permitting process is
-evident in the advancement of authorized projects: between July and
-September 2024, 2.3 GW of solar and wind projects were approved,
-predominantly solar, with Puglia, Sicily, and Emilia Romagna at the
-forefront. In contrast, permits have experienced a notable slowdown
-Lazio and Sardinia, two regions that have led the rankings up to this
-point. PAS procedures, whose scope has been broadened by the
-“*Semplificazioni*” Decree, accounted for half of the approved capacity,
-indicating sustained growth from 2023 on. Nevertheless, RES projects
-continue to encounter connection delays, primarily due to the need to
-upgrade the power grid’s capacity for increased generation. This also
-highlights the importance of simplifying the permitting process.
-Streamlining permitting and implementing supportive mechanisms for
-distributed generation will be essential for achieving growth in line
-with PNIEC targets. The latest draft of the National Energy and Climate
-Plan (NECP 2024) reinforces Italy’s ambitious decarbonization goals for
-the power sector, aiming for a 63% renewable share by 2030. The
-regulatory landscape, however, continues to be riddled with medium- to
-long-term uncertainties. The “*Aree Idonee*” Decree, which was
-anticipated to expedite the authorization process, has instead
-obstructed the growth of renewable energy sources (RES), as regional
-authorities impose strict limitations on designated suitable areas. In a
-comparable vein, the “*Testo Unico sulle Rinnovabili*” exacerbates the
-complexity of the regulatory framework by imposing new qualifications
-rather than effectively streamlining the permitting process. Notably,
-landscape compatibility assessments have become a requirement for
-specific operations that once fell under “*Edilizia libera*” (permitted
-development). Furthermore, the evolutions regarding the FerX incentive
-scheme amplify the uncertainty associated with the commissioning of RES
-plants. As the final version of the FerX remains pending, the MASE has
-recently prepared a draft temporary decree, “*FerX Transitorio*”, aimed
-at launching the incentive system as quickly as possible. This Decree
-establishes a support scheme for renewable sources that is valid only
-until December 31, 2025. The most recent update, that is ready to be
-submitted to the European Commission for validation,  allocates a quota
-of 3 GW specifically for RES plants with direct access to auctions,
-alongside 14.65 GW—comprised of 10 GW for solar and 4 GW for wind—for
-plants participating in the public auction regime. This quota, which has
-already been lowered in response to the ARERA opinion on the Decree,
-signifies a notable reduction compared to the contingent set by the
-definitive FER X. As for the rest, the scheme retains most of the
-stipulations found in the draft of the definitive FER X, including the
-exclusion from the auction participation for projects that initiated
-construction operations prior to the submission of the auction
-participation application. Such a stipulation may potentially hinder the
-short-term momentum of plant commissioning. However, the expected impact
-of the “FerX Transitorio” will likely depend on the timing of the
-auctions, which are currently projected to be delayed unt
-
-Overall, the outlook for renewable energy sources (RES) in Italy appears
-promising for the coming years, despite lingering uncertainties. The
-momentum gained in 2023, which has continued into early 2024, is
-expected to carry through to the latter part of 2024, albeit at a more
-gradual pace, stabilizing at around 2.5 GW annually (an average of 2 GW
-from solar and 0.5 GW from wind) during the 2025–2026 period. A more
-significant acceleration in RES installations is projected from 2027
-onward, driven by the FERX initiative. However, under the Reference
-scenario, only 50 GW of solar and 16 GW of wind installed capacity are
-anticipated by 2030, which falls short of the PNIEC targets of 80 GW and
-28 GW, respectively. This discrepancy is attributed to the current
-permitting pace, which remains insufficient at approximately 9–10 GW per
-year. Should there be a complete simplification of the authorization
-procedures, a more efficient permitting process could enable the
-installation of 63 GW of solar and 22 GW of wind by 2030 (Low Case
-scenario). The recent developments in renewable energy source (RES)
-regulations align with improved short-term conditions in the gas market
-and an increase in renewable electricity generation. This has
-contributed to a downward trend in power prices across Europe since
-early 2024, a trend that has recently been intensified by spikes in
-electricity demand. The IIIQ 2024 Market Report explores the long-term
-risks and opportunities that lie ahead. The analysis identifies
-potential pathways to decarbonization while addressing the disparities
-between expected market trends and national decarbonization objectives,
-underscoring the challenges that must be navigated in the future.
-Short-term GDP growth remains modest, primarily driven by a gradual
-recovery in industrial production, influenced by wage trends and
+Short-term Italian GDP growth remains modest, primarily driven by a
+gradual recovery in industrial production, influenced by wage trends and
 anticipated adjustments in monetary policy. In the Reference scenario,
 GDP growth is projected to reach 0.4% year-on-year in 2024, followed by
 a more robust increase of 1% in 2025, bolstered by expected improvements
@@ -241,6 +122,104 @@ implementation, a global economic recovery, and expedited green
 transition reforms. Conversely, in the High scenario, fiscal pressures
 and delays in NRRP execution may impede growth, posing risks to progress
 in the green transition.
+
+In the European context, following the challenging period for European
+energy markets between 2021 and 2023, the decarbonization of the
+electricity sector is now accelerating, with renewable energy sources
+leading the shift across major European markets. The first nine months
+of 2024 show electricity consumption stabilizing at 2023 levels, largely
+due to slow economic growth, reduced industrial production, delays in
+electrification—especially in Italy—and widespread adoption of
+energy-saving measures. At the same time, the share of renewables in the
+European energy mix has reached historic highs. In the first half of
+2024, renewables accounted for over 60% of Germany’s electricity
+consumption, driven by favorable wind conditions and PV expansion, while
+Spain benefited from increased hydroelectric output and new PV capacity.
+Switzerland, aiming to reduce nuclear dependency, passed legislation to
+boost renewables and support electricity exports to Italy, whereas
+France remains reliant on nuclear power, which still supplies about 70%
+of its electricity.
+
+As far as Italy is concerned, the notable 2023 surge in renewables (with
+an increase of 5.8 GW compared to the 1.5 GW/year averaged over the last
+five years) continues into 2024, marking further progress on the path to
+net zero. In the first eight months of 2024, solar capacity grew by 4.3
+GW, with a monthly growth rate consistent with 2023 and a geographical
+distribution of new capacity largely following historical patterns:
+Lazio led in installations, followed by Piedmont, Lombardy, Sicily, and
+Sardinia. Wind capacity expanded by just under 500 MW in 2024,
+predominantly in the Central and Southern regions, in line with the
+post-2021 trajectory (we recall that 2021 corresponds to the year of the
+implementation of the “*Semplificazioni*” Decree). The positive impact
+of previous regulatory simplifications in the permitting process is
+evident in the advancement of authorized projects: between July and
+September 2024, 2.3 GW of solar and wind projects were approved,
+predominantly solar, with Puglia, Sicily, and Emilia Romagna at the
+forefront. This data is slightly higher than the permitting trajectory
+for the first two quarters of 2024 and the last two quarters of 2023,
+confirming the positive trajectory.  PAS procedures, whose application
+scope has been broadened by the NECP of 2023, accounted for half of the
+approved capacity of the last trimester.
+
+The latest draft of the NECP 2024 confirms Italy’s ambitious
+decarbonization goals for the power sector, aiming for a 63% renewable
+share by 2030. The regulatory landscape, however, continues to be
+riddled with medium- to long-term uncertainties. The “*Aree Idonee*”
+Decree, which was anticipated to expedite the authorization process, has
+instead proven excessively discretional as regional authorities impose
+strict limitations on designated suitable areas, undermining the future
+penetration of RES. In a comparable vein, the “*Testo Unico sulle
+Rinnovabili*” exacerbates the complexity of the regulatory framework by
+imposing new qualifications rather than effectively streamlining the
+permitting process. Notably, landscape compatibility assessments have
+become a requirement for specific operations that once fell under
+“*Edilizia libera*” (permitted development). Furthermore, the evolutions
+regarding the FerX incentive scheme amplify the uncertainty associated
+with the commissioning of RES plants. As the final version of the FerX
+remains pending, the MASE has recently prepared a draft temporary
+decree, “*FerX Transitorio*”, aimed at launching the incentive system as
+quickly as possible. This Decree establishes a support scheme for
+renewable sources that is valid only until December 31, 2025. The most
+recent update allocates a quota of 3 GW specifically for RES plants with
+direct access to the incentive, alongside 14.65 GW—comprised of 10 GW
+for solar and 4 GW for wind—for plants participating in the public
+auction regime. This quota, which has already been lowered in response
+to the ARERA opinion on the Decree, signifies a notable reduction
+compared to the contingent set by the definitive FER X. As for the rest,
+the scheme retains most of the stipulations found in the draft of the
+definitive FER X, including the exclusion from the auction participation
+for projects that initiated construction operations prior to the
+submission of the auction participation application. Such a stipulation
+may potentially hinder the short-term momentum of plant commissioning.
+However, the expected impact of the “FerX Transitorio” will likely
+depend on the timing of the auctions, which are currently projected to
+be delayed until 2025.
+
+Overall, the outlook for renewable energy sources (RES) in Italy appears
+promising for the coming years, despite lingering uncertainties. The
+momentum gained in 2023, which has continued into early 2024, is
+expected to carry through to the latter part of 2024, albeit at a more
+gradual pace, stabilizing at around 2.5 GW annually (an average of 2 GW
+from solar and 0.5 GW from wind) during the 2025–2026 period. A more
+significant acceleration in RES installations is projected from 2027
+onward, driven by the FERX initiative. However, under the Reference
+scenario, only 50 GW of solar and 16 GW of wind installed capacity are
+projected for 2030, which falls short of the PNIEC targets of 80 GW and
+28 GW, respectively. This discrepancy is due to the current permitting
+pace, which falls short of the 9-10 GW per year needed to meet demand.
+Should there be a complete simplification of the authorization
+procedures, a more efficient permitting process could enable the
+installation of 63 GW of solar and 22 GW of wind by 2030 (Low Case
+scenario). The recent developments in renewable energy source (RES)
+regulations align with improved short-term conditions in the gas market
+and an increase in renewable electricity generation. This has
+contributed to a downward trend in power prices across Europe since
+early 2024, a trend that has recently been intensified by spikes in
+electricity demand. The IIIQ 2024 Market Report explores the long-term
+risks and opportunities that lie ahead. The analysis identifies
+potential pathways to decarbonization while addressing the disparities
+between expected market trends and national decarbonization objectives,
+underscoring the challenges that must be navigated in the future.
 
 Gas prices have experienced a slight increase during the summer months
 due to heightened geopolitical tensions, approaching the average levels
@@ -270,7 +249,7 @@ prices in the coming months. The Italian gas price remains closely
 linked to the European hub, particularly the TTF. However, the temporary
 suspension of operations at the OLT facility has disrupted Italian gas
 imports, causing near-term projections to reflect greater discrepancies
-from the TT
+from the TTF.
 
 In our Reference scenario, the yearly averages for both PSV and TTF in
 2024 stay below 42 €/MWh, reflecting the effects of limited gas demand
@@ -297,10 +276,10 @@ the High scenario.
 
 The formalization of the ETS system reform underscores its essential
 role in advancing the decarbonization process. This introduction of new
-measures comes in the context of weakened macroeconomic fundamentals, a
-prolonged period of low demand, and a bearish trend in CO2 prices since
-the second quarter of 2023. Several factors are estimated to have
-contributed to this decline in demand, including reduced industrial
+measures comes amid weakened macroeconomic fundamentals, a prolonged
+period of low demand, and a bearish trend in CO2 prices since the second
+quarter of 2023. Several factors are estimated to have contributed to
+this decline in demand, including reduced industrial
 production—particularly in energy-intensive sectors—higher energy costs
 from the previous year prompting increased savings, elevated inflation
 rates, and a restrictive monetary policy adversely affecting economic
