@@ -98,6 +98,53 @@ In this perspective, we defined three scenarios:
 
 ## The Outlook for Italy's Energy Market Amid Regulatory Changes, Geopolitical Tensions, and RES Dynamics
 
+### Abstract {.unnumbered}
+
+-   Market signals remain positive for RES-E, with **captured prices
+    projected to stay above the LCOE** through 2040. Despite that,
+    regulatory delays and grid infrastructure challenges, if not solved,
+    are expected to slow down the expansion of RES-E and BESS, which was
+    brilliant in 2023 and 2024, (+ 4.5 GW/year). In the BAU Scenario,
+    **RES-E is expected to surpass 50% of the energy mix by 2032**,
+    falling short of policy targets.
+
+-   We forecast a **bullish trend in the electricity price for
+    2025-2026**: CCGTs cost reductions due to gas price trends are in
+    fact compensated by sustained logistic costs and the CO2 price
+    increasing trend
+
+-   For CCGTs, flexibility is a key driver to business success:
+    **captured CSS is projected to avergare 10 €/MWh** for the next
+    years, while baseload CSS remains negative (-2.5 €/MWh on average),
+    with **declining load factors** (1500 EOH, on average in the
+    Northern zone). The increased penetration of RES will lead to a more
+    significant reduction in EOH in the Southern zone, accompanied by
+    higher captured prices. Strategic market reforms, like capacity
+    remuneration mechanisms, are crucial to mitigate missing money risks
+    as ASM volumes narrow.
+
+-   A modest economic recovery and increased electrification are
+    **boosting electricity consumption to 312 TWh in 2024**, but
+    **demand is not expected to return to pre-crisis levels until
+    2026**. Thanks to NRRP measures, forecasts are ranging from 327 TWh
+    to 358 TWh by 2030. Meanwhile, a contraction in overall electricity
+    demand in Europe,coupled with improved hydro generation and nuclear
+    availability, contributed to a 15% increase in net imports in 2023,
+    reaching 53 TWh. Systematic overgeneration from high RES-E
+    production and slow demand recovery is likely to keep imports above
+    45 TWh through 2040.
+
+-   Gas prices have risen slightly this summer due to geopolitical
+    tensions but are not expected to rise significantly until winter,
+    with a **potential bullish cycle anticipated by winter 2025-2026**.
+    **Normalization is expected from 2026 onwards** as liquefaction and
+    regasification capacity increases, easing LNG market tensions. The
+    **average CO2 price for 2024 is projected to remain close to
+    €70/ton**. Additional demand from the maritime sector, combined with
+    the phasing out of free allowances for the aviation sector and the
+    implementation of the CBAM, is expected to support a rise in CO2
+    prices towards the €110/ton threshold by 2030.
+
 ### Key Insights {.unnumbered}
 
 Short-term Italian GDP growth remains modest, primarily driven by a
@@ -574,6 +621,8 @@ be meticulously analyzed in future updates to facilitate a comprehensive
 discussion on the economic sustainability of policy frameworks aimed at
 achieving net zero targets.
 
+\newpage
+
 #### Key market trends in Italy {.unnumbered}
 
 ![](support/01_table.png)
@@ -846,7 +895,7 @@ FINANCING CONDITIONS, AND THE IMPLEMENTATION OF THE NRRP**
 
 ![](figs/10_Italian_GDP_Growth_Rate.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -863,9 +912,9 @@ Conversely, the best-case scenario, characterized by accelerated
 disinflation and a recovery in investments, would result in GDP growth
 of up to 1.2% in 2024 and 1.6% in 2025.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -876,9 +925,9 @@ realign to the previously projected path, sustained by the effective
 implementation of the NRRP measures, the recovery of the global economy,
 and an acceleration of the green transition reforms.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -889,9 +938,9 @@ to the assumption of a stabilization of the yearly GDP growth rate in
 the 1-2% interval, while in the Worst scenario, GDP growth continues to
 discount the effects of the failure of key investments.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -901,7 +950,7 @@ Short-term GDP projections were revised upward, as a faster than
 expected disinflation and the probable easing of monetary policies
 combined with positive wage dynamics contribute to GDP growth.
 :::
-:::
+:::::
 
 ## Inflation rate
 
@@ -915,7 +964,7 @@ TERM EXPECTATIONS UNDER CONTROL**
 
 ![](figs/11_Inflation_rate.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -933,9 +982,9 @@ outcomes. Geopolitical uncertainty could further weigh on the inflation
 outlook, as new disruptions in the production and transportation chains
 of imported goods may increase pressure on inflation.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -947,9 +996,9 @@ stabilization at 2% in the second part of the decade, even with a
 gradual easing of monetary policy, although the risk of further pressure
 on prices due to the expected easing of monetary policy.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -958,9 +1007,9 @@ on prices due to the expected easing of monetary policy.
 Long-term assumptions envisage the inflation rate to stabilize at around
 2%, in line with the ECB’s medium term inflation target.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -969,7 +1018,7 @@ Long-term assumptions envisage the inflation rate to stabilize at around
 Short-term inflation rates remained in line with our previous market
 update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -991,7 +1040,7 @@ NORMALIZING IN THE MEDIUM TO LONG-TERM**
 
 ![](figs/12_World_LNG_Demand.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1010,9 +1059,9 @@ coverage. Should new liquefaction plants construction and FIDs suffer
 further delays, renewed tensions could emerge in winter 2025-2026
 leading to price upswings.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1025,9 +1074,9 @@ lack of further delays, a new wave of liquefaction capacity will enter
 the market by 2026, driven by US and Qatar, contributing to almost
 eliminating the risk of market tightness.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1036,9 +1085,9 @@ eliminating the risk of market tightness.
 In the long-term, pressure on the LNG market is expected to ease, with
 new capacity growing and green energy commitments becoming effective.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1047,7 +1096,7 @@ new capacity growing and green energy commitments becoming effective.
 Global LNG demand growth remains consistent with our prior market
 assessment.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1066,7 +1115,7 @@ YEARS**
 
 ![](figs/12_TTF_Price.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1079,9 +1128,9 @@ a further 30 Bcm in 2024, enabling additional LNG arrivals, which will
 be crucial for maintaining market equilibrium in the short-term and
 structurally adapting to the absence of Russian piped gas supplies.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1093,9 +1142,9 @@ progressive growth of global LNG supplies alongside an acceleration of
 the energy transition, European gas prices are projected to steadily
 decrease towards 30 €/MWh by 2028.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-40 {.unnumbered}
 :::
@@ -1110,9 +1159,9 @@ Effective green policies supported by economic growth may lead prices
 significantly lower in the Low scenario, with the TTF averaging near 10
 €/MWh in the long-term.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1122,7 +1171,7 @@ TTF gas price projections remain in line with our previous market
 update. However, increasing geopolitical tensions are expected to exert
 pressure on global gas prices.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1140,7 +1189,7 @@ TO A PROGRESSIVE NARROWING OF THE SPREAD TOWARDS ZERO**
 
 ![](figs/14_Spread_TTF_PSV.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1152,9 +1201,9 @@ increases the Italy’s reliance on piped gas flows from Norway via *Passo
 Gries*. Fluctuations throughout the year are anticipated to be in line
 with seasonality.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1164,9 +1213,9 @@ Flows from the TAP and Algeria, and LNG arrivals are seen as partially
 taking over imports from the North in the medium-term, leading to a
 progressive spread closure to below 1 €/MWh by 2030.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1177,9 +1226,9 @@ long-term, with the completion of flows rebalancing from Noth to South
 and LNG expected to combine with the underlying decarbonization-induced
 demand reduction.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1191,7 +1240,7 @@ increase in the short-term average PSV-TTF spread follows OLT LNG
 regasification facility temporary halt, coherently with our
 expectations.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1207,7 +1256,7 @@ THE PSV TO ALIGN WITH THE EUROPEAN PRICES, TARGETING 30 €/MWH BY 2030**
 
 ![](figs/15_PSV_Price.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1222,9 +1271,9 @@ the commissioning of the Ravenna FSRU have hindered expectations for gas
 demand recovery. Should tensions surrounding LNG and TTF prices reemerge
 in winter 2025-2026, the PSV is likely to respond accordingly.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1235,9 +1284,9 @@ normalization towards 30 €/MWh by year 2030, as a gradual rebalancing of
 the global gas demand-supply dynamics should follow the expected
 acceleration of energy transition.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-40 {.unnumbered}
 :::
@@ -1246,9 +1295,9 @@ acceleration of energy transition.
 The PSV Reference price is expected to stabilize, aligning to TTF prices
 at around 25 €/MWh in the long-term.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1261,7 +1310,7 @@ slowdown in economic growth in Europe. However, the risk for renewed
 tensions in winter 2025-26 and possibly 2026-27 is now seen as not
 negligible.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1277,7 +1326,7 @@ NORMALIZATION**
 
 ![](figs/16_Italian_Gas_Fired_units.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-27 {.unnumbered}
 :::
@@ -1302,9 +1351,9 @@ historical average levels in the second half of 2025 to account for the
 volatility of the current transport cost environment, which reverberates
 on prices consequently.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 28-50 {.unnumbered}
 :::
@@ -1315,9 +1364,9 @@ A gradual normalization of the average variable logistic costs below 4
 normalization of gas prices and the recovery of the storage-related
 losses, nearing 1.6 €/MWh on average by 2030.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1327,7 +1376,7 @@ The variable transport charges forecast incorporates the regulator
 interventions to mitigate the recent commodities surge on bills,
 compensated by an increase in storages and balancing cost.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1346,7 +1395,7 @@ SUSTAINING THE ENVISIONED PRICE INCREASES**
 
 ![](figs/17_CO2_Allowances_Price.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1363,9 +1412,9 @@ will further boost overall demand. Concerns remain regarding the
 underlying demand recovery, which is anticipated to be limited over the
 next couple of years due to a slow economic growth.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1379,9 +1428,9 @@ and the increase of the Linear Reduction Factor up to 4.4% will
 contribute to further tightening the market. As a result, the CO2 price
 is expected to accelerate towards 110 €/ton on average by 2030.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1396,9 +1445,9 @@ just below 150 €/ton in the Low scenario, under the assumption of
 stricter decarbonization efforts in Europe to accelerate the prices
 increase.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1411,7 +1460,7 @@ prices in evidence in the second half of 2023 and in the first quarter
 of 2024. A rebound in allowances demand and, consequently, in average
 prices in the post-2024 period, is envisaged.
 :::
-:::
+:::::
 
 # Energy Mix
 
@@ -1430,12 +1479,12 @@ WITH GAS-FIRED GENERATION PROVIDING ESSENTIAL SUPPORT**
 
 ![](figs/19_DAM_Energy_Balance_Refer.png)
 
-::: callout-item
+:::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
 
-::: callout-right
+:::: callout-right
 ::: callout-item
 The reduction in electricity demand across Europe, combined with
 supply-side overgeneration driven by the recovery of nuclear plant
@@ -1447,10 +1496,10 @@ energy sources (RES) observed in 2023 and the first half of 2024 is
 anticipated to persist, with gas-fired thermal plants maintaining their
 role as the marginal source in the energy mix.
 :::
-:::
-:::
+::::
+::::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1462,9 +1511,9 @@ the Tyrrhenian Link—projected for 2030 in the Reference scenario and
 2029 in the Low case. By 2030, electricity production from renewable
 sources is expected to meet approximately 47% of overall demand.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1477,20 +1526,20 @@ gas-fired thermal plants in the energy mix is expected to reach 10% by
 development of energy-intensive storage solutions, thereby enhancing
 their contribution to the energy mix.
 :::
-:::
+:::::
 
-::: callout-wrap
+:::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
 
-::: callout-right
+:::: callout-right
 ::: callout-wrap
 Short-term shifts in the production mix reflect updated commodity
 prices.
 :::
-:::
-:::
+::::
+::::::
 
 ### Low Case Scenario
 
@@ -1504,7 +1553,7 @@ SUPPORTED BY SIGNIFICANT INCREASES IN BATTERY STORAGE CAPACITY**
 
 ![](figs/20_DAM_Energy_Balance_Low.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1518,9 +1567,9 @@ peninsula is projected by 2025. Gas-fired thermal plants are expected to
 supply up to 34% of national electricity demand by then, with net
 electricity imports exceeding 49 TWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1533,9 +1582,9 @@ energy and total electricity consumption reach 59%. Improvements in the
 electricity grid will facilitate the reduction of electricity imported
 from neighborhood countries.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1550,9 +1599,9 @@ challenges like grid congestion and overproduction. These issues are
 likely to highlight the need for increased electrolyzer capacity to
 manage surplus renewable energy output effectively.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1561,7 +1610,7 @@ manage surplus renewable energy output effectively.
 Short-term shifts in the production mix reflect updated commodity
 prices.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1577,7 +1626,7 @@ SHARE IN THE ENERGY MIX**
 
 ![](figs/21_DAM_Energy_Balance_High.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1588,9 +1637,9 @@ gas prices will increase the share of gas-fired plants to 32% of demand.
 Net imports are expected to stabilize at 49 TWh in 2025, reducing coal
 generation from 7 TWh in 2024 to to 5 TWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1604,9 +1653,9 @@ account for 35% of total electricity demand. Hydroelectric output is
 projected to stabilize around 46.5 TWh per year, with renewable energy
 sources steadily increasing their share in the energy mix.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1620,9 +1669,9 @@ The evolving dynamics of the Day-Ahead Market (DAM) and the continued
 expansion of renewable energy sources will support the long-term
 integration of 10 GW of energy-intensive storage.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1630,7 +1679,7 @@ integration of 10 GW of energy-intensive storage.
 ::: callout-right
 Short-term shifts in the production mix reflect updated commodity prices
 :::
-:::
+:::::
 
 \newpage
 
@@ -1646,7 +1695,7 @@ PRIMARY DRIVERS OF DEMAND RECOVERY.**
 
 ![](figs/22_Electricity_demand.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1660,9 +1709,9 @@ estimated at 312 TWh, reflecting a lower rate of economic recovery,
 while in the low case scenario, where economic growth is projected to be
 more robust, demand could rise to 321 TWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -1675,9 +1724,9 @@ electrification push demand slightly below 360TWh, while in the High
 scenario the lower economic recovery and electrification bring
 consumption at 327 TWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1690,9 +1739,9 @@ residential sectors. As a result, electricity demand could fall below
 370 TWh by 2040. In alternative scenarios, electricity demand is
 projected to reach 377 TWh in the low case and 340 TWh in the high case.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1700,7 +1749,7 @@ projected to reach 377 TWh in the low case and 340 TWh in the high case.
 ::: callout-right
 Electricity demand hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1715,7 +1764,7 @@ AND OVERALL LONG-TERM TRANSPORTATION HABITS**
 
 ![](figs/23_E_mobility.png)
 
-::: callout-item
+::::::: callout-item
 ::: callout-left
 #### 24-40 {.unnumbered}
 :::
@@ -1745,9 +1794,9 @@ consumption per EV compared to NIECP figures. Main differences are most
 likely connected to the underlying assumptions about e-mobility
 applications in cities or long-term transport.
 :::
-:::
+:::::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1759,9 +1808,9 @@ market still in its early stages of development leads us to assume a
 business-as-usual (BAU) trend over the long term, beginning with the
 annual level of electric vehicle (EV) additions projected for 2030.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1769,7 +1818,7 @@ annual level of electric vehicle (EV) additions projected for 2030.
 ::: callout-right
 E-mobility demand hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1783,7 +1832,7 @@ WHICH MAY BE FURTHER SUPPORTED BY DECARBONIZATION INCENTIVES**
 
 ![](figs/24_Heating_Cooling.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-40 {.unnumbered}
 :::
@@ -1794,9 +1843,9 @@ electricity requirements ranging from 2 TWh to 5 TWh in 2025, 4 TWh to 9
 TWh in 2030, and 8 TWh to 17 TWh in 2040, depending on the scenario
 analyzed.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 30 {.unnumbered}
 :::
@@ -1806,9 +1855,9 @@ Our assumptions lead to estimate 6.7 TWh of H&C consumption in 2030, as
 per the reference scenario, corresponding to around 1.8 million
 installations for civil uses.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -1817,9 +1866,9 @@ installations for civil uses.
 We assume a BAU trend in the long-term horizon, starting from the annual
 level of additional installations and consumption reached in 2030.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1827,7 +1876,7 @@ level of additional installations and consumption reached in 2030.
 ::: callout-right
 H&C demand hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1841,7 +1890,7 @@ SYSTEMS WILL BE AT LEAST PARTIALLY REMOVED**
 
 ![](figs/25_Self_Produc_and_Self_Consum.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24 {.unnumbered}
 :::
@@ -1856,9 +1905,9 @@ currently in force for existing plants related to self-consumption will
 be at least partially removed for new subjects/projects that apply for
 similar mechanisms.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 25-50 {.unnumbered}
 :::
@@ -1870,9 +1919,9 @@ industrial sites (self-consumption) and is thus sold on the market
 to gradually decrease, consistently with the expected end-of-life of
 existing power plants that serve industrial sites.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1882,7 +1931,7 @@ Industrial self-production and self-consumption hypotheses are in line
 with the previous update. Self-production/consumption hypotheses are the
 same in all the three scenarios.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1895,7 +1944,7 @@ MOST RECENT REGIONAL TRENDS**
 
 ![](figs/26_Zonal_Distribution_Elec_Dem.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 15-20 {.unnumbered}
 :::
@@ -1907,9 +1956,9 @@ followed in the zonal configuration review process. In 2018, Terna began
 a process to review the zonal configurations in compliance with such
 rules.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 21-onwards {.unnumbered}
 :::
@@ -1922,9 +1971,9 @@ inclusion of a new bidding zone corresponding to the Calabria region,
 (iii) displacement of the Umbria region from the Centre-North zone to
 the Centre-South market zone.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-50 {.unnumbered}
 :::
@@ -1938,9 +1987,9 @@ Central-South (17%), South (7%), Calabria (2%), Sicily (6%), Sardinia
 (3%). Slight differences in such figures between the alternative cases
 are the result of the econometric elaborations performed.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -1949,7 +1998,7 @@ are the result of the econometric elaborations performed.
 The approach adopted and the distribution quotas is in line with the
 previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -1967,7 +2016,7 @@ WITH TUNISIA (MONTEL) WILL BOOST ELECTRICITY EXPORTS**
 
 ![](figs/27_Net_Import.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -1983,9 +2032,9 @@ projected to reach 49.7 TWh in 2024 and are anticipated to remain stable
 through 2025, covering almost 16% of electricity demand in the
 short-term.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2000,9 +2049,9 @@ interconnection between Sicily and Tunisia by the end of 2028, net
 import balance will shrink to around 45 TWh as over 3.5 TWh of
 electricity is redirected for export.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2013,9 +2062,9 @@ above 45 TWh. The slight increase in net import seen from 2035 is due to
 an estimated reduction (1 TWh ca.) in the export flows towards Tunisia,
 following the implementation of the Tunisian system development plan.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2023,7 +2072,7 @@ following the implementation of the Tunisian system development plan.
 ::: callout-wrap
 Import hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2111,7 +2160,7 @@ PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING IN
 
 ![](figs/29_Inst_thermo_capacity_ref.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2119,9 +2168,9 @@ PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING IN
 ::: callout-right
 2024 CM capacity should enter the market between late 2024 and mid-2025.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2133,9 +2182,9 @@ the island. Anyway, while coal-fired plants on the peninsula will be
 phased-out after 2025, Sardinia units are expected to operate until the
 Tyrrhenian Link infrastructure is fully completed (2030).
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2148,9 +2197,9 @@ by the last CM auctions. Existing CHP power plants continue to support
 industrial activities under the assumption of a BAU evolution of the
 industrial needs they serve. Some ageing CCGT capacity exit the market.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2158,7 +2207,7 @@ industrial needs they serve. Some ageing CCGT capacity exit the market.
 ::: callout-right
 Thermoelectric capacity hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2173,7 +2222,7 @@ IN 2030**
 
 ![](figs/30_Inst_thermo_capacity_low.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2181,9 +2230,9 @@ IN 2030**
 ::: callout-right
 2024 CM capacity should enter the market between late 2024 and mid-2025.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2195,9 +2244,9 @@ the island. Anyway, while coal-fired plants on the peninsula will be
 phased-out after 2025, Sardinia units are expected to operate until the
 Tyrrhenian Link infrastructure is fully completed (2029).
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2209,9 +2258,9 @@ power plants gradually exit the market, substituted by greener
 solutions. Some ageing CCGT capacity exit the market following strong
 competitive conditions.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2219,7 +2268,7 @@ competitive conditions.
 ::: callout-right
 Thermoelectric capacity hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2234,7 +2283,7 @@ BECOMES OPERATIVE**
 
 ![](figs/31_Inst_thermo_capacity_high.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2242,9 +2291,9 @@ BECOMES OPERATIVE**
 ::: callout-right
 2024 CM capacity should enter the market between late 2024 and mid-2025.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2253,9 +2302,9 @@ BECOMES OPERATIVE**
 Thermal capacity expected to be stable in the second half of the decade
 in the High scenario.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2267,9 +2316,9 @@ CCGT power plants are projected to remain operative. The commissioning
 of the Tyrrhenian Link is postponed until 2035, determining a delayed
 phase-out of all coal power plants.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2277,7 +2326,7 @@ phase-out of all coal power plants.
 ::: callout-right
 Thermoelectric capacity hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2294,7 +2343,7 @@ DEGREE OF COMPETITION INTRODUCED BY NEWLY BUILT CAPACITY FOLLOWING THE
 
 ![](figs/32_Residual_demand_for_CCGTs.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2307,9 +2356,9 @@ factor for CCGTs is around 1800 EOH, while the Southern zones show lower
 figures, averaging about 1000 EOH. Notably, Calabria stands out with an
 average of 3000 EOH.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2324,9 +2373,9 @@ energy efficiency improvements and increased renewable penetration.
 Conversely, in the high scenario, residual demand gradually increases as
 switching conditions improve.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2340,9 +2389,9 @@ high level of imports from abroad, with EOH of existing units over 2000
 favored by phase-out after 2035. High-efficiency units stabilize below
 the 4800 EOH only in the Low scenario.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2350,7 +2399,7 @@ the 4800 EOH only in the Low scenario.
 ::: callout-right
 CCGT residual demand hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2365,7 +2414,7 @@ IN 2030.**
 
 ![](figs/33_Coal_fired_production.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2377,9 +2426,9 @@ conditions are leading to a reduction in the coal production, reaching
 Low Scenario. In the High case Scenario, the quota coal production will
 amount to 4.7 TWh in 2025.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2393,9 +2442,9 @@ remain operational beyond 2025 until the Tyrrhenian Link is completed in
 plants is expected by 2028. Conversely, in the High scenario,
 coal-powered units are projected to continue operating until 2035.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2405,9 +2454,9 @@ Coal units remain operative beyond 2030 only in the High scenario, until
 the complete phase-out projected in 2035, with the entrance of the
 Tyrrhenian Link.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2416,7 +2465,7 @@ Tyrrhenian Link.
 Short-term shifts in coal production reflect updated commodity prices
 and RES installation projections.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2433,7 +2482,7 @@ COMMODITY PRICES AND THE ACTIONS TAKEN TO MEET DECARBONIZATION TARGETS**
 
 ![](figs/34_Net_Renewable_Installed_Cap.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-27 {.unnumbered}
 :::
@@ -2450,9 +2499,9 @@ the normative simplification of the permitting process brought about by
 the "Semplificazioni Decree", Fer 1 incentives, signed PPAs, and
 merchant projects.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 27-30 {.unnumbered}
 :::
@@ -2468,9 +2517,9 @@ declines in technology costs and more favorable economic conditions push
 capacity growth further, resulting in 63 GW of solar and 21 GW of wind
 capacity by 2030.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2483,9 +2532,9 @@ decarbonization goals may be achievable through higher-than-expected
 investments in grid infrastructure and advanced energy storage
 solutions.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2495,7 +2544,7 @@ The short-term projections regarding renewable capacity have been
 updated in line with the latest available data on the evolution of
 installed capacity.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2511,7 +2560,7 @@ SCHEME**
 
 ![](figs/35_Net_Renewable_Production.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2522,9 +2571,9 @@ respectively, by 2025. In the Low scenario, more favorable economic
 conditions result in even higher projections, with wind reaching 27 TWh
 and solar 43 TWh within the same period.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2538,9 +2587,9 @@ the Italian energy system. Meeting the more stringent Green Deal
 objectives—potentially setting the RES/GDC target around 70%, though
 still under discussion—would require a significantly greater effort.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2552,9 +2601,9 @@ with respect to 2024 values, in the Reference scenario. Boundary
 conditions of alternative scenarios lead to different degrees of
 renewable development and production level.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2563,7 +2612,7 @@ renewable development and production level.
 Short-term projections for renewable energy source (RES) production have
 been revised to account for recent changes in installation timelines.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2578,7 +2627,7 @@ ELECTROLYSIS CAPACITY COULD HELP MITIGATE MARKET COUNTEREFFECTS**
 
 ![](figs/36_Day_Ahead_Market_Overgen.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2590,9 +2639,9 @@ However, a more pronounced increase in capacity installation in the
 South macro-zone could result in higher instances of overgeneration
 during certain hours in the Low case scenario.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2609,9 +2658,9 @@ rapid expansion of renewable energy in the Southern regions of the
 country, and it could be exacerbated if coupled with insufficient grid
 reinforcement.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2627,16 +2676,16 @@ energy production presents an opportunity to expand electrolysis
 capacity, which would not only harness surplus energy but also support
 continued investments in renewable energy sources.
 :::
-:::
+:::::
 
-::: callout-wrap
+:::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 
 Short-term day-ahead market overgeneration updated to factor in the
 adjustments to RES installation.
 :::
-:::
+::::
 
 \newpage
 
@@ -2655,7 +2704,7 @@ AND SICILY**
 
 ![](figs/37_Electrolyzer_installed_cap.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 35-40 {.unnumbered}
 :::
@@ -2675,9 +2724,9 @@ of high renewable energy source (RES) production, it can help stabilize
 prices and alleviate the cannibalization effect, particularly during the
 later stages of the transition.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2685,7 +2734,7 @@ later stages of the transition.
 ::: callout-right
 Electrolyzer capacity hypotheses are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2701,7 +2750,7 @@ ELECTRICITY**
 
 ![](figs/38_Fixed_tilt_Solar_PV%20.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2717,9 +2766,9 @@ across all scenarios. This trend highlights a positive outlook for the
 solar energy industry, which is well-positioned to remain both
 competitive and profitable in the near term.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2729,9 +2778,9 @@ Despite the potential cannibalization effect on unlevered projects
 situated in the Southern regions, market opportunities for merchant
 investments are anticipated to strengthen in the coming years.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2746,9 +2795,9 @@ in specific regions, such as Sardinia and Sicily, where the grid
 infrastructure may lack the capacity to efficiently manage and redirect
 energy flows.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2758,24 +2807,24 @@ Short-term adjustments to solar captured prices are determined by
 revised commodity prices and updated projections for renewable energy
 source (RES) installations.
 :::
-:::
+:::::
 
 \newpage
 
 ### Wind Market Parity
 
-::: callout-main
+:::: callout-main
 ::: callout-main
 **DESPITE THE ANTICIPATED LONG-TERM REDUCTION IN PRICES—DRIVEN BY THE
 NORMALIZATION OF GAS PRICES AND THE GRADUAL INTEGRATION OF RENEWABLE
 ENERGY SOURCES INTO THE ENERGY MIX—WIND MARKET PARITY IS ENSURED BY
 CAPTURED PRICES THAT EXCEED THE LEVELIZED COST OF ELECTRICITY**
 :::
-:::
+::::
 
 ![](figs/39_Wind_LCOE_Range_and_PUN.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2788,9 +2837,9 @@ aligned with baseload prices, wind power plants are anticipated to
 deliver robust performance, surpassing the estimated levelized cost of
 electricity (LCOE) across all scenarios.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2801,9 +2850,9 @@ consolidate, as wind captured prices remain relatively unaffected by
 cannibalization effects. However, site-specific factors may still
 influence the economics of individual projects.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2814,9 +2863,9 @@ ongoing decline in technology costs and the adoption of enhanced Power
 Purchase Agreement (PPA) best practices that support non-incentivized
 investments.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2826,7 +2875,7 @@ Short-term adjustments to wind captured prices are determined by revised
 commodity prices and updated projections for renewable energy source
 (RES) installations.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2843,7 +2892,7 @@ NON-PROGRAMMABLE RENEWABLE GENERATION CONTINUES TO GROW**
 
 ![](figs/40_Pumped_hydro_production.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2855,9 +2904,9 @@ Market, particularly during the real-time balancing phase, is
 anticipated to remain their primary source of revenue. pumped hydro
 production is projected to hover around 2 TWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2871,9 +2920,9 @@ TWh by 2030 in the Low scenario. Conversely, in the High scenario,
 pumped hydro production is projected to be constrained to approximately
 2 TWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -2884,9 +2933,9 @@ electricity demand, market opportunities continue to expand. Pumped
 hydro units play a crucial role in alleviating the solar cannibalization
 effect and mitigating network congestion.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2897,7 +2946,7 @@ prices and RES installation projections. Meanwhile, pure pumped hydro
 capacity currently amounts to about 4 GW and is not assumed to increase
 further in the future.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2915,7 +2964,7 @@ WILL FOSTER THE SHIFT TOWARD ENERGY-INTENSIVE STORAGE**
 
 ![](figs/41_Power_Intens_Electroch_stor.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -2929,9 +2978,9 @@ compensated through a fixed annual capacity remuneration. This marks the
 first instance of large-scale electrochemical storage development in the
 Italian market.
 :::
-:::
+:::::
 
-::: callout-item
+::::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2961,9 +3010,9 @@ remain present only in the Low scenario, where higher levels of
 renewable capacity continue to signal demand in the Ancillary Services
 Market.
 :::
-:::
+:::::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -2972,7 +3021,7 @@ Market.
 Power-intensive BESS capacity hypotheses are in line with the previous
 update. They factor in ASM volumes dynamics and economic convenience.
 :::
-:::
+:::::
 
 \newpage
 
@@ -2988,7 +3037,7 @@ TIME-SHIFTING APPLICATIONS ON THE DAY-AHEAD MARKET**
 
 ![](figs/42_Energy_Intens_Electroc_stor.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24 {.unnumbered}
 :::
@@ -3001,9 +3050,9 @@ hit the market by 2024 (possibly with some delays due to issue on the
 supply chain), with Sardinia and North to host about 0.8 GW and about
 0.6 GW respectively.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 25-30 {.unnumbered}
 :::
@@ -3017,9 +3066,9 @@ renewable energy sources. Additionally, the gradual decrease in
 technology costs further enhances the attractiveness of energy-intensive
 investments.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3030,9 +3079,9 @@ GW in 2040. The larger installed capacity achieved in the Low scenario
 (near 31 GW in 2040) is consequence of greater opportunities both on the
 DAM and on the ASM.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3041,7 +3090,7 @@ DAM and on the ASM.
 Energy-intensive BESS capacity hypotheses are in line with the previous
 update. They factor in ASM volumes dynamics and economic convenience.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3059,7 +3108,7 @@ UPGRADES, AS INTER-ZONAL CONSTRAINTS WILL NOT BE FULLY RESOLVED**
 
 ![](figs/60_Potenziamento_Rete.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3068,9 +3117,9 @@ UPGRADES, AS INTER-ZONAL CONSTRAINTS WILL NOT BE FULLY RESOLVED**
 In all the scenarios proposed, network constraints are aligned with the
 most recent indications provided by Terna.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3084,9 +3133,9 @@ Adriatic Link, designed to alleviate bottlenecks between Southern and
 Northern regions. However, both projects are anticipated to face delays
 compared to the Terna-Arera schedule.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3098,9 +3147,9 @@ implementation of Terna's proposed 30 GW Hypergrid infrastructure is
 considered. Conversely, in the High scenario, long-term network
 development is expected to be more limited.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3111,7 +3160,7 @@ and are based on the 2023 Development Plan published by Terna.
 Assumptions in the alternative scenarios are consistent with other
 boundary conditions.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3128,7 +3177,7 @@ NORMALIZATION OF COMMODITY MARKETS, DEMAND, AND NET IMPORTS**
 
 ![](figs/44_Baseload_PUN.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3143,9 +3192,9 @@ are expected to result in an average price increase to approximately
 may lead to a more modest price rise, with the PUN projected to average
 around €105/MWh in 2025.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3161,9 +3210,9 @@ the Reference case. In the Low case, characterized by a heightened
 emphasis on system decarbonization could induce lower prices, averaging
 €75/MWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3179,9 +3228,9 @@ offset by the cost-reducing impact of increasing renewable energy source
 from €130/MWh to €75/MWh, depending on the level of decarbonization
 achieved in each scenario.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3191,7 +3240,7 @@ Upward revision of commodities levels determines a modest surge in power
 prices in 2024. On the other hand, medium and long-term price forecasts
 are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3206,7 +3255,7 @@ PLACE**
 
 ![](figs/45_Peak_off_peak_PUN.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3216,9 +3265,9 @@ The favorable price spread between evening and midday hours is
 anticipated to persist in the short term, as the penetration of
 renewables remains below 50% of gross domestic consumption.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3229,9 +3278,9 @@ the midday hours, particularly when there is abundant sunlight and low
 demand levels (such as in spring), gradually narrowing the gap between
 peak and off-peak prices.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3244,9 +3293,9 @@ energy storage systems (BESS), along with the overall enhanced
 operability of storage units, could mitigate the cannibalization effect
 caused by non-programmable solar power plants.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3255,7 +3304,7 @@ caused by non-programmable solar power plants.
 The price trends for the various categories of hours align with the
 findings from the previous market update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3273,7 +3322,7 @@ COMPETITIVE DYNAMICS**
 
 ![](figs/46_Baseload_PUN_compon_ref.png)
 
-::: callout-item
+::::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3299,9 +3348,9 @@ could be countered by heightened competition from newly constructed
 Capacity Market (CM) units and the growing proportion of renewable
 energy sources.
 :::
-:::
+:::::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3313,9 +3362,9 @@ demand, existing CCGTs are favored and are expected to remain the
 marginal technology in the system for approximately 80% of the hours in
 2040.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3326,7 +3375,7 @@ adjusted to reflect updated commodity levels and moderate changes in the
 production mix due to variations in the production hours of renewable
 energy sources.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3340,7 +3389,7 @@ THIS IMPACT IS PARTIALLY OFFSET BY THE DEVELOPMENT OF STORAGE UNITS**
 
 ![](figs/47_Hourly_PUN_Shape_referenc.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3350,9 +3399,9 @@ The impact of solar production during peak daytime hours is still
 moderate due to limited penetration. As a result, price differentials
 throughout the day are currently at average levels.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3364,9 +3413,9 @@ widens. The joint implementation of single-axis tracker installations,
 grid upgrades, and power-intensive storage solutions only partially
 mitigates this effect.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3378,9 +3427,9 @@ investments in electrolysis capacity. This scenario makes time-shifting
 applications in the Day-Ahead Market (DAM) appealing and stimulates new
 investments in energy-intensive storage units.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3390,7 +3439,7 @@ The PUN hourly shape aligns with the findings of the previous update.
 The lower short-term absolute values reflect the impacts of the revised
 commodity assumptions.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3406,7 +3455,7 @@ WILL REDUCE BASELOAD ZONAL PRICES**
 
 ![](figs/48_Baseload_Zonal_Prices_ref.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3419,9 +3468,9 @@ regions are lower. In contrast, increased CCGT operations in the
 Northern zones contribute to prices exceeding the PUN, in line with
 recent historical trends.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3435,9 +3484,9 @@ medium term. Continued expansion of renewable capacity in the Southern
 zones is likely to increase the frequency of congestion events,
 upsurging the incidence of price spreads over time.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3450,9 +3499,9 @@ scheduled to begin in 2035, are anticipated to alleviate inter-zonal
 congestion on the mainland; however, similar challenges are expected to
 remain pronounced in the island regions.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3460,7 +3509,7 @@ remain pronounced in the island regions.
 ::: callout-right
 The dynamics of zonal prices are in line with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3476,7 +3525,7 @@ INFRASTRUCTURE IMPLEMENTATION**
 
 ![](figs/49_Baseload_PUN_South.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3491,9 +3540,9 @@ compared to the Northern zones. Despite the rise in import flows, CCGTs
 in the North are still needed to meet demand, resulting in average
 prices that are higher.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3506,9 +3555,9 @@ restrained growth in renewables, allowing for gradual enhancements in
 the operational conditions of gas-fired units until 2030, when coal
 generation becomes less competitive compared to gas.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3523,9 +3572,9 @@ and network investments contributes to a reduction in the spread.
 However, ongoing growth in renewable energy sources causes the spread to
 widen again in the second half of the 2030s.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3536,7 +3585,7 @@ substantially in line with the previous update; minor shifts in
 short-term projections depend on the updated hypoteses on commodities
 levels and the slight changes to the production mix.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3554,7 +3603,7 @@ SCENARIO. MISSING MONEY ISSUES LIKELY TO ARISE IN THE SECOND HALF OF THE
 
 ![](figs/50_Baseload_CSS_for_CCGTs.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3567,9 +3616,9 @@ These factors will exert downward pressure on Clean Spark Spreads (CSS)
 for CCGTs, with average values projected at -1.9 €/MWh over the
 2024-2025 period.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3584,9 +3633,9 @@ development and heightened competition within the thermoelectric sector,
 this pressure will be even more pronounced, with CSS projected to
 average around -3 €/MWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3603,9 +3652,9 @@ development is more limited, increased CCGT generation will result in
 higher baseload CSS, though it is still expected to remain below -4
 €/MWh from 2040 onwards.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3613,7 +3662,7 @@ higher baseload CSS, though it is still expected to remain below -4
 ::: callout-right
 CSS estimations are aligned with market dynamics.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3629,7 +3678,7 @@ DOUBLE-DIGIT MARGINAL CAPTURE**
 
 ![](figs/51_Captured_CSS_of_CCGT_ref.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3641,9 +3690,9 @@ risk of operation at loss, while CCGT producing in the northern zone
 manage to guarantee positive margins at around 11 €/MWh , favored by the
 current market dynamics.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3657,9 +3706,9 @@ support from the latest CM auction. Despite this, the high efficiency of
 these projects enables them to maintain an average captured margin of 10
 €/MWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3671,9 +3720,9 @@ captured marginality for existing units in the first half of the 2030s,
 but load factors reduce progressively on increasing renewables share and
 increase competition from high efficiency units.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3683,7 +3732,7 @@ Expected load factor and marginality of CCGT units depend on updated
 hypothesis concerning commodity prices, market dynamics and new
 thermoelectric installed capacity.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3700,7 +3749,7 @@ ZONES EXACERBATE THE IMPACT**
 
 ![](figs/52_Solar_Captured_Prices_ref.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3712,9 +3761,9 @@ and 100€/MWh in the Northern zone, depending on the technology (Tracker
 or Fixed Tilt). In the Southern zones, captured prices range between
 88€/MWh and 92€/MWh.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -3726,9 +3775,9 @@ energy storage systems and grid improvements — is influencing zonal
 captured prices. These prices are diverging from baseload prices and are
 projected to fall below 95 €/MWh by 2030, even in the Northern zones.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3741,9 +3790,9 @@ for solar energy captured prices, particularly in Southern market zones
 with higher renewable penetration, pushing long-term prices below 50
 €/MWh in the South and below 60 €/MWh in the North.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3753,7 +3802,7 @@ Short-term outcomes are backed by the trend in commodity prices and
 their impact on power prices. Mid- and long-term results remain
 consistent with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3768,7 +3817,7 @@ SURPASS — BASELOAD PRICES**
 
 ![](figs/53_Wind_Captured_Prices_ref.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3778,9 +3827,9 @@ Captured prices are closely aligned with zonal baseload prices and
 benefit from a modest uptick in power prices, with values nearing 100
 €/MWh across all zones.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-50 {.unnumbered}
 :::
@@ -3796,9 +3845,9 @@ approach 95 €/MWh. Additionally, both sources benefit from a production
 profile that is more evenly distributed throughout the day and across
 the year.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3808,7 +3857,7 @@ Short-term outcomes are backed by the trend in commodity prices and
 their impact on power prices. Mid- and long-term results remain
 consistent with the previous update.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3822,7 +3871,7 @@ AND LAND COSTS MAY RISE. HIGHER TECHNOLOGY COSTS FOR WIND**
 
 ![](figs/59_Capex_Wind.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### Solar {.unnumbered}
 :::
@@ -3851,9 +3900,9 @@ according to different zonal captured prices. For agri-voltaic projects,
 a markup of 20%-40% on the total investment cost must be applied,
 leading to a lower expected IRR of around 6%.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### Wind {.unnumbered}
 :::
@@ -3872,9 +3921,9 @@ This cost structure typically results in an IRR of around 7% (base case
 considering South zone, pre-tax captured prices, 20 years time horizon)
 for onshore wind projects.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3883,7 +3932,7 @@ for onshore wind projects.
 Cost structure for solar and wind has been adjusted on the basis of
 current technologies' trends.
 :::
-:::
+:::::
 
 \newpage
 
@@ -3897,7 +3946,7 @@ BASICALLY IN LINE WITH BASELOAD PRICES**
 
 ![](figs/54_Hydro_Run_of_river_ref.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3906,9 +3955,9 @@ BASICALLY IN LINE WITH BASELOAD PRICES**
 Captured prices closely align with zonal baseload prices and benefit
 from elevated power prices.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-50 {.unnumbered}
 :::
@@ -3922,9 +3971,9 @@ zonal market dynamics than to changes in price structure. Additionally,
 both sources benefit from a production profile that is more evenly
 distributed throughout the day and across the year.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -3934,7 +3983,7 @@ Short-term outcomes are backed by the trend in commodity prices and
 their impact on power prices. Mid- and long-term results remain
 consistent with the previous update
 :::
-:::
+:::::
 
 \newpage
 
@@ -3953,7 +4002,7 @@ ANCILLARY SERVICES MARKET**
 
 ![](figs/55_ASM_Ex_ante_Zonal_Vol_ref.png.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3968,9 +4017,9 @@ implemented by Terna since the initiation of the cost-containment
 incentive scheme in 2022, and (iii) feasibility intervals imposed on
 power plants under the new Intra-Day Market structure
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-31 {.unnumbered}
 :::
@@ -3984,9 +4033,9 @@ diffusion of power intensive BESS that are going to reduce the need of
 ex ante scheduling, given the availability of flexible resources in the
 system.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3999,9 +4048,9 @@ of MB can be expected in line with the increasing volatility driven by
 the strong development of RES in the scenario, sustaining units
 operativity.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -4014,7 +4063,7 @@ due to the deterministic approach adopted in the simulations. The
 contingent portion of balancing market linked to real time imbalances
 are not included in the estimations.
 :::
-:::
+:::::
 
 \newpage
 
@@ -4029,7 +4078,7 @@ EXPECTED TO LIMIT THE EXPANSION TREND IN THE THREE SCENARIOS**
 
 ![](figs/56_ASM_Ex_ante_Vol_alternat.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -4041,9 +4090,9 @@ variations arising from the differing degrees of competition in the
 thermoelectric sector within the Day-Ahead Market. This competition
 results in varying levels of running reserves.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-31 {.unnumbered}
 :::
@@ -4056,9 +4105,9 @@ contrast, the High scenario sees the proliferation of less flexible
 resources, thereby increasing the demand for additional volumes in the
 Market for Secondary Reserves.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -4071,9 +4120,9 @@ greater presence of CCGT in the Day-Ahead Market and the continued
 operation of coal plants until 2025. Additionally, the development of
 energy-intensive storage facilitates better regulation of the system.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -4081,7 +4130,7 @@ energy-intensive storage facilitates better regulation of the system.
 ::: callout-right
 ASM short-term volumes incorporate the variations in commodities level.
 :::
-:::
+:::::
 
 \newpage
 
@@ -4097,7 +4146,7 @@ ZONE.**
 
 ![](figs/57.%20ASM.png)
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -4109,9 +4158,9 @@ regulation, particularly in the Centre-South market zone. However, the
 recent decline in ASM volumes may promote increased price competition
 across Italy compared to previous years.
 :::
-:::
+:::::
 
-::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-50 {.unnumbered}
 :::
@@ -4125,9 +4174,9 @@ strike price, along with the Levelized Cost of Storage (LCOS) of
 batteries, could emerge as key factors shaping ancillary services prices
 in the future.
 :::
-:::
+:::::
 
-::: callout-wrap
+::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
@@ -4142,7 +4191,7 @@ in the future. In comparison to the previous release, the updated
 short-term price projections for ancillary services now reflect the
 impacts of revised assumptions regarding DAM dynamics and prices.
 :::
-:::
+:::::
 
 # Our Suite of Market Models
 

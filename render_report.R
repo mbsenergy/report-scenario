@@ -1,6 +1,9 @@
 install.packages("pdftools")
 install.packages("pagedown")
 
+library("pdftools")
+library("pagedown")
+
 # Packages
 box::use(pagedown[...])
 box::use(pdftools[...])
@@ -8,9 +11,7 @@ box::use(pdftools[...])
 ## Path to rmarkdown document
 rmd_file = file.path('02_report_gen', 'report_gen.rmd')
 
-# Render the R Markdown file to PDF
-chrome_print(rmd_file)
-
+install.packages("mbsenergyUtils")
 
 
 # Combine cover-pre-REPORT-backcover
