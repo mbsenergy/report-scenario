@@ -1,18 +1,9 @@
-install.packages("pdftools")
-install.packages("pagedown")
-
-library("pdftools")
-library("pagedown")
-
 # Packages
 box::use(pagedown[...])
 box::use(pdftools[...])
 
 ## Path to rmarkdown document
 rmd_file = file.path('02_report_gen', 'report_gen.rmd')
-
-install.packages("mbsenergyUtils")
-
 
 # Combine cover-pre-REPORT-backcover
 pdf_files = c(file.path('02_report_gen', 'resources', 'cover.pdf'),

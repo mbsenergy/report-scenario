@@ -15,7 +15,6 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-remotes::install_github("abrahammbs93/mbsenergyUtils")
 knitr::opts_chunk$set(
                echo=FALSE,
 	           cache=FALSE,
@@ -851,7 +850,7 @@ dt_table |> flextable() %>%
     width(width = 2, j = 1)
 
 ```
-
+\newpage
 ```{r, cp_wind_off}
 
 dt_table = openxlsx::read.xlsx(file.path('tables_data', 'tables_report.xlsx'), sheet = excel_file_sn[9]) %>% 
@@ -1028,13 +1027,7 @@ update.
 ### LNG
 
 ::: callout-main
-**GLOBAL LNG DEMAND IS SEEN AS GROWING STEADY IN THE SHORT TERM, WITH A
-NOTABLE DISPARITY IN GROWTH RATE SHOWCASED BETWEEN THE ASIAN AND
-EUROPEAN BLOCS. DELAYS IN THE CONSTRUCTION OF LIQUEFACTION AND
-REGASIFICATION CAPACITY, INDUCED BY LOW PRICES, COULD TRANSLATE IN
-RENEWED DEMAND-SUPPLY TENSIONS IN 2025-2026. THERE IS A HIGH PROPABILITY
-OF AN OVERSUPPLED MARKET POST-2026 LAYING THE GROUNDWORK FOR LNG PRICES
-NORMALIZING IN THE MEDIUM TO LONG-TERM**
+**GLOBAL LNG DEMAND IS EXPECTED TO GROW STEADILY IN THE SHORT TERM, WITH SIGNIFICANT DISPARITIES BETWEEN ASIAN AND EUROPEAN GROWTH RATES. DELAYS IN LIQUEFACTION AND REGASIFICATION CAPACITY DUE TO LOW PRICES COULD LEAD TO RENEWED SUPPLY-DEMAND TENSIONS IN 2025-2026. AN OVERSUPPLED MARKET POST-2026 IS LIKELY, PAVING THE WAY FOR LNG PRICES TO NORMALIZE IN THE MEDIUM TO LONG TERM**
 :::
 
 ![](figs/12_World_LNG_Demand.png)
@@ -1045,18 +1038,7 @@ NORMALIZING IN THE MEDIUM TO LONG-TERM**
 :::
 
 ::: callout-right
-Global LNG demand growth is forecasted to grow with an average growth
-rate close to 5% in 2024, with a possible acceleration in 2025 led by
-regasification capacity in full swing worldwide. European and Chinese
-gas demand will primarily drive this uprise, as LNG intake is expected
-to accelerate in the short-term, in response to expansion of
-regasification capacity, and to support the transition from coal.
-Despite 2024 LNG supply growth being limited globally, reduced
-competition between Europe and Asia, and the expected new capacity
-entering the market in 2025, are likely to guarantee adequate demand
-coverage. Should new liquefaction plants construction and FIDs suffer
-further delays, renewed tensions could emerge in winter 2025-2026
-leading to price upswings.
+Global LNG demand is projected to grow nearly 5% in 2024, with potential acceleration in 2025 as regasification capacity increases. This growth will mainly stem from European and Chinese demand as LNG intake rises to support the transition from coal. While global LNG supply growth will be limited in 2024, reduced competition between Europe and Asia and new capacity entering the market in 2025 should provide adequate coverage. However, delays in liquefaction plant construction and FIDs could renew tensions in winter 2025-2026, resulting in price increases.
 :::
 :::::
 
@@ -1092,8 +1074,7 @@ new capacity growing and green energy commitments becoming effective.
 :::
 
 ::: callout-right
-Global LNG demand growth remains consistent with our prior market
-assessment.
+Global LNG demand growth remains consistent with our prior market assessment.
 :::
 :::::
 
@@ -1400,16 +1381,7 @@ SUSTAINING THE ENVISIONED PRICE INCREASES**
 :::
 
 ::: callout-right
-In our Reference scenario, the 2024 CO2 price average is projected to
-stay near 70 €/ton, driven by the gradual implementation of the ETS
-system reform. The phasing out of free allowances for the aviation
-sector, reaching 50% of the total in 2025, along with the planned
-removal of 90 Mln permits from the market in 2024, are expected to begin
-exerting upward pressure on allowances prices by curtailing supply. From
-2025 onwards, the progressive inclusion of the maritime transport sector
-will further boost overall demand. Concerns remain regarding the
-underlying demand recovery, which is anticipated to be limited over the
-next couple of years due to a slow economic growth.
+In our Reference scenario, the average CO2 price for 2024 is projected to remain around 70 €/ton, driven by the gradual implementation of the ETS reform. The phasing out of free allowances for aviation (50% by 2025) and the removal of 90 million permits in 2024 are expected to put upward pressure on allowance prices by reducing supply. From 2025 onward, the inclusion of the maritime transport sector will further increase demand. However, concerns linger about the pace of demand recovery, which is expected to be slow due to ongoing economic challenges.
 :::
 :::::
 
@@ -1419,13 +1391,7 @@ next couple of years due to a slow economic growth.
 :::
 
 ::: callout-right
-The widening of the supply-demand gap should become evident starting
-from 2026, as the maritime sector integrates into the ETS system and the
-phasing out of free allowances for aviation reaches full implementation.
-In addition, by 2030, the reinforcement of the Market Stability Reserve
-and the increase of the Linear Reduction Factor up to 4.4% will
-contribute to further tightening the market. As a result, the CO2 price
-is expected to accelerate towards 110 €/ton on average by 2030.
+The supply-demand gap is expected to widen starting in 2026 as the maritime sector joins the ETS and the phasing out of free aviation allowances is fully implemented. By 2030, the Market Stability Reserve's reinforcement and an increase in the Linear Reduction Factor to 4.4% will further tighten the market, pushing the average CO2 price towards 110 €/ton.
 :::
 :::::
 
@@ -1436,13 +1402,7 @@ is expected to accelerate towards 110 €/ton on average by 2030.
 
 ::: callout-right
 By 2034 the removal of free allowances for sectors covered by the CBAM
-will reach full implementation, inducing a further increase in
-allowances demand. The long-term targets would hinge upon the effective
-efficiency of the ETS System, with the CO2 price expected to exceed 120
-€/ton in the Reference scenario by 2040, and potentially accelerate to
-just below 150 €/ton in the Low scenario, under the assumption of
-stricter decarbonization efforts in Europe to accelerate the prices
-increase.
+will reach full implementation, inducing a further increase in allowances demand. Long-term targets depend on the ETS system's efficiency, with the CO2 price projected to exceed 120 €/ton by 2040 in the Reference scenario and potentially approach 150 €/ton in the Low scenario, assuming stricter decarbonization efforts in Europe.
 :::
 :::::
 
@@ -1451,7 +1411,7 @@ increase.
 #### Main updates {.unnumbered}
 :::
 
-::: callout-right
+::: callout-right 
 Our CO2 price targets remain consistent with our prior market update,
 when we took into account a downward revision in the very short term
 across all three scenarios, in response to the sharp decline in CO2
@@ -1469,9 +1429,9 @@ prices in the post-2024 period, is envisaged.
 
 ::: callout-main
 **IN THE SHORT TERM, SUBDUED DEMAND IS INCREASINGLY COVERED BY GROWTH IN
-RENEWABLE ENERGY SOURCES (RES) AND NET IMPORT FLOWS. IN THE MID TERM,
+RES AND NET IMPORT FLOWS. IN THE MID TERM,
 GAS-FIRED GENERATION CONTINUES TO SERVE AS THE BACKBONE OF THE ENERGY
-MIX, EVEN AS RENEWABLES INCREASE THEIR SHARE. IN THE LONG TERM,
+MIX. IN THE LONG TERM,
 RENEWABLES WILL EMERGE AS THE PRIMARY SOURCE OF ELECTRICITY PRODUCTION,
 WITH GAS-FIRED GENERATION PROVIDING ESSENTIAL SUPPORT**
 :::
@@ -1485,15 +1445,7 @@ WITH GAS-FIRED GENERATION PROVIDING ESSENTIAL SUPPORT**
 
 :::: callout-right
 ::: callout-item
-The reduction in electricity demand across Europe, combined with
-supply-side overgeneration driven by the recovery of nuclear plant
-capacity after two years of maintenance and an increase in hydroelectric
-production, has led to a rise in electricity imports from the northern
-borders. This phenomenon is expected to continue in the short term.
-Additionally, the positive trend in the installation of new renewable
-energy sources (RES) observed in 2023 and the first half of 2024 is
-anticipated to persist, with gas-fired thermal plants maintaining their
-role as the marginal source in the energy mix.
+Reduced electricity demand in Europe, coupled with overgeneration from recovering nuclear capacity and increased hydroelectric production, has driven up electricity imports from the Northern border. The positive momentum in new RES installations is likely to persist in 2025-2026, while gas-fired thermal plants remain the marginal source in the energy mix.
 :::
 ::::
 ::::::
@@ -1504,11 +1456,7 @@ role as the marginal source in the energy mix.
 :::
 
 ::: callout-right
-Coal-fired units are set to phase out by 2025, with the exception of
-those in Sardinia, which will remain operational until the completion of
-the Tyrrhenian Link—projected for 2030 in the Reference scenario and
-2029 in the Low case. By 2030, electricity production from renewable
-sources is expected to meet approximately 47% of overall demand.
+Coal-fired units are set to phase out by 2025, except for those in Sardinia, which will remain operational until the Tyrrhenian Link is completed—projected for 2030 in the Reference case and 2029 in the Low case. By 2030, RES are expected to supply around 47% of total electricity demand.
 :::
 :::::
 
@@ -1518,12 +1466,8 @@ sources is expected to meet approximately 47% of overall demand.
 :::
 
 ::: callout-right
-Renewable energy is projected to become the dominant source in the
-energy mix, reaching nearly 70% by 2040 and 85% by 2050. The share of
-gas-fired thermal plants in the energy mix is expected to reach 10% by
-2050. Favorable market conditions are expected to promote the
-development of energy-intensive storage solutions, thereby enhancing
-their contribution to the energy mix.
+Renewable energy is projected to reach  70% of the energy mix by 2040 and 85% by 2050. The share of
+gas-fired thermal plants will reach 10% by 2050. Favorable market conditions will promote the development of energy-intensive storage solutions, thereby enhancing their contribution to the energy mix.
 :::
 :::::
 
@@ -1589,14 +1533,7 @@ from neighborhood countries.
 :::
 
 ::: callout-right
-In the long term, gas-fired thermal plants will remain crucial for
-ensuring system security and reliability, but their share in the energy
-mix is expected to drop to 15% by 2040 and 6% by 2050, as storage
-capacity expands. However, despite progress in storage and grid
-enhancements, achieving full renewable integration will encounter
-challenges like grid congestion and overproduction. These issues are
-likely to highlight the need for increased electrolyzer capacity to
-manage surplus renewable energy output effectively.
+In the long term, gas-fired thermal plants will remain essential for system security, but their share of the energy mix is expected to decrease to 15% by 2040 and 6% by 2050 as storage capacity expands. Despite advancements in storage and grid improvements, achieving full renewable integration will face challenges such as grid congestion and overproduction, underscoring the need for greater electrolyzer capacity to effectively manage surplus renewable energy.
 :::
 :::::
 
@@ -1778,7 +1715,9 @@ by 2040. Conversely, in the High scenario, the development of e-mobility
 experiences a 5- to 10-year delay compared to the Reference scenario,
 with the target of 4.5 million EVs only being achieved by 2040.
 :::
+:::::::
 
+::::::: callout-item
 ::: callout-left
 #### 30 {.unnumbered}
 :::
@@ -2545,8 +2484,6 @@ installed capacity.
 :::
 :::::
 
-\newpage
-
 ### Renewable Production
 
 ::: callout-main
@@ -2680,7 +2617,9 @@ continued investments in renewable energy sources.
 :::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
+:::
 
+::: callout-right
 Short-term day-ahead market overgeneration updated to factor in the
 adjustments to RES installation.
 :::
@@ -2979,7 +2918,7 @@ Italian market.
 :::
 :::::
 
-::::::: callout-item
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
@@ -2996,7 +2935,9 @@ overgeneration and the contraction of Ancillary Services Market (ASM)
 volumes further contribute to the gradual cessation of PI storage
 investments.
 :::
+:::::
 
+::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
@@ -3009,7 +2950,7 @@ remain present only in the Low scenario, where higher levels of
 renewable capacity continue to signal demand in the Ancillary Services
 Market.
 :::
-:::::::
+:::::
 
 ::::: callout-wrap
 ::: callout-left
@@ -3127,9 +3068,9 @@ most recent indications provided by Terna.
 Grid reinforcements are expected to improve flow management and reduce
 inter-zonal congestion on the mainland. By 2030, two key HVDC
 infrastructures are set to become operational: the Tyrrhenian Link,
-essential for decommissioning Sardinia's coal-fired units, and the
-Adriatic Link, designed to alleviate bottlenecks between Southern and
-Northern regions. However, both projects are anticipated to face delays
+key to decommission Sardinia's coal-fired units, and the
+Adriatic Link, designed to alleviate bottlenecks between South and
+North. However, both projects are anticipated to face delays
 compared to the Terna-Arera schedule.
 :::
 :::::
@@ -3140,11 +3081,7 @@ compared to the Terna-Arera schedule.
 :::
 
 ::: callout-right
-Under BAU assumptions, a gradual reduction of inter-zonal constraints on
-the mainland is expected to begin in 2035. In the Low scenario, the
-implementation of Terna's proposed 30 GW Hypergrid infrastructure is
-considered. Conversely, in the High scenario, long-term network
-development is expected to be more limited.
+Under BAU assumptions, inter-zonal constraints on the mainland are expected to gradually reduce starting from 2035. In the Low scenario, Terna's proposed 30 GW Hypergrid infrastructure will be implemented, while the High scenario projects more limited long-term network development.
 :::
 :::::
 
@@ -3154,10 +3091,7 @@ development is expected to be more limited.
 :::
 
 ::: callout-right
-BAU grid development hypotheses are in line with the previous update,
-and are based on the 2023 Development Plan published by Terna.
-Assumptions in the alternative scenarios are consistent with other
-boundary conditions.
+BAU grid development hypotheses are in line with the previous update.
 :::
 :::::
 
@@ -3185,7 +3119,7 @@ NORMALIZATION OF COMMODITY MARKETS, DEMAND, AND NET IMPORTS**
 In the Reference scenario, market dynamics are anticipated to stabilize
 over the next two years, with the gas market continuing to achieve
 equilibrium. By 2025, potential tensions in the gas market, along with a
-recovery in demand bolstering the Emissions Trading System mechanism,
+recovery in demand bolstering the ETS mechanism,
 are expected to result in an average price increase to approximately
 €114/MWh. In the Low case scenario, more favorable economic conditions
 may lead to a more modest price rise, with the PUN projected to average
@@ -3199,13 +3133,9 @@ around €105/MWh in 2025.
 :::
 
 ::: callout-right
-In the medium term, sustained imports and an increase in renewable
-energy sources (RES) capacity will exert downward pressure on energy
-prices; however, the growth in storage capacity will counterbalance this
-trend, preventing the PUN from declining significantly. Following the
+In the medium term, sustained imports and an increase in RES capacity will exert downward pressure on energy prices. Following the
 normalization of gas prices after 2025 and the continued integration of
-RES, electricity prices are projected to fall to 105€/MWh by 2030, in
-the Reference case. In the Low case, characterized by a heightened
+RES, electricity prices are projected to fall to 105€/MWh by 2030. In the Low case the 
 emphasis on system decarbonization could induce lower prices, averaging
 €75/MWh.
 :::
@@ -3218,14 +3148,12 @@ emphasis on system decarbonization could induce lower prices, averaging
 
 ::: callout-right
 In the long term, the trajectory of power prices will remain closely
-linked to the cost profile of combined cycle gas turbines (CCGTs), which
+linked to the cost profile of CCGTs, which
 are projected to serve as the marginal technology for 80% of the time in
 2040 and less than 60% by 2050. Consequently, long-term ETS dynamics
 will exert upward pressure on baseload prices; however, this will be
-offset by the cost-reducing impact of increasing renewable energy source
-(RES) penetration. The projected PUN for 2040 is anticipated to range
-from €130/MWh to €75/MWh, depending on the level of decarbonization
-achieved in each scenario.
+offset by the cost-reducing impact of increasing RES penetration. The projected PUN for 2040 is anticipated to range
+between €130/MWh and €75/MWh, depending on the scenario.
 :::
 :::::
 
@@ -3287,8 +3215,7 @@ peak and off-peak prices.
 ::: callout-right
 The reversal of hourly price differentials is anticipated to persist in
 the long term, leading to an increase in prices during off-peak hours.
-The rising integration of energy-intensive electrochemical battery
-energy storage systems (BESS), along with the overall enhanced
+The rising integration of energy-intensive electrochemical storage systems, along with the overall enhanced
 operability of storage units, could mitigate the cannibalization effect
 caused by non-programmable solar power plants.
 :::
@@ -3321,7 +3248,7 @@ COMPETITIVE DYNAMICS**
 
 ![](figs/46_Baseload_PUN_compon_ref.png)
 
-::::::: callout-item
+::::: callout-item
 ::: callout-left
 #### 24-25 {.unnumbered}
 :::
@@ -3333,21 +3260,18 @@ competition for CCGTs. Consequently, a negative CSS of approximately
 -2.5 €/MWh is projected for thermal plants in the Reference scenario for
 2025.
 :::
+:::::
 
+::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
 
 ::: callout-right
-In the second half of the 2020s, existing CCGTs are poised to benefit
-from the phase-out of coal-fired units. Coupled with a recovery in
-electricity demand, this is anticipated to enhance baseload CSS, which
-is expected to reach approximately 2.9 €/MWh. Nevertheless, this benefit
-could be countered by heightened competition from newly constructed
-Capacity Market (CM) units and the growing proportion of renewable
-energy sources.
+In the second half of the 2020s, the heightened competition from newly constructed
+Capacity Market units and the growing proportion of RES will keep the CCS in negative territory, averaging -2.9 €/MWh. Parallely, a normalization of gas prices will occur.
 :::
-:::::::
+:::::
 
 ::::: callout-item
 ::: callout-left
@@ -3356,7 +3280,7 @@ energy sources.
 
 ::: callout-right
 In the long term, renewables are projected to lead the generation mix.
-However, due to the declining trend in imported flows and a rise in
+However, due to the rise in
 demand, existing CCGTs are favored and are expected to remain the
 marginal technology in the system for approximately 80% of the hours in
 2040.
@@ -3609,9 +3533,9 @@ SCENARIO. MISSING MONEY ISSUES LIKELY TO ARISE IN THE SECOND HALF OF THE
 
 ::: callout-right
 The anticipated energy outlook, marked by stagnating electricity demand,
-an increasing share of renewable energy sources (RES), and higher levels
-of imports, is expected to intensify competition for the existing fleet.
-These factors will exert downward pressure on Clean Spark Spreads (CSS)
+an increasing share of RES, and higher levels
+of import, is expected to intensify competition for the existing fleet.
+These factors will exert downward pressure on the CSS
 for CCGTs, with average values projected at -1.9 €/MWh over the
 2024-2025 period.
 :::
@@ -3625,11 +3549,11 @@ for CCGTs, with average values projected at -1.9 €/MWh over the
 ::: callout-right
 Market competition is expected to increase due to the stabliziation of
 import flows from Northern borders, the rise in renewable capacity, and
-the entry of new high-efficiency CCGTs, acquired through Capacity Market
-auctions. These dynamics are expected to keep baseload CSS in negative
-territory. In the Low scenario, characterized by accellerated renewable
+the entry of new high-efficiency CCGTs, acquired through CM
+auctions. These dynamics will keep baseload CSS in negative
+territory. In the Low scenario, characterized by accelerated RES
 development and heightened competition within the thermoelectric sector,
-this pressure will be even more pronounced, with CSS projected to
+the pressure will be even more pronounced, with CSS projected to
 average around -3 €/MWh.
 :::
 :::::
@@ -3663,7 +3587,6 @@ CSS estimations are aligned with market dynamics.
 :::
 :::::
 
-\newpage
 
 ### Day-Ahead Market Profitability for CCGT Units
 
@@ -3994,8 +3917,7 @@ consistent with the previous update
 **ANCILLARY SERVICES NEEDS ARE EXPECTED TO SHRINK IN THE FUTURE
 FOLLOWING THE MOST RECENT PAST, BUILDING ON RECENT TRENDS DUE TO UNIQUE
 MARKET CONDITIONS AND CHANGES IN THE SYSTEM MANAGEMENT STRATEGY
-IMPLEMENTED BY THE TSO. IN THE LONG-TERM THE DEVELOPMENT OF BATTERY
-ENERGY STORAGE SYSTEMS (BESS) AND GRID ENHANCEMENTS CAN IMPROVE THE
+IMPLEMENTED BY THE TSO. IN THE LONG-TERM THE DEVELOPMENT OF BESS AND GRID ENHANCEMENTS CAN IMPROVE THE
 ANCILLARY SERVICES MARKET**
 :::
 
@@ -4007,14 +3929,7 @@ ANCILLARY SERVICES MARKET**
 :::
 
 ::: callout-right
-Procured ex-ante ancillary services volumes are expected to partially
-recover from 2022; however, they will remain lower than historical
-levels due to several factors: (i) increased availability of
-thermoelectric running reserves resulting from reversed switching
-conditions, (ii) modifications in network management practices
-implemented by Terna since the initiation of the cost-containment
-incentive scheme in 2022, and (iii) feasibility intervals imposed on
-power plants under the new Intra-Day Market structure
+Procured ex-ante ancillary services volumes are expected to partially recover from 2022 but will remain below historical levels due to: (i) increased availability of thermoelectric reserves from reversed switching conditions, (ii) changes in network management practices by Terna since the 2022 cost-containment scheme, and (iii) feasibility intervals imposed on power plants under the new Intra-Day Market structure.
 :::
 :::::
 
@@ -4027,7 +3942,7 @@ power plants under the new Intra-Day Market structure
 The exit of coal-fired units on the mainland and the progressive
 increase in the energy mix of renewable production are compensated by
 the entry of (i) new thermoelectric and energy intensive storage
-capacity sustained by the Capacity Market mechanism, and (ii) the
+capacity sustained by the CM mechanism, and (ii) the
 diffusion of power intensive BESS that are going to reduce the need of
 ex ante scheduling, given the availability of flexible resources in the
 system.
@@ -4055,12 +3970,7 @@ operativity.
 :::
 
 ::: callout-right
-ASM volumes incorporate the most recent trends -- which are reckoned to
-be structural in the market -- over the entire me horizon simulated.
-Upward and downward volumes resulting from our model are very symmetric
-due to the deterministic approach adopted in the simulations. The
-contingent portion of balancing market linked to real time imbalances
-are not included in the estimations.
+ASM volumes reflect recent structural market trends throughout the simulated horizon. Upward and downward volumes from our model are symmetric due to the deterministic simulation approach. The contingent portion of the balancing market linked to real-time imbalances is not included in the estimates.
 :::
 :::::
 
