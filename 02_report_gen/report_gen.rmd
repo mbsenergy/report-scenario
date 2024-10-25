@@ -108,8 +108,7 @@ In this perspective, we defined three scenarios:
     **RES-E is expected to surpass 50% of the energy mix by 2032**,
     falling short of policy targets.
 
--   We forecast a **bullish trend in the electricity price for
-    2025-2026**: CCGTs cost reductions due to gas price trends are in
+-   We forecast a **bullish trend in the electricity price for 2025-2026**: CCGTs cost reductions due to gas price trends are in
     fact compensated by sustained logistic costs and the CO2 price
     increasing trend
 
@@ -125,8 +124,7 @@ In this perspective, we defined three scenarios:
 
 -   A modest economic recovery and increased electrification are
     **boosting electricity consumption to 312 TWh in 2024**, but
-    **demand is not expected to return to pre-crisis levels until
-    2026**. Thanks to NRRP measures, forecasts are ranging from 327 TWh
+    **demand is not expected to return to pre-crisis levels until 2026**. Thanks to NRRP measures, forecasts are ranging from 327 TWh
     to 358 TWh by 2030. Meanwhile, a contraction in overall electricity
     demand in Europe,coupled with improved hydro generation and nuclear
     availability, contributed to a 15% increase in net imports in 2023,
