@@ -1,0 +1,25 @@
+// Place your key bindings in this file to override the defaults
+[
+    // RStudio: Delete lines cmd-d
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    // The above remapping destroyed the find next shortcut.
+    // Replace it with alt+d and shift-alt+d to get them all
+    {
+        "key": "alt+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+
+    // Comment code.
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.commentLine",
+        "when": "editorLangId == 'r'"
+    }    
+
+]

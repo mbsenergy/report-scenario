@@ -48,3 +48,13 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 report_gen/report_gen.html
+02_report_gen/report_gen.html
+/02_report_gen/report_gen_files
+02_report_gen/report_gen.html
+/02_report_gen/_extensions
+/02_report_gen/report_v2_files
+02_report_gen/report_v2.log
+02_report_gen/report_v2.tex
+02_report_gen/report_v2.aux
+02_report_gen/QTDublinIrish.otf
+02_report_gen/report_gen.pdf

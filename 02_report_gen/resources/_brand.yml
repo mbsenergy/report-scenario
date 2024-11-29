@@ -1,0 +1,132 @@
+color:
+  background: "white"
+  foreground: "#313c52"
+  primary: "#313c52"
+  secondary: "#4299e1"
+  tertiary: "#9ba9be"
+  warning: "#ffa500"
+  success: "#0ca678"
+  info: "#4299e1"
+  danger: "#dc4e41"
+
+logo: 
+  medium: resources/mbs_logo.png
+
+typography:
+  fonts:
+    - family: Inter
+      source: google
+  base: 
+    family: Inter
+    line-height: 1.65
+    size: 12px
+  headings: Inter
+  link:
+    decoration: underline
+  monospace: Consolas Mono
+  monospace-inline:
+    color: "#313c52"
+    background-color: "#f1f5f9" # or use a named color from `color`
+  monospace-block: 
+    background-color: "#f1f5f9"
+
+meta:
+  name: MBS Consulting | A Cerved Company 
+  link: https://www.mbsconsuilting.com
+
+defaults:
+  bootstrap:
+    # uses: <string>
+    # functions: <string>
+    # mixins: <string>
+    rules: |
+      h1 {
+        font-size: 21pt;
+        font-weight: 900;
+        font-family: Inter;
+        padding-top: 24px;
+        padding-bottom: 6px;
+        color: #313c52
+      }
+      h2 {
+        font-size: 18pt;
+        font-weight: 800;
+        font-family: Inter;
+        padding-top: 8px;
+        padding-bottom: 16px;
+        border-bottom: 2.25px solid #9ba9be;
+        color: #313c52
+      }
+      h3 {
+        font-size: 15pt;
+        font-weight: 700;
+        padding-top: 6px;
+        padding-bottom: 12px;
+        color: #313c52;
+      }
+      h4, h5 {
+        font-size: 13pt;
+        font-weight: 600;
+        color: #313c52;
+      }      
+      blockquote {
+        background-color: #f6f6f6;
+        padding: 0.2em 0.5em;
+        color: #8596A6;
+        font-weight: 300;
+        font-size: 12px;
+      }
+      .callout-main {
+          background-color: #4299e1;
+          padding: 16px;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          margin-top: 8px;
+          margin-bottom: 12px;
+          font-weight: bold !important;
+          font-size: 12px !important;
+          color: white !important;
+      }
+      .callout-item {
+          background-color: #ecf5fc;
+          padding: 5px;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 5px;
+      }
+      .callout-wrap {
+          background-color: #fef0e6;
+          padding: 6px;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 6px;
+      }
+      .callout-left {
+          width: 10%;
+          text-align: center !important;
+          font-size: 11px !important;
+          color: #313c52;
+          font-weight: bold;
+          margin-right: 8px;
+      }
+      .callout-right {
+          width: 90%;
+          font-size: 11px !important;
+          padding: 4px;
+          margin-right: 12px;
+          margin-left: 10px;
+      }
+      .callout-center {
+          font-size: 11px !important;
+          margin: 15px;
+          font-weight: bold;
+          padding: 6px;
+      }
+      .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+      }      

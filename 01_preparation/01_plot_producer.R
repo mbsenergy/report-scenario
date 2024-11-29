@@ -1,6 +1,6 @@
 
 # Packages and Setup ------------------------------------------------------------------
-t0= Sys.time()
+t0 = Sys.time()
 
 options(box.path = getwd())
 
@@ -15,20 +15,6 @@ box::use(ggplot2[...],
          scales,
          xl = openxlsx[read.xlsx])
 
-# library(flextable)
-# 
-# set_flextable_defaults(
-#     font.color = "#747E7E",
-#     font.size = 9,
-#     font.family = 'calibri',
-#     padding = 5,
-#     border.color = "#dfe2e5",
-#     background.color = "whitesmoke",
-#     split = FALSE,
-#     theme_fun = "theme_box",
-#     decimal.mark = ",",
-#     big.mark = " ",
-#     na_str = "<na>")
 
 report_num = 'III2024'
 

@@ -1,0 +1,34 @@
+{
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "workbench.iconTheme": "symbols",
+    "workbench.productIconTheme": "macos-modern",  
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,      
+    "r.alwaysUseActiveTerminal": true,
+    "r.bracketedPaste": true,
+    "r.sessionWatcher": true,
+    "r.plot.useHttpgd": true,
+    "r.lsp.diagnostics": false,
+    "workbench.editor.showTabs": "multiple",
+    "r.rterm.option": [
+        "--no-save",
+        "--no-restore",
+        "--r-binary=/usr/local/bin/R"
+    ],
+    "terminal.integrated.defaultProfile.linux": "R",
+    "[r]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "[markdown]": {
+      "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    }
+    }
+}
