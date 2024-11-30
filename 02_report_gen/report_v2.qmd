@@ -1,16 +1,23 @@
 ---
 title: Italian Electricity Market Scenario
-subtitle: December 2024 Update
-brand: resources/_brand.yml
+subtitle: Quarterly update December 2024 Amid Regulatory Changes, Geopolitical Tensions, and RES Dynamics
+author: REF-E Scenario Team
+date: last-modified
+brand: _brand.yml
 format: 
-  html: 
-      theme: [brand, styles.css]
+  lumo-html: 
+      logo: "mbs_refe_logo.png"  
+      primary-color: "#4299e1"  
+      is-particlejs-enabled: true
       toc: true
       toc-depth: 4
+      toc-title: '-'
       number-sections: true
       number-depth: 3
-  reportscen-typst:
-      papersize: a4
+      smooth-scroll: true
+      anchor-sections: true
+      self-contained: true
+      embed-resources: true
 ---
 
 ```{r setup, include=FALSE}
@@ -93,7 +100,7 @@ In this perspective, we defined three scenarios:
 
 \newpage
 
-## The Outlook for Italy's Energy Market Amid Regulatory Changes, Geopolitical Tensions, and RES Dynamics
+## The Outlook for Italy's Energy Market
 
 ### Key Insights {.unnumbered}
 
