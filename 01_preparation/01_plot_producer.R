@@ -30,24 +30,24 @@ box::use(ggplot2[...],
 #     big.mark = " ",
 #     na_str = "<na>")
 
-report_num = 'III2024'
+report_num = 'IV2024'
 
-years_to_display = c(2024:2040, 2045, 2050)
+years_to_display = c(2025:2040, 2045, 2050)
 
 altezza_grafici = 4
 
-levels_order = c("High", "Reference", "Low", report_num)
-color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
+levels_order = c("Low RES", "Reference", "High RES", report_num)
+color_mapping = c(`High RES`  = "#007F77", `Low RES` = "#97BBFF", Reference = "#FF9933")
 color_mapping[report_num] = "#FF9933"
 
-linetype_mapping = c("High" = "solid", 
-                     "Low" = "solid",
+linetype_mapping = c("Low RES" = "solid", 
+                     "High RES" = "solid",
                      "Reference" = "solid")
 
 linetype_mapping[report_num] = "dashed"
 
 ## File 
-excel_file = file.path('01_preparation', 'Grafici report scenari.xlsx')
+excel_file = file.path('01_preparation', 'Grafici report scenari_originale.xlsx')
 excel_file_sn = xl$getSheetNames(excel_file)
 
 ## Line graphs ----
@@ -113,7 +113,7 @@ for (i in 1:length(vec_plot_line)) { #i = 9
              caption = expression(bold("Source: ") * "MBS Consulting elaborations"))
     
     
-    if (i %in% c(3,4)) {
+    if (i %in% c(3,4,8)) {
     
     plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name),group = get(c_name))) +
         geom_line(linewidth = 1.1) +
@@ -216,7 +216,7 @@ for (i in 1:length(vec_plot_line)) { #i = 9
             scale_y_continuous(labels = scales::percent_format()) 
     } else {
         plot_line
-    }   
+    }  
     
     ggsave(file.path('02_report_gen', 'figs', paste0(vec_plot_line[[i]], '.png')), plot_line,
            width = 9, height = altezza_grafici)
@@ -232,12 +232,12 @@ color_mapping = c(Existing = "#D9D9D9",
                   Uncertain = "#FFCC99",
                   `Historical Demand` = "#000000",
                   `Demand - Reference Scenario` = "#FF9933",
-                  `Demand - High Scenario` = "#007F77",
-                  `Demand - Low Scenario` = "#97BBFF")
+                  `Demand - Low RES Scenario` = "#007F77",
+                  `Demand - High RES Scenario` = "#97BBFF")
 color_mapping %>% names()
 levels_order = c("Existing"    ,                "Under Construction"   ,       "Uncertain",                  
-                 "Historical Demand" ,          "Demand - Reference Scenario" ,"Demand - High Scenario" ,    
-                 "Demand - Low Scenario")
+                 "Historical Demand" ,          "Demand - Reference Scenario" ,"Demand - Low RES Scenario" ,    
+                 "Demand - High RES Scenario")
 
 ## Produce Plot
 
@@ -294,8 +294,8 @@ for (i in 1:length(vec_plot_line)) { #i = 1
                                          Uncertain = "solid",
                                          `Historical Demand` = "dashed",
                                          `Demand - Reference Scenario` = "solid",
-                                         `Demand - High Scenario` = "solid",
-                                         `Demand - Low Scenario` = "solid"
+                                         `Demand - Low RES Scenario` = "solid",
+                                         `Demand - High RES Scenario` = "solid"
         ), breaks = levels_order) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
@@ -531,7 +531,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     setorderv(dt_line_lg, cols = c(c_name, 'cluster'))
     
-    dt_line_lg[, (c_name) := factor(get(c_name), levels = c('Reference','Low','High'))]
+    dt_line_lg[, (c_name) := factor(get(c_name), levels = c('Reference','High RES','Low RES'))]
     
     dt_line_lg[, cluster := factor(cluster, levels = c('PHEV','BEV'))]
     
@@ -596,7 +596,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     setorderv(dt_line_lg, cols = c(c_name, 'cluster'))
     
-    dt_line_lg[, (c_name) := factor(get(c_name), levels = c('Reference','Low','High'))]
+    dt_line_lg[, (c_name) := factor(get(c_name), levels = c('Reference','High RES','Low RES'))]
     
     plot_line = ggplot() +
         geom_col(data = dt_line_lg, aes(x = get(c_name), y = valori, fill = cluster), width = 0.6, show.legend = FALSE) +
@@ -987,11 +987,11 @@ color_mapping = c(Hydro = "#00544F",
                   Geothermal = "#97BBA3",
                   Biomass = "#D4E2D8",
                   Solar = "#FFCC99",
-                  `Low Scenario` = "#97BBFF",
-                  `High Scenario` = "#007F77")
+                  `High RES Scenario` = "#97BBFF",
+                  `Low RES Scenario` = "#007F77")
 
 levels_order = c("Hydro" ,        "Wind" ,         "Geothermal",    "Biomass" ,      "Solar",        
-                 "Low Scenario",  "High Scenario")
+                 "High RES Scenario",  "Low RES Scenario")
 
 years_to_display = c(2017,2019,2022,2025, 2030, 2035, 2040, 2050)
 
@@ -1020,20 +1020,20 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, anni := as.character(anni)]
     
-    dt_line_lg[, (c_name) := fifelse(get(c_name)=="Low","Low Scenario",get(c_name))]
+    dt_line_lg[, (c_name) := fifelse(get(c_name)=="Low RES","High RES Scenario",get(c_name))]
     
-    dt_line_lg[, (c_name) := fifelse(get(c_name)=="High","High Scenario",get(c_name))]
+    dt_line_lg[, (c_name) := fifelse(get(c_name)=="Low RES","High RES Scenario",get(c_name))]
     
     dt_line_lg[, (c_name) := factor(get(c_name), levels = rev(levels_order))]
     
     plot_line =
         dt_line_lg %>%
         ggplot() +
-        geom_col(data = filter(dt_line_lg, !get(c_name) %in% c("Low Scenario","High Scenario")), aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
-        geom_line(data = filter(dt_line_lg, get(c_name) == "Low Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
-        geom_line(data = filter(dt_line_lg, get(c_name) == "High Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
-        geom_point(data = filter(dt_line_lg, get(c_name) == "Low Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), size = 3) +
-        geom_point(data = filter(dt_line_lg, get(c_name) == "High Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), size = 3) +
+        geom_col(data = filter(dt_line_lg, !get(c_name) %in% c("High RES Scenario","Low RES Scenario")), aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
+        geom_line(data = filter(dt_line_lg, get(c_name) == "High RES Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
+        geom_line(data = filter(dt_line_lg, get(c_name) == "Low RES Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
+        geom_point(data = filter(dt_line_lg, get(c_name) == "High RES Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), size = 3) +
+        geom_point(data = filter(dt_line_lg, get(c_name) == "Low RES Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), size = 3) +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
         scale_y_continuous(name = NULL) +
@@ -1078,9 +1078,9 @@ for (i in 1:length(vec_plot_line)) { #i = 1
 vec_plot_line = excel_file_sn[c(28)]
 
 color_mapping = c(Reference = "#FF9933", 
-                  Low = "#97BBFF")
+                  `High RES` = "#97BBFF")
 
-levels_order = c("Reference","Low")
+levels_order = c("Reference","High RES")
 
 years_to_display = c(2037:2050)
 
@@ -1155,11 +1155,11 @@ vec_plot_line = excel_file_sn[c(29,30,31)]
 
 color_mapping = c(`LCOE range` = "#E8E8E8",
                   `Reference` = "#FF9933", 
-                  `Low` = "#97BBFF", 
-                  `High` = "#007F77",
+                  `High RES` = "#97BBFF", 
+                  `Low RES` = "#007F77",
                   `LCOE Reference` = "#747474"
 )
-levels_order = c( "LCOE range", "Reference" ,    "Low" ,           "High"    ,       "LCOE Reference")
+levels_order = c( "LCOE range", "Reference" ,    "High RES" ,           "Low RES"    ,       "LCOE Reference")
 
 years_to_display = seq(2025,2050, by = 5)
 
@@ -1184,7 +1184,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, (c_name) := fifelse(get(c_name)=="Reference ","Reference",get(c_name))]
     
-    dt_geom_ribbon = filter(dt_line_lg, get(c_name) %in% c("LCOE low","LCOE range")) %>% setDT()
+    dt_geom_ribbon = filter(dt_line_lg, get(c_name) %in% c("LCOE high res","LCOE range")) %>% setDT()
     
     names(dt_geom_ribbon)[1] = "title"
     
@@ -1194,11 +1194,11 @@ for (i in 1:length(vec_plot_line)) { #i = 1
         dt_line_lg %>%
         ggplot() +
         #geom_ribbon(data = dt_geom_ribbon,aes(x = anni,
-        #                                      ymin = `LCOE low`,
+        #                                      ymin = `LCOE high RES`,
         #                                      ymax = `LCOE range`, 
         #                                      fill = "LCOE range"),
         #            alpha = 0.5) + 
-        geom_line(data = filter(dt_line_lg, !get(c_name) %in%  c("LCOE low","LCOE range")), aes(x = anni, y = valori, color = get(c_name)), linewidth = 1.1) +
+        geom_line(data = filter(dt_line_lg, !get(c_name) %in%  c("LCOE high RES","LCOE range")), aes(x = anni, y = valori, color = get(c_name)), linewidth = 1.1) +
         scale_fill_manual(values = color_mapping) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
         scale_x_continuous(breaks = years_to_display, labels = years_to_display) +
@@ -1245,13 +1245,13 @@ vec_plot_line = excel_file_sn[c(33,34)]
 
 color_mapping = c(
     `Reference` = "#00544F", 
-    `Low` = "#669895", 
-    `High` = "#97BBA3"
+    `High RES` = "#669895", 
+    `Low RES` = "#97BBA3"
     
 )
 
-color_mapping = c(High = "#007F77", Low = "#97BBFF", Reference = "#FF9933")
-levels_order = c(  "Reference" ,    "Low" ,           "High"   )
+color_mapping = c(`Low RES` = "#007F77", `High RES` = "#97BBFF", Reference = "#FF9933")
+levels_order = c(  "Reference" ,    "High RES" ,           "Low RES"   )
 
 ## Produce Plot
 
@@ -1528,7 +1528,7 @@ levels_order = c("2025", "2030", "2035" ,"2040" ,"2050")
 for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line = xl$read.xlsx(excel_file, sheet = vec_plot_line[[i]], skipEmptyRows=FALSE) 
-    dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
+    #dt_line = dt_line[1:which(is.na(dt_line))[1]-1,]
     dt_line = dt_line[ , colSums(is.na(dt_line)) == 0] %>% setDT()
     
     c_name = names(dt_line)[1]
@@ -1548,7 +1548,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     setorderv(dt_line_lg, cols = c(c_name, 'ora'))
     
-    #dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
+    dt_line_lg[, (c_name) := factor(get(c_name), levels = levels_order)]
     
     plot_line = ggplot() +
         geom_line(data = dt_line_lg, aes(x = ora, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1) +
@@ -2120,10 +2120,10 @@ for (i in 1:length(vec_plot_line)) { #i = 1
 vec_plot_line = excel_file_sn[c(47)]
 
 color_mapping = c(Reference = "#D4E2D8", 
-                  High = "#97BBFF", 
-                  Low = "#007F77")
+                  `Low RES` = "#97BBFF", 
+                  `High RES` = "#007F77")
 
-levels_order = c("Reference","High","Low")
+levels_order = c("Reference","Low RES","High RES")
 
 years_to_display = c(2024:2040, 2045, 2050)
 
