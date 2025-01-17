@@ -3084,42 +3084,28 @@ The evolution of the spread between the PUN and Southern zonal prices is substan
 ### Baseload CSS for Existing CCGT Units
 
 ::: callout-main
-**BASELOAD CSS IS EXPECTED TO DECREASE IN THE SHORT-TERM AS HIGH IMPORT
-AND RES PENETRATION AFFECT CCGTS PRODUCTION. IN MID- AND LONG-TERM
-VALUES ARE EXPECTED TO STABILIZE AROUND -4 AND -1 €/MWh DEPENDING ON THE
-SCENARIO. MISSING MONEY ISSUES LIKELY TO ARISE IN THE SECOND HALF OF THE
-2020s AND TO BE AMPLIFIED IN ALTERNATIVE SCENARIOS**
+**BASELOAD CSS IS PROJECTED TO DECLINE IN THE SHORT TERM AS STAGNANT POWER DEMAND GROWTH, SUSTAINED IMPORTS, AND INCREASING RES PENETRATION REDUCE CCGT PRODUCTION. BY 2040, VALUES ARE EXPECTED TO STABILIZE BETWEEN -7 AND -1 €/MWh, DEPENDING ON THE SCENARIO. MISSING MONEY ISSUES ARE LIKELY TO EMERGE IN THE LATTER HALF OF THE 2020s AND BECOME MORE PRONOUNCED IN ALTERNATIVE SCENARIOS**
 :::
 
 ![](figs/50_Baseload_CSS_for_CCGTs.png)
 
 ::::: callout-item
 ::: callout-left
-#### 24-25 {.unnumbered}
+#### 25-26 {.unnumbered}
 :::
 
 ::: callout-right
-The anticipated energy outlook, marked by stagnating electricity demand,
-an increasing share of RES, and higher levels of import, is expected to
-intensify competition for the existing fleet. These factors will exert
-downward pressure on the CSS for CCGTs, with average values projected at
--1.9 €/MWh over the 2024-2025 period.
+The anticipated energy outlook, characterized by stagnant electricity demand, a growing share of RES, and increased import levels, is expected to intensify competition for the existing fleet. These factors will place downward pressure on the CSS for CCGTs, with average values projected at -2.7 €/MWh over the 2025-2026 period.
 :::
 :::::
 
 ::::: callout-item
 ::: callout-left
-#### 26-30 {.unnumbered}
+#### 27-30 {.unnumbered}
 :::
 
 ::: callout-right
-Market competition is expected to increase due to the stabliziation of
-import flows from Northern borders, the rise in renewable capacity, and
-the entry of new high-efficiency CCGTs, acquired through CM auctions.
-These dynamics will keep baseload CSS in negative territory. In the Low
-scenario, characterized by accelerated RES development and heightened
-competition within the thermoelectric sector, the pressure will be even
-more pronounced, with CSS projected to average around -3 €/MWh.
+Market competition is set to intensify with stabilized imports from Northern borders, increased renewable capacity, and new high-efficiency CCGTs from CM auctions. These factors will keep baseload CSS negative, averaging around -3.5 €/MWh in the High RES scenario, where accelerated RES growth and heightened thermoelectric competition amplify the pressure in the second half of the 2020s.
 :::
 :::::
 
@@ -3129,16 +3115,7 @@ more pronounced, with CSS projected to average around -3 €/MWh.
 :::
 
 ::: callout-right
-Post-2030, the decommissioning of aging capacity will enable existing
-CCGTs (53%-efficiency) to remain the marginal technology for at least
-85% of the operating hours through 2040. During this horizon, baseload
-CSS is expected to remain below -2 €/MWh. In the Low scenario,
-characterized by greater renewable penetration, baseload CSS is
-projected to fall further, staying below -7 €/MWh in the long-term
-(post-2040). Conversely, in the High scenario, where renewable
-development is more limited, increased CCGT generation will result in
-higher baseload CSS, though it is still expected to remain below -4
-€/MWh from 2040 onwards.
+Post-2030, the decommissioning of aging capacity will enable existing CCGTs (53%-efficiency) to remain the marginal technology for approximately 80% of the operating hours through 2040. During this horizon, baseload CSS is expected to range below -2 €/MWh, and until -6 €/MWh. In the High RES scenario, baseload CSS is projected to fall further, staying below -7 €/MWh in the long-term (post-2040). Conversely, in the Low RES, increased CCGT generation will result in higher baseload CSS, though it is still expected to remain below -4 €/MWh from 2040 onwards.
 :::
 :::::
 
@@ -3148,49 +3125,35 @@ higher baseload CSS, though it is still expected to remain below -4
 :::
 
 ::: callout-right
-CSS estimations are aligned with market dynamics.
+CSS estimations are in line with the previous update.
 :::
 :::::
 
 ### Day-Ahead Market Profitability for CCGT Units
 
 ::: callout-main
-**IN THE NEAR TERM, CURRENT UNITS ARE LIKELY TO FACE LESS FAVORABLE
-SWITCHING CONDITIONS, BUT THE RISING SOLAR PENETRATION IS PROJECTED TO
-INCREASE EVENING PRICE PEAKS OVER THE MEDIUM TO LONG TERM.
-HIGH-EFFICIENCY UNITS WILL OPTIMIZE DAM VOLUMES WHILE MAINTAINING A
-DOUBLE-DIGIT MARGINAL CAPTURE**
+**IN THE NEAR TERM, CURRENT UNITS ARE LIKELY TO FACE LESS FAVORABLE SWITCHING CONDITIONS, BUT THE RISING SOLAR PENETRATION IS PROJECTED TO INCREASE EVENING PRICE PEAKS OVER THE MEDIUM TO LONG TERM. HIGH-EFFICIENCY UNITS WILL OPTIMIZE DAM VOLUMES WHILE MAINTAINING A DOUBLE-DIGIT MARGINAL CAPTURE**
 :::
 
 ![](figs/51_Captured_CSS_of_CCGT_ref.png)
 
 ::::: callout-item
 ::: callout-left
-#### 24-25 {.unnumbered}
+#### 25-26 {.unnumbered}
 :::
 
 ::: callout-right
-Captured CSS evolve depending on the zone mix, with southern bidding
-zones suffering the high operativity of coal-fired units and significant
-risk of operation at loss, while CCGT producing in the northern zone
-manage to guarantee positive margins at around 11 €/MWh , favored by the
-current market dynamics.
+Captured CSS evolve depending on the zone mix, with southern bidding zones suffering the high operativity of coal-fired units and significant risk of operation at loss, while CCGT producing in the northern zone manage to guarantee positive margins at around 11 €/MWh , favored by the current market dynamics.
 :::
 :::::
 
 ::::: callout-item
 ::: callout-left
-#### 26-30 {.unnumbered}
+#### 27-30 {.unnumbered}
 :::
 
 ::: callout-right
-As renewable capacity increases, existing units tend to concentrate
-their operations during evening hours to maximize captured margins. The
-high-efficiency gas-fired capacity captured CSS is subject to
-competitive market conditions as new projects enter the market with
-support from the latest CM auction. Despite this, the high efficiency of
-these projects enables them to maintain an average captured margin of 10
-€/MWh.
+As renewable capacity increases, existing units tend to concentrate their operations during evening hours to maximize captured margins. The high-efficiency gas-fired capacity captured CSS is subject to competitive market conditions as new projects enter the market with support from the latest CM auction. Despite this, the high efficiency of these projects enables them to maintain an average captured margin of 10 €/MWh.
 :::
 :::::
 
@@ -3214,9 +3177,7 @@ increase competition from high efficiency units.
 :::
 
 ::: callout-right
-Expected load factor and marginality of CCGT units depend on updated
-hypothesis concerning commodity prices, market dynamics and new
-thermoelectric installed capacity.
+Expected load factor and marginality of CCGT units depend on updated hypothesis concerning commodity prices, market dynamics and new thermoelectric installed capacity.
 :::
 :::::
 
@@ -3227,39 +3188,29 @@ thermoelectric installed capacity.
 ### Solar Captured Prices
 
 ::: callout-main
-**A GROWING CANNIBALIZATION EFFECT ON SOLAR PRICES BECOMES APPARENT IN
-THE LATE 2020s, PARTICULARLY IN SOUTHERN MARKET ZONES, WHERE HIGH
-RENEWABLE PENETRATION AND LIMITED INTERCONNECTION CAPACITY WITH NORTHERN
-ZONES EXACERBATE THE IMPACT**
+**A GROWING CANNIBALIZATION EFFECT ON SOLAR PRICES BECOMES APPARENT IN THE LATE 2020s, PARTICULARLY IN SOUTHERN MARKET ZONES, WHERE HIGH RENEWABLE PENETRATION AND LIMITED INTERCONNECTION CAPACITY WITH NORTHERN ZONES EXACERBATE THE IMPACT**
 :::
 
 ![](figs/52_Solar_Captured_Prices_ref.png)
 
 ::::: callout-item
 ::: callout-left
-#### 24-25 {.unnumbered}
+#### 25-26 {.unnumbered}
 :::
 
 ::: callout-right
-Solar power plants stand to benefit from projected moderate increases in
-power prices, with captured prices varying between approximately 98€/MWh
-and 100€/MWh in the Northern zone, depending on the technology (Tracker
-or Fixed Tilt). In the Southern zones, captured prices range between
-88€/MWh and 92€/MWh.
+Solar power plants stand to benefit from projected moderate increases in power prices, with captured prices varying between approximately 94€/MWh and 100€/MWh in the Northern zone, depending on the technology (Tracker
+or Fixed Tilt). In the Southern zones, captured prices range between 77€/MWh and 88€/MWh.
 :::
 :::::
 
 ::::: callout-item
 ::: callout-left
-#### 26-30 {.unnumbered}
+#### 27-30 {.unnumbered}
 :::
 
 ::: callout-right
-The accelerating rate of RES installations, along with the resulting
-cannibalization and overgeneration effects — only partially mitigated by
-energy storage systems and grid improvements — is influencing zonal
-captured prices. These prices are diverging from baseload prices and are
-projected to fall below 95 €/MWh by 2030, even in the Northern zones.
+The accelerating rate of RES installations, along with the resulting cannibalization and overgeneration effects — only partially mitigated by energy storage systems and grid improvements — is influencing zonal captured prices. These prices are diverging from baseload prices and are projected to fall below 90 €/MWh by 2030, even in the Northern zones.
 :::
 :::::
 
@@ -3269,12 +3220,7 @@ projected to fall below 95 €/MWh by 2030, even in the Northern zones.
 :::
 
 ::: callout-right
-The increasing occurrence of overgeneration signals the need for
-energy-intensive storage systems, which help partially ease the
-cannibalization effect. After 2030, this effect becomes more significant
-for solar energy captured prices, particularly in Southern market zones
-with higher renewable penetration, pushing long-term prices below 50
-€/MWh in the South and below 60 €/MWh in the North.
+The growing frequency of overgeneration highlights the need for energy-intensive storage systems to partially mitigate the cannibalization effect. After 2030, this effect intensifies for solar captured prices, especially in Southern market zones with higher renewable penetration, driving long-term prices below 50 €/MWh in both Northern and Southern regions.
 :::
 :::::
 
@@ -3284,9 +3230,7 @@ with higher renewable penetration, pushing long-term prices below 50
 :::
 
 ::: callout-right
-Short-term outcomes are backed by the trend in commodity prices and
-their impact on power prices. Mid- and long-term results remain
-consistent with the previous update.
+Short-term outcomes are driven by shifts in commodity prices and power demand projections, influencing power prices.
 :::
 :::::
 
@@ -3295,41 +3239,28 @@ consistent with the previous update.
 ### Wind Captured Prices
 
 ::: callout-main
-**WIND GENERATION IS LESS CONCENTRATED THAN SOLAR PRODUCTION, WITH ITS
-OUTPUT MORE EVENLY DISTRIBUTED ACROSS BOTH SEASONS AND HOURS OF THE DAY.
-THIS BROADER DISTRIBUTION ENABLES CAPTURED PRICES TO MATCH — OR EVEN
-SURPASS — BASELOAD PRICES**
+**WIND GENERATION IS LESS CONCENTRATED THAN SOLAR PRODUCTION, WITH ITS OUTPUT MORE EVENLY DISTRIBUTED ACROSS BOTH SEASONS AND HOURS OF THE DAY. THIS BROADER DISTRIBUTION ENABLES CAPTURED PRICES TO MATCH — OR EVEN SURPASS — BASELOAD PRICES**
 :::
 
 ![](figs/53_Wind_Captured_Prices_ref.png)
 
 ::::: callout-item
 ::: callout-left
-#### 24-25 {.unnumbered}
+#### 25-26 {.unnumbered}
 :::
 
 ::: callout-right
-Captured prices are closely aligned with zonal baseload prices and
-benefit from a modest uptick in power prices, with values nearing 100
-€/MWh across all zones.
+Captured prices are closely aligned with zonal baseload prices and benefit from a modest uptick in power prices, with values nearing 100 €/MWh across all zones.
 :::
 :::::
 
 ::::: callout-item
 ::: callout-left
-#### 26-50 {.unnumbered}
+#### 27-50 {.unnumbered}
 :::
 
 ::: callout-right
-Captured prices continue to align closely with zonal baseload prices in
-the long term. The overgeneration resulting from increased solar
-production significantly affects the early 2030s; however, the outcomes
-for both energy sources remain more influenced by zonal market dynamics
-than by changes in price trends. By 2030, captured prices in the
-Northern zones stay above 100 €/MWh, while those in the Southern zones
-approach 95 €/MWh. Additionally, both sources benefit from a production
-profile that is more evenly distributed throughout the day and across
-the year.
+Captured prices remain closely aligned with zonal baseload prices over the long term. Increased solar production leads to overgeneration in the early 2030s, but outcomes for both sources are shaped more by zonal market dynamics than price trends. By 2030, captured prices exceed 95 €/MWh in the Northern zones and approach 90 €/MWh in the South, supported by a more balanced production profile across the day and year.
 :::
 :::::
 
@@ -3339,9 +3270,7 @@ the year.
 :::
 
 ::: callout-right
-Short-term outcomes are backed by the trend in commodity prices and
-their impact on power prices. Mid- and long-term results remain
-consistent with the previous update.
+Short-term outcomes are driven by shifts in commodity prices and power demand projections, influencing power prices.
 :::
 :::::
 
@@ -3350,9 +3279,7 @@ consistent with the previous update.
 ### Investment costs and IRR of Solar and Wind
 
 ::: callout-main
-**INTENSE COMPETITION IN THE PV MODULES MARKET DRIVES DOWN INVESTMENT
-COSTS FOR SOLAR IN THE MID AND LONG TERM, EVEN THOUGH GRID CONNECTION
-AND LAND COSTS MAY RISE. HIGHER TECHNOLOGY COSTS FOR WIND**
+**INTENSE COMPETITION IN THE PV MODULES MARKET DRIVES DOWN INVESTMENT COSTS FOR SOLAR IN THE MID AND LONG TERM, EVEN THOUGH GRID CONNECTION AND LAND COSTS MAY RISE. HIGHER TECHNOLOGY COSTS FOR WIND**
 :::
 
 ![](figs/59_Capex_Wind.png)
@@ -3415,8 +3342,7 @@ for onshore wind projects.
 :::
 
 ::: callout-right
-Cost structure for solar and wind has been adjusted on the basis of
-current technologies' trends.
+Cost structure for solar and wind technologies is in line with the previous update.
 :::
 :::::
 
@@ -3425,37 +3351,29 @@ current technologies' trends.
 ### Hydro Run-of-River Captured Prices
 
 ::: callout-main
-**HYDROPOWER GENERATION IS MORE SENSITIVE TO SEASONAL WATER INFLOWS
-TRENDS THAN TO HOURLY VARIABILITY, SO THAT CAPTURED PRICES REMAIN
-BASICALLY IN LINE WITH BASELOAD PRICES**
+**HYDROPOWER GENERATION IS MORE SENSITIVE TO SEASONAL WATER INFLOWS TRENDS THAN TO HOURLY VARIABILITY, SO THAT CAPTURED PRICES REMAIN BASICALLY IN LINE WITH BASELOAD PRICES**
 :::
 
 ![](figs/54_Hydro_Run_of_river_ref.png)
 
 ::::: callout-item
 ::: callout-left
-#### 24-25 {.unnumbered}
+#### 25-26 {.unnumbered}
 :::
 
 ::: callout-right
-Captured prices closely align with zonal baseload prices and benefit
-from elevated power prices.
+Captured prices closely align with zonal baseload prices and benefit from elevated power prices.
 :::
 :::::
 
 ::::: callout-item
 ::: callout-left
-#### 26-50 {.unnumbered}
+#### 27-50 {.unnumbered}
 :::
 
 ::: callout-right
-Captured prices are expected to remain closely aligned with zonal
-baseload prices in the long term. The overgeneration resulting from
-increased solar production significantly influences the early 2030s;
-however, the performance of both sources remains more closely tied to
-zonal market dynamics than to changes in price structure. Additionally,
-both sources benefit from a production profile that is more evenly
-distributed throughout the day and across the year.
+Captured prices are expected to remain closely aligned with zonal baseload prices in the long term. The overgeneration resulting from increased solar production significantly influences the early 2030s; however, the performance of both sources remains more closely tied to
+zonal market dynamics than to changes in price structure. Additionally, both sources benefit from a production profile that is more evenly distributed throughout the day and across the year.
 :::
 :::::
 
@@ -3465,9 +3383,7 @@ distributed throughout the day and across the year.
 :::
 
 ::: callout-right
-Short-term outcomes are backed by the trend in commodity prices and
-their impact on power prices. Mid- and long-term results remain
-consistent with the previous update
+Short-term outcomes are backed by the trend in commodity prices and their impact on power prices. Mid- and long-term results remain consistent with the previous update
 :::
 :::::
 
