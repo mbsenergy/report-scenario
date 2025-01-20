@@ -12,8 +12,8 @@
         --running-title-width: 2.5in;
         --screen-pages-spacing: 2.5mm;
         --main-color: #00544F;
-            --main-font: "Calibri";
-        --header-font: "Calibri";
+            --main-font: "Source Sans Pro";
+        --header-font: "Source Sans Pro";
     }
 
 /* ---------------------- For debugging -------------------- */
@@ -75,7 +75,7 @@ h1.title {
 
   @top-left {
     content: string(h1-title);
-    font-family: "Calibri";
+    font-family: "Source Sans Pro";
     font-weight: 800;
     color: #383838;
     border-bottom: 3px solid #8497B0;
@@ -85,7 +85,7 @@ h1.title {
 
 @top-center {
     content: "Italian Electricity Market";
-    font-family: "Calibri";
+    font-family: "Source Sans Pro";
     font-weight: 800;
     color: #383838;
     border-bottom: 3px solid #8497B0;
@@ -95,7 +95,7 @@ h1.title {
 
   @top-right {
     content: string(h1-text);
-    font-family: "Calibri";
+    font-family: "Source Sans Pro";
     font-weight: 800;
     color: #383838;
     border-bottom: 3px solid #8497B0;

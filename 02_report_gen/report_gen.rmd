@@ -38,7 +38,7 @@ box::use(ggplot2[...],
 set_flextable_defaults(
     font.color = "#54565B",
     font.size = 7,
-    font.family = 'calibri',
+    font.family = 'Source Sans Pro',
     padding = 2,
     border.color = "#dfe2e5",
     background.color = "whitesmoke",
@@ -343,10 +343,6 @@ below 100 €/MWh by 2029* in the Reference scenario and by 2026 in the
 High RES case.
 
 \newpage
-
-#### Key market trends in Italy {.unnumbered}
-
-![](support/01_table.png)
 
 # Key Figures
 
@@ -1394,7 +1390,12 @@ Short-term shifts in the production mix reflect updated commodity prices
 ## Electricity Demand
 
 ::: callout-main
-**2024 SAW THE FIRST INCREASE IN POWER DEMAND SINCE 2018, DRIVEN LARGELY BY A REBOUND IN INDUSTRIAL CONSUMPTION FOLLOWING THE PARTIAL STABILIZATION OF GAS PRICES AFTER THE 2022–2023 PEAKS. MEDIUM-TERM PROJECTIONS SUGGEST DEMAND WILL RETURN TO PRE-CRISIS LEVELS ONLY BY 2027, WHILE LONG-TERM RECOVERY WILL BE FUELED BY ADVANCEMENTS IN ELECTRIFICATION AND EFFICIENCY IMPROVEMENTS IN FINAL CONSUMPTION.**
+**2024 SAW THE FIRST INCREASE IN POWER DEMAND SINCE 2018, DRIVEN LARGELY
+BY A REBOUND IN INDUSTRIAL CONSUMPTION FOLLOWING THE PARTIAL
+STABILIZATION OF GAS PRICES AFTER THE 2022–2023 PEAKS. MEDIUM-TERM
+PROJECTIONS SUGGEST DEMAND WILL RETURN TO PRE-CRISIS LEVELS ONLY BY
+2027, WHILE LONG-TERM RECOVERY WILL BE FUELED BY ADVANCEMENTS IN
+ELECTRIFICATION AND EFFICIENCY IMPROVEMENTS IN FINAL CONSUMPTION.**
 :::
 
 ![](figs/22_Electricity_demand.png)
@@ -1406,9 +1407,12 @@ Short-term shifts in the production mix reflect updated commodity prices
 
 ::: callout-right
 A subdued economic recovery is anticipated over the next two years,
-resulting in a moderate increase in electricity demand, projected to reach
-315 TWh by the end of 2025, and approaching 319 by 2026 (+1.1% year-on-year).
-The high RES scenario, characterized by more optimistic economic conditions, foresees demand to exceed 320 TWh, thus going back to pre-crisis levels already by 2025, while in the low RES scenario it will stagnate below 320 TWh until 2030. 
+resulting in a moderate increase in electricity demand, projected to
+reach 315 TWh by the end of 2025, and approaching 319 by 2026 (+1.1%
+year-on-year). The high RES scenario, characterized by more optimistic
+economic conditions, foresees demand to exceed 320 TWh, thus going back
+to pre-crisis levels already by 2025, while in the low RES scenario it
+will stagnate below 320 TWh until 2030.
 :::
 :::::
 
@@ -1418,7 +1422,15 @@ The high RES scenario, characterized by more optimistic economic conditions, for
 :::
 
 ::: callout-right
-In the Reference case, gradual electrification progress combined with steady, albeit modest, GDP growth leads to a +3.5 TWh increase in power demand over the mid-term, reaching over 320 TWh by 2027 and exceeding 330 TWh by 2030. In the High RES scenario, a stronger economic outlook and accelerated electrification drive demand to nearly 350 TWh by 2030. Conversely, in the Low RES scenario, slower economic recovery (averaging +0.6% year-on-year throughout the period) and reduced electrification delay power demand growth, with levels only returning to pre-crisis figures (just above 320 TWh) after 2030.
+In the Reference case, gradual electrification progress combined with
+steady, albeit modest, GDP growth leads to a +3.5 TWh increase in power
+demand over the mid-term, reaching over 320 TWh by 2027 and exceeding
+330 TWh by 2030. In the High RES scenario, a stronger economic outlook
+and accelerated electrification drive demand to nearly 350 TWh by 2030.
+Conversely, in the Low RES scenario, slower economic recovery (averaging
++0.6% year-on-year throughout the period) and reduced electrification
+delay power demand growth, with levels only returning to pre-crisis
+figures (just above 320 TWh) after 2030.
 :::
 :::::
 
@@ -1428,7 +1440,17 @@ In the Reference case, gradual electrification progress combined with steady, al
 :::
 
 ::: callout-right
-After 2030, the advanced electrification of transportation and the widespread adoption of heating and cooling technologies are expected to drive electricity consumption. However, this growth may be tempered by efficiency improvements in the industrial and residential sectors. Under the Reference Scenario, annual electricity demand growth is projected to moderate to +2.7-2.9 TWh, causing demand to surpass 360 TWh by 2040 and stabilize at approximately 385 TWh in the long term. Alternative scenarios suggest differing outcomes: in the High RES case, demand could exceed 390 TWh by 2050, while the Low RES case envisions stabilization around 350 TWh as a result of slower electrification and reduced economic growth.
+After 2030, the advanced electrification of transportation and the
+widespread adoption of heating and cooling technologies are expected to
+drive electricity consumption. However, this growth may be tempered by
+efficiency improvements in the industrial and residential sectors. Under
+the Reference Scenario, annual electricity demand growth is projected to
+moderate to +2.7-2.9 TWh, causing demand to surpass 360 TWh by 2040 and
+stabilize at approximately 385 TWh in the long term. Alternative
+scenarios suggest differing outcomes: in the High RES case, demand could
+exceed 390 TWh by 2050, while the Low RES case envisions stabilization
+around 350 TWh as a result of slower electrification and reduced
+economic growth.
 :::
 :::::
 
@@ -1438,8 +1460,11 @@ After 2030, the advanced electrification of transportation and the widespread ad
 :::
 
 ::: callout-right
-
-Our projections have been revised downward, compared to our previous update, due to persistent industrial stagnation and modest GDP growth projections. Additionally, the partial decoupling observed between economic growth and electricity consumption has further tempered expectations for electricity demand.
+Our projections have been revised downward, compared to our previous
+update, due to persistent industrial stagnation and modest GDP growth
+projections. Additionally, the partial decoupling observed between
+economic growth and electricity consumption has further tempered
+expectations for electricity demand.
 :::
 :::::
 
@@ -1465,11 +1490,12 @@ AND OVERALL LONG-TERM TRANSPORTATION HABITS**
 Electric vehicle (EV) numbers are projected to reach 1.2 million by
 2025, 4.5 million by 2030, and 11.1 million by 2040 in the Reference
 scenario, resulting in total consumption of 2 TWh, 7.6 TWh, and 18.7 TWh
-from EVs, respectively. In the High RES scenario, a more rapid adoption of
-electric vehicles is expected to reach 6 million by 2030 and 15 million
-by 2040. Conversely, in the Low RES scenario, the development of e-mobility
-experiences a 5- to 10-year delay compared to the Reference scenario,
-with the target of 4.5 million EVs only being achieved by 2040.
+from EVs, respectively. In the High RES scenario, a more rapid adoption
+of electric vehicles is expected to reach 6 million by 2030 and 15
+million by 2040. Conversely, in the Low RES scenario, the development of
+e-mobility experiences a 5- to 10-year delay compared to the Reference
+scenario, with the target of 4.5 million EVs only being achieved by
+2040.
 :::
 :::::
 
@@ -1519,7 +1545,9 @@ E-mobility demand hypotheses are in line with the previous update.
 ### Heating and Cooling
 
 ::: callout-main
-**THE ADDITIONAL ELECTRICITY DEMAND FOR HEATING AND COOLING WILL DEPEND ON THE GROWTH RATE OF INSTALLATIONS FOR RESIDENTIAL AND INDUSTRIAL USES, WHICH MAY BE FURTHER SUPPORTED BY DECARBONIZATION INCENTIVES**
+**THE ADDITIONAL ELECTRICITY DEMAND FOR HEATING AND COOLING WILL DEPEND
+ON THE GROWTH RATE OF INSTALLATIONS FOR RESIDENTIAL AND INDUSTRIAL USES,
+WHICH MAY BE FURTHER SUPPORTED BY DECARBONIZATION INCENTIVES**
 :::
 
 ![](figs/24_Heating_Cooling.png)
@@ -1531,8 +1559,8 @@ E-mobility demand hypotheses are in line with the previous update.
 
 ::: callout-right
 Heating and cooling (H&C) is projected to represent additional
-electricity requirements ranging from 2 TWh to 5 TWh in 2025, 4 TWh to 13
-TWh in 2030, and 8 TWh to 17 TWh in 2040, depending on the scenario
+electricity requirements ranging from 2 TWh to 5 TWh in 2025, 4 TWh to
+13 TWh in 2030, and 8 TWh to 17 TWh in 2040, depending on the scenario
 analyzed.
 :::
 :::::
@@ -1697,7 +1725,13 @@ previous update.
 ## Net Import
 
 ::: callout-main
-**THE RECOVERY OF NUCLEAR CAPACITY FROM O&M OPERATIONS INITIATED IN 2022 (ALONG WITH THE CONNECTION OF THE FLAMANVILLE REACTOR AFTER LONG DELAYS), INCREASED HYDROPOWER PRODUCTION IN SWITZERLAND, AND LOWER ELECTRICITY DEMAND ACROSS EUROPE, IS EXPECTED TO SUSTAIN NET IMPORTS INTO THE NORTHERN ZONE. NET IMPORTS ARE PROJECTED TO REACH 50 TWH BY THE END OF 2024. AFTER 2029, THE COMPLETION OF A 600 MW INTERCONNECTOR WITH TUNISIA (MONTEL) WILL ENHANCE EXPORT CAPABILITIES.**
+**THE RECOVERY OF NUCLEAR CAPACITY FROM O&M OPERATIONS INITIATED IN 2022
+(ALONG WITH THE CONNECTION OF THE FLAMANVILLE REACTOR AFTER LONG
+DELAYS), INCREASED HYDROPOWER PRODUCTION IN SWITZERLAND, AND LOWER
+ELECTRICITY DEMAND ACROSS EUROPE, IS EXPECTED TO SUSTAIN NET IMPORTS
+INTO THE NORTHERN ZONE. NET IMPORTS ARE PROJECTED TO REACH 50 TWH BY THE
+END OF 2024. AFTER 2029, THE COMPLETION OF A 600 MW INTERCONNECTOR WITH
+TUNISIA (MONTEL) WILL ENHANCE EXPORT CAPABILITIES.**
 :::
 
 ![](figs/27_Net_Import.png)
@@ -1708,7 +1742,15 @@ previous update.
 :::
 
 ::: callout-right
-Building on the trends observed in 2023 and 2024, net imports from neighboring countries are expected to remain above the historical average in the short term. This sustained level is primarily attributed to the ongoing recovery of French nuclear power production following two years of operation and maintenance disruptions, enhanced hydroelectric output in Switzerland, and a slower-than-anticipated rebound in European electricity demand. Net imports are projected to reach 49.4 TWh in 2025, with a slight reduction to 48.9 TWh in 2026, accounting for nearly 16% of short-term electricity demand.
+Building on the trends observed in 2023 and 2024, net imports from
+neighboring countries are expected to remain above the historical
+average in the short term. This sustained level is primarily attributed
+to the ongoing recovery of French nuclear power production following two
+years of operation and maintenance disruptions, enhanced hydroelectric
+output in Switzerland, and a slower-than-anticipated rebound in European
+electricity demand. Net imports are projected to reach 49.4 TWh in 2025,
+with a slight reduction to 48.9 TWh in 2026, accounting for nearly 16%
+of short-term electricity demand.
 :::
 :::::
 
@@ -1718,7 +1760,17 @@ Building on the trends observed in 2023 and 2024, net imports from neighboring c
 :::
 
 ::: callout-right
-The persistent combination of subdued electricity demand and ongoing expansion of renewable energy capacity across Europe is anticipated to result in systemic overgeneration in the medium term, reinforcing imports as a cost-efficient option for Italy. This is further supported by the projection that the PUN will remain at a premium compared to other European prices over the same horizon. Net imports are expected to stabilize at an average of approximately 49 TWh annually through 2029. However, with the commissioning of the Elmed interconnection linking Sicily and Tunisia by late 2028, the net import balance is projected to decrease to around 45 TWh, as over 3.5 TWh of electricity is redirected for export.
+The persistent combination of subdued electricity demand and ongoing
+expansion of renewable energy capacity across Europe is anticipated to
+result in systemic overgeneration in the medium term, reinforcing
+imports as a cost-efficient option for Italy. This is further supported
+by the projection that the PUN will remain at a premium compared to
+other European prices over the same horizon. Net imports are expected to
+stabilize at an average of approximately 49 TWh annually through 2029.
+However, with the commissioning of the Elmed interconnection linking
+Sicily and Tunisia by late 2028, the net import balance is projected to
+decrease to around 45 TWh, as over 3.5 TWh of electricity is redirected
+for export.
 :::
 :::::
 
@@ -1899,7 +1951,11 @@ IN 2030**
 :::
 
 ::: callout-right
-Capacity secured in the 2024 Capacity Market auctions has experienced widespread delays, with notable examples such as the CCGT Ostiglia project now rescheduled for commissioning in February 2026. Most of this capacity is expected to gradually enter the market over the course of 2025.
+Capacity secured in the 2024 Capacity Market auctions has experienced
+widespread delays, with notable examples such as the CCGT Ostiglia
+project now rescheduled for commissioning in February 2026. Most of this
+capacity is expected to gradually enter the market over the course of
+2025.
 :::
 :::::
 
@@ -1960,7 +2016,11 @@ BECOMES OPERATIVE**
 :::
 
 ::: callout-right
-Capacity secured in the 2024 Capacity Market auctions has experienced widespread delays, with notable examples such as the CCGT Ostiglia project now rescheduled for commissioning in February 2026. Most of this capacity is expected to gradually enter the market over the course of 2025.
+Capacity secured in the 2024 Capacity Market auctions has experienced
+widespread delays, with notable examples such as the CCGT Ostiglia
+project now rescheduled for commissioning in February 2026. Most of this
+capacity is expected to gradually enter the market over the course of
+2025.
 :::
 :::::
 
@@ -2091,7 +2151,12 @@ IN 2030.**
 :::
 
 ::: callout-right
-The decline in electricity demand, coupled with favorable switching conditions, is expected to significantly reduce coal production. In the Reference Scenario, coal output is projected to fall to 2.1 TWh by 2025, while in the High RES Scenario, it will drop further to just above 1 TWh. Conversely, in the Low RES Scenario, coal production is anticipated to reach 5.0 TWh in 2025.
+The decline in electricity demand, coupled with favorable switching
+conditions, is expected to significantly reduce coal production. In the
+Reference Scenario, coal output is projected to fall to 2.1 TWh by 2025,
+while in the High RES Scenario, it will drop further to just above 1
+TWh. Conversely, in the Low RES Scenario, coal production is anticipated
+to reach 5.0 TWh in 2025.
 :::
 :::::
 
@@ -2101,7 +2166,14 @@ The decline in electricity demand, coupled with favorable switching conditions, 
 :::
 
 ::: callout-right
-The timeline for coal phase-out differs across scenarios, driven largely by the readiness of key grid infrastructure, particularly the Tyrrhenian Link. In the Reference Scenario, only the units in Sardinia are expected to remain operational beyond 2025, with their retirement aligned to the completion of the Tyrrhenian Link in 2030. In the High RES Scenario, full coal plant decommissioning is anticipated by 2028. Conversely, in the Low RES Scenario, coal-powered units are projected to remain active until 2035.
+The timeline for coal phase-out differs across scenarios, driven largely
+by the readiness of key grid infrastructure, particularly the Tyrrhenian
+Link. In the Reference Scenario, only the units in Sardinia are expected
+to remain operational beyond 2025, with their retirement aligned to the
+completion of the Tyrrhenian Link in 2030. In the High RES Scenario,
+full coal plant decommissioning is anticipated by 2028. Conversely, in
+the Low RES Scenario, coal-powered units are projected to remain active
+until 2035.
 :::
 :::::
 
@@ -2111,8 +2183,8 @@ The timeline for coal phase-out differs across scenarios, driven largely by the 
 :::
 
 ::: callout-right
-Coal units remain operative beyond 2030 only in the Low RES scenario, until
-the complete phase-out projected in 2035, with the entrance of the
+Coal units remain operative beyond 2030 only in the Low RES scenario,
+until the complete phase-out projected in 2035, with the entrance of the
 Tyrrhenian Link.
 :::
 :::::
@@ -2143,14 +2215,24 @@ COMMODITY PRICES AND THE ACTIONS TAKEN TO MEET DECARBONIZATION TARGETS**
 
 ![](figs/34_Net_Renewable_Installed_Cap.png)
 
-::::: callout-item
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout-item
 ::: callout-left
 #### 25-26 {.unnumbered}
 :::
 
 ::: callout-right
-By the end of 2025, 38 GW of solar capacity and 14 GW of wind capacity are anticipated to be operational. The potential for renewable energy growth has been evaluated in light of recent trends, accounting for both bureaucratic and technical challenges. This analysis forecasts an additional 1.5 GW of wind capacity and 2.7 GW of solar capacity coming online between the end of 2024 and 2026. However, this trajectory signals a slowdown compared to the growth observed between 2023 and 2024, particularly for photovoltaic (PV) capacity. The anticipated deceleration is largely attributed to the scheduling of the FERX and "FERX Transitorio" auctions, which may prompt developers to postpone construction to ensure eligibility for participation.
-:::::
+By the end of 2025, 38 GW of solar capacity and 14 GW of wind capacity
+are anticipated to be operational. The potential for renewable energy
+growth has been evaluated in light of recent trends, accounting for both
+bureaucratic and technical challenges. This analysis forecasts an
+additional 1.5 GW of wind capacity and 2.7 GW of solar capacity coming
+online between the end of 2024 and 2026. However, this trajectory
+signals a slowdown compared to the growth observed between 2023 and
+2024, particularly for photovoltaic (PV) capacity. The anticipated
+deceleration is largely attributed to the scheduling of the FERX and
+"FERX Transitorio" auctions, which may prompt developers to postpone
+construction to ensure eligibility for participation.
+:::
 
 ::::: callout-item
 ::: callout-left
@@ -2161,12 +2243,12 @@ By the end of 2025, 38 GW of solar capacity and 14 GW of wind capacity are antic
 Market parity conditions, coupled with the FerX incentive scheme, are
 expected to accelerate the achievement of long-term targets. In the
 Reference scenario, an ambitious renewable energy expansion plan
-foresees the installation of 51 GW of solar and 17 GW of wind capacity by
-2030, driving the RES share to nearly 50% of total energy demand. This
-scenario assumes a market-driven evolution. In the High RES scenario, faster
-declines in technology costs and more favorable economic conditions push
-capacity growth further, resulting in 63 GW of solar and 19 GW of wind
-capacity by 2030.
+foresees the installation of 51 GW of solar and 17 GW of wind capacity
+by 2030, driving the RES share to nearly 50% of total energy demand.
+This scenario assumes a market-driven evolution. In the High RES
+scenario, faster declines in technology costs and more favorable
+economic conditions push capacity growth further, resulting in 63 GW of
+solar and 19 GW of wind capacity by 2030.
 :::
 :::::
 
@@ -2191,14 +2273,25 @@ solutions.
 :::
 
 ::: callout-right
-Projections for RES installed capacity remain consistent with the previous update, except for wind capacity, which has been revised downward. This adjustment reflects the limited growth observed in recent years, averaging approximately +500 MW annually.
+Projections for RES installed capacity remain consistent with the
+previous update, except for wind capacity, which has been revised
+downward. This adjustment reflects the limited growth observed in recent
+years, averaging approximately +500 MW annually.
 :::
 :::::
 
 ### Renewable Production
 
 ::: callout-main
-**RES PRODUCTION IN 2024 INCREASED BY APPROXIMATELY +15% COMPARED TO 2023, DRIVEN PRIMARILY BY HIGHER HYDRO AND SOLAR OUTPUT DESPITE A DECLINE IN WIND PRODUCTION. WHILE SOLAR AND WIND PRODUCTION PERFORMANCES WERE BELOW AVERAGE, THE IMPACT WAS MITIGATED FOR SOLAR BY A SIGNIFICANT EXPANSION IN INSTALLED CAPACITY. ACHIEVING ITALY'S NECP TARGETS FOR THE ELECTRICITY SECTOR WILL REQUIRE SUBSTANTIAL EFFORT: THE 2030 RES/GDC TARGET OF 63% CAN ONLY BE REACHED WITH A MAJOR ACCELERATION IN THE PERMITTING PROCESS OVER THE COMING YEARS AND STRONG SUPPORT FROM THE FER-X INCENTIVE SCHEME**
+**RES PRODUCTION IN 2024 INCREASED BY APPROXIMATELY +15% COMPARED TO
+2023, DRIVEN PRIMARILY BY HIGHER HYDRO AND SOLAR OUTPUT DESPITE A
+DECLINE IN WIND PRODUCTION. WHILE SOLAR AND WIND PRODUCTION PERFORMANCES
+WERE BELOW AVERAGE, THE IMPACT WAS MITIGATED FOR SOLAR BY A SIGNIFICANT
+EXPANSION IN INSTALLED CAPACITY. ACHIEVING ITALY'S NECP TARGETS FOR THE
+ELECTRICITY SECTOR WILL REQUIRE SUBSTANTIAL EFFORT: THE 2030 RES/GDC
+TARGET OF 63% CAN ONLY BE REACHED WITH A MAJOR ACCELERATION IN THE
+PERMITTING PROCESS OVER THE COMING YEARS AND STRONG SUPPORT FROM THE
+FER-X INCENTIVE SCHEME**
 :::
 
 ![](figs/35_Net_Renewable_Production.png)
@@ -2209,9 +2302,10 @@ Projections for RES installed capacity remain consistent with the previous updat
 :::
 
 ::: callout-right
-Wind generation is projected to surpass 26 TWh while solar generation will approach 42 TWh by 2025. In the High RES scenario, more favorable economic
-conditions result in even higher projections, with wind reaching 27 TWh
-and solar approaching 43 TWh within the same period.
+Wind generation is projected to surpass 26 TWh while solar generation
+will approach 42 TWh by 2025. In the High RES scenario, more favorable
+economic conditions result in even higher projections, with wind
+reaching 27 TWh and solar approaching 43 TWh within the same period.
 :::
 :::::
 
@@ -2221,7 +2315,13 @@ and solar approaching 43 TWh within the same period.
 :::
 
 ::: callout-right
-Assuming a business-as-usual market trajectory and the resolution of permitting process bottlenecks in the near future, it is expected that 90% of the 2030 RES/GDC target will be met. Full achievement of the 63% target is anticipated only with a greener, more ambitious evolution of the Italian energy system. Meeting the more stringent Green Deal objectives—potentially setting the RES/GDC target around 70%, though still under discussion—would require a significantly greater effort.
+Assuming a business-as-usual market trajectory and the resolution of
+permitting process bottlenecks in the near future, it is expected that
+90% of the 2030 RES/GDC target will be met. Full achievement of the 63%
+target is anticipated only with a greener, more ambitious evolution of
+the Italian energy system. Meeting the more stringent Green Deal
+objectives—potentially setting the RES/GDC target around 70%, though
+still under discussion—would require a significantly greater effort.
 :::
 :::::
 
@@ -2232,7 +2332,10 @@ Assuming a business-as-usual market trajectory and the resolution of permitting 
 
 ::: callout-right
 The reduction of technology costs and consolidated market parity
-conditions could allow both solar and wind generation to almost triple by 2040, with respect to 2024 values, in the Reference scenario. Boundary conditions of alternative scenarios lead to different degrees of renewable development and production level.
+conditions could allow both solar and wind generation to almost triple
+by 2040, with respect to 2024 values, in the Reference scenario.
+Boundary conditions of alternative scenarios lead to different degrees
+of renewable development and production level.
 :::
 :::::
 
@@ -2242,7 +2345,8 @@ conditions could allow both solar and wind generation to almost triple by 2040, 
 :::
 
 ::: callout-right
-Short-term projections for RES production have been slightly revised as a result of recent changes in RES installation trajectories.
+Short-term projections for RES production have been slightly revised as
+a result of recent changes in RES installation trajectories.
 :::
 :::::
 
@@ -2251,7 +2355,10 @@ Short-term projections for RES production have been slightly revised as a result
 ### Day-Ahead Market Overgeneration
 
 ::: callout-main
-**OVERGENERATION IS LIKELY TO EMERGE AS A MAJOR CHALLENGE IN THE LONG TERM DUE TO HIGH RENEWABLE PENETRATION, ESPECIALLY IN THE SOUTHERN ZONES. EXPANDING ENERGY-INTENSIVE STORAGE SYSTEMS AND ELECTROLYSIS CAPACITY WILL BE ESSENTIAL TO REDUCE MARKET IMBALANCES**
+**OVERGENERATION IS LIKELY TO EMERGE AS A MAJOR CHALLENGE IN THE LONG
+TERM DUE TO HIGH RENEWABLE PENETRATION, ESPECIALLY IN THE SOUTHERN
+ZONES. EXPANDING ENERGY-INTENSIVE STORAGE SYSTEMS AND ELECTROLYSIS
+CAPACITY WILL BE ESSENTIAL TO REDUCE MARKET IMBALANCES**
 :::
 
 ![](figs/36_Day_Ahead_Market_Overgen.png)
@@ -2262,7 +2369,11 @@ Short-term projections for RES production have been slightly revised as a result
 :::
 
 ::: callout-right
-Under BAU market conditions and moderate renewable penetration, the risk of overgeneration remains low in both the Reference and Low RES scenarios. However, a more significant increase in capacity installation in the South macro-zone could lead to more frequent overgeneration during specific hours in the High RES scenario.
+Under BAU market conditions and moderate renewable penetration, the risk
+of overgeneration remains low in both the Reference and Low RES
+scenarios. However, a more significant increase in capacity installation
+in the South macro-zone could lead to more frequent overgeneration
+during specific hours in the High RES scenario.
 :::
 :::::
 
@@ -2272,7 +2383,15 @@ Under BAU market conditions and moderate renewable penetration, the risk of over
 :::
 
 ::: callout-right
-The anticipated increase in renewable energy penetration after 2027 is expected to heighten the risk of overgeneration, potentially resulting in approximately 3 TWh of excess electricity by 2030 in the High RES scenario. This curtailment effect could be further amplified by specific local grid constraints. In comparison, the Reference scenario projects a more moderate level of overgeneration, reaching around 0.7 TWh by 2030. Overall, overgeneration is set to escalate throughout the decade, driven by the rapid expansion of renewables in the Southern regions, and could be exacerbated by delays or inadequacies in grid reinforcement.
+The anticipated increase in renewable energy penetration after 2027 is
+expected to heighten the risk of overgeneration, potentially resulting
+in approximately 3 TWh of excess electricity by 2030 in the High RES
+scenario. This curtailment effect could be further amplified by specific
+local grid constraints. In comparison, the Reference scenario projects a
+more moderate level of overgeneration, reaching around 0.7 TWh by 2030.
+Overall, overgeneration is set to escalate throughout the decade, driven
+by the rapid expansion of renewables in the Southern regions, and could
+be exacerbated by delays or inadequacies in grid reinforcement.
 :::
 :::::
 
@@ -2316,8 +2435,8 @@ GENERATION. GRID UPGRADES AND THE DEPLOYMENT OF BATTERY ENERGY STORAGE
 SYSTEMS (BESS) MAY PROVE INSUFFICIENT TO FULLY MITIGATE THIS ISSUE,
 NECESSITATING THE IMPLEMENTATION OF ELECTROLYSERS. BY 2040, INSTALLED
 CAPACITY COULD REACH 0.5 GW UNDER THE REFERENCE SCENARIO AND UP TO 4 GW
-IN THE HIGH RES SCENARIO, WITH CAPACITY PRIMARILY CONCENTRATED IN SARDINIA
-AND SICILY**
+IN THE HIGH RES SCENARIO, WITH CAPACITY PRIMARILY CONCENTRATED IN
+SARDINIA AND SICILY**
 :::
 
 ![](figs/37_Electrolyzer_installed_cap.png)
@@ -2328,7 +2447,19 @@ AND SICILY**
 :::
 
 ::: callout-right
-In the long term, the expansion of renewable capacity—particularly in the Southern regions—is expected to significantly increase the incidence of systematic overgeneration, especially on the islands. Grid investments and battery energy storage systems (BESS) will likely prove inadequate to address this issue, thereby creating favorable conditions for the adoption of green hydrogen technologies. In the Reference scenario, installed electrolysis capacity could reach nearly 0.5 GW, predominantly concentrated in Sardinia. Over time, electrolysis capacity can effectively mitigate overgeneration by offering a mechanism to store surplus renewable energy. Moreover, by enhancing demand during periods of high RES production, it can help stabilize prices and alleviate the cannibalization effect, particularly during the later stages of the transition.
+In the long term, the expansion of renewable capacity—particularly in
+the Southern regions—is expected to significantly increase the incidence
+of systematic overgeneration, especially on the islands. Grid
+investments and battery energy storage systems (BESS) will likely prove
+inadequate to address this issue, thereby creating favorable conditions
+for the adoption of green hydrogen technologies. In the Reference
+scenario, installed electrolysis capacity could reach nearly 0.5 GW,
+predominantly concentrated in Sardinia. Over time, electrolysis capacity
+can effectively mitigate overgeneration by offering a mechanism to store
+surplus renewable energy. Moreover, by enhancing demand during periods
+of high RES production, it can help stabilize prices and alleviate the
+cannibalization effect, particularly during the later stages of the
+transition.
 :::
 :::::
 
@@ -2345,10 +2476,9 @@ Electrolyzer capacity hypotheses are in line with the previous update.
 \newpage
 
 ### Solar Market Parity
- 
-::: callout-main
 
-**DESPITE THE ANTICIPATED LONG-TERM REDUCTION IN PRICES—DRIVEN BY THE
+::: callout-main
+\*\*DESPITE THE ANTICIPATED LONG-TERM REDUCTION IN PRICES—DRIVEN BY THE
 
 NORMALIZATION OF GAS PRICES AND THE GRADUAL INTEGRATION OF RENEWABLE
 
@@ -2356,56 +2486,48 @@ ENERGY SOURCES INTO THE ENERGY MIX—SOLAR TECHNOLOGY REMAINS COMPETITIVE,
 
 EXHIBITING CAPTURED RATES THAT EXCEED THE LEVELIZED COST OF
 
-ELECTRICITY**
-
+ELECTRICITY\*\*
 :::
- 
+
 ![](figs/38_Fixed_tilt_Solar_PV%20.png)
- 
+
 ::::: callout-item
-
 ::: callout-left
-
 #### 25-26 {.unnumbered}
-
 :::
- 
+
 ::: callout-right
-Despite potential challenges in securing land and rising land costs, technology costs for solar projects have decreased over the past year. This reduction has been primarily driven by declining panel costs, supported by increased competition among sellers. These trends are supporting the market parity for solar technologies, with baseload
-prices projected to stabilize between 80 and 100€/MWh during the 2025-2026
-period. As a result, solar power plants are expected to capture rates that
-exceed the estimated levelized cost of electricity (LCOE), ranging between 66 and 82 €/MWh, depending on the market zone.
-
+Despite potential challenges in securing land and rising land costs,
+technology costs for solar projects have decreased over the past year.
+This reduction has been primarily driven by declining panel costs,
+supported by increased competition among sellers. These trends are
+supporting the market parity for solar technologies, with baseload
+prices projected to stabilize between 80 and 100€/MWh during the
+2025-2026 period. As a result, solar power plants are expected to
+capture rates that exceed the estimated levelized cost of electricity
+(LCOE), ranging between 66 and 82 €/MWh, depending on the market zone.
 :::
-
 :::::
- 
+
 ::::: callout-item
-
 ::: callout-left
-
 #### 26-30 {.unnumbered}
-
 :::
- 
+
 ::: callout-right
 Despite the potential cannibalization effect on unlevered projects
-situated in the Southern regions, decling investement costs for solar projects and expected captured prices above 80 €/MWh support return on investements for pv plants.
-
+situated in the Southern regions, decling investement costs for solar
+projects and expected captured prices above 80 €/MWh support return on
+investements for pv plants.
 :::
-
 :::::
- 
+
 ::::: callout-item
-
 ::: callout-left
-
 #### 31-50 {.unnumbered}
-
 :::
- 
-::: callout-right
 
+::: callout-right
 The long-term outlook for the renewable energy sector from 2030 onwards
 
 appears promising, driven by the continuous decline in technology costs
@@ -2421,31 +2543,24 @@ in specific regions, such as Sardinia and Sicily, where the grid
 infrastructure may lack the capacity to efficiently manage and redirect
 
 energy flows.
-
 :::
-
 :::::
- 
+
 ::::: callout-wrap
-
 ::: callout-left
-
 #### Main updates {.unnumbered}
-
 :::
- 
+
 ::: callout-right
-Adjustments to solar captured prices are determined by
-revised commodity prices and electricity demand evolution trend.
-
+Adjustments to solar captured prices are determined by revised commodity
+prices and electricity demand evolution trend.
 :::
-
 :::::
- 
+
 \newpage
 
 ### Wind Market Parity
- 
+
 :::: callout-main
 ::: callout-main
 **DESPITE THE ANTICIPATED LONG-TERM REDUCTION IN PRICES—DRIVEN BY THE
@@ -2454,34 +2569,46 @@ ENERGY SOURCES INTO THE ENERGY MIX—WIND MARKET PARITY IS ENSURED BY
 CAPTURED PRICES THAT EXCEED THE LEVELIZED COST OF ELECTRICITY**
 :::
 ::::
- 
+
 ![](figs/39_Wind_LCOE_Range_and_PUN.png)
- 
+
 ::::: callout-item
 ::: callout-left
 #### 25-26 {.unnumbered}
 :::
- 
+
 ::: callout-right
-Market parity continues to be guaranteed for wind plants despite the investement intensity of those projects, benefitting of their wider generation profile capable of capturing higher prices than solar plants. This is largely due to their broader generation profile, which allows wind projects to capture higher prices compared to solar plants. With annual captured prices aligning closely with baseload prices, wind power plants are expected to cover LCOE levels ranging between 85 and 90 €/MWh, in all the zones.
+Market parity continues to be guaranteed for wind plants despite the
+investement intensity of those projects, benefitting of their wider
+generation profile capable of capturing higher prices than solar plants.
+This is largely due to their broader generation profile, which allows
+wind projects to capture higher prices compared to solar plants. With
+annual captured prices aligning closely with baseload prices, wind power
+plants are expected to cover LCOE levels ranging between 85 and 90
+€/MWh, in all the zones.
 :::
 :::::
- 
+
 ::::: callout-item
 ::: callout-left
 #### 26-30 {.unnumbered}
 :::
- 
+
 ::: callout-right
-Gradual reduction in investement costs for wind projects and captured prices close to 90€/MWh support wind market parity in the mid-term. Potential price cannibalizzation dynamics remain limited untill 2030, as a strong capacity development is expected to accelerate during the 2030s. However, site-specific factors may still influence the economics of individual projects.
+Gradual reduction in investement costs for wind projects and captured
+prices close to 90€/MWh support wind market parity in the mid-term.
+Potential price cannibalizzation dynamics remain limited untill 2030, as
+a strong capacity development is expected to accelerate during the
+2030s. However, site-specific factors may still influence the economics
+of individual projects.
 :::
 :::::
- 
+
 ::::: callout-item
 ::: callout-left
 #### 31-50 {.unnumbered}
 :::
- 
+
 ::: callout-right
 The long-term outlook from 2030 onwards appears promising, driven by the
 ongoing decline in technology costs and the adoption of enhanced Power
@@ -2489,18 +2616,18 @@ Purchase Agreement (PPA) best practices that support non-incentivized
 investments.
 :::
 :::::
- 
+
 ::::: callout-wrap
 ::: callout-left
 #### Main updates {.unnumbered}
 :::
- 
+
 ::: callout-right
-Adjustments to wind captured prices are determined by
-revised commodity prices and electricity demand evolution trend.
+Adjustments to wind captured prices are determined by revised commodity
+prices and electricity demand evolution trend.
 :::
 :::::
- 
+
 \newpage
 
 ## Storage
@@ -2536,7 +2663,11 @@ production is projected to hover around 2.5 TWh.
 :::
 
 ::: callout-right
-Under an accelerated RES development path compared to the BAU trajectory, pumped hydro production could reach 3.9 TWh by 2030 in the High RES scenario, driven by new opportunities emerging in the DAM as RES penetration increases. In contrast, the Low RES scenario limits pumped hydro production to around 2 TWh.
+Under an accelerated RES development path compared to the BAU
+trajectory, pumped hydro production could reach 3.9 TWh by 2030 in the
+High RES scenario, driven by new opportunities emerging in the DAM as
+RES penetration increases. In contrast, the Low RES scenario limits
+pumped hydro production to around 2 TWh.
 :::
 :::::
 
@@ -2546,7 +2677,11 @@ Under an accelerated RES development path compared to the BAU trajectory, pumped
 :::
 
 ::: callout-right
-As non-programmable renewable sources exceed 50% of total electricity demand, market opportunities are set to grow further. Pumped hydro units will play a pivotal role in reducing the solar cannibalization effect and alleviating network congestion, with production projected to reach nearly 7 TWh by 2050.
+As non-programmable renewable sources exceed 50% of total electricity
+demand, market opportunities are set to grow further. Pumped hydro units
+will play a pivotal role in reducing the solar cannibalization effect
+and alleviating network congestion, with production projected to reach
+nearly 7 TWh by 2050.
 :::
 :::::
 
@@ -2556,7 +2691,10 @@ As non-programmable renewable sources exceed 50% of total electricity demand, ma
 :::
 
 ::: callout-right
-Short-term variations in pumped hydro production align with updated commodity prices and power demand forecasts. Currently, pure pumped hydro capacity stands at approximately 4 GW, with no further increases anticipated in the future.
+Short-term variations in pumped hydro production align with updated
+commodity prices and power demand forecasts. Currently, pure pumped
+hydro capacity stands at approximately 4 GW, with no further increases
+anticipated in the future.
 :::
 :::::
 
@@ -2780,7 +2918,12 @@ Grid development hypotheses are in line with the previous update.
 ## Baseload PUN
 
 ::: callout-main
-**THE PUN IS EXPECTED TO REBOUND TO 112 €/MWH IN 2025, DRIVEN BY GAS MARKET TENSIONS AND CO2 PRICES STABILIZING AT 85 €/TON DUE TO FULL ETS REFORM IMPLEMENTATION. HOWEVER, GREATER RES INTEGRATION, POST-2026 PRICE NORMALIZATION, AND STEADY ELECTRICITY IMPORTS ARE FORECAST TO LOWER PRICES BELOW 100 €/MWH BY 2029 IN THE REFERENCE SCENARIO AND BY 2026 IN THE HIGH RES CASE**
+**THE PUN IS EXPECTED TO REBOUND TO 112 €/MWH IN 2025, DRIVEN BY GAS
+MARKET TENSIONS AND CO2 PRICES STABILIZING AT 85 €/TON DUE TO FULL ETS
+REFORM IMPLEMENTATION. HOWEVER, GREATER RES INTEGRATION, POST-2026 PRICE
+NORMALIZATION, AND STEADY ELECTRICITY IMPORTS ARE FORECAST TO LOWER
+PRICES BELOW 100 €/MWH BY 2029 IN THE REFERENCE SCENARIO AND BY 2026 IN
+THE HIGH RES CASE**
 :::
 
 ![](figs/44_Baseload_PUN.png)
@@ -2791,7 +2934,14 @@ Grid development hypotheses are in line with the previous update.
 :::
 
 ::: callout-right
-In the Reference scenario, market dynamics are expected to stabilize by 2026 as the gas market approaches equilibrium. In 2025, potential gas market tensions and a demand-driven recovery supporting the ETS mechanism are projected to push average prices to approximately €112/MWh, before easing to €106/MWh in 2026. In the High RES scenario, stronger economic conditions and accelerated RES integration may temper price increases, with the PUN forecast to average around €101/MWh in 2025.
+In the Reference scenario, market dynamics are expected to stabilize by
+2026 as the gas market approaches equilibrium. In 2025, potential gas
+market tensions and a demand-driven recovery supporting the ETS
+mechanism are projected to push average prices to approximately
+€112/MWh, before easing to €106/MWh in 2026. In the High RES scenario,
+stronger economic conditions and accelerated RES integration may temper
+price increases, with the PUN forecast to average around €101/MWh in
+2025.
 :::
 :::::
 
@@ -2801,7 +2951,13 @@ In the Reference scenario, market dynamics are expected to stabilize by 2026 as 
 :::
 
 ::: callout-right
-In the medium term, sustained imports, gas price normalization driven by expanded LNG supply from new liquefaction capacity in the USA and Qatar, and increasing RES penetration are expected to push energy prices downward. As a result, electricity prices are projected to decline to 98 €/MWh by 2030. In the High RES scenario, enhanced decarbonization efforts could further reduce prices, averaging €71/MWh on the same horizon.
+In the medium term, sustained imports, gas price normalization driven by
+expanded LNG supply from new liquefaction capacity in the USA and Qatar,
+and increasing RES penetration are expected to push energy prices
+downward. As a result, electricity prices are projected to decline to 98
+€/MWh by 2030. In the High RES scenario, enhanced decarbonization
+efforts could further reduce prices, averaging €71/MWh on the same
+horizon.
 :::
 :::::
 
@@ -2811,7 +2967,13 @@ In the medium term, sustained imports, gas price normalization driven by expande
 :::
 
 ::: callout-right
-In the long term, power prices will remain heavily influenced by the cost profile of CCGTs, which are expected to act as the marginal technology for 80% of the time in 2040, decreasing to less than 60% by 2050. As a result, long-term ETS dynamics are likely to drive baseload prices upward, partially offset by the cost-reducing effect of rising RES penetration. The projected PUN for 2040 is expected to range between €130/MWh and €74/MWh, depending on the scenario.
+In the long term, power prices will remain heavily influenced by the
+cost profile of CCGTs, which are expected to act as the marginal
+technology for 80% of the time in 2040, decreasing to less than 60% by
+2050. As a result, long-term ETS dynamics are likely to drive baseload
+prices upward, partially offset by the cost-reducing effect of rising
+RES penetration. The projected PUN for 2040 is expected to range between
+€130/MWh and €74/MWh, depending on the scenario.
 :::
 :::::
 
@@ -2821,7 +2983,11 @@ In the long term, power prices will remain heavily influenced by the cost profil
 :::
 
 ::: callout-right
-The downward revision of short-term gas price projections, driven largely by adjustments to the logistics component, alongside the adjustment to demand projections, entailing a reduction in CSS forecasts, jointly led to lower PUN projections throughout the entire horizon.
+The downward revision of short-term gas price projections, driven
+largely by adjustments to the logistics component, alongside the
+adjustment to demand projections, entailing a reduction in CSS
+forecasts, jointly led to lower PUN projections throughout the entire
+horizon.
 :::
 :::::
 
@@ -2830,7 +2996,10 @@ The downward revision of short-term gas price projections, driven largely by adj
 ### Peak-Load/ Off-Peak PUN
 
 ::: callout-main
-**RENEWABLES PENETRATION, DRIVEN BY SOLAR ENERGY, IS ANTICIPATED TO HAVE A SIGNIFICANT IMPACT ON PEAK AND OFF-PEAK DYNAMICS AFTER 2030, WHEN AN INVERSION IN PRICE SPREADS BETWEEN TIME SLOTS IS EXPECTED TO TAKE PLACE**
+**RENEWABLES PENETRATION, DRIVEN BY SOLAR ENERGY, IS ANTICIPATED TO HAVE
+A SIGNIFICANT IMPACT ON PEAK AND OFF-PEAK DYNAMICS AFTER 2030, WHEN AN
+INVERSION IN PRICE SPREADS BETWEEN TIME SLOTS IS EXPECTED TO TAKE
+PLACE**
 :::
 
 ![](figs/45_Peak_off_peak_PUN.png)
@@ -2841,7 +3010,9 @@ The downward revision of short-term gas price projections, driven largely by adj
 :::
 
 ::: callout-right
-The favorable price spread between evening and midday hours is anticipated to persist in the short term, as the penetration of renewables remains below 50% of gross domestic consumption.
+The favorable price spread between evening and midday hours is
+anticipated to persist in the short term, as the penetration of
+renewables remains below 50% of gross domestic consumption.
 :::
 :::::
 
@@ -2851,7 +3022,10 @@ The favorable price spread between evening and midday hours is anticipated to pe
 :::
 
 ::: callout-right
-The continued expansion of solar capacity is expected to further suppress midday prices, particularly during periods of abundant sunlight and low demand, such as in spring. This trend will progressively narrow the disparity between peak and off-peak prices.
+The continued expansion of solar capacity is expected to further
+suppress midday prices, particularly during periods of abundant sunlight
+and low demand, such as in spring. This trend will progressively narrow
+the disparity between peak and off-peak prices.
 :::
 :::::
 
@@ -2861,7 +3035,11 @@ The continued expansion of solar capacity is expected to further suppress midday
 :::
 
 ::: callout-right
-The long-term persistence of reversed hourly price differentials is expected to drive higher prices during off-peak hours. The growing integration of energy-intensive electrochemical storage systems, coupled with improved storage unit operability, is likely to alleviate the cannibalization effect caused by non-programmable solar power plants.
+The long-term persistence of reversed hourly price differentials is
+expected to drive higher prices during off-peak hours. The growing
+integration of energy-intensive electrochemical storage systems, coupled
+with improved storage unit operability, is likely to alleviate the
+cannibalization effect caused by non-programmable solar power plants.
 :::
 :::::
 
@@ -2881,7 +3059,13 @@ findings from the previous market update.
 ### Baseload PUN Components, Reference Scenario
 
 ::: callout-main
-**THE DECREASE IN RESIDUAL DEMAND FOR CCGTs CAUSED BY STAGNANT ELECTRICITY DEMAND, CONTINUED NET IMPORTS, AND SUBSTANTIAL RES GENERATION WILL RESULT IN A REDUCTION OF CSS FOR EXISTING CCGTs IN THE SHORT TERM. FOLLOWING THE PHASE-OUT OF COAL-FIRED UNITS, CSS IS EXPECTED TO STAY NEAR -3 €/MWh AND BECOME INCREASINGLY NEGATIVE IN THE LONG TERM AS THE RISING PENETRATION OF RENEWABLES AND CM-SUPPORTED NEW BUILDS AFFECT COMPETITIVE DYNAMICS**
+**THE DECREASE IN RESIDUAL DEMAND FOR CCGTs CAUSED BY STAGNANT
+ELECTRICITY DEMAND, CONTINUED NET IMPORTS, AND SUBSTANTIAL RES
+GENERATION WILL RESULT IN A REDUCTION OF CSS FOR EXISTING CCGTs IN THE
+SHORT TERM. FOLLOWING THE PHASE-OUT OF COAL-FIRED UNITS, CSS IS EXPECTED
+TO STAY NEAR -3 €/MWh AND BECOME INCREASINGLY NEGATIVE IN THE LONG TERM
+AS THE RISING PENETRATION OF RENEWABLES AND CM-SUPPORTED NEW BUILDS
+AFFECT COMPETITIVE DYNAMICS**
 :::
 
 ![](figs/46_Baseload_PUN_compon_ref.png)
@@ -2892,7 +3076,11 @@ findings from the previous market update.
 :::
 
 ::: callout-right
-The moderation of commodity prices, increased net imports from foreign countries, and a sluggish recovery in demand are heightening market competition for CCGTs. As a result, a negative CSS of approximately -2.3 €/MWh is anticipated for thermal plants in the Reference scenario for 2025.
+The moderation of commodity prices, increased net imports from foreign
+countries, and a sluggish recovery in demand are heightening market
+competition for CCGTs. As a result, a negative CSS of approximately -2.3
+€/MWh is anticipated for thermal plants in the Reference scenario for
+2025.
 :::
 :::::
 
@@ -2902,7 +3090,10 @@ The moderation of commodity prices, increased net imports from foreign countries
 :::
 
 ::: callout-right
-In the latter half of the 2020s, intensified competition from newly constructed Capacity Market units, a growing share of RES, and downward pressure from normalized gas prices are expected to keep the CCS in negative territory, averaging -3.5 €/MWh.
+In the latter half of the 2020s, intensified competition from newly
+constructed Capacity Market units, a growing share of RES, and downward
+pressure from normalized gas prices are expected to keep the CCS in
+negative territory, averaging -3.5 €/MWh.
 :::
 :::::
 
@@ -2912,7 +3103,11 @@ In the latter half of the 2020s, intensified competition from newly constructed 
 :::
 
 ::: callout-right
-In the long term, renewables are expected to dominate the generation mix, driving down both power prices and the CSS, which is projected to reach approximately -30 €/MWh by 2050. Despite rising demand, existing CCGTs are expected to remain the marginal technology, operating as such for around 80% of the system's hours in 2040.
+In the long term, renewables are expected to dominate the generation
+mix, driving down both power prices and the CSS, which is projected to
+reach approximately -30 €/MWh by 2050. Despite rising demand, existing
+CCGTs are expected to remain the marginal technology, operating as such
+for around 80% of the system's hours in 2040.
 :::
 :::::
 
@@ -2922,7 +3117,9 @@ In the long term, renewables are expected to dominate the generation mix, drivin
 :::
 
 ::: callout-right
-Short-term projections for the baseload PUN component have been revised to account for updated commodity prices and adjusted demand expectations.
+Short-term projections for the baseload PUN component have been revised
+to account for updated commodity prices and adjusted demand
+expectations.
 :::
 :::::
 
@@ -2931,7 +3128,9 @@ Short-term projections for the baseload PUN component have been revised to accou
 ### PUN Hourly Shape
 
 ::: callout-main
-**INCREASING SOLAR PENETRATION SIGNIFICANTLY AFFECTS PRICES DURING PEAK DAYTIME HOURS AND WORSENS DAILY PRICE DIFFERENTIALS IN THE LONG TERM. THIS IMPACT IS PARTIALLY OFFSET BY THE DEVELOPMENT OF STORAGE UNITS**
+**INCREASING SOLAR PENETRATION SIGNIFICANTLY AFFECTS PRICES DURING PEAK
+DAYTIME HOURS AND WORSENS DAILY PRICE DIFFERENTIALS IN THE LONG TERM.
+THIS IMPACT IS PARTIALLY OFFSET BY THE DEVELOPMENT OF STORAGE UNITS**
 :::
 
 ![](figs/47_Hourly_PUN_Shape_referenc.png)
@@ -2942,7 +3141,9 @@ Short-term projections for the baseload PUN component have been revised to accou
 :::
 
 ::: callout-right
-The impact of solar production during peak daytime hours is still modest due to limited penetration. As a result, price differentials throughout the day are currently at average levels.
+The impact of solar production during peak daytime hours is still modest
+due to limited penetration. As a result, price differentials throughout
+the day are currently at average levels.
 :::
 :::::
 
@@ -2952,7 +3153,11 @@ The impact of solar production during peak daytime hours is still modest due to 
 :::
 
 ::: callout-right
-As solar penetration increases and the cannibalization effect intensifies, the disparity between central hours and morning/evening peak hours grows wider. While the combined deployment of single-axis trackers, grid enhancements, and energy-intensive storage solutions helps alleviate this issue, its impact remains limited.
+As solar penetration increases and the cannibalization effect
+intensifies, the disparity between central hours and morning/evening
+peak hours grows wider. While the combined deployment of single-axis
+trackers, grid enhancements, and energy-intensive storage solutions
+helps alleviate this issue, its impact remains limited.
 :::
 :::::
 
@@ -2962,7 +3167,11 @@ As solar penetration increases and the cannibalization effect intensifies, the d
 :::
 
 ::: callout-right
-As renewable penetration advances, both intra-day price differentials and the number of hours with prices at 0 €/MWh increase, encouraging investments in electrolysis capacity. This scenario makes time-shifting applications in the Day-Ahead Market appealing and stimulates new investments in energy-intensive storage units.
+As renewable penetration advances, both intra-day price differentials
+and the number of hours with prices at 0 €/MWh increase, encouraging
+investments in electrolysis capacity. This scenario makes time-shifting
+applications in the Day-Ahead Market appealing and stimulates new
+investments in energy-intensive storage units.
 :::
 :::::
 
@@ -2972,7 +3181,9 @@ As renewable penetration advances, both intra-day price differentials and the nu
 :::
 
 ::: callout-right
-The PUN hourly shape aligns with the findings of the previous update. The lower short-term absolute values reflect the impacts of the revised commodity assumptions.
+The PUN hourly shape aligns with the findings of the previous update.
+The lower short-term absolute values reflect the impacts of the revised
+commodity assumptions.
 :::
 :::::
 
@@ -2981,7 +3192,11 @@ The PUN hourly shape aligns with the findings of the previous update. The lower 
 ## Baseload Zonal Prices
 
 ::: callout-main
-**IN THE SHORT TERM, ZONAL PRICES ARE EXPECTED TO DIVERGE DUE TO FLUCTUATIONS IN THE DEMAND-OFFER BALANCE AMONG DIFFERENT ZONES. IN THE LONG TERM, THE SIGNIFICANT EXPANSION OF RENEWABLE ENERGY SOURCES IN THE SOUTHERN MACRO-ZONE, ENABLED BY IMPROVEMENTS TO THE TRANSMISSION GRID, WILL REDUCE BASELOAD ZONAL PRICES**
+**IN THE SHORT TERM, ZONAL PRICES ARE EXPECTED TO DIVERGE DUE TO
+FLUCTUATIONS IN THE DEMAND-OFFER BALANCE AMONG DIFFERENT ZONES. IN THE
+LONG TERM, THE SIGNIFICANT EXPANSION OF RENEWABLE ENERGY SOURCES IN THE
+SOUTHERN MACRO-ZONE, ENABLED BY IMPROVEMENTS TO THE TRANSMISSION GRID,
+WILL REDUCE BASELOAD ZONAL PRICES**
 :::
 
 ![](figs/48_Baseload_Zonal_Prices_ref.png)
@@ -2992,7 +3207,12 @@ The PUN hourly shape aligns with the findings of the previous update. The lower 
 :::
 
 ::: callout-right
-Network congestion is not a significant issue on the mainland. Southern regions experience lower prices, while increased CCGT operations in the Northern zones push prices above the PUN, consistent with recent historical trends. However, with electricity demand remaining below historical levels and renewable penetration following a gradual path, price spreads remain modest.
+Network congestion is not a significant issue on the mainland. Southern
+regions experience lower prices, while increased CCGT operations in the
+Northern zones push prices above the PUN, consistent with recent
+historical trends. However, with electricity demand remaining below
+historical levels and renewable penetration following a gradual path,
+price spreads remain modest.
 :::
 :::::
 
@@ -3002,7 +3222,13 @@ Network congestion is not a significant issue on the mainland. Southern regions 
 :::
 
 ::: callout-right
-Surging renewable penetration is projected to exacerbate inter-zonal congestion through 2030; while major grid enhancements, such as the completion of the Adriatic Link, will improve energy exchanges from South to North, they will only partially mitigate congestion in the medium term. Continued expansion of renewable capacity in the Southern zones is likely to increase the frequency of congestion events, upsurging the incidence of price spreads over time.
+Surging renewable penetration is projected to exacerbate inter-zonal
+congestion through 2030; while major grid enhancements, such as the
+completion of the Adriatic Link, will improve energy exchanges from
+South to North, they will only partially mitigate congestion in the
+medium term. Continued expansion of renewable capacity in the Southern
+zones is likely to increase the frequency of congestion events,
+upsurging the incidence of price spreads over time.
 :::
 :::::
 
@@ -3012,7 +3238,12 @@ Surging renewable penetration is projected to exacerbate inter-zonal congestion 
 :::
 
 ::: callout-right
-Despite completed grid improvements, bottlenecks between the Northern and Southern zones are expected to persist, maintaining price differentials of up to 1.5 €/MWh throughout the 2030s. Additional grid reinforcements, set to commence in 2035, are projected to ease inter-zonal congestion on the mainland. However, similar challenges are likely to remain significant in island regions.
+Despite completed grid improvements, bottlenecks between the Northern
+and Southern zones are expected to persist, maintaining price
+differentials of up to 1.5 €/MWh throughout the 2030s. Additional grid
+reinforcements, set to commence in 2035, are projected to ease
+inter-zonal congestion on the mainland. However, similar challenges are
+likely to remain significant in island regions.
 :::
 :::::
 
@@ -3031,7 +3262,11 @@ The dynamics of zonal prices are in line with the previous update.
 ## Evolution of Baseload PUN-South Price Differential
 
 ::: callout-main
-**THE TREND IN THE SPREAD BETWEEN THE PUN PRICE—PRIMARILY INFLUENCED BY THE PERFORMANCE OF THE NORTHERN MARKET ZONE—AND THE PRICES IN THE SOUTHERN MARKET ZONES IS HEAVILY DEPENDENT ON ASSUMPTIONS REGARDING RENEWABLE PENETRATION, STORAGE DEVELOPMENT, AND THE TIMING OF GRID INFRASTRUCTURE IMPLEMENTATION**
+**THE TREND IN THE SPREAD BETWEEN THE PUN PRICE—PRIMARILY INFLUENCED BY
+THE PERFORMANCE OF THE NORTHERN MARKET ZONE—AND THE PRICES IN THE
+SOUTHERN MARKET ZONES IS HEAVILY DEPENDENT ON ASSUMPTIONS REGARDING
+RENEWABLE PENETRATION, STORAGE DEVELOPMENT, AND THE TIMING OF GRID
+INFRASTRUCTURE IMPLEMENTATION**
 :::
 
 ![](figs/49_Baseload_PUN_South.png)
@@ -3042,7 +3277,13 @@ The dynamics of zonal prices are in line with the previous update.
 :::
 
 ::: callout-right
-The spread between the PUN and the Southern market zones is expected to remain at recent historical levels in the short term, with the Southern zone experiencing a discount. This dynamic is driven by a general decrease in electricity demand and an increasing share of RES in the generation mix, leading to lower prices compared to the Northern zones. Despite the rise in import flows, CCGTs in the North are still needed to meet demand, resulting in average prices that are higher.
+The spread between the PUN and the Southern market zones is expected to
+remain at recent historical levels in the short term, with the Southern
+zone experiencing a discount. This dynamic is driven by a general
+decrease in electricity demand and an increasing share of RES in the
+generation mix, leading to lower prices compared to the Northern zones.
+Despite the rise in import flows, CCGTs in the North are still needed to
+meet demand, resulting in average prices that are higher.
 :::
 :::::
 
@@ -3052,8 +3293,12 @@ The spread between the PUN and the Southern market zones is expected to remain a
 :::
 
 ::: callout-right
-In both the Reference and High RES cases, the incorporation of renewable technologies results in a wider spread, despite network interventions. Conversely, in the Low RES scenario, the spread decreases due to more
-restrained growth in renewables, allowing for gradual enhancements in the operational conditions of gas-fired units until 2030, when coal generation becomes less competitive compared to gas.
+In both the Reference and High RES cases, the incorporation of renewable
+technologies results in a wider spread, despite network interventions.
+Conversely, in the Low RES scenario, the spread decreases due to more
+restrained growth in renewables, allowing for gradual enhancements in
+the operational conditions of gas-fired units until 2030, when coal
+generation becomes less competitive compared to gas.
 :::
 :::::
 
@@ -3063,7 +3308,14 @@ restrained growth in renewables, allowing for gradual enhancements in the operat
 :::
 
 ::: callout-right
-In the Reference case, the significant penetration of renewables in Southern regions increases the spread during the first half of the 2030s, signaling the market for new electrochemical battery energy storage systems (BESS) to enter and prompting new grid investments. In the High RES scenario, the expected and accelerated development of storage and network investments contributes to a reduction in the spread. However, ongoing growth in renewable energy sources causes the spread to widen again in the second half of the 2030s.
+In the Reference case, the significant penetration of renewables in
+Southern regions increases the spread during the first half of the
+2030s, signaling the market for new electrochemical battery energy
+storage systems (BESS) to enter and prompting new grid investments. In
+the High RES scenario, the expected and accelerated development of
+storage and network investments contributes to a reduction in the
+spread. However, ongoing growth in renewable energy sources causes the
+spread to widen again in the second half of the 2030s.
 :::
 :::::
 
@@ -3073,7 +3325,10 @@ In the Reference case, the significant penetration of renewables in Southern reg
 :::
 
 ::: callout-right
-The evolution of the spread between the PUN and Southern zonal prices is substantially in line with the previous update; minor shifts in short-term projections depend on the updated hypoteses on commodities levels and the changes to demand forecasts.
+The evolution of the spread between the PUN and Southern zonal prices is
+substantially in line with the previous update; minor shifts in
+short-term projections depend on the updated hypoteses on commodities
+levels and the changes to demand forecasts.
 :::
 :::::
 
@@ -3084,7 +3339,12 @@ The evolution of the spread between the PUN and Southern zonal prices is substan
 ### Baseload CSS for Existing CCGT Units
 
 ::: callout-main
-**BASELOAD CSS IS PROJECTED TO DECLINE IN THE SHORT TERM AS STAGNANT POWER DEMAND GROWTH, SUSTAINED IMPORTS, AND INCREASING RES PENETRATION REDUCE CCGT PRODUCTION. BY 2040, VALUES ARE EXPECTED TO STABILIZE BETWEEN -7 AND -1 €/MWh, DEPENDING ON THE SCENARIO. MISSING MONEY ISSUES ARE LIKELY TO EMERGE IN THE LATTER HALF OF THE 2020s AND BECOME MORE PRONOUNCED IN ALTERNATIVE SCENARIOS**
+**BASELOAD CSS IS PROJECTED TO DECLINE IN THE SHORT TERM AS STAGNANT
+POWER DEMAND GROWTH, SUSTAINED IMPORTS, AND INCREASING RES PENETRATION
+REDUCE CCGT PRODUCTION. BY 2040, VALUES ARE EXPECTED TO STABILIZE
+BETWEEN -7 AND -1 €/MWh, DEPENDING ON THE SCENARIO. MISSING MONEY ISSUES
+ARE LIKELY TO EMERGE IN THE LATTER HALF OF THE 2020s AND BECOME MORE
+PRONOUNCED IN ALTERNATIVE SCENARIOS**
 :::
 
 ![](figs/50_Baseload_CSS_for_CCGTs.png)
@@ -3095,7 +3355,11 @@ The evolution of the spread between the PUN and Southern zonal prices is substan
 :::
 
 ::: callout-right
-The anticipated energy outlook, characterized by stagnant electricity demand, a growing share of RES, and increased import levels, is expected to intensify competition for the existing fleet. These factors will place downward pressure on the CSS for CCGTs, with average values projected at -2.7 €/MWh over the 2025-2026 period.
+The anticipated energy outlook, characterized by stagnant electricity
+demand, a growing share of RES, and increased import levels, is expected
+to intensify competition for the existing fleet. These factors will
+place downward pressure on the CSS for CCGTs, with average values
+projected at -2.7 €/MWh over the 2025-2026 period.
 :::
 :::::
 
@@ -3105,7 +3369,12 @@ The anticipated energy outlook, characterized by stagnant electricity demand, a 
 :::
 
 ::: callout-right
-Market competition is set to intensify with stabilized imports from Northern borders, increased renewable capacity, and new high-efficiency CCGTs from CM auctions. These factors will keep baseload CSS negative, averaging around -3.5 €/MWh in the High RES scenario, where accelerated RES growth and heightened thermoelectric competition amplify the pressure in the second half of the 2020s.
+Market competition is set to intensify with stabilized imports from
+Northern borders, increased renewable capacity, and new high-efficiency
+CCGTs from CM auctions. These factors will keep baseload CSS negative,
+averaging around -3.5 €/MWh in the High RES scenario, where accelerated
+RES growth and heightened thermoelectric competition amplify the
+pressure in the second half of the 2020s.
 :::
 :::::
 
@@ -3115,7 +3384,15 @@ Market competition is set to intensify with stabilized imports from Northern bor
 :::
 
 ::: callout-right
-Post-2030, the decommissioning of aging capacity will enable existing CCGTs (53%-efficiency) to remain the marginal technology for approximately 80% of the operating hours through 2040. During this horizon, baseload CSS is expected to range below -2 €/MWh, and until -6 €/MWh. In the High RES scenario, baseload CSS is projected to fall further, staying below -7 €/MWh in the long-term (post-2040). Conversely, in the Low RES, increased CCGT generation will result in higher baseload CSS, though it is still expected to remain below -4 €/MWh from 2040 onwards.
+Post-2030, the decommissioning of aging capacity will enable existing
+CCGTs (53%-efficiency) to remain the marginal technology for
+approximately 80% of the operating hours through 2040. During this
+horizon, baseload CSS is expected to range below -2 €/MWh, and until -6
+€/MWh. In the High RES scenario, baseload CSS is projected to fall
+further, staying below -7 €/MWh in the long-term (post-2040).
+Conversely, in the Low RES, increased CCGT generation will result in
+higher baseload CSS, though it is still expected to remain below -4
+€/MWh from 2040 onwards.
 :::
 :::::
 
@@ -3132,7 +3409,11 @@ CSS estimations are in line with the previous update.
 ### Day-Ahead Market Profitability for CCGT Units
 
 ::: callout-main
-**IN THE NEAR TERM, CURRENT UNITS ARE LIKELY TO FACE LESS FAVORABLE SWITCHING CONDITIONS, BUT THE RISING SOLAR PENETRATION IS PROJECTED TO INCREASE EVENING PRICE PEAKS OVER THE MEDIUM TO LONG TERM. HIGH-EFFICIENCY UNITS WILL OPTIMIZE DAM VOLUMES WHILE MAINTAINING A DOUBLE-DIGIT MARGINAL CAPTURE**
+**IN THE NEAR TERM, CURRENT UNITS ARE LIKELY TO FACE LESS FAVORABLE
+SWITCHING CONDITIONS, BUT THE RISING SOLAR PENETRATION IS PROJECTED TO
+INCREASE EVENING PRICE PEAKS OVER THE MEDIUM TO LONG TERM.
+HIGH-EFFICIENCY UNITS WILL OPTIMIZE DAM VOLUMES WHILE MAINTAINING A
+DOUBLE-DIGIT MARGINAL CAPTURE**
 :::
 
 ![](figs/51_Captured_CSS_of_CCGT_ref.png)
@@ -3143,7 +3424,11 @@ CSS estimations are in line with the previous update.
 :::
 
 ::: callout-right
-Captured CSS evolve depending on the zone mix, with southern bidding zones suffering the high operativity of coal-fired units and significant risk of operation at loss, while CCGT producing in the northern zone manage to guarantee positive margins at around 11 €/MWh , favored by the current market dynamics.
+Captured CSS evolve depending on the zone mix, with southern bidding
+zones suffering the high operativity of coal-fired units and significant
+risk of operation at loss, while CCGT producing in the northern zone
+manage to guarantee positive margins at around 11 €/MWh , favored by the
+current market dynamics.
 :::
 :::::
 
@@ -3153,7 +3438,13 @@ Captured CSS evolve depending on the zone mix, with southern bidding zones suffe
 :::
 
 ::: callout-right
-As renewable capacity increases, existing units tend to concentrate their operations during evening hours to maximize captured margins. The high-efficiency gas-fired capacity captured CSS is subject to competitive market conditions as new projects enter the market with support from the latest CM auction. Despite this, the high efficiency of these projects enables them to maintain an average captured margin of 10 €/MWh.
+As renewable capacity increases, existing units tend to concentrate
+their operations during evening hours to maximize captured margins. The
+high-efficiency gas-fired capacity captured CSS is subject to
+competitive market conditions as new projects enter the market with
+support from the latest CM auction. Despite this, the high efficiency of
+these projects enables them to maintain an average captured margin of 10
+€/MWh.
 :::
 :::::
 
@@ -3177,7 +3468,9 @@ increase competition from high efficiency units.
 :::
 
 ::: callout-right
-Expected load factor and marginality of CCGT units depend on updated hypothesis concerning commodity prices, market dynamics and new thermoelectric installed capacity.
+Expected load factor and marginality of CCGT units depend on updated
+hypothesis concerning commodity prices, market dynamics and new
+thermoelectric installed capacity.
 :::
 :::::
 
@@ -3188,7 +3481,10 @@ Expected load factor and marginality of CCGT units depend on updated hypothesis 
 ### Solar Captured Prices
 
 ::: callout-main
-**A GROWING CANNIBALIZATION EFFECT ON SOLAR PRICES BECOMES APPARENT IN THE LATE 2020s, PARTICULARLY IN SOUTHERN MARKET ZONES, WHERE HIGH RENEWABLE PENETRATION AND LIMITED INTERCONNECTION CAPACITY WITH NORTHERN ZONES EXACERBATE THE IMPACT**
+**A GROWING CANNIBALIZATION EFFECT ON SOLAR PRICES BECOMES APPARENT IN
+THE LATE 2020s, PARTICULARLY IN SOUTHERN MARKET ZONES, WHERE HIGH
+RENEWABLE PENETRATION AND LIMITED INTERCONNECTION CAPACITY WITH NORTHERN
+ZONES EXACERBATE THE IMPACT**
 :::
 
 ![](figs/52_Solar_Captured_Prices_ref.png)
@@ -3199,8 +3495,11 @@ Expected load factor and marginality of CCGT units depend on updated hypothesis 
 :::
 
 ::: callout-right
-Solar power plants stand to benefit from projected moderate increases in power prices, with captured prices varying between approximately 94€/MWh and 100€/MWh in the Northern zone, depending on the technology (Tracker
-or Fixed Tilt). In the Southern zones, captured prices range between 77€/MWh and 88€/MWh.
+Solar power plants stand to benefit from projected moderate increases in
+power prices, with captured prices varying between approximately 94€/MWh
+and 100€/MWh in the Northern zone, depending on the technology (Tracker
+or Fixed Tilt). In the Southern zones, captured prices range between
+77€/MWh and 88€/MWh.
 :::
 :::::
 
@@ -3210,7 +3509,11 @@ or Fixed Tilt). In the Southern zones, captured prices range between 77€/MWh a
 :::
 
 ::: callout-right
-The accelerating rate of RES installations, along with the resulting cannibalization and overgeneration effects — only partially mitigated by energy storage systems and grid improvements — is influencing zonal captured prices. These prices are diverging from baseload prices and are projected to fall below 90 €/MWh by 2030, even in the Northern zones.
+The accelerating rate of RES installations, along with the resulting
+cannibalization and overgeneration effects — only partially mitigated by
+energy storage systems and grid improvements — is influencing zonal
+captured prices. These prices are diverging from baseload prices and are
+projected to fall below 90 €/MWh by 2030, even in the Northern zones.
 :::
 :::::
 
@@ -3220,7 +3523,12 @@ The accelerating rate of RES installations, along with the resulting cannibaliza
 :::
 
 ::: callout-right
-The growing frequency of overgeneration highlights the need for energy-intensive storage systems to partially mitigate the cannibalization effect. After 2030, this effect intensifies for solar captured prices, especially in Southern market zones with higher renewable penetration, driving long-term prices below 50 €/MWh in both Northern and Southern regions.
+The growing frequency of overgeneration highlights the need for
+energy-intensive storage systems to partially mitigate the
+cannibalization effect. After 2030, this effect intensifies for solar
+captured prices, especially in Southern market zones with higher
+renewable penetration, driving long-term prices below 50 €/MWh in both
+Northern and Southern regions.
 :::
 :::::
 
@@ -3230,7 +3538,8 @@ The growing frequency of overgeneration highlights the need for energy-intensive
 :::
 
 ::: callout-right
-Short-term outcomes are driven by shifts in commodity prices and power demand projections, influencing power prices.
+Short-term outcomes are driven by shifts in commodity prices and power
+demand projections, influencing power prices.
 :::
 :::::
 
@@ -3239,7 +3548,10 @@ Short-term outcomes are driven by shifts in commodity prices and power demand pr
 ### Wind Captured Prices
 
 ::: callout-main
-**WIND GENERATION IS LESS CONCENTRATED THAN SOLAR PRODUCTION, WITH ITS OUTPUT MORE EVENLY DISTRIBUTED ACROSS BOTH SEASONS AND HOURS OF THE DAY. THIS BROADER DISTRIBUTION ENABLES CAPTURED PRICES TO MATCH — OR EVEN SURPASS — BASELOAD PRICES**
+**WIND GENERATION IS LESS CONCENTRATED THAN SOLAR PRODUCTION, WITH ITS
+OUTPUT MORE EVENLY DISTRIBUTED ACROSS BOTH SEASONS AND HOURS OF THE DAY.
+THIS BROADER DISTRIBUTION ENABLES CAPTURED PRICES TO MATCH — OR EVEN
+SURPASS — BASELOAD PRICES**
 :::
 
 ![](figs/53_Wind_Captured_Prices_ref.png)
@@ -3250,7 +3562,9 @@ Short-term outcomes are driven by shifts in commodity prices and power demand pr
 :::
 
 ::: callout-right
-Captured prices are closely aligned with zonal baseload prices and benefit from a modest uptick in power prices, with values nearing 100 €/MWh across all zones.
+Captured prices are closely aligned with zonal baseload prices and
+benefit from a modest uptick in power prices, with values nearing 100
+€/MWh across all zones.
 :::
 :::::
 
@@ -3260,7 +3574,12 @@ Captured prices are closely aligned with zonal baseload prices and benefit from 
 :::
 
 ::: callout-right
-Captured prices remain closely aligned with zonal baseload prices over the long term. Increased solar production leads to overgeneration in the early 2030s, but outcomes for both sources are shaped more by zonal market dynamics than price trends. By 2030, captured prices exceed 95 €/MWh in the Northern zones and approach 90 €/MWh in the South, supported by a more balanced production profile across the day and year.
+Captured prices remain closely aligned with zonal baseload prices over
+the long term. Increased solar production leads to overgeneration in the
+early 2030s, but outcomes for both sources are shaped more by zonal
+market dynamics than price trends. By 2030, captured prices exceed 95
+€/MWh in the Northern zones and approach 90 €/MWh in the South,
+supported by a more balanced production profile across the day and year.
 :::
 :::::
 
@@ -3270,7 +3589,8 @@ Captured prices remain closely aligned with zonal baseload prices over the long 
 :::
 
 ::: callout-right
-Short-term outcomes are driven by shifts in commodity prices and power demand projections, influencing power prices.
+Short-term outcomes are driven by shifts in commodity prices and power
+demand projections, influencing power prices.
 :::
 :::::
 
@@ -3279,7 +3599,9 @@ Short-term outcomes are driven by shifts in commodity prices and power demand pr
 ### Investment costs and IRR of Solar and Wind
 
 ::: callout-main
-**INTENSE COMPETITION IN THE PV MODULES MARKET DRIVES DOWN INVESTMENT COSTS FOR SOLAR IN THE MID AND LONG TERM, EVEN THOUGH GRID CONNECTION AND LAND COSTS MAY RISE. HIGHER TECHNOLOGY COSTS FOR WIND**
+**INTENSE COMPETITION IN THE PV MODULES MARKET DRIVES DOWN INVESTMENT
+COSTS FOR SOLAR IN THE MID AND LONG TERM, EVEN THOUGH GRID CONNECTION
+AND LAND COSTS MAY RISE. HIGHER TECHNOLOGY COSTS FOR WIND**
 :::
 
 ![](figs/59_Capex_Wind.png)
@@ -3342,7 +3664,8 @@ for onshore wind projects.
 :::
 
 ::: callout-right
-Cost structure for solar and wind technologies is in line with the previous update.
+Cost structure for solar and wind technologies is in line with the
+previous update.
 :::
 :::::
 
@@ -3351,7 +3674,9 @@ Cost structure for solar and wind technologies is in line with the previous upda
 ### Hydro Run-of-River Captured Prices
 
 ::: callout-main
-**HYDROPOWER GENERATION IS MORE SENSITIVE TO SEASONAL WATER INFLOWS TRENDS THAN TO HOURLY VARIABILITY, SO THAT CAPTURED PRICES REMAIN BASICALLY IN LINE WITH BASELOAD PRICES**
+**HYDROPOWER GENERATION IS MORE SENSITIVE TO SEASONAL WATER INFLOWS
+TRENDS THAN TO HOURLY VARIABILITY, SO THAT CAPTURED PRICES REMAIN
+BASICALLY IN LINE WITH BASELOAD PRICES**
 :::
 
 ![](figs/54_Hydro_Run_of_river_ref.png)
@@ -3362,7 +3687,8 @@ Cost structure for solar and wind technologies is in line with the previous upda
 :::
 
 ::: callout-right
-Captured prices closely align with zonal baseload prices and benefit from elevated power prices.
+Captured prices closely align with zonal baseload prices and benefit
+from elevated power prices.
 :::
 :::::
 
@@ -3372,8 +3698,13 @@ Captured prices closely align with zonal baseload prices and benefit from elevat
 :::
 
 ::: callout-right
-Captured prices are expected to remain closely aligned with zonal baseload prices in the long term. The overgeneration resulting from increased solar production significantly influences the early 2030s; however, the performance of both sources remains more closely tied to
-zonal market dynamics than to changes in price structure. Additionally, both sources benefit from a production profile that is more evenly distributed throughout the day and across the year.
+Captured prices are expected to remain closely aligned with zonal
+baseload prices in the long term. The overgeneration resulting from
+increased solar production significantly influences the early 2030s;
+however, the performance of both sources remains more closely tied to
+zonal market dynamics than to changes in price structure. Additionally,
+both sources benefit from a production profile that is more evenly
+distributed throughout the day and across the year.
 :::
 :::::
 
@@ -3383,7 +3714,9 @@ zonal market dynamics than to changes in price structure. Additionally, both sou
 :::
 
 ::: callout-right
-Short-term outcomes are backed by the trend in commodity prices and their impact on power prices. Mid- and long-term results remain consistent with the previous update
+Short-term outcomes are backed by the trend in commodity prices and
+their impact on power prices. Mid- and long-term results remain
+consistent with the previous update
 :::
 :::::
 
@@ -3612,3 +3945,4 @@ University of Padua, University of Verona, others).
 \newpage
 
 ![](support/acronym_2.png)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -114,13 +114,18 @@ for (i in 1:length(vec_plot_line)) { #i = 9
     
     
     if (i %in% c(3,4,8)) {
+        
+    y_max <- if (i == 8) 50 else dt_line_lg$valori %>% max()
     
-    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name),group = get(c_name))) +
+    plot_line = ggplot(dt_line_lg, aes(anni, valori, color = get(c_name), linetype = get(c_name), group = get(c_name))) +
         geom_line(linewidth = 1.1) +
         scale_linetype_manual(values = linetype_mapping, breaks = levels_order) +
         scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
-        scale_colour_manual(values=color_mapping, breaks = levels_order)+
-        scale_y_continuous(limits = c(0,dt_line_lg$valori %>% max()), breaks=seq(0,dt_line_lg$valori %>% max(),by=10))+
+        scale_colour_manual(values = color_mapping, breaks = levels_order) +
+        scale_y_continuous(
+            limits = c(0, y_max), 
+            breaks = seq(0, y_max, by = 10)
+        ) +
         theme_light() +
         guides(color = guide_legend(title = NULL),
                linetype = guide_legend(title = NULL)) +
@@ -333,12 +338,12 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
 }
 
-## 14. Spread TTF-PSV ----
+## 14. Spread PSV-TTF ----
 
 vec_plot_line = excel_file_sn[c(5)]
 
-color_mapping = c(TTF = "#007F77", PSV = "#97BBFF", `Spread TTF-PSV` = "#D4E2D8")
-levels_order = c("Spread TTF-PSV", "TTF", "PSV")
+color_mapping = c(TTF = "#007F77", PSV = "#97BBFF", `Spread PSV-TTF` = "#D4E2D8")
+levels_order = c("Spread PSV-TTF", "TTF", "PSV")
 
 ## Produce Plot
 
@@ -357,18 +362,18 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     dt_line_lg[, anni := as.numeric(as.character(anni))]
     setorderv(dt_line_lg, cols = c(c_name, 'anni'))
     
+    years_to_display = as.character(years_to_display)
+    
     dt_line_lg = dt_line_lg %>%
         filter(anni %in% years_to_display)
     
     dt_line_lg[, anni := as.character(anni)]
     
-    years_to_display = as.character(years_to_display)
-    
     plot_line =
         dt_line_lg %>%
         ggplot() +
-        geom_col(data = filter(dt_line_lg, get(c_name) == "Spread TTF-PSV"), aes(x = anni, y = valori*20, fill = get(c_name)), width = 0.6) +
-        geom_line(data = filter(dt_line_lg, get(c_name) != "Spread TTF-PSV"), aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1.1) +
+        geom_col(data = filter(dt_line_lg, get(c_name) == "Spread PSV-TTF"), aes(x = anni, y = valori*20, fill = get(c_name)), width = 0.6) +
+        geom_line(data = filter(dt_line_lg, get(c_name) != "Spread PSV-TTF"), aes(x = anni, y = valori, color = get(c_name), group = get(c_name)), linewidth = 1.1) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
         scale_x_discrete(breaks = years_to_display, labels = years_to_display) +
@@ -413,7 +418,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
 
 vec_plot_line = excel_file_sn[c(10,11,12)]
 
-years_to_display = c(2024:2040, 2045, 2050)
+years_to_display = c(2025:2040, 2045, 2050)
 
 years_to_display = as.character(years_to_display)
 
@@ -987,13 +992,13 @@ color_mapping = c(Hydro = "#00544F",
                   Geothermal = "#97BBA3",
                   Biomass = "#D4E2D8",
                   Solar = "#FFCC99",
-                  `High RES Scenario` = "#97BBFF",
-                  `Low RES Scenario` = "#007F77")
+                  `High RES` = "#97BBFF",
+                  `Low RES` = "#007F77")
 
 levels_order = c("Hydro" ,        "Wind" ,         "Geothermal",    "Biomass" ,      "Solar",        
-                 "High RES Scenario",  "Low RES Scenario")
+                 "High RES",  "Low RES")
 
-years_to_display = c(2017,2019,2022,2025, 2030, 2035, 2040, 2050)
+years_to_display = c(2025, 2030, 2035, 2040, 2050)
 
 ## Produce Plot
 
@@ -1020,20 +1025,18 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, anni := as.character(anni)]
     
-    dt_line_lg[, (c_name) := fifelse(get(c_name)=="Low RES","High RES Scenario",get(c_name))]
-    
-    dt_line_lg[, (c_name) := fifelse(get(c_name)=="Low RES","High RES Scenario",get(c_name))]
+    dt_line_lg[, (c_name) := fifelse(get(c_name)=="Low RES","High RES",get(c_name))]
     
     dt_line_lg[, (c_name) := factor(get(c_name), levels = rev(levels_order))]
     
     plot_line =
         dt_line_lg %>%
         ggplot() +
-        geom_col(data = filter(dt_line_lg, !get(c_name) %in% c("High RES Scenario","Low RES Scenario")), aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
-        geom_line(data = filter(dt_line_lg, get(c_name) == "High RES Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
-        geom_line(data = filter(dt_line_lg, get(c_name) == "Low RES Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
-        geom_point(data = filter(dt_line_lg, get(c_name) == "High RES Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), size = 3) +
-        geom_point(data = filter(dt_line_lg, get(c_name) == "Low RES Scenario"), aes(x = anni, y = valori, color = get(c_name), group = 1), size = 3) +
+        geom_col(data = filter(dt_line_lg, !get(c_name) %in% c("High RES","Low RES")), aes(x = anni, y = valori, fill = get(c_name)), width = 0.6) +
+        geom_line(data = filter(dt_line_lg, get(c_name) == "High RES"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
+        geom_line(data = filter(dt_line_lg, get(c_name) == "Low RES"), aes(x = anni, y = valori, color = get(c_name), group = 1), linewidth = 1.1) +
+        geom_point(data = filter(dt_line_lg, get(c_name) == "High RES"), aes(x = anni, y = valori, color = get(c_name), group = 1), size = 3) +
+        geom_point(data = filter(dt_line_lg, get(c_name) == "Low RES"), aes(x = anni, y = valori, color = get(c_name), group = 1), size = 3) +
         scale_fill_manual(values = color_mapping, breaks = levels_order) +
         scale_color_manual(values = color_mapping, breaks = levels_order) +
         scale_y_continuous(name = NULL) +
