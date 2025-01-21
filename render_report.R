@@ -8,6 +8,7 @@ rmd_file = file.path('02_report_gen', 'report_gen.rmd')
 # Combine cover-pre-REPORT-backcover
 pdf_files = c(file.path('02_report_gen', 'resources', 'cover.pdf'),
               file.path('02_report_gen', 'resources', 'pre.pdf'),
+              file.path('02_report_gen', 'resources', 'seconda.pdf'),
               file.path('02_report_gen', "report_gen.pdf"),
               file.path('02_report_gen', 'resources', 'backcover.pdf')
               )
