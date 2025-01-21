@@ -1025,7 +1025,7 @@ for (i in 1:length(vec_plot_line)) { #i = 1
     
     dt_line_lg[, anni := as.character(anni)]
     
-    dt_line_lg[, (c_name) := fifelse(get(c_name)=="Low RES","High RES",get(c_name))]
+    #dt_line_lg[, (c_name) := fifelse(get(c_name)=="Low RES","High RES",get(c_name))]
     
     dt_line_lg[, (c_name) := factor(get(c_name), levels = rev(levels_order))]
     
