@@ -122,7 +122,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -150,7 +150,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -178,7 +178,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -206,7 +206,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -234,7 +234,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -262,7 +262,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -290,7 +290,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -318,7 +318,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -348,7 +348,7 @@ vec_colnames = as.character(as.vector(dt_table[1]))
 dt_table = dt_table[2:.N]
 
 
-suffixes = c('', rep("Reference_", 4), rep("Low_", 4), rep('High_', 4))
+suffixes = c('', rep("Reference_", 4), rep("High RES_", 4), rep('Low RES_', 4))
 vec_colnames = paste0(suffixes, vec_colnames)
 names(dt_table) = vec_colnames
 
@@ -644,11 +644,7 @@ the short-term.
 ### Spread TTF-PSV
 
 ::: callout-main
-** AS PIPED FLOWS FROM NORWAY REMAIN CRUCIAL FOR ADEQUATE DEMAND
-COVERAGE, THE PSV GAS PRICE IS EXPECTED TO MAINTAIN A PREMIUM OVER THE
-TTF IN THE SHORT-TO-MEDIUM TERM. IN THE LONG TERM, THE REBALANCING OF
-FLOWS IS ANTICIPATED TO LEAD TO A GRADUAL NARROWING OF THE SPREAD
-TOWARDS ZERO**
+**AS PIPED FLOWS FROM NORWAY REMAIN CRUCIAL FOR ADEQUATE DEMAND COVERAGE, THE PSV GAS PRICE IS EXPECTED TO MAINTAIN A PREMIUM OVER THE TTF IN THE SHORT-TO-MEDIUM TERM. IN THE LONG TERM, THE REBALANCING OF FLOWS IS ANTICIPATED TO LEAD TO A GRADUAL NARROWING OF THE SPREAD TOWARDS ZERO**
 :::
 
 ![](figs/14_Spread_TTF_PSV.png)
@@ -1592,7 +1588,7 @@ PHASED-OUT ONLY IN 2029, CONSIDERING THE TYRRHENIAN LINK ENTERING IN
 
 ::::: callout-item
 ::: callout-left
-#### 26-30 {.unnumbered}
+#### 27-30 {.unnumbered}
 :::
 
 ::: callout-right
@@ -2247,7 +2243,7 @@ plants are expected to cover LCOE levels ranging between 85 and 90
 
 ::::: callout-item
 ::: callout-left
-#### 26-30 {.unnumbered}
+#### 27-30 {.unnumbered}
 :::
 
 ::: callout-right
