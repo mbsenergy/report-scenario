@@ -57,39 +57,19 @@ excel_file_sn = xl$getSheetNames(excel_file)
 
 # Frame of Reference
 
-REF-E scenarios over the time horizon 2025-2050 (with projections up to
-2060) are elaborated by MBS Consulting experts on the base of
-proprietary suites and market knowledge. Econometric and structural
-models, as well as our expert sensitiveness, detailed knowledge of
-regulation, and accurate monitoring of market outcomes underlie our
-elaborations.
+REF-E scenarios over the time horizon 2025–2050 (with projections up to 2060) are developed by MBS Consulting experts using proprietary tools and market expertise. These scenarios are based on econometric and structural models, combined with expert insights, detailed regulatory knowledge, and rigorous monitoring of market dynamics.
 
-Gas and electricity forecasts consider the diverse geopolitical and
-economic hypothesis deriving from the regulatory, financial and
-fundamentals adjustments to the disruption generated both from the
-pandemic and the Ukrainian war, which are seen as key determinants of
-the future equilibrium of the energy markets.
+Gas and electricity forecasts consider various geopolitical and economic hypotheses stemming from regulatory, financial, and fundamental adjustments to disruptions caused by both the pandemic and the war in Ukraine. These factors are viewed as key determinants of the future equilibrium in energy markets.
 
-Current scenario update incorporates an evolution of climate variables
-in line with the historical average trend.
+The current scenario update incorporates climate variable trends that align with historical averages.
 
-In this perspective, we defined three scenarios:
+In this context, we have defined three scenarios:
 
--   The **Low RES scenario** is characterized by permanently high fuels
-    and power prices amid negative or zero economic growth depressing
-    investments and weighing on the energy transition process.\
+-   The **Low RES scenario**: Characterized by persistently high fuel and power prices amid negative or stagnant economic growth, this scenario hampers investments and slows the energy transition process.
 
--   In the **Reference scenario**, is characterized by the energy
-    transition process progress leading to a diversification of energy
-    sources supported by the existing policies. This, combined with
-    efficiency maintains the energy market on a transformation path. The
-    economic growth slowly recovers over the next two years.
+-   In the **Reference scenario**: Marked by progress in the energy transition process, this scenario reflects a diversification of energy sources supported by existing policies. Combined with efficiency improvements, it maintains the energy market on a transformational path. Economic growth is expected to recover gradually over the next two years.
 
--   The **High RES scenario** would materialize in the event of
-    favorable weather conditions and a fast energy transition, supported
-    by low inflation and a faster economic recovery, reducing power and
-    fossil fuels demand over the next few years. This would limit energy
-    prices upside potential and then fuel a downward acceleration.
+-   The **High RES scenario**: This scenario assumes favorable weather conditions and a rapid energy transition, facilitated by low inflation and a faster economic recovery. These factors would reduce demand for power and fossil fuels over the next few years, limiting upward pressure on energy prices and potentially driving a downward acceleration.
 
 ![](support/01_scenari.png)
 
@@ -97,156 +77,35 @@ In this perspective, we defined three scenarios:
 
 ## The demand puzzle: slow recovery in a renewable-driven market
 
-***The Italian market, while prioritizing renewable energy expansion,
-must also navigate the obstacle of sluggish demand. Our demand growth
-projections were revised lower, to reflect the limited recovery observed
-post-crisis and a partial decoupling from GDP dynamics. Pre-crisis
-levels are now expected to be reached only after 2027. In the long-term,
-modest demand growth is primarily driven by electrification. Anticipated
-declines in gas prices post-2026, as supply tensions ease, are expected
-to exert downward pressure on power prices. Concurrently, CCGT
-operability is increasingly constrained by low demand and rising RES
-production, exacerbating negative Clean Spark Spreads (CSS) and thus
-further suppressing electricity price beyond 2030. Although progress in
-RES installations remains promising, weak demand poses a significant
-challenge to renewable investments, potentially jeopardizing national
-installation targets.***
+***While the focus on renewable energy expansion remains central, the market must also address the challenge of subdued demand. Our projections for demand growth have in fact been adjusted downward to account for the modest recovery observed post-crisis and a partial decoupling from GDP trends; pre-crisis levels are now expected to be reached only after 2027. In the long-term, modest demand growth is primarily driven by electrification. The foreseen declines in gas prices post-2026, as supply tensions ease, are expected to exert downward pressure on power prices. Concurrently, CCGT operability is increasingly constrained by low demand and rising RES production, exacerbating negative Clean Spark Spreads (CSS) and thus further weighing on the electricity price trajectory beyond 2030. Although progress in RES installations remains promising, weak demand poses a significant challenge to renewable investments, potentially jeopardizing national installation targets.***
 
-**Italian power demand rose by 2.3% in 2024**, reaching 312.2 TWh,
-closely aligning with our IIIQ24 projections (a variance of just 9 GWh).
-This marks the **first annual increase since 2018**, excluding the 2021
-post-pandemic rebound. **Limited demand growth** reflects
-**macroeconomic challenges, delayed electrification, and weak industrial
-performance**, with GDP having expanded by only 0.8%, and industrial
-output having continued to contract, particularly in energy-intensive
-sectors.
+**Italian power demand rose by 2.3% in 2024**, reaching 312.2 TWh, which closely aligns with our IIIQ24 projections (a variance of just 90 GWh). This marks the **first annual increase since 2018**, excluding the 2021 post-pandemic rebound. **Limited demand growth** reflects **macroeconomic challenges, delayed electrification, and weak industrial performance**, with GDP having expanded by only 0.8%, and industrial output having continued to contract, particularly in energy-intensive sectors.
 
-Persistent industrial stagnation and modest GDP growth, projected at
-+0.9% for 2025, combined with the observed persistence of a **partial
-decoupling between economic growth and electricity consumption**,
-prompted a **downward revision of our power demand forecast**: -0.4 TWh
-in 2025, -1.7 TWh in 2026, and an average reduction of -4.0 TWh annually
-beyond 2027 in the Reference scenario. Annual **power demand growth is
-now projected at 1.1% for 2025–2030 (3 TWh per year)**. This is a modest
-but still notable acceleration, not seen consistently since before 2008.
-Consumption is expected to exceed pre-crisis levels (320 TWh) by 2027 in
-the Reference scenario.
+Persistent industrial stagnation and modest GDP growth, projected at +0.9% for 2025, combined with the observed persistence of a **partial decoupling between economic growth and electricity consumption**, led to a **downward revision of our power demand forecast**: -0.4 TWh in 2025, -1.7 TWh in 2026, and an average reduction of -4.0 TWh annually beyond 2027 in the Reference scenario. Annual **power demand growth is now projected at 1.1% for 2025–2030 (3 TWh per year)**, a modest but still notable acceleration, not seen consistently since before 2008. Consumption is expected to exceed pre-crisis levels (320 TWh) by 2027 in the Reference scenario.
+**Over the medium to long term (2030–2050), demand growth is anticipated to remain steady**, exceeding 2.5 TWh per year, **driven by the electrification of final consumption and the development of new electricity use segments**, which will play an increasingly critical role in shaping future demand dynamics.
+The surge in PV installations spurs RES production but targets attainment is at risk without regulatory progress
+2024 marked a **record year for renewable energy production** in Italy, with **129 TWh generated** (+13% from 113 TWh in 2023), bringing the RES share of total production to 42.5%, thanks to a **rebound in hydroelectric generation**, which returned to its historical average at 52 TWh (+30% y/y), and an **increase in solar production**, which reached 36 TWh (+19% y/y). The 2024 surge in RES production was driven by a **19% increase in PV output**, having offset a 6% decline in wind generation. PV production growth resulted from a 7 GW capacity expansion—exceeding 2023’s 5 GW—and improved irradiation levels, while wind capacity grew by 600 MW, consistent with the prior year.
+Our **wind installed capacity projections were slightly adjusted on a regional basis** to better align the onshore and offshore development mix with recent trends. These revisions reflect limited offshore wind development in the Centre-North zone and sustained onshore capacity growth in the Southern and insular areas. Notably, most offshore wind projects submitted to MASE in 2023 and 2024 are concentrated in the Southern and insular regions, with only one project proposed for the Centre-North.
+We still expect a deceleration in RES penetration growth during 2025 and 2026**, particularly in PV deployment, with installed capacity increasing by less than 2 GW in 2025 and just under 3 GW in 2026. This slowdown is attributed to several factors. Firstly, the awaited scheduling of the FERX and "FERX Transitorio" auctions may encourage some developers to delay construction activities to ensure eligibility for auction participation. Despite the introduction of the FERX Transitorio, designed to ease the implementation of the new auctioning framework, developers are still monitoring the finalization of BANDI operational guidelines. Secondly, **regulatory uncertainty persists**, driven by delays in **regional deliberations on the "Aree Idonee" Decree** and the complexities introduced by the **Testo Unico sulle Rinnovabili (TUFER)**. The TUFER, published in its final version in the Gazzetta Ufficiale, may pose additional challenges for developers. For an in-depth analysis of its implications, refer to our newsletter publication [link](https://mbsconsulting.ref-e.com/newsletter/16768/il-tufer-semplificazione-ben-riuscita/page/).
 
-**Over the medium to long term (2030–2050), demand growth is anticipated
-to remain steady**, exceeding 2.5 TWh per year, **driven by the
-electrification of final consumption and the development of new
-electricity use segments**, which will play an increasingly critical
-role in shaping future demand dynamics.
+Under the Reference scenario, solar installed capacity is projected to reach only 51 GW and wind capacity 17 GW by 2030, significantly **below the PNIEC targets of 80 GW and 28 GW**, respectively. This shortfall is primarily attributed to **the current permitting pace, which remains insufficient to achieve the 9–10 GW of annual installations** required to meet national objectives. Our demand and RES production projections indicate that **RES generation will cover 49% of Italian electricity demand by 2030**, falling significantly short of the PNIEC target of 63  %.
 
-### The surge in PV installations spurs RES production but targets attainment is at risk without regulatory progress
+Italy's storage market is progressing, with 16 GW in projects under evaluation, though regulatory changes could slow deployment
+The expected growth of storage in the coming years will be essential in supporting the integration of non-programmable renewable generation, ensuring greater stability and flexibility of the national electricity system. Indeed, storage systems will not only optimize energy management but also help mitigate the cannibalization effect of renewable power plants, improving the overall efficiency of the system.
+The **PNIEC targets 72 GWh of additional storage capacity by 2030**, encompassing utility-scale, distributed projects, and their geographical distribution**utility-scale development should contribute significantly in Southern regions**, where non-programmable renewable generation is most prevalent, while **distributed capacity is aimed to grow primarily in Northern regions**, often integrated with residential and commercial PV systems.
+The storage market in Italy currently factors in a **pipeline of approximately 16 GW of projects**, either authorized or under evaluation, whose realization will depend significantly on the support of regulated mechanisms. These include the MACSE auctions, scheduled for mid-2025, which primarily aim to develop capacity in the South and Islands, and the Capacity Market, which is expected to drive investments in the North, where the MACSE allocation will be limited.
 
-2024 marked a **record year for renewable energy production** in Italy, with **129 TWh generated** (+13% from 113 TWh in 2023), bringing the RES share of total production to 42.5%, thanks to a **rebound in hydroelectric generation**, which returned to its historical average at 52 TWh (+30% y/y), and an **increase in solar production**, which reached 36 TWh (+19% y/y). The 2024 surge in RES production was driven by a **19% increase in PV output**, having off set a 6% decline in wind generation. PV production growth resulted from a 7 GW capacity expansion—exceeding 2023’s 5 GW—and improved irradiation levels, while wind capacity grew by 600 MW, consistent with the prior year.
+Starting in 2025, while larger projects remain under MASE’s jurisdiction, **Regions will manage authorizations for storage plants up to 200 MW**, which could lead to bottlenecks in the processing of requests and delay projects eligible for the first MACSE auction,. 
+Our IVQ24 projections employ a refined methodology, now accounting for the **potential for BESS development within incentivized mechanisms** in the short and medium term, as well as RES deployment trajectories and localization over the long term. We consequently revised expectations higher for utility-scale storage in Southern and insular regions, now comprising 78% of the total as of 2030. Small-scale storage will lead in the Northern regions instead, accounting for 60% of the total. Total BESS capacity, encompassing both small- and utility-scale systems, is projected to reach **48 GWh by 2030**, a net increase of +41 GWh from 2023 levels. 
 
-Our **wind installed capacity projections was slightly adjusted by region** to better align the onshore and offshore development mix with
-recent trends. These revisions reflect limited offshore wind development in the Centre-North region and sustained onshore capacity growth in the Southern and insular areas. Notably, most offshore wind projects submitted to MASE in 2023 and 2024 are concentrated in the Southern and insular regions, with only one project proposed for the Centre-North.
+PUN expected to decline towards 100 €/MWh only post-2026 with new liquefaction capacity improving the global LNG market supply-demand balance.
+We confirm our expectations for a **slight increase in the PUN in 2025 to 112 €/MWh**, driven by a still **tight gas market** and CO2 prices remaining around 85 €/ton, reflecting the **full implementation of the ETS reform**. However, with the continued integration of RES capacity, further price normalization post-2026, and sustained levels of electricity imports, we project **prices to fall below 100 €/MWh by 2029** in the Reference scenario and by 2026 in the High RES case.
 
-For the short term, **we continue to anticipate a deceleration in RES penetration growth during 2025 and 2026** , particularly in PV deployment, with installed capacity expected to increase by less than 2
-GW in 2025 and just under 3 GW in 2026. This slowdown is attributed to
-several factors. Firstly, the scheduling of the FERX and "FERX
-Transitorio" auctions may encourage some developers to delay
-construction activities to ensure eligibility for auction participation.
-The FERX Transitorio, designed to ease the transition to the new
-auctioning framework, remains in its early implementation phase, with
-developers closely monitoring the finalization of BANDI operational
-guidelines. Secondly, **regulatory uncertainty persists**, driven by
-delays in **regional deliberations on the "Aree Idonee" Decree** and the
-complexities introduced by the **Testo Unico sulle Rinnovabili (TUFER)**. The TUFER, published in its final version in the Gazzetta
-Ufficiale, may pose additional challenges for developers. For an
-in-depth analysis of its implications, refer to our newsletter
-publication [link](https://mbsconsulting.ref-e.com/newsletter/16768/il-tufer-semplificazione-ben-riuscita/page/).
+The **annual 2024 PUN average settled at 107.6 €/MWh**, aligning closely with our IIIQ24 projections (107.8 €/MWh) While this marks a reduction of approximately 15% compared to the 2023 average of 127 €/MWh, **prices remain elevated relative to pre-crisis levels**.
+Despite the high level of RES production achieved over the past year, thermoelectric generation remains the marginal source in the Italian market and is expected to maintain this role in the near term. Consequently, the short-term dynamics of power prices are still primarily driven by developments in the gas market. **In 2024, gas demand stagnated** due to milder winter temperatures having reduced heating needs and a struggling industrial sector. The replenishment of gas storage was consequently facilitated, creating an additional buffer against demand fluctuations. This combined with stable gas supples, allowing prices to edge closer to pre-crisis levels.
 
-Under the Reference scenario, solar installed capacity is projected to
-reach only 51 GW and wind capacity 17 GW by 2030, significantly **below
-the PNIEC targets of 80 GW and 28 GW**, respectively. This shortfall is
-primarily attributed to **the current permitting pace, which remains
-insufficient to achieve the 9–10 GW of annual installations** required
-to meet national objectives. Our demand and RES production projections
-indicate that **RES generation will cover 49% of Italian electricity demand by 2030**, falling significantly short of the PNIEC target of 63
-%.
-
-### Italy's storage market is evolving, with 16 GW in projects under evaluation, though regulatory changes could slow deployment
-
-The expected growth of storage in the coming years will be essential in
-supporting the integration of non-programmable renewable generation,
-ensuring greater stability and flexibility of the national electricity
-system. Indeed, storage systems will not only optimise energy management
-but also help mitigate the cannibalisation effect of renewable power
-plants, improving the overall efficiency of the system.
-
-The **PNIEC targets 72 GWh of additional storage capacity by 2030**,
-encompassing utility-scale, distributed projects, and their geographical
-distribution: **utility-scale development will focus on Southern regions**, where non-programmable renewable generation is most
-prevalent, while **distributed capacity will primarily expand in Northern regions**, often integrated with residential and commercial PV
-systems.
-
-The storage market in Italy currently factors in a **pipeline of approximately 16 GW of projects**, either authorized or under
-evaluation, whose realization will depend significantly on the support
-of regulated mechanisms. These include the MACSE auctions, scheduled for
-mid-2025, which primarily aim to develop capacity in the South and
-Islands, and the Capacity Market, which is expected to drive investments
-in the North, where the MACSE allocation will be limited.
-
-Starting in 2025, while larger projects remain under MASE’s
-jurisdiction, **Regions will manage authorizations for storage plants up to 200 MW**, which could lead to bottlenecks in the processing of
-requests and delay projects eligible for the first MACSE auction.
-
-Our IVQ24 projections employ a refined methodology, now accounting for
-the **potential for BESS development within incentivized mechanisms** in
-the short and medium term, as well as RES deployment trajectories and
-localization over the long term. We consequently revised expectations
-higher for utility-scale storage in Southern and insular regions, now
-comprising 78% of the total as of 2030. Small-scale storage will lead in
-the Northern regions instead, accounting for 60% of the total. Total
-BESS capacity, encompassing both small- and utility-scale systems, is
-projected to reach **48 GWh by 2030**, a net increase of +41 GWh from
-2023 levels.
-
-### PUN expected to decline towards 100 €/MWh only post-2026 with newliquefaction capacity improving the supply-demand balance
-
-In line with IIIQ24 projections, **we anticipate a slight increase in the PUN in 2025 to 112 €/MWh**, driven by potential **tensions in the gas market** and CO2 prices remaining around 85 €/ton, reflecting the
-**full implementation of the ETS reform**. However, with the continued
-integration of RES capacity, further price normalization post-2026, and
-sustained levels of electricity imports, we project **prices to fall below 100 €/MWh by 2029** in the Reference scenario and by 2026 in the
-High RES case.
-
-The **annual 2024 PUN average settled at 107.6 €/MWh**, aligning closely
-with our IIIQ24 projections (107.8 €/MWh) While this marks a reduction
-of approximately 15% compared to the 2023 average of 127 €/MWh, **prices remain elevated relative to pre-crisis levels**.
-
-Despite high levels of RES production achieved over the past year,
-thermoelectric generation remains the marginal source in the Italian
-market and is expected to maintain this role in the near term.
-Consequently, the short-term dynamics of power prices are primarily
-attributed to developments in the gas market. **In 2024, gas demand stagnated** due to milder winter temperatures reducing heating needs and
-a struggling industrial sector yet to recover fully. This **subdued demand facilitated the replenishment of gas storage**, creating an
-additional buffer against demand fluctuations. Meanwhile, **gas supply remained stable**, with no significant interruptions, allowing prices to
-edge closer to pre-crisis levels.
-
-However, in the short term, **the global LNG market remains defined by a fragile balance** between limited supply and the absence of Russian
-pipeline gas, which continues to support European demand. Europe is
-adapting its supply mix to the absence of Russian gas, with Norway and
-Algeria emerging as key suppliers, while **Italy's high network and transportation tariffs—among the highest in Europe—limit its ability to position itself as an exporting country** to Eastern and Central
-European nations, such as Austria, that were most impacted by the
-suspension of Russian flows. Prices, currently exceeding €30/MWh, are
-unlikely to decline significantly before 2026, when the market awaits
-new liquefaction capacity from Qatar and the United States to ease the
-global LNG market tightness.
-
-Moreover, **adjustments in gas logistic component** for the 2025–2030
-period, including the stabilization of the CRVOS reimbursement
-mechanism—which thermoelectric plants can claim and will remain
-unchanged for the next five years—and the elimination of the CRVBL
-component, previously established to cover gas balancing costs, which
-has now been set to zero led to a downward revision of the gas price
-projections. Consequently, **our PUN projections have been revised downward**, with reductions of approximately -2 €/MWh for 2025, -6 €/MWh
-for 2026, and over 5 €/MWh for the post-2026 period. The anticipated
-decline in power demand throughout the forecast horizon limits the
-operability of CCGTs, thereby leading to a **reduction in Clean Spark Spread (CSS) expectations for thermoelectric plants**.
+In the short term, **the global LNG market balance remains fragile** though, since supply growth is limited and the absence of Russian pipeline gas continues to support the European demand. Norway and Algeria emerged as key suppliers, but **Italy's high network and transportation tariffs—among the highest in Europe—limit its ability to position itself as an exporting country** to Eastern and Central European nations, such as Austria, that were most impacted by the suspension of Russian flows. Prices, currently exceeding €30/MWh, are therefore unlikely to decline significantly before 2026, when the market awaits new liquefaction capacity from Qatar and the United States to ease the global LNG market tightness.
+However, **adjustments in gas logistic component** for the 2025–2030 period, including the stabilization of the CRVOS reimbursement mechanism and the elimination of the CRVBL component, led to a downward revision of the gas price projections. Consequently, **our PUN projections have also been revised downward**, with reductions of approximately 2 €/MWh for 2025, 6 €/MWh for 2026, and over 5 €/MWh for the post-2026 period. The anticipated decline in power demand throughout the forecast horizon limits the operability of CCGTs, thereby leading to a **reduction in Clean Spark Spread (CSS) expectations for thermoelectric plants**.
 
 \newpage
 
