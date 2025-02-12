@@ -1279,12 +1279,12 @@ for (i in 1:length(vec_plot_line)) { #i = 2
     
     if ( i == 1){
         dt_line_lg = dt_line_lg %>%
-            filter(anni < 2038)
-        years_to_display = c(2024:2037)
+            filter(anni < 2051)
+        years_to_display = c(2025:2050)
     }
     
     if ( i == 2) {
-        years_to_display = c(2024:2040, 2045, 2050)
+        years_to_display = c(2025:2040, 2045, 2050)
     }
     
     dt_line_lg = dt_line_lg %>%

@@ -3049,11 +3049,7 @@ DOUBLE-DIGIT MARGINAL CAPTURE**
 :::
 
 ::: callout-right
-Captured CSS evolve depending on the zone mix, with southern bidding
-zones suffering the high operativity of coal-fired units and significant
-risk of operation at loss, while CCGT producing in the northern zone
-manage to guarantee positive margins at around 11 €/MWh , favored by the
-current market dynamics.
+In the short term, captured CSS for existing CCGTs are projected to average around 10 €/MWh. The energy mix composition across different market zones will significantly influence margins for thermal units. In southern bidding zones, slow demand growth and continued RES installations are expected to limit plant operability. However, despite similar trends and stable import flows from the northern border, CCGT margins in the northern zones should remain stable, supported by strong zonal demand.
 :::
 :::::
 
@@ -3063,13 +3059,7 @@ current market dynamics.
 :::
 
 ::: callout-right
-As renewable capacity increases, existing units tend to concentrate
-their operations during evening hours to maximize captured margins. The
-high-efficiency gas-fired capacity captured CSS is subject to
-competitive market conditions as new projects enter the market with
-support from the latest CM auction. Despite this, the high efficiency of
-these projects enables them to maintain an average captured margin of 10
-€/MWh.
+As renewable capacity increases, existing units tend to concentrate their operations during evening hours to maximize captured margins. The high-efficiency gas-fired capacity captured CSS is subject to competitive market conditions as new projects enter the market with support from the latest CM auction. Despite this, the high efficiency of these projects enables them to maintain an average captured margin of 10 €/MWh.
 :::
 :::::
 
@@ -3079,11 +3069,7 @@ these projects enables them to maintain an average captured margin of 10
 :::
 
 ::: callout-right
-Growing renewable penetration intensifies overgeneration phenomena and
-accentuates evening price spikes, determining an increasing trend for
-captured marginality for existing units in the first half of the 2030s,
-but load factors reduce progressively on increasing renewables share and
-increase competition from high efficiency units.
+Growing renewable penetration intensifies overgeneration phenomena and accentuates evening price spikes, determining an increasing trend for captured marginality for existing units in the second half of the 2030s, but load factors reduce progressively on increasing renewables share and increase competition from high efficiency units.
 :::
 :::::
 
