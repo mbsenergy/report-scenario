@@ -5,7 +5,7 @@ install.packages("pagedown")
 box::use(pagedown[...])
 box::use(pdftools[...])
 
-## Path to rmarkdown document
+## Path to rmarkdown
 rmd_file = file.path('02_report_gen', 'report_gen.rmd')
 
 # Render the R Markdown file to PDF
