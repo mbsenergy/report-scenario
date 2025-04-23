@@ -19,8 +19,8 @@ box::use(ggplot2[...],
 #*               DEFINIRE SE SCENARIO, STORICO O SCENARIO CON STORICO     *********
 #**********************************************************************************
 
-#periodo = "SCENARIO"
- periodo = "STORICO"
+periodo = "SCENARIO"
+# periodo = "STORICO"
 # periodo = "SCENARIO_STORICO"
 
 
@@ -43,7 +43,7 @@ excel_file_sn = xl$getSheetNames(excel_file)
 if(periodo=="SCENARIO"){
     years_to_display = c(2025:2040, 2045, 2050)
     years_label = c(2025,2030,2040,2050)
-    vec_plot_line = excel_file_sn[c(2,3,4,9,12,19,20,27,28,30,34,35,36,37)]
+    vec_plot_line = excel_file_sn[c(2,3,4,5,9,12,19,20,27,28,30,34,35,36,37)]
     
     angolo_asse = 90
 
@@ -51,7 +51,7 @@ if(periodo=="SCENARIO"){
 if (periodo=="STORICO"){
     years_to_display = c(2019:2024)
     years_label = c(2019:2024)
-    vec_plot_line = excel_file_sn[c(2,3,4,9,12)]
+    vec_plot_line = excel_file_sn[c(2,3,4,5,9,12)]
 
     angolo_asse = 0
 }
@@ -485,14 +485,15 @@ if(periodo=="SCENARIO"){
     if(periodo=="SCENARIO"){
         vec_plot_line = excel_file_sn[c(1)]
 
-    color_mapping = c(Existing = "#D9D9D9", 
-                    `Under Construction` = "#9FBDD8", 
-                    Uncertain = "#D75641",
+    color_mapping = c(`Existing Capacity` = "#D9D9D9", 
+                    `Under Construction Capacity` = "#9FBDD8", 
+                    `PreFID  Capacity` = '#9FBDD8',
+                    `Uncertain Capacity` = "#D75641",
                     `Historical Demand` = "#7F7F7F",
                     `Demand` = "#001437")
     color_mapping %>% names()
-    levels_order = c("Existing"    ,                "Under Construction"   ,       "Uncertain",                  
-                    "Historical Demand" ,          "Demand" )
+    levels_order = c("Existing Capacity"    ,                "Under Construction Capacity"   ,       "PreFID  Capacity",
+                    "Uncertain Capacity",                      "Historical Demand" ,          "Demand" )
 
     ## Produce Plot
 
@@ -510,10 +511,10 @@ if(periodo=="SCENARIO"){
         names(dt_line)[1] = "Quarter"
         
         dt_line <- dt_line %>%
-            mutate(Under.Construction = Existing + Under.Construction)
+            mutate(Under.Construction.Capacity = Existing.Capacity + Under.Construction.Capacity + PreFID.Capacity)
         
         dt_line <- dt_line %>%
-            mutate(Uncertain = Under.Construction + Uncertain)
+            mutate(Uncertain.Capacity = Under.Construction.Capacity + Uncertain.Capacity)
         
         dt_line_lg = dt_line %>% 
             melt(id.vars = 'Quarter', variable.name = 'Variable', value.name = 'Values') 
@@ -529,24 +530,29 @@ if(periodo=="SCENARIO"){
         plot_line =
             dt_line_lg %>%
             ggplot(aes(group = Variable)) +
-            geom_ribbon(data = dt_line_lg %>% filter(Variable == "Uncertain"), 
-                        aes(x = Quarter, ymin = dt_line_lg %>% filter(Variable == "Uncertain") %>% pull(lower_bound),
-                            ymax = dt_line_lg %>% filter(Variable == "Uncertain") %>% pull(Values),
+            geom_ribbon(data = dt_line_lg %>% filter(Variable == "Uncertain Capacity"), 
+                        aes(x = Quarter, ymin = dt_line_lg %>% filter(Variable == "Uncertain Capacity") %>% pull(lower_bound),
+                            ymax = dt_line_lg %>% filter(Variable == "Uncertain Capacity") %>% pull(Values),
                             fill = Variable)) +
-            geom_ribbon(data = dt_line_lg %>% filter(Variable == "Under Construction"), 
-                        aes(x = Quarter, ymin = dt_line_lg %>% filter(Variable == "Under Construction") %>% pull(lower_bound),
-                            ymax = dt_line_lg %>% filter(Variable == "Under Construction") %>% pull(Values),
+         geom_ribbon(data = dt_line_lg %>% filter(Variable == "PreFID  Capacity"), 
+                        aes(x = Quarter, ymin = dt_line_lg %>% filter(Variable == "PreFID  Capacity") %>% pull(lower_bound),
+                            ymax = dt_line_lg %>% filter(Variable == "PreFID  Capacityn") %>% pull(Values),
                             fill = Variable)) +
-            geom_ribbon(data = dt_line_lg %>% filter(Variable == "Existing"), 
-                        aes(x = Quarter, ymin = dt_line_lg %>% filter(Variable == "Existing") %>% pull(lower_bound),
-                            ymax = dt_line_lg %>% filter(Variable == "Existing") %>% pull(Values),
+            geom_ribbon(data = dt_line_lg %>% filter(Variable == "Under Construction Capacity"), 
+                        aes(x = Quarter, ymin = dt_line_lg %>% filter(Variable == "Under Construction Capacity") %>% pull(lower_bound),
+                            ymax = dt_line_lg %>% filter(Variable == "Under Construction Capacity") %>% pull(Values),
                             fill = Variable)) +
-            geom_line(data = filter(dt_line_lg, !Variable %in% c('Uncertain','Under Construction','Existing')), aes(x = Quarter, y = Values, color = Variable, linetype = Variable), linewidth = 1.1) +
+            geom_ribbon(data = dt_line_lg %>% filter(Variable == "Existing Capacity"), 
+                        aes(x = Quarter, ymin = dt_line_lg %>% filter(Variable == "Existing Capacity") %>% pull(lower_bound),
+                            ymax = dt_line_lg %>% filter(Variable == "Existing Capacity") %>% pull(Values),
+                            fill = Variable)) +
+            geom_line(data = filter(dt_line_lg, !Variable %in% c('Uncertain Capacity','PreFID  Capacity','Under Construction Capacity','Existing Capacity')), aes(x = Quarter, y = Values, color = Variable, linetype = Variable), linewidth = 1.1) +
             scale_fill_manual(values = color_mapping, breaks = levels_order) +
             scale_color_manual(values = color_mapping, breaks = levels_order) +
-            scale_linetype_manual(values = c(Existing = "solid", 
-                                            `Under Construction` = "solid", 
-                                            Uncertain = "solid",
+            scale_linetype_manual(values = c(`Existing Capacity` = "solid", 
+                                            `Under Construction Capacity` = "solid", 
+                                            `PreFID  Capacity` = "solid", 
+                                            `Uncertain Capacity` = "solid",
                                             `Historical Demand` = "dashed",
                                             `Demand` = "solid"
             ), breaks = levels_order) +
