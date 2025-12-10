@@ -2,6 +2,12 @@
     /* CSS template for paged windmill*/
     /* --------------------------------- */
     
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
     /* -------------------- CSS variables ---------------------- */
     :root {
         --background: whitesmoke;
@@ -11,9 +17,9 @@
         --color-mbox: rgba(0, 0, 0, 0.2);
         --running-title-width: 2.5in;
         --screen-pages-spacing: 2.5mm;
-        --main-color: #00544F;
-            --main-font: "Calibri";
-        --header-font: "Calibri";
+        --main-color: #002E5A;
+        --main-font: "Source Sans Pro";
+        --header-font: "Source Sans Pro";
     }
 
 /* ---------------------- For debugging -------------------- */
@@ -75,30 +81,30 @@ h1.title {
 
   @top-left {
     content: string(h1-title);
-    font-family: "Calibri";
+    font-family: "Source Sans Pro";
     font-weight: 800;
-    color: #383838;
-    border-bottom: 3px solid #8497B0;
+    color: #002E5A;
+    border-bottom: 3px solid #002E5A;
     margin-bottom: 0.25cm;
     font-size: 12px
   }
 
 @top-center {
     content: "Italian Electricity Market";
-    font-family: "Calibri";
+    font-family: "Source Sans Pro";
     font-weight: 800;
-    color: #383838;
-    border-bottom: 3px solid #8497B0;
+    color: #002E5A;
+    border-bottom: 3px solid #002E5A;
     margin-bottom: 0.25cm;
     font-size: 14px
 }
 
   @top-right {
     content: string(h1-text);
-    font-family: "Calibri";
+    font-family: "Source Sans Pro";
     font-weight: 800;
-    color: #383838;
-    border-bottom: 3px solid #8497B0;
+    color: #002E5A;
+    border-bottom: 3px solid #002E5A;
     margin-bottom: 0.25cm;
     font-size: 12px
   }
@@ -111,7 +117,7 @@ h1.title {
   @bottom-center {
       content: "";
       margin-bottom: 00cm;
-      background-image: url(refe_sce_logo.png);
+      background-image: url(Logo_REFE_scenari.png);
       background-size: 38px;
       background-repeat: no-repeat;
       background-position: center;
@@ -128,8 +134,8 @@ h1.title {
 	  font-family: var(--main-font);
 	  font-weight: 600;
       color: #ffffff;
-      border: 0px solid #8497B0;
-      background-color: #8497B0;
+      border: 0px solid #002E5A;
+      background-color: #002E5A;
       margin-left: 15cm;
       margin-right: -3cm;
       padding-left: 1cm;
@@ -142,7 +148,7 @@ h1.title {
   @bottom-center {
       content: "";
       margin-bottom: 0cm;
-      background-image: url(refe_sce_logo.png);
+      background-image: url(Logo_REFE_scenari.png);
       background-size: 38px;
       background-repeat: no-repeat;
       background-position: center;
@@ -158,8 +164,8 @@ h1.title {
 	  font-family: var(--main-font);
 	  font-weight: 600;
       color: #ffffff;
-      border: 0px solid #8497B0;
-      background-color: #8497B0;
+      border: 0px solid #002E5A;
+      background-color: #002E5A;
       margin-right: 15cm;
       margin-left: -3cm;
       padding-right: 1cm;
@@ -172,7 +178,7 @@ h1.title {
   @bottom-center {
       content: "";
       margin-bottom: 0.0cm;
-      background-image: url(refe_sce_logo.png);
+      background-image: url(Logo_REFE_scenari.png);
       background-size: 38px;
       background-repeat: no-repeat;
       background-position: center;
@@ -250,8 +256,10 @@ h1.title {
 ul, a, ol {
   font-family: var(--main-font);
   font-weight: 600;
-  color: #3A3A3A
+  color: #002E5A;
 }
+
+
 
 p {
   font-size: 9pt;
@@ -260,8 +268,9 @@ p {
   line-height: 1.15em;
   margin-bottom: 1.025em;
   font-weight: 500;
-  color: #3A3A3A;
+  /*color: #002E5A;*/
 }
+
 
 
 /* ------------------------ Style ----------------------------- */
@@ -304,8 +313,8 @@ h1 {
   font-size: 17pt;
   font-weight: 900;
   font-family: var(--header-font);
-  border-bottom: 1.25px solid #f7f7f7;
-  color: #00544F
+ /* border-bottom: 1.25px solid #f7f7f7;*/
+  color: #002E5A
 
 
 }
@@ -330,7 +339,7 @@ h3 {
 h4, h5 {
   font-size: 12pt;
   font-weight: 600;
-  color: #54565B;
+  color: var(--main-color);
   font-family: var(--header-font);
 
 }
@@ -371,7 +380,8 @@ table, table th, table td {
 table thead {
   font-family: var(--main-font);
   font-size: 10pt;
-  background-color: #97BBFF;
+ /* background-color: #97BBFF;*/
+  background-color:  #33A1AB;
   color: #ffffff;
   font-weight: 300;
   border-bottom: 0px solid #ddd;
@@ -385,13 +395,17 @@ table tr.even {
   color: #54565B
 }
 
-tr:hover {background-color: #DCE4F2;}
-tr.even:hover {background-color: #DCE4F2;}
+tr:hover {background-color: #f6f6f6;}
+tr.even:hover {background-color:  #f6f6f6;}
+
+/*tr:hover {background-color: #DCE4F2;}
+tr.even:hover {background-color: #DCE4F2;}*/
+
 
 
 pre, code {
   background-color: #f6f6f6;
-  color: #333;
+  color: #002E5A;
   white-space: pre-wrap;    /* Wrap long lines */
   font-family: 'JetBrains Mono', Consolas, monospace;
   font-size: 92.5%;
@@ -402,7 +416,7 @@ pre, code {
 
 pre, code {
   background-color: #f6f6f6;
-  color: #333;
+  color: #002E5A;
   white-space: pre-wrap;    /* Wrap long lines */
   font-family: 'JetBrains Mono', Consolas, monospace;
   font-size: 92.5%;
@@ -490,7 +504,8 @@ blockquote {
 /* Callout styles */
 
 .callout-main {
-    background-color: #DBE6E0;
+    color: #ffffff;
+    background-color: #002E5A;
     padding: 5px;
     border-radius: 7px;
     display: flex;
@@ -499,7 +514,8 @@ blockquote {
 }
 
 .callout-item {
-    background-color: #EDF1F5;
+    background-color: #F2F2F2;
+    color: #002E5A;
     padding: 5px;
     border-radius: 7px;
     display: flex;
@@ -508,7 +524,8 @@ blockquote {
 }
 
 .callout-wrap {
-    background-color: #FCE9DE;
+    background-color: #D9D9D9;
+    color: white;
     padding: 5px;
     border-radius: 7px;
     display: flex;
@@ -520,7 +537,7 @@ blockquote {
     width: 10%;
     text-align: center !important;
     font-size: 10px !important;
-    color: #3A3A3A;
+    color: #002E5A;
     font-weight: bold;
     margin-right: 8px;
 }
@@ -530,11 +547,13 @@ blockquote {
     font-size: 8px !important;
     padding: 3px;
     margin-right: 12px;
+    color: #002E5A;
     margin-left: 10px;
 }
 
 .callout-center {
     font-size: 9px !important;
+    color: #002E5A;
     margin: 15px;
     font-weight: bold;
     padding: 4px;
